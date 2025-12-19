@@ -1,52 +1,48 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
+import 'lesson_screen.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  void _startLesson() {
+    Navigator.push(
+      context,
+      CupertinoPageRoute(builder: (context) => const LessonScreen()),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
     return Material(
       color: AppTheme.backgroundLight,
-      child: CupertinoPageScaffold(
-        backgroundColor: AppTheme.backgroundLight,
-        child: SafeArea(
-
-        child: Stack(
-          children: [
-            // Scrollable content
-            SingleChildScrollView(
-              physics: const BouncingScrollPhysics(),
-              padding: const EdgeInsets.only(bottom: 100),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  _buildHeader(),
-                  _buildStatsRow(),
-                  const SizedBox(height: 24),
-                  _buildDailyLessonCard(),
-                  const SizedBox(height: 24),
-                  _buildJourneySection(),
-                  const SizedBox(height: 24),
-                  _buildPracticeGrid(),
-                ],
-              ),
-            ),
-            // Floating bottom nav
-            Positioned(
-              left: 20,
-              right: 20,
-              bottom: 24,
-              child: _buildBottomNav(),
-            ),
-          ],
+      child: SafeArea(
+        child: SingleChildScrollView(
+          physics: const BouncingScrollPhysics(),
+          padding: const EdgeInsets.only(bottom: 100),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _buildHeader(),
+              _buildStatsRow(),
+              const SizedBox(height: 24),
+              _buildDailyLessonCard(),
+              const SizedBox(height: 24),
+              _buildJourneySection(),
+              const SizedBox(height: 24),
+              _buildPracticeGrid(),
+            ],
+          ),
         ),
-      ),
       ),
     );
   }
-
 
   Widget _buildHeader() {
     return Padding(
@@ -354,7 +350,7 @@ class HomeScreen extends StatelessWidget {
                   // Start button - iOS style
                   CupertinoButton(
                     padding: EdgeInsets.zero,
-                    onPressed: () {},
+                    onPressed: _startLesson,
                     child: Container(
                       width: double.infinity,
                       height: 50,
