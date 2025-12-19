@@ -23,11 +23,8 @@ class WelcomeScreen extends StatelessWidget {
               // Welcome text
               _buildWelcomeText(),
               const Spacer(flex: 2),
-              // Sign in button
+              // Let's go button
               _buildSignInButton(),
-              const SizedBox(height: 16),
-              // Terms and privacy
-              _buildTermsText(),
               const Spacer(flex: 1),
             ],
           ),
@@ -110,7 +107,7 @@ class WelcomeScreen extends StatelessWidget {
     return Column(
       children: [
         Text(
-          'Welcome Back!',
+          'Learn Kannada',
           style: TextStyle(
             fontSize: 34,
             fontWeight: FontWeight.w700,
@@ -120,7 +117,7 @@ class WelcomeScreen extends StatelessWidget {
         ),
         const SizedBox(height: 12),
         Text(
-          'Ready to continue your\nlanguage journey?',
+          'Start your language\njourney today!',
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 17,
@@ -141,43 +138,26 @@ class WelcomeScreen extends StatelessWidget {
         width: double.infinity,
         height: 56,
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: AppTheme.primary,
           borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: Colors.grey.shade200),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.06),
+              color: AppTheme.primary.withOpacity(0.3),
               blurRadius: 12,
               offset: const Offset(0, 4),
             ),
           ],
         ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // Google icon
-            Container(
-              width: 24,
-              height: 24,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: NetworkImage(
-                    'https://www.google.com/favicon.ico',
-                  ),
-                  fit: BoxFit.contain,
-                ),
-              ),
+        child: Center(
+          child: Text(
+            "LET'S GO",
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w700,
+              color: Colors.white,
+              letterSpacing: 1,
             ),
-            const SizedBox(width: 12),
-            Text(
-              'Sign in with Google',
-              style: TextStyle(
-                fontSize: 17,
-                fontWeight: FontWeight.w600,
-                color: AppTheme.textMain,
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );
