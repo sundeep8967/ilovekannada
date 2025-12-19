@@ -1,31 +1,32 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
-/// App theme based on the provided HTML design
+/// App theme - iOS style with blue theme
 class AppTheme {
-  // Primary colors - Smooth golden yellow (easier on eyes)
-  static const Color primary = Color(0xFFFFD93D);        // Soft golden yellow
-  static const Color primaryDark = Color(0xFFE5C235);    // Darker gold
-  static const Color primaryLight = Color(0xFFFFF3B0);   // Very light gold
+  // Primary colors - Soft blue (iOS-inspired)
+  static const Color primary = Color(0xFF007AFF);        // iOS blue
+  static const Color primaryDark = Color(0xFF0056B3);    // Darker blue
+  static const Color primaryLight = Color(0xFFB3D9FF);   // Light blue
   
-  // Background colors
-  static const Color backgroundLight = Color(0xFFFAFAF7);  // Slightly warmer
-  static const Color backgroundDark = Color(0xFF1A1A14);
-
+  // Background colors - iOS style
+  static const Color backgroundLight = Color(0xFFF2F2F7);  // iOS system background
+  static const Color backgroundDark = Color(0xFF1C1C1E);
   
   // Surface colors
   static const Color surfaceLight = Color(0xFFFFFFFF);
-  static const Color surfaceDark = Color(0xFF2E2D15);
+  static const Color surfaceDark = Color(0xFF2C2C2E);
   
   // Text colors
-  static const Color textMain = Color(0xFF1C1C0D);
-  static const Color textSub = Color(0xFF9E9D47);
+  static const Color textMain = Color(0xFF1C1C1E);
+  static const Color textSub = Color(0xFF8E8E93);        // iOS secondary label
   
   // Accent colors for cards
-  static const Color blueAccent = Color(0xFF3B82F6);
-  static const Color greenAccent = Color(0xFF10B981);
-  static const Color purpleAccent = Color(0xFF8B5CF6);
-  static const Color amberAccent = Color(0xFFD97706);
-  static const Color orangeAccent = Color(0xFFF97316);
+  static const Color blueAccent = Color(0xFF007AFF);
+  static const Color greenAccent = Color(0xFF34C759);    // iOS green
+  static const Color purpleAccent = Color(0xFFAF52DE);   // iOS purple
+  static const Color amberAccent = Color(0xFFFF9500);    // iOS orange
+  static const Color orangeAccent = Color(0xFFFF3B30);   // iOS red/orange
+  static const Color tealAccent = Color(0xFF5AC8FA);     // iOS teal
 
   static ThemeData get lightTheme {
     return ThemeData(
@@ -34,41 +35,43 @@ class AppTheme {
       scaffoldBackgroundColor: backgroundLight,
       colorScheme: ColorScheme.light(
         primary: primary,
-        secondary: primaryDark,
+        secondary: tealAccent,
         surface: surfaceLight,
         background: backgroundLight,
-        onPrimary: textMain,
+        onPrimary: Colors.white,
         onSurface: textMain,
       ),
+      // iOS-style text
+      fontFamily: '.SF Pro Text',
       textTheme: const TextTheme(
         headlineLarge: TextStyle(
-          fontWeight: FontWeight.bold,
-          fontSize: 24,
+          fontWeight: FontWeight.w700,
+          fontSize: 28,
           color: textMain,
           letterSpacing: -0.5,
         ),
         headlineMedium: TextStyle(
-          fontWeight: FontWeight.bold,
-          fontSize: 20,
+          fontWeight: FontWeight.w600,
+          fontSize: 22,
           color: textMain,
           letterSpacing: -0.3,
         ),
         titleLarge: TextStyle(
-          fontWeight: FontWeight.bold,
-          fontSize: 18,
+          fontWeight: FontWeight.w600,
+          fontSize: 17,
           color: textMain,
         ),
         titleMedium: TextStyle(
-          fontWeight: FontWeight.w600,
-          fontSize: 16,
+          fontWeight: FontWeight.w500,
+          fontSize: 15,
           color: textMain,
         ),
         bodyLarge: TextStyle(
-          fontSize: 16,
+          fontSize: 17,
           color: textMain,
         ),
         bodyMedium: TextStyle(
-          fontSize: 14,
+          fontSize: 15,
           color: textSub,
         ),
         labelSmall: TextStyle(

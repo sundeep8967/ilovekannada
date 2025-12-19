@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -6,13 +7,17 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppTheme.backgroundLight,
-      body: SafeArea(
+    return Material(
+      color: AppTheme.backgroundLight,
+      child: CupertinoPageScaffold(
+        backgroundColor: AppTheme.backgroundLight,
+        child: SafeArea(
+
         child: Stack(
           children: [
             // Scrollable content
             SingleChildScrollView(
+              physics: const BouncingScrollPhysics(),
               padding: const EdgeInsets.only(bottom: 100),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -38,8 +43,10 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
+      ),
     );
   }
+
 
   Widget _buildHeader() {
     return Padding(
@@ -51,11 +58,11 @@ class HomeScreen extends StatelessWidget {
             clipBehavior: Clip.none,
             children: [
               Container(
-                width: 48,
-                height: 48,
+                width: 52,
+                height: 52,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  border: Border.all(color: AppTheme.primary, width: 2),
+                  border: Border.all(color: AppTheme.primary, width: 2.5),
                   image: const DecorationImage(
                     image: NetworkImage(
                       'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop',
@@ -65,19 +72,20 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
-                bottom: -4,
-                right: -4,
+                bottom: -2,
+                right: -2,
                 child: Container(
                   width: 24,
                   height: 24,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     shape: BoxShape.circle,
-                    border: Border.all(color: Colors.grey.shade200),
+                    border: Border.all(color: CupertinoColors.systemGrey5, width: 1),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withOpacity(0.1),
-                        blurRadius: 4,
+                        color: Colors.black.withOpacity(0.08),
+                        blurRadius: 8,
+                        offset: const Offset(0, 2),
                       ),
                     ],
                   ),
@@ -88,20 +96,22 @@ class HomeScreen extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(width: 12),
+          const SizedBox(width: 14),
           // Greeting
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'ನಮಸ್ಕಾರ, Alex! 👋',
+                  'Namaskara, Alex! 👋',
                   style: TextStyle(
                     fontSize: 20,
-                    fontWeight: FontWeight.bold,
+                    fontWeight: FontWeight.w700,
                     color: AppTheme.textMain,
+                    letterSpacing: -0.3,
                   ),
                 ),
+                const SizedBox(height: 2),
                 Text(
                   'Keep up the momentum',
                   style: TextStyle(
@@ -112,21 +122,26 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
           ),
-          // Notification icon
-          Container(
-            width: 40,
-            height: 40,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              shape: BoxShape.circle,
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withOpacity(0.05),
-                  blurRadius: 8,
-                ),
-              ],
+          // Notification icon - iOS style
+          CupertinoButton(
+            padding: EdgeInsets.zero,
+            child: Container(
+              width: 40,
+              height: 40,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                shape: BoxShape.circle,
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.06),
+                    blurRadius: 12,
+                    offset: const Offset(0, 2),
+                  ),
+                ],
+              ),
+              child: const Icon(CupertinoIcons.bell, color: AppTheme.textMain, size: 22),
             ),
-            child: Icon(Icons.notifications_outlined, color: AppTheme.textMain),
+            onPressed: () {},
           ),
         ],
       ),
@@ -139,14 +154,14 @@ class HomeScreen extends StatelessWidget {
       child: Row(
         children: [
           _buildStatCard(
-            icon: Icons.local_fire_department,
+            icon: CupertinoIcons.flame_fill,
             iconColor: AppTheme.orangeAccent,
             value: '12',
             label: 'DAYS',
           ),
           const SizedBox(width: 12),
           _buildStatCard(
-            icon: Icons.stars,
+            icon: CupertinoIcons.star_fill,
             iconColor: AppTheme.primary,
             value: '1450',
             label: 'XP',
@@ -164,28 +179,28 @@ class HomeScreen extends StatelessWidget {
   }) {
     return Expanded(
       child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 12),
+        padding: const EdgeInsets.symmetric(vertical: 14),
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: Colors.grey.shade100),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.03),
-              blurRadius: 8,
+              color: Colors.black.withOpacity(0.04),
+              blurRadius: 12,
+              offset: const Offset(0, 2),
             ),
           ],
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(icon, color: iconColor, size: 24),
+            Icon(icon, color: iconColor, size: 22),
             const SizedBox(width: 8),
             Text(
               value,
               style: const TextStyle(
                 fontSize: 18,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w700,
                 color: AppTheme.textMain,
               ),
             ),
@@ -211,11 +226,11 @@ class HomeScreen extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,
-          borderRadius: BorderRadius.circular(32),
+          borderRadius: BorderRadius.circular(24),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.04),
-              blurRadius: 30,
+              color: Colors.black.withOpacity(0.06),
+              blurRadius: 24,
               offset: const Offset(0, 8),
             ),
           ],
@@ -226,15 +241,15 @@ class HomeScreen extends StatelessWidget {
             Stack(
               children: [
                 ClipRRect(
-                  borderRadius: const BorderRadius.vertical(top: Radius.circular(32)),
+                  borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
                   child: Image.network(
                     'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=400&fit=crop',
-                    height: 160,
+                    height: 150,
                     width: double.infinity,
                     fit: BoxFit.cover,
                     errorBuilder: (context, error, stackTrace) {
                       return Container(
-                        height: 160,
+                        height: 150,
                         width: double.infinity,
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
@@ -257,52 +272,50 @@ class HomeScreen extends StatelessWidget {
                 Positioned.fill(
                   child: Container(
                     decoration: BoxDecoration(
-                      borderRadius: const BorderRadius.vertical(top: Radius.circular(32)),
+                      borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
                       gradient: LinearGradient(
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
                           Colors.transparent,
-                          Colors.black.withOpacity(0.6),
+                          Colors.black.withOpacity(0.5),
                         ],
                       ),
                     ),
                   ),
                 ),
-                // Duration badge
+                // Duration badge - iOS blur style
                 Positioned(
-                  bottom: 16,
-                  left: 20,
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                    decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(color: Colors.white.withOpacity(0.1)),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: const [
-                        Icon(Icons.schedule, color: Colors.white, size: 14),
-                        SizedBox(width: 4),
-                        Text(
-                          '15 min',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 12,
-                            fontWeight: FontWeight.w500,
+                  bottom: 14,
+                  left: 16,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(16),
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                      color: Colors.white.withOpacity(0.25),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: const [
+                          Icon(CupertinoIcons.clock, color: Colors.white, size: 13),
+                          SizedBox(width: 4),
+                          Text(
+                            '15 min',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 12,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ),
               ],
             ),
-
             // Content
             Padding(
-              padding: const EdgeInsets.all(20),
+              padding: const EdgeInsets.all(18),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -316,9 +329,10 @@ class HomeScreen extends StatelessWidget {
                             Text(
                               'Daily Lesson 4',
                               style: TextStyle(
-                                fontSize: 24,
-                                fontWeight: FontWeight.bold,
+                                fontSize: 22,
+                                fontWeight: FontWeight.w700,
                                 color: AppTheme.textMain,
+                                letterSpacing: -0.3,
                               ),
                             ),
                             const SizedBox(height: 4),
@@ -337,41 +351,31 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 16),
-                  // Start button
-                  Container(
-                    width: double.infinity,
-                    height: 52,
-                    decoration: BoxDecoration(
-                      color: AppTheme.primary,
-                      borderRadius: BorderRadius.circular(26),
-                      boxShadow: [
-                        BoxShadow(
-                          color: AppTheme.primary.withOpacity(0.3),
-                          blurRadius: 16,
-                          offset: const Offset(0, 4),
-                        ),
-                      ],
-                    ),
-                    child: Material(
-                      color: Colors.transparent,
-                      child: InkWell(
-                        borderRadius: BorderRadius.circular(26),
-                        onTap: () {},
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              'Start Lesson',
-                              style: TextStyle(
-                                fontSize: 15,
-                                fontWeight: FontWeight.bold,
-                                color: AppTheme.textMain,
-                              ),
+                  // Start button - iOS style
+                  CupertinoButton(
+                    padding: EdgeInsets.zero,
+                    onPressed: () {},
+                    child: Container(
+                      width: double.infinity,
+                      height: 50,
+                      decoration: BoxDecoration(
+                        color: AppTheme.primary,
+                        borderRadius: BorderRadius.circular(14),
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const [
+                          Text(
+                            'Start Lesson',
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.white,
                             ),
-                            const SizedBox(width: 8),
-                            Icon(Icons.arrow_forward, size: 18, color: AppTheme.textMain),
-                          ],
-                        ),
+                          ),
+                          SizedBox(width: 6),
+                          Icon(CupertinoIcons.arrow_right, size: 18, color: Colors.white),
+                        ],
                       ),
                     ),
                   ),
@@ -391,21 +395,29 @@ class HomeScreen extends StatelessWidget {
       child: Stack(
         children: [
           // Background circle
-          CircularProgressIndicator(
-            value: 1,
-            strokeWidth: 3,
-            valueColor: AlwaysStoppedAnimation(Colors.grey.shade100),
+          SizedBox(
+            width: 48,
+            height: 48,
+            child: CircularProgressIndicator(
+              value: 1,
+              strokeWidth: 3,
+              valueColor: AlwaysStoppedAnimation(CupertinoColors.systemGrey5),
+            ),
           ),
           // Progress circle
-          CircularProgressIndicator(
-            value: progress,
-            strokeWidth: 3,
-            strokeCap: StrokeCap.round,
-            valueColor: const AlwaysStoppedAnimation(AppTheme.primary),
+          SizedBox(
+            width: 48,
+            height: 48,
+            child: CircularProgressIndicator(
+              value: progress,
+              strokeWidth: 3,
+              strokeCap: StrokeCap.round,
+              valueColor: const AlwaysStoppedAnimation(AppTheme.primary),
+            ),
           ),
           // Play icon
-          Center(
-            child: Icon(Icons.play_arrow, color: AppTheme.primary, size: 20),
+          const Center(
+            child: Icon(CupertinoIcons.play_fill, color: AppTheme.primary, size: 18),
           ),
         ],
       ),
@@ -425,8 +437,9 @@ class HomeScreen extends StatelessWidget {
                 'Your Journey',
                 style: TextStyle(
                   fontSize: 20,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w700,
                   color: AppTheme.textMain,
+                  letterSpacing: -0.3,
                 ),
               ),
               Text(
@@ -441,14 +454,15 @@ class HomeScreen extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Container(
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.all(18),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(20),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.03),
-                  blurRadius: 8,
+                  color: Colors.black.withOpacity(0.04),
+                  blurRadius: 12,
+                  offset: const Offset(0, 2),
                 ),
               ],
             ),
@@ -470,24 +484,24 @@ class HomeScreen extends StatelessWidget {
                       '85%',
                       style: TextStyle(
                         fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                        color: AppTheme.textSub,
+                        fontWeight: FontWeight.w700,
+                        color: AppTheme.primary,
                       ),
                     ),
                   ],
                 ),
-                const SizedBox(height: 8),
-                // Progress bar
+                const SizedBox(height: 10),
+                // Progress bar - iOS style
                 ClipRRect(
-                  borderRadius: BorderRadius.circular(6),
+                  borderRadius: BorderRadius.circular(4),
                   child: LinearProgressIndicator(
                     value: 0.85,
-                    minHeight: 12,
-                    backgroundColor: AppTheme.backgroundLight,
+                    minHeight: 8,
+                    backgroundColor: CupertinoColors.systemGrey5,
                     valueColor: const AlwaysStoppedAnimation(AppTheme.primary),
                   ),
                 ),
-                const SizedBox(height: 16),
+                const SizedBox(height: 18),
                 // Lesson nodes
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -515,33 +529,33 @@ class HomeScreen extends StatelessWidget {
   }) {
     if (completed) {
       return Container(
-        width: 32,
-        height: 32,
-        decoration: BoxDecoration(
+        width: 36,
+        height: 36,
+        decoration: const BoxDecoration(
           color: AppTheme.primary,
           shape: BoxShape.circle,
         ),
-        child: Icon(Icons.check, color: AppTheme.textMain, size: 16),
+        child: const Icon(CupertinoIcons.checkmark_alt, color: Colors.white, size: 18),
       );
     } else if (current) {
       return Stack(
         clipBehavior: Clip.none,
         children: [
           Container(
-            width: 32,
-            height: 32,
+            width: 36,
+            height: 36,
             decoration: BoxDecoration(
-              color: AppTheme.backgroundLight,
+              color: Colors.white,
               shape: BoxShape.circle,
-              border: Border.all(color: AppTheme.primary, width: 2),
+              border: Border.all(color: AppTheme.primary, width: 2.5),
             ),
             child: Center(
               child: Text(
                 '$number',
-                style: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
-                  color: AppTheme.textMain,
+                style: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w700,
+                  color: AppTheme.primary,
                 ),
               ),
             ),
@@ -552,7 +566,7 @@ class HomeScreen extends StatelessWidget {
             child: Container(
               width: 12,
               height: 12,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: AppTheme.primary,
                 shape: BoxShape.circle,
               ),
@@ -562,13 +576,13 @@ class HomeScreen extends StatelessWidget {
       );
     } else {
       return Container(
-        width: 32,
-        height: 32,
+        width: 36,
+        height: 36,
         decoration: BoxDecoration(
-          color: Colors.grey.shade100,
+          color: CupertinoColors.systemGrey5,
           shape: BoxShape.circle,
         ),
-        child: Icon(Icons.lock, color: Colors.grey.shade400, size: 16),
+        child: Icon(CupertinoIcons.lock_fill, color: CupertinoColors.systemGrey, size: 16),
       );
     }
   }
@@ -586,17 +600,22 @@ class HomeScreen extends StatelessWidget {
                 'Practice & Review',
                 style: TextStyle(
                   fontSize: 20,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w700,
                   color: AppTheme.textMain,
+                  letterSpacing: -0.3,
                 ),
               ),
-              Text(
-                'See all',
-                style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
-                  color: AppTheme.textSub,
+              CupertinoButton(
+                padding: EdgeInsets.zero,
+                child: Text(
+                  'See all',
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w600,
+                    color: AppTheme.primary,
+                  ),
                 ),
+                onPressed: () {},
               ),
             ],
           ),
@@ -607,32 +626,32 @@ class HomeScreen extends StatelessWidget {
             crossAxisCount: 2,
             mainAxisSpacing: 12,
             crossAxisSpacing: 12,
-            childAspectRatio: 1.1,
+            childAspectRatio: 1.05,
             children: [
               _buildPracticeCard(
-                icon: Icons.style,
-                iconBgColor: Colors.blue.shade50,
-                iconColor: AppTheme.blueAccent,
+                icon: CupertinoIcons.textformat,
+                iconBgColor: AppTheme.primary.withOpacity(0.12),
+                iconColor: AppTheme.primary,
                 title: 'Vocabulary',
                 subtitle: '20 new words',
               ),
               _buildPracticeCard(
-                icon: Icons.menu_book,
-                iconBgColor: Colors.green.shade50,
+                icon: CupertinoIcons.book_fill,
+                iconBgColor: AppTheme.greenAccent.withOpacity(0.12),
                 iconColor: AppTheme.greenAccent,
                 title: 'Grammar',
                 subtitle: 'Past Tense',
               ),
               _buildPracticeCard(
-                icon: Icons.mic,
-                iconBgColor: Colors.purple.shade50,
+                icon: CupertinoIcons.mic_fill,
+                iconBgColor: AppTheme.purpleAccent.withOpacity(0.12),
                 iconColor: AppTheme.purpleAccent,
                 title: 'Speaking',
                 subtitle: 'Pronunciation',
               ),
               _buildPracticeCard(
-                icon: Icons.emoji_events,
-                iconBgColor: Colors.amber.shade50,
+                icon: CupertinoIcons.rosette,
+                iconBgColor: AppTheme.amberAccent.withOpacity(0.12),
                 iconColor: AppTheme.amberAccent,
                 title: 'League',
                 subtitle: '#4 in Gold',
@@ -651,63 +670,67 @@ class HomeScreen extends StatelessWidget {
     required String title,
     required String subtitle,
   }) {
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: Colors.transparent),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.03),
-            blurRadius: 8,
-          ),
-        ],
-      ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Container(
-            width: 56,
-            height: 56,
-            decoration: BoxDecoration(
-              color: iconBgColor,
-              shape: BoxShape.circle,
+    return CupertinoButton(
+      padding: EdgeInsets.zero,
+      onPressed: () {},
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.04),
+              blurRadius: 12,
+              offset: const Offset(0, 2),
             ),
-            child: Icon(icon, color: iconColor, size: 28),
-          ),
-          const SizedBox(height: 12),
-          Text(
-            title,
-            style: TextStyle(
-              fontSize: 15,
-              fontWeight: FontWeight.bold,
-              color: AppTheme.textMain,
+          ],
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              width: 52,
+              height: 52,
+              decoration: BoxDecoration(
+                color: iconBgColor,
+                shape: BoxShape.circle,
+              ),
+              child: Icon(icon, color: iconColor, size: 26),
             ),
-          ),
-          const SizedBox(height: 2),
-          Text(
-            subtitle,
-            style: TextStyle(
-              fontSize: 12,
-              color: AppTheme.textSub,
+            const SizedBox(height: 12),
+            Text(
+              title,
+              style: const TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.w600,
+                color: AppTheme.textMain,
+              ),
             ),
-          ),
-        ],
+            const SizedBox(height: 2),
+            Text(
+              subtitle,
+              style: TextStyle(
+                fontSize: 12,
+                color: AppTheme.textSub,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
 
   Widget _buildBottomNav() {
     return Container(
-      height: 64,
+      height: 60,
       decoration: BoxDecoration(
-        color: AppTheme.textMain,
-        borderRadius: BorderRadius.circular(32),
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(30),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.2),
-            blurRadius: 20,
+            color: Colors.black.withOpacity(0.1),
+            blurRadius: 24,
             offset: const Offset(0, 4),
           ),
         ],
@@ -715,10 +738,10 @@ class HomeScreen extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          _buildNavItem(Icons.home, isActive: true),
-          _buildNavItem(Icons.leaderboard),
-          _buildNavItem(Icons.school),
-          _buildNavItem(Icons.person),
+          _buildNavItem(CupertinoIcons.house_fill, isActive: true),
+          _buildNavItem(CupertinoIcons.chart_bar_fill),
+          _buildNavItem(CupertinoIcons.book_fill),
+          _buildNavItem(CupertinoIcons.person_fill),
         ],
       ),
     );
@@ -730,15 +753,15 @@ class HomeScreen extends StatelessWidget {
       children: [
         Icon(
           icon,
-          color: isActive ? AppTheme.primary : Colors.grey.shade500,
-          size: 26,
+          color: isActive ? AppTheme.primary : CupertinoColors.systemGrey,
+          size: 24,
         ),
         if (isActive)
           Container(
             margin: const EdgeInsets.only(top: 4),
-            width: 4,
-            height: 4,
-            decoration: BoxDecoration(
+            width: 5,
+            height: 5,
+            decoration: const BoxDecoration(
               color: AppTheme.primary,
               shape: BoxShape.circle,
             ),
