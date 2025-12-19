@@ -1,79 +1,82 @@
 import 'package:flutter/material.dart';
 
+/// App theme based on the provided HTML design
 class AppTheme {
-  // Colors
-  static const Color green = Color(0xFF58CC02);
-  static const Color greenShadow = Color(0xFF58A700);
+  // Primary colors - Smooth golden yellow (easier on eyes)
+  static const Color primary = Color(0xFFFFD93D);        // Soft golden yellow
+  static const Color primaryDark = Color(0xFFE5C235);    // Darker gold
+  static const Color primaryLight = Color(0xFFFFF3B0);   // Very light gold
   
-  static const Color blue = Color(0xFF1CB0F6);
-  static const Color blueShadow = Color(0xFF1899D6);
+  // Background colors
+  static const Color backgroundLight = Color(0xFFFAFAF7);  // Slightly warmer
+  static const Color backgroundDark = Color(0xFF1A1A14);
+
   
-  static const Color yellow = Color(0xFFFFC800);
-  static const Color yellowShadow = Color(0xFFD9AA00);
+  // Surface colors
+  static const Color surfaceLight = Color(0xFFFFFFFF);
+  static const Color surfaceDark = Color(0xFF2E2D15);
   
-  static const Color red = Color(0xFFFF4B4B);
-  static const Color redShadow = Color(0xFFEA2B2B);
-
-  static const Color grey = Color(0xFFE5E5E5);
-  static const Color greyShadow = Color(0xFFAFAFAF); 
+  // Text colors
+  static const Color textMain = Color(0xFF1C1C0D);
+  static const Color textSub = Color(0xFF9E9D47);
   
-  static const Color white = Colors.white;
-  static const Color black = Color(0xFF3C3C3C); 
-  
-  // Duolingo Exact Colors
-  static const Color duoGreen = Color(0xFF58CC02);
-  static const Color duoGreenShadow = Color(0xFF46A302); 
-  static const Color duoBlue = Color(0xFF1CB0F6);
-  static const Color duoRed = Color(0xFFFF4B4B);
-  static const Color duoYellow = Color(0xFFFFC800);
-  static const Color duoOrange = Color(0xFFFF9600); 
-  static const Color duoGrey = Color(0xFFE5E5E5);
+  // Accent colors for cards
+  static const Color blueAccent = Color(0xFF3B82F6);
+  static const Color greenAccent = Color(0xFF10B981);
+  static const Color purpleAccent = Color(0xFF8B5CF6);
+  static const Color amberAccent = Color(0xFFD97706);
+  static const Color orangeAccent = Color(0xFFF97316);
 
-  // Typography
-  static TextStyle get heading => const TextStyle(
-    fontSize: 24,
-    fontWeight: FontWeight.bold,
-    color: black,
-    decoration: TextDecoration.none,
-  );
-
-  static TextStyle get subHeading => const TextStyle(
-    fontSize: 20,
-    fontWeight: FontWeight.bold,
-    color: black,
-    decoration: TextDecoration.none,
-  );
-
-  static TextStyle get body => const TextStyle(
-    fontSize: 16,
-    fontWeight: FontWeight.w600,
-    decoration: TextDecoration.none,
-  ); 
-
-  static TextStyle get buttonText => const TextStyle(
-    fontSize: 18,
-    fontWeight: FontWeight.bold,
-    color: white,
-    decoration: TextDecoration.none,
-  );
-
-  // Main Theme Data
-  static ThemeData get themeData {
+  static ThemeData get lightTheme {
     return ThemeData(
-      primaryColor: green,
-      scaffoldBackgroundColor: white, // Simple white
       useMaterial3: true,
-      textTheme: TextTheme(
-        displayLarge: heading,
-        titleLarge: subHeading,
-        bodyMedium: body,
+      brightness: Brightness.light,
+      scaffoldBackgroundColor: backgroundLight,
+      colorScheme: ColorScheme.light(
+        primary: primary,
+        secondary: primaryDark,
+        surface: surfaceLight,
+        background: backgroundLight,
+        onPrimary: textMain,
+        onSurface: textMain,
       ),
-      colorScheme: ColorScheme.fromSeed(
-        seedColor: green,
-        primary: green,
-        secondary: blue,
-        surface: white,
-        background: white,
+      textTheme: const TextTheme(
+        headlineLarge: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 24,
+          color: textMain,
+          letterSpacing: -0.5,
+        ),
+        headlineMedium: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 20,
+          color: textMain,
+          letterSpacing: -0.3,
+        ),
+        titleLarge: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 18,
+          color: textMain,
+        ),
+        titleMedium: TextStyle(
+          fontWeight: FontWeight.w600,
+          fontSize: 16,
+          color: textMain,
+        ),
+        bodyLarge: TextStyle(
+          fontSize: 16,
+          color: textMain,
+        ),
+        bodyMedium: TextStyle(
+          fontSize: 14,
+          color: textSub,
+        ),
+        labelSmall: TextStyle(
+          fontSize: 12,
+          fontWeight: FontWeight.w500,
+          color: textSub,
+          letterSpacing: 0.5,
+        ),
       ),
     );
   }
