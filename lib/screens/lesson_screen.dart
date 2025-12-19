@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
 import '../data/lesson_models.dart';
 import '../data/kannada_content.dart';
+import '../services/progress_service.dart';
 import 'matching_screen.dart';
 import 'dart:math';
 
@@ -138,9 +139,14 @@ class _LessonScreenState extends State<LessonScreen> {
         _showFeedback = false;
       });
     } else {
-      // Complete!
-      Navigator.pop(context, true);
+      // Complete! Save progress
+      _completeLesson();
     }
+  }
+
+  void _completeLesson() async {
+    await ProgressService.markLessonCompleted(_lesson.id, _lesson.xpReward);
+    if (mounted) Navigator.pop(context, true);
   }
 
   void _goToMatching() async {

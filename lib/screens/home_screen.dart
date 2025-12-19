@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
+import '../data/kannada_content.dart';
+import '../data/lesson_models.dart';
+import '../services/progress_service.dart';
 import 'lesson_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -11,10 +14,17 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  final List<LessonUnit> _units = KannadaCurriculum.getAllUnits();
+  int _currentUnitIndex = 0;
+  int _currentLessonIndex = 0;
+
+  LessonUnit get _currentUnit => _units[_currentUnitIndex];
+  Lesson get _currentLesson => _currentUnit.lessons[_currentLessonIndex];
+
   void _startLesson() {
     Navigator.push(
       context,
-      CupertinoPageRoute(builder: (context) => const LessonScreen()),
+      CupertinoPageRoute(builder: (_) => LessonScreen(unitId: _currentUnit.id, lessonId: _currentLesson.id)),
     );
   }
 
@@ -58,13 +68,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: 52,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
+                  color: AppTheme.primary.withOpacity(0.1),
                   border: Border.all(color: AppTheme.primary, width: 2.5),
-                  image: const DecorationImage(
-                    image: NetworkImage(
-                      'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop',
-                    ),
-                    fit: BoxFit.cover,
-                  ),
+                ),
+                child: const Center(
+                  child: Text('🦉', style: TextStyle(fontSize: 28)),
                 ),
               ),
               Positioned(
@@ -152,14 +160,14 @@ class _HomeScreenState extends State<HomeScreen> {
           _buildStatCard(
             icon: CupertinoIcons.flame_fill,
             iconColor: AppTheme.orangeAccent,
-            value: '12',
+            value: '${ProgressService.streak}',
             label: 'DAYS',
           ),
           const SizedBox(width: 12),
           _buildStatCard(
             icon: CupertinoIcons.star_fill,
             iconColor: AppTheme.primary,
-            value: '1450',
+            value: '${ProgressService.totalXP}',
             label: 'XP',
           ),
         ],
@@ -323,7 +331,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Daily Lesson 4',
+                              _currentLesson.title,
                               style: TextStyle(
                                 fontSize: 22,
                                 fontWeight: FontWeight.w700,
@@ -333,7 +341,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              'Basic Kannada Greetings',
+                              '${_currentUnit.emoji} Unit ${_currentUnit.order}: ${_currentUnit.title}',
                               style: TextStyle(
                                 fontSize: 14,
                                 color: AppTheme.textSub,
@@ -439,7 +447,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               Text(
-                'Level 1',
+                'Unit ${_currentUnit.order}',
                 style: TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.w500,
@@ -477,7 +485,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     Text(
-                      '85%',
+                      '${ProgressService.completedCount}/${_currentUnit.lessons.length}',
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.w700,
@@ -491,7 +499,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(4),
                   child: LinearProgressIndicator(
-                    value: 0.85,
+                    value: _currentUnit.lessons.isNotEmpty ? ProgressService.completedCount / _currentUnit.lessons.length : 0.0,
                     minHeight: 8,
                     backgroundColor: CupertinoColors.systemGrey5,
                     valueColor: const AlwaysStoppedAnimation(AppTheme.primary),

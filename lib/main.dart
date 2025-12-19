@@ -6,8 +6,11 @@ import 'screens/progress_screen.dart';
 import 'screens/courses_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/welcome_screen.dart';
+import 'services/progress_service.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await ProgressService.init();
   runApp(const MyApp());
 }
 
