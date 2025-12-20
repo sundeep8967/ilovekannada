@@ -1,0 +1,151 @@
+{
+    "lesson_id": "u3_l6",
+    "title": "Bus Basics",
+    "objective": "Essential phrases for bus travel",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Bus",
+            "word": {
+                "kannada": "Bus",
+                "english": "Bus",
+                "pronunciation": "Bus"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Ticket",
+            "word": {
+                "kannada": "Ticket",
+                "english": "Ticket",
+                "pronunciation": "Ticket"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Stop",
+            "word": {
+                "kannada": "Stop",
+                "english": "Bus Stop",
+                "pronunciation": "Stop"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Conductor",
+            "word": {
+                "kannada": "Conductor",
+                "english": "Conductor",
+                "pronunciation": "Conductor"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "At Bus Stand",
+            "question": "How do you ask 'Bus to Majestic?'",
+            "options": [
+                "Majestic ge bus ideya?",
+                "Majestic bus eshTu?",
+                "Majestic ge hogu?",
+                "Majestic ticket?"
+            ],
+            "correctAnswer": "Majestic ge bus ideya?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Ticket Price",
+            "question": "Ask conductor: 'Ticket price?'",
+            "correctAnswer": [
+                "Ticket eshTu",
+                "ticket eshtu",
+                "Ticket eshTu?"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Check Route",
+            "question": "How do you ask 'Does this go to MG Road?'",
+            "options": [
+                "Idu MG Road ge hogutheya?",
+                "MG Road bus?",
+                "MG Road eshTu?",
+                "MG Road nillu?"
+            ],
+            "correctAnswer": "Idu MG Road ge hogutheya?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Bus Words",
+            "matchPairs": [
+                {
+                    "kannada": "Bus",
+                    "english": "Bus"
+                },
+                {
+                    "kannada": "Ticket",
+                    "english": "Ticket"
+                },
+                {
+                    "kannada": "Stop",
+                    "english": "Bus stop"
+                },
+                {
+                    "kannada": "Conductor",
+                    "english": "Conductor"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Your Stop",
+            "question": "Tell conductor to stop at next stop",
+            "correctAnswer": [
+                "Next stop alli nillu",
+                "next stop alli nillu"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Question",
+            "question": "Ask: 'This goes to MG Road?'",
+            "options": [
+                "Idu",
+                "MG Road",
+                "ge",
+                "hogutheya?"
+            ],
+            "correctOrder": [
+                "Idu",
+                "MG Road",
+                "ge",
+                "hogutheya?"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Bus Phrases",
+            "question": "Bus Travel",
+            "feedback": "• [Place] ge bus ideya? = Is there bus to [Place]?\n• Ticket eshTu? = How much for ticket?\n• Idu [Place] ge hogutheya? = Does this go to [Place]?\n• Next stop alli nillu = Stop at next stop\n• Yelli iLiyonu? = Where to get down?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Bus Ride",
+            "word": {
+                "kannada": "Idu Majestic ge hogutheya? Ticket eshTu?",
+                "english": "Does this go to Majestic? How much for ticket?",
+                "pronunciation": "Idu Majestic ge hogutheya? Ticket eshTu?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Ask for bus: ge bus ideya?",
+                "Check route: ge hogutheya?",
+                "Buy ticket: Ticket eshTu?",
+                "Use BMTC buses!"
+            ]
+        }
+    ]
+}

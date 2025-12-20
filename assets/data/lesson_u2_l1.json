@@ -1,0 +1,164 @@
+{
+    "lesson_id": "u2_l1",
+    "title": "Emergency Essentials",
+    "objective": "Critical phrases for emergencies and immediate needs",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Tumba",
+            "word": {
+                "kannada": "Tumba",
+                "english": "Very / Too much",
+                "pronunciation": "Tumba"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Beku",
+            "word": {
+                "kannada": "Beku",
+                "english": "Want / Need",
+                "pronunciation": "Beku"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Saaku",
+            "word": {
+                "kannada": "Saaku",
+                "english": "Enough / Stop",
+                "pronunciation": "Saaku"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Olage",
+            "word": {
+                "kannada": "Olage",
+                "english": "Inside",
+                "pronunciation": "Olage"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Scenario",
+            "question": "You're thirsty. How do you say 'I need water'?",
+            "options": [
+                "Neeru saaku",
+                "Neeru beku",
+                "Neeru tumba",
+                "Neeru olage"
+            ],
+            "correctAnswer": "Neeru beku"
+        },
+        {
+            "type": "typeInput",
+            "title": "Emergency",
+            "question": "Food is too spicy! Say 'Very spicy!'",
+            "correctAnswer": [
+                "Tumba khara",
+                "tumba khara",
+                "Tumba khara!"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Scenario",
+            "question": "Someone offers more food but you're full. What do you say?",
+            "options": [
+                "Beku!",
+                "Tumba!",
+                "Saaku!",
+                "Olage!"
+            ],
+            "correctAnswer": "Saaku!"
+        },
+        {
+            "type": "matching",
+            "title": "Match Essentials",
+            "matchPairs": [
+                {
+                    "kannada": "Tumba",
+                    "english": "Very/Too much"
+                },
+                {
+                    "kannada": "Beku",
+                    "english": "Need/Want"
+                },
+                {
+                    "kannada": "Saaku",
+                    "english": "Enough/Stop"
+                },
+                {
+                    "kannada": "Olage",
+                    "english": "Inside"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Direction",
+            "question": "Tell someone to go inside",
+            "correctAnswer": [
+                "Olage hogi",
+                "olage hogi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Key Phrase",
+            "question": "How do you say 'No problem!' / 'It's okay!'?",
+            "options": [
+                "Tumba illa",
+                "Dokka illa",
+                "Beku illa",
+                "Saaku illa"
+            ],
+            "correctAnswer": "Dokka illa"
+        },
+        {
+            "type": "assemble",
+            "title": "Build Phrase",
+            "question": "Say: 'Water needed, come here'",
+            "options": [
+                "beku",
+                "Neeru",
+                "bandu",
+                "illi"
+            ],
+            "correctOrder": [
+                "Neeru",
+                "beku",
+                "illi",
+                "bandu"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Usage Patterns",
+            "question": "Emergency Phrases",
+            "feedback": "• [Item] + beku = I need [item]\n  Neeru beku = Need water\n\n• Tumba + [adjective] = Very [adjective]\n  Tumba khara = Very spicy\n\n• Saaku! = Enough!/Stop!\n\n• Olage hogi = Go inside\n  Illi bandu = Come here"
+        },
+        {
+            "type": "speaking",
+            "title": "Emergency Practice",
+            "word": {
+                "kannada": "Illi bandu neeru beku",
+                "english": "Come here, I need water",
+                "pronunciation": "Illi bandu neeru beku"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Express needs: Beku",
+                "Say 'enough': Saaku",
+                "Intensify: Tumba",
+                "Give directions: Olage/Illi",
+                "Handle basic emergencies!"
+            ]
+        }
+    ]
+}

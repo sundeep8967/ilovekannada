@@ -1,0 +1,152 @@
+{
+    "lesson_id": "u3_l9",
+    "title": "Finding Your Way",
+    "objective": "Ask for directions to any transport",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Road",
+            "word": {
+                "kannada": "Road",
+                "english": "Road",
+                "pronunciation": "Road"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Signal",
+            "word": {
+                "kannada": "Signal",
+                "english": "Traffic Signal",
+                "pronunciation": "Signal"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Cross",
+            "word": {
+                "kannada": "Cross",
+                "english": "Cross",
+                "pronunciation": "Cross"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Walk",
+            "word": {
+                "kannada": "Walk",
+                "english": "Walk",
+                "pronunciation": "Walk"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Find Bus Stand",
+            "question": "How do you ask 'Where is bus stand?'",
+            "options": [
+                "Bus stand elli?",
+                "Bus stand eshTu?",
+                "Bus stand hogu?",
+                "Bus stand beku?"
+            ],
+            "correctAnswer": "Bus stand elli?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Find Metro",
+            "question": "Ask: 'Metro station where?'",
+            "correctAnswer": [
+                "Metro station elli",
+                "metro station elli",
+                "Metro station elli?"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Walking Distance",
+            "question": "How do you ask if something is walkable?",
+            "options": [
+                "Walk distance?",
+                "Walk hogu?",
+                "Walk elli?",
+                "Walk beku?"
+            ],
+            "correctAnswer": "Walk distance?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Direction Words",
+            "matchPairs": [
+                {
+                    "kannada": "Bus stand elli?",
+                    "english": "Where is bus stand?"
+                },
+                {
+                    "kannada": "Metro station elli?",
+                    "english": "Where is metro?"
+                },
+                {
+                    "kannada": "Auto stand elli?",
+                    "english": "Where is auto stand?"
+                },
+                {
+                    "kannada": "Walk distance?",
+                    "english": "Walking distance?"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Find Auto",
+            "question": "Ask: 'Auto stand where?'",
+            "correctAnswer": [
+                "Auto stand elli",
+                "auto stand elli",
+                "Auto stand elli?"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Question",
+            "question": "Ask for metro station and if walkable",
+            "options": [
+                "Metro station",
+                "elli?",
+                "Walk",
+                "distance?"
+            ],
+            "correctOrder": [
+                "Metro station",
+                "elli?",
+                "Walk",
+                "distance?"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Finding Transport",
+            "question": "Direction Phrases",
+            "feedback": "• Bus stand elli? = Where is bus stand?\n• Metro station elli? = Where is metro?\n• Auto stand elli? = Where is auto stand?\n• Walk distance? = Walking distance?\n• Signal cross maaDi = Cross the signal"
+        },
+        {
+            "type": "speaking",
+            "title": "Find Transport",
+            "word": {
+                "kannada": "Metro station elli? Walk distance?",
+                "english": "Where is metro station? Walking distance?",
+                "pronunciation": "Metro station elli? Walk distance?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Find bus: Bus stand elli?",
+                "Find metro: Metro station elli?",
+                "Find auto: Auto stand elli?",
+                "Navigate anywhere!"
+            ]
+        }
+    ]
+}

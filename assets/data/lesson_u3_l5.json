@@ -1,0 +1,151 @@
+{
+    "lesson_id": "u3_l5",
+    "title": "Problems & Payment",
+    "objective": "Handle issues and pay correctly",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Change",
+            "word": {
+                "kannada": "Change",
+                "english": "Change (money)",
+                "pronunciation": "Change"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Bill",
+            "word": {
+                "kannada": "Bill",
+                "english": "Note / Currency",
+                "pronunciation": "Bill"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Thappu",
+            "word": {
+                "kannada": "Thappu",
+                "english": "Wrong",
+                "pronunciation": "Thappu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Marga",
+            "word": {
+                "kannada": "Marga",
+                "english": "Route",
+                "pronunciation": "Marga"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Payment",
+            "question": "You have ₹500 note. How do you say 'No small note'?",
+            "options": [
+                "Change koDi",
+                "Bill illa",
+                "Thappu marga",
+                "Bill beku"
+            ],
+            "correctAnswer": "Bill illa"
+        },
+        {
+            "type": "typeInput",
+            "title": "Ask Change",
+            "question": "Ask the driver for change",
+            "correctAnswer": [
+                "Change koDi",
+                "change kodi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Complain Route",
+            "question": "Driver took wrong route. What do you say?",
+            "options": [
+                "Thappu marga",
+                "Horage marga",
+                "Bill marga",
+                "Change marga"
+            ],
+            "correctAnswer": "Thappu marga"
+        },
+        {
+            "type": "matching",
+            "title": "Match Problem Words",
+            "matchPairs": [
+                {
+                    "kannada": "Change koDi",
+                    "english": "Give change"
+                },
+                {
+                    "kannada": "Bill illa",
+                    "english": "No small note"
+                },
+                {
+                    "kannada": "Thappu marga",
+                    "english": "Wrong route"
+                },
+                {
+                    "kannada": "Horage",
+                    "english": "Going round"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Going Round",
+            "question": "Driver is going unnecessarily round. Complain!",
+            "correctAnswer": [
+                "Horage maaDthiddira",
+                "horage maadthiddira"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Complaint",
+            "question": "Say: 'Wrong route. Go straight'",
+            "options": [
+                "Thappu",
+                "marga",
+                "NeraDane",
+                "hogi"
+            ],
+            "correctOrder": [
+                "Thappu",
+                "marga",
+                "NeraDane",
+                "hogi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Problem Phrases",
+            "question": "Handling Issues",
+            "feedback": "• Change koDi = Give change\n• Bill illa = No small note\n• Thappu marga = Wrong route\n• Horage maaDthiddira = You're going round\n• Traffic jaasti = Too much traffic"
+        },
+        {
+            "type": "speaking",
+            "title": "End of Ride",
+            "word": {
+                "kannada": "Bill illa. Change koDi. Dhanyavadagalu!",
+                "english": "No small note. Give change. Thank you!",
+                "pronunciation": "Bill illa. Change koDi. Dhanyavadagalu!"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "🏆 Unit 3 Complete!",
+            "question": "You can now:",
+            "options": [
+                "Hail an auto: Auto! HogThira?",
+                "Give directions: ge hogi, LiTThu",
+                "Negotiate fare: EshTu? JasTi!",
+                "Handle problems: Thappu marga",
+                "Complete auto rides like a local!"
+            ]
+        }
+    ]
+}

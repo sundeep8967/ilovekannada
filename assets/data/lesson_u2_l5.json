@@ -1,0 +1,151 @@
+{
+    "lesson_id": "u2_l5",
+    "title": "Health & Emergency",
+    "objective": "Critical phrases for medical situations",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Novu",
+            "word": {
+                "kannada": "Novu",
+                "english": "Pain",
+                "pronunciation": "Novu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Hogide",
+            "word": {
+                "kannada": "Hogide",
+                "english": "Gone / Happened",
+                "pronunciation": "Hogide"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Shrama",
+            "word": {
+                "kannada": "Shrama",
+                "english": "Tired",
+                "pronunciation": "Shrama"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Aushadi",
+            "word": {
+                "kannada": "Aushadi",
+                "english": "Medicine",
+                "pronunciation": "Aushadi"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Medical Emergency",
+            "question": "You're hurt. How do you say 'I have pain'?",
+            "options": [
+                "Novu beku",
+                "Novu ide",
+                "Novu hogu",
+                "Novu baa"
+            ],
+            "correctAnswer": "Novu ide"
+        },
+        {
+            "type": "typeInput",
+            "title": "Get Help",
+            "question": "Say: 'Need doctor'",
+            "correctAnswer": [
+                "Doctor beku",
+                "doctor beku"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Find Hospital",
+            "question": "How do you ask 'Where is hospital?'",
+            "options": [
+                "Hospital beku?",
+                "Hospital elli?",
+                "Hospital hogu?",
+                "Hospital thaggi?"
+            ],
+            "correctAnswer": "Hospital elli?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Health Words",
+            "matchPairs": [
+                {
+                    "kannada": "Novu",
+                    "english": "Pain"
+                },
+                {
+                    "kannada": "Shrama",
+                    "english": "Tired"
+                },
+                {
+                    "kannada": "Aushadi",
+                    "english": "Medicine"
+                },
+                {
+                    "kannada": "Doctor",
+                    "english": "Doctor"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Pharmacy",
+            "question": "At pharmacy: Say 'Give medicine'",
+            "correctAnswer": [
+                "Aushadi koDi",
+                "aushadi kodi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Emergency",
+            "question": "Say: 'Something happened, need doctor'",
+            "options": [
+                "Enadru",
+                "hogide",
+                "doctor",
+                "beku"
+            ],
+            "correctOrder": [
+                "Enadru",
+                "hogide",
+                "doctor",
+                "beku"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Medical Phrases",
+            "question": "Health Essentials",
+            "feedback": "• Novu ide = I have pain\n• Illi novu = Pain here\n• Doctor beku = Need doctor\n• Hospital elli? = Where is hospital?\n• Aushadi koDi = Give medicine\n• Tumba shrama = Very tired"
+        },
+        {
+            "type": "speaking",
+            "title": "Emergency Dialogue",
+            "word": {
+                "kannada": "Novu ide, doctor beku, hospital elli?",
+                "english": "I have pain, need doctor, where is hospital?",
+                "pronunciation": "Novu ide, doctor beku, hospital elli?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "🏆 Unit 2 Complete!",
+            "question": "You can now handle:",
+            "options": [
+                "Emergencies: Beku, Saaku",
+                "Shopping: EshTu, KoDi, JasTi",
+                "Food: Oota, Khara, Sihi",
+                "Transport: Hogu, Nillu, Thaggi",
+                "Medical: Novu, Doctor, Hospital"
+            ]
+        }
+    ]
+}

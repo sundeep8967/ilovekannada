@@ -1,0 +1,148 @@
+{
+    "lesson_id": "u2_l4",
+    "title": "Getting Around",
+    "objective": "Essential phrases for asking directions and transport",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Hogu",
+            "word": {
+                "kannada": "Hogu",
+                "english": "Go",
+                "pronunciation": "Hogu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Baa",
+            "word": {
+                "kannada": "Baa",
+                "english": "Come",
+                "pronunciation": "Baa"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Nillu",
+            "word": {
+                "kannada": "Nillu",
+                "english": "Stop",
+                "pronunciation": "Nillu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Thaggi",
+            "word": {
+                "kannada": "Thaggi",
+                "english": "Near / Nearby",
+                "pronunciation": "Thaggi"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Transport Scenario",
+            "question": "In an auto. Ask driver: 'Where does this go?'",
+            "options": [
+                "Yellige hoguthe?",
+                "Illi baa?",
+                "Thaggi ideya?",
+                "Nillu!"
+            ],
+            "correctAnswer": "Yellige hoguthe?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Emergency Stop",
+            "question": "You need to get off urgently. Say 'Stop!'",
+            "correctAnswer": [
+                "Nillu",
+                "nillu",
+                "Nillu!"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Directions",
+            "question": "How do you ask if something is nearby?",
+            "options": [
+                "Hogu ideya?",
+                "Nillu ideya?",
+                "Thaggi ideya?",
+                "Baa ideya?"
+            ],
+            "correctAnswer": "Thaggi ideya?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Transport Words",
+            "matchPairs": [
+                {
+                    "kannada": "Hogu",
+                    "english": "Go"
+                },
+                {
+                    "kannada": "Baa",
+                    "english": "Come"
+                },
+                {
+                    "kannada": "Nillu",
+                    "english": "Stop"
+                },
+                {
+                    "kannada": "Thaggi",
+                    "english": "Near"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Ask Price",
+            "question": "Ask auto driver: 'How much to go nearby?'",
+            "correctAnswer": [
+                "Thaggi hogoke eshTu",
+                "thaggi hogoke eshtu"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Say: 'Stop here'",
+            "options": [
+                "Illi",
+                "nillu",
+                "hogu",
+                "baa"
+            ],
+            "correctOrder": [
+                "Illi",
+                "nillu"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Transport Phrases",
+            "question": "Getting Around",
+            "feedback": "• Yellige hoguthe? = Where does this go?\n• Nillu! = Stop!\n• Thaggi ideya? = Is it nearby?\n• Hega hogonu? = How to go?\n• Illi nillu = Stop here"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Auto Ride",
+            "word": {
+                "kannada": "Yellige hoguthe? EshTu? Illi nillu",
+                "english": "Where does this go? How much? Stop here",
+                "pronunciation": "Yellige hoguthe? EshTu? Illi nillu"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Use transport: Hogu/Baa/Nillu",
+                "Ask directions: Thaggi ideya?",
+                "Navigate the city safely!"
+            ]
+        }
+    ]
+}

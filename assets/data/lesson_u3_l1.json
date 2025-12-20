@@ -1,0 +1,149 @@
+{
+    "lesson_id": "u3_l1",
+    "title": "Hailing an Auto",
+    "objective": "How to stop an auto and ask basic questions",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Auto",
+            "word": {
+                "kannada": "Auto",
+                "english": "Auto-rickshaw",
+                "pronunciation": "Auto"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Hogu",
+            "word": {
+                "kannada": "Hogu",
+                "english": "Go",
+                "pronunciation": "Hogu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Nillu",
+            "word": {
+                "kannada": "Nillu",
+                "english": "Stop",
+                "pronunciation": "Nillu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Baa",
+            "word": {
+                "kannada": "Baa",
+                "english": "Come (casual)",
+                "pronunciation": "Baa"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Street Scenario",
+            "question": "You see an auto. How do you get the driver's attention?",
+            "options": [
+                "Nillu!",
+                "Auto!",
+                "Hogu!",
+                "Baa!"
+            ],
+            "correctAnswer": "Auto!"
+        },
+        {
+            "type": "typeInput",
+            "title": "Call Over",
+            "question": "Auto is near but not stopping. Say 'Come here!'",
+            "correctAnswer": [
+                "Illi baa",
+                "illi baa"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Ask Driver",
+            "question": "How do you ask driver: 'Will you go (to my location)?'",
+            "options": [
+                "HogThira?",
+                "Yellige?",
+                "Illi baa?",
+                "Nillu?"
+            ],
+            "correctAnswer": "HogThira?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Auto Phrases",
+            "matchPairs": [
+                {
+                    "kannada": "Auto!",
+                    "english": "Hail auto"
+                },
+                {
+                    "kannada": "Illi baa",
+                    "english": "Come here"
+                },
+                {
+                    "kannada": "HogThira?",
+                    "english": "Will you go?"
+                },
+                {
+                    "kannada": "Nillu",
+                    "english": "Stop"
+                }
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "True or False",
+            "question": "You should say 'Auto' loudly to get driver's attention",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Hail auto and ask if they'll go",
+            "options": [
+                "Auto!",
+                "HogThira?",
+                "Nillu",
+                "Baa"
+            ],
+            "correctOrder": [
+                "Auto!",
+                "HogThira?"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Auto Phrases",
+            "question": "Hailing an Auto",
+            "feedback": "• Auto! = Get attention\n• Illi baa = Come here\n• HogThira? = Will you go?\n• Yellige hoguthe? = Where are you going?\n• Nillu = Stop"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Hailing",
+            "word": {
+                "kannada": "Auto! Illi baa. HogThira?",
+                "english": "Auto! Come here. Will you go?",
+                "pronunciation": "Auto! Illi baa. HogThira?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Hail an auto: Auto!",
+                "Ask driver to come: Illi baa",
+                "Ask if they'll go: HogThira?",
+                "Get around Bangalore!"
+            ]
+        }
+    ]
+}

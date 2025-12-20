@@ -1,0 +1,152 @@
+{
+    "lesson_id": "u3_l2",
+    "title": "Giving Directions",
+    "objective": "Tell auto driver where you want to go",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Meku",
+            "word": {
+                "kannada": "Meku",
+                "english": "To / At (place marker)",
+                "pronunciation": "Meku"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Thaggi",
+            "word": {
+                "kannada": "Thaggi",
+                "english": "Near / Nearby",
+                "pronunciation": "Thaggi"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Doora",
+            "word": {
+                "kannada": "Doora",
+                "english": "Far",
+                "pronunciation": "Doora"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Pakka",
+            "word": {
+                "kannada": "Pakka",
+                "english": "Next to / Beside",
+                "pronunciation": "Pakka"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Give Destination",
+            "question": "How do you tell driver 'Go to MG Road'?",
+            "options": [
+                "MG Road ge hogi",
+                "MG Road meku",
+                "MG Road thaggi",
+                "MG Road pakka"
+            ],
+            "correctAnswer": "MG Road ge hogi"
+        },
+        {
+            "type": "typeInput",
+            "title": "Give Location",
+            "question": "Destination is next to Forum Mall. Tell driver.",
+            "correctAnswer": [
+                "Forum Mall pakka",
+                "forum mall pakka"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "At Location",
+            "question": "How do you say 'At Koramangala'?",
+            "options": [
+                "Koramangala ge hogi",
+                "Koramangala meku",
+                "Koramangala doora",
+                "Koramangala thaggi"
+            ],
+            "correctAnswer": "Koramangala meku"
+        },
+        {
+            "type": "matching",
+            "title": "Match Direction Words",
+            "matchPairs": [
+                {
+                    "kannada": "Thaggi",
+                    "english": "Near"
+                },
+                {
+                    "kannada": "Doora",
+                    "english": "Far"
+                },
+                {
+                    "kannada": "Pakka",
+                    "english": "Next to"
+                },
+                {
+                    "kannada": "Meku",
+                    "english": "At"
+                }
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Direction",
+            "question": "Say: 'Go to Majestic, it's nearby'",
+            "options": [
+                "Majestic",
+                "ge",
+                "hogi",
+                "thaggi",
+                "ide"
+            ],
+            "correctOrder": [
+                "Majestic",
+                "ge",
+                "hogi",
+                "thaggi",
+                "ide"
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Near Landmark",
+            "question": "Your destination is near Silk Board. Tell driver.",
+            "correctAnswer": [
+                "Silk Board thaggi",
+                "silk board thaggi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Direction Patterns",
+            "question": "Giving Directions",
+            "feedback": "• [Place] ge hogi = Go to [Place]\n• [Place] meku = At [Place]\n• [Landmark] thaggi = Near [Landmark]\n• [Landmark] pakka = Next to [Landmark]\n• Doora ide = It's far"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Direction",
+            "word": {
+                "kannada": "Airport ge hogi, thaggi ide",
+                "english": "Go to Airport, it's nearby",
+                "pronunciation": "Airport ge hogi, thaggi ide"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Give destination: [Place] ge hogi",
+                "Say 'near': Thaggi",
+                "Say 'next to': Pakka",
+                "Navigate like a local!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "lesson_id": "u3_l10",
+    "title": "Travel Mastery",
+    "objective": "Handle any travel situation in Bengaluru",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "Review: Auto Phrases",
+            "word": {
+                "kannada": "Auto! HogThira? EshTu?",
+                "english": "Auto! Will you go? How much?",
+                "pronunciation": "Auto! HogThira? EshTu?"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Review: Bus Phrases",
+            "word": {
+                "kannada": "Bus ideya? Ticket eshTu?",
+                "english": "Is there bus? Ticket price?",
+                "pronunciation": "Bus ideya? Ticket eshTu?"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Auto to Airport",
+            "question": "Hail auto to airport. Best phrase?",
+            "options": [
+                "Auto! Airport ge hogThira?",
+                "Airport bus?",
+                "Airport token?",
+                "Airport elli?"
+            ],
+            "correctAnswer": "Auto! Airport ge hogThira?"
+        },
+        {
+            "type": "quiz",
+            "title": "Bus Journey",
+            "question": "Check bus to Majestic. Best phrase?",
+            "options": [
+                "Idu Majestic ge hogutheya?",
+                "Majestic token?",
+                "Majestic auto?",
+                "Majestic eshTu?"
+            ],
+            "correctAnswer": "Idu Majestic ge hogutheya?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Wrong Route",
+            "question": "Driver took wrong route. Complain and redirect.",
+            "correctAnswer": [
+                "Thappu marga. NeraDane hogi",
+                "thappu marga neradane hogi"
+            ]
+        },
+        {
+            "type": "matching",
+            "title": "Match All Transport",
+            "matchPairs": [
+                {
+                    "kannada": "Auto! HogThira?",
+                    "english": "Auto! Will you go?"
+                },
+                {
+                    "kannada": "Bus ideya?",
+                    "english": "Is there bus?"
+                },
+                {
+                    "kannada": "Token eshTu?",
+                    "english": "Token price?"
+                },
+                {
+                    "kannada": "Meter haaki",
+                    "english": "Use meter"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Payment Issue",
+            "question": "No change available. Ask for it.",
+            "correctAnswer": [
+                "Change koDi. Bill illa",
+                "change kodi bill illa"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Full Auto Ride",
+            "question": "Hail, negotiate, pay",
+            "options": [
+                "Auto!",
+                "MG Road ge",
+                "eshTu?",
+                "Change koDi"
+            ],
+            "correctOrder": [
+                "Auto!",
+                "MG Road ge",
+                "eshTu?",
+                "Change koDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Travel Summary",
+            "question": "All Transport",
+            "feedback": "AUTO:\n• Auto! HogThira? EshTu? Meter haaki\n\nBUS:\n• Bus ideya? Ticket eshTu? Next stop nillu\n\nMETRO:\n• Token eshTu? Yav line? Platform enu?\n\nPROBLEMS:\n• Thappu marga. Change koDi. Bill illa"
+        },
+        {
+            "type": "speaking",
+            "title": "Complete Journey",
+            "word": {
+                "kannada": "Auto! MG Road ge eshTu? Meter haaki. Bala LiTThu. Illi nillu. Change koDi.",
+                "english": "Auto! MG Road price? Use meter. Turn right. Stop here. Give change.",
+                "pronunciation": "Auto! MG Road ge eshTu? Meter haaki. Bala LiTThu. Illi nillu. Change koDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "🏆 Travel Mastery!",
+            "question": "You can now:",
+            "options": [
+                "Use autos like a local",
+                "Take buses anywhere",
+                "Navigate Namma Metro",
+                "Handle any travel situation",
+                "You're a Bengaluru transport pro!"
+            ]
+        }
+    ]
+}

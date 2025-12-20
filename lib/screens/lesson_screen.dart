@@ -121,6 +121,34 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
          assetPath = 'assets/data/lesson_u1_l4.json';
        } else if (widget.lesson.id == 'u1_l5') {
          assetPath = 'assets/data/lesson_u1_l5.json';
+       } else if (widget.lesson.id == 'u2_l1') {
+         assetPath = 'assets/data/lesson_u2_l1.json';
+       } else if (widget.lesson.id == 'u2_l2') {
+         assetPath = 'assets/data/lesson_u2_l2.json';
+       } else if (widget.lesson.id == 'u2_l3') {
+         assetPath = 'assets/data/lesson_u2_l3.json';
+       } else if (widget.lesson.id == 'u2_l4') {
+         assetPath = 'assets/data/lesson_u2_l4.json';
+       } else if (widget.lesson.id == 'u2_l5') {
+         assetPath = 'assets/data/lesson_u2_l5.json';
+       } else if (widget.lesson.id == 'u3_l1') {
+         assetPath = 'assets/data/lesson_u3_l1.json';
+       } else if (widget.lesson.id == 'u3_l2') {
+         assetPath = 'assets/data/lesson_u3_l2.json';
+       } else if (widget.lesson.id == 'u3_l3') {
+         assetPath = 'assets/data/lesson_u3_l3.json';
+       } else if (widget.lesson.id == 'u3_l4') {
+         assetPath = 'assets/data/lesson_u3_l4.json';
+       } else if (widget.lesson.id == 'u3_l5') {
+         assetPath = 'assets/data/lesson_u3_l5.json';
+       } else if (widget.lesson.id == 'u3_l6') {
+         assetPath = 'assets/data/lesson_u3_l6.json';
+       } else if (widget.lesson.id == 'u3_l7') {
+         assetPath = 'assets/data/lesson_u3_l7.json';
+       } else if (widget.lesson.id == 'u3_l9') {
+         assetPath = 'assets/data/lesson_u3_l9.json';
+       } else if (widget.lesson.id == 'u3_l10') {
+         assetPath = 'assets/data/lesson_u3_l10.json';
        } else {
          // Fallback default
          assetPath = 'assets/data/lesson_u1_l1.json';

@@ -1,0 +1,151 @@
+{
+    "lesson_id": "u3_l3",
+    "title": "Fare Negotiation",
+    "objective": "Ask price and bargain with auto drivers",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: EshTu",
+            "word": {
+                "kannada": "EshTu",
+                "english": "How much",
+                "pronunciation": "EshTu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: JasTi",
+            "word": {
+                "kannada": "JasTi",
+                "english": "Too much",
+                "pronunciation": "JasTi"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Meter",
+            "word": {
+                "kannada": "Meter",
+                "english": "Meter",
+                "pronunciation": "Meter"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Key Phrase: Meter haaki",
+            "word": {
+                "kannada": "Meter haaki",
+                "english": "Put meter / Use meter",
+                "pronunciation": "Meter haaki"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Ask Fare",
+            "question": "How do you ask 'How much to MG Road?'",
+            "options": [
+                "MG Road ge eshTu aaguthe?",
+                "MG Road jasti?",
+                "MG Road meter?",
+                "MG Road koDi?"
+            ],
+            "correctAnswer": "MG Road ge eshTu aaguthe?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Complain Price",
+            "question": "Driver quotes high price. Say 'Too much!'",
+            "correctAnswer": [
+                "JasTi",
+                "jasti",
+                "JasTi!"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Use Meter",
+            "question": "How do you ask driver to use meter?",
+            "options": [
+                "Meter koDi",
+                "Meter haaki",
+                "Meter eshTu",
+                "Meter beku"
+            ],
+            "correctAnswer": "Meter haaki"
+        },
+        {
+            "type": "matching",
+            "title": "Match Bargaining Words",
+            "matchPairs": [
+                {
+                    "kannada": "EshTu",
+                    "english": "How much"
+                },
+                {
+                    "kannada": "JasTi",
+                    "english": "Too much"
+                },
+                {
+                    "kannada": "Meter haaki",
+                    "english": "Use meter"
+                },
+                {
+                    "kannada": "Swalpa koDThira",
+                    "english": "Reduce a little?"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Ask Reduction",
+            "question": "Politely ask: 'Can you reduce a little?'",
+            "correctAnswer": [
+                "Swalpa koDThira",
+                "swalpa kodthira",
+                "Swalpa koDThira?"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Negotiation",
+            "question": "Say: 'Too much! 150 give'",
+            "options": [
+                "JasTi!",
+                "150",
+                "koDi",
+                "eshTu"
+            ],
+            "correctOrder": [
+                "JasTi!",
+                "150",
+                "koDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Bargaining Phrases",
+            "question": "Fare Negotiation",
+            "feedback": "• EshTu aaguthe? = How much will it be?\n• JasTi! = Too much!\n• Meter haaki = Put the meter\n• Swalpa koDThira? = Can you reduce?\n• [Number] koDi = Give [amount]"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Negotiation",
+            "word": {
+                "kannada": "EshTu aaguthe? JasTi! Meter haaki",
+                "english": "How much? Too much! Use meter",
+                "pronunciation": "EshTu aaguthe? JasTi! Meter haaki"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Ask fare: EshTu aaguthe?",
+                "Complain: JasTi!",
+                "Request meter: Meter haaki",
+                "Bargain like a local!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "lesson_id": "u2_l2",
+    "title": "Market Survival",
+    "objective": "Essential phrases for shopping and buying things",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: EshTu",
+            "word": {
+                "kannada": "EshTu",
+                "english": "How much?",
+                "pronunciation": "EshTu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: KoDi",
+            "word": {
+                "kannada": "KoDi",
+                "english": "Give",
+                "pronunciation": "KoDi"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: ThoRDu",
+            "word": {
+                "kannada": "ThoRDu",
+                "english": "Show",
+                "pronunciation": "ThoRDu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: JasTi",
+            "word": {
+                "kannada": "JasTi",
+                "english": "Too much / Expensive",
+                "pronunciation": "JasTi"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Market Scenario",
+            "question": "You want to know the price. What do you ask?",
+            "options": [
+                "KoDi?",
+                "EshTu?",
+                "ThoRDu?",
+                "JasTi?"
+            ],
+            "correctAnswer": "EshTu?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Shopping",
+            "question": "Point to an item and say 'Give me this'",
+            "correctAnswer": [
+                "Idu koDi",
+                "idu kodi",
+                "Idu KoDi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Bargaining",
+            "question": "Price is ₹100, but you think it's too much. What do you say?",
+            "options": [
+                "EshTu!",
+                "ThoRDu!",
+                "JasTi!",
+                "KoDi!"
+            ],
+            "correctAnswer": "JasTi!"
+        },
+        {
+            "type": "matching",
+            "title": "Match Market Words",
+            "matchPairs": [
+                {
+                    "kannada": "EshTu",
+                    "english": "How much?"
+                },
+                {
+                    "kannada": "KoDi",
+                    "english": "Give"
+                },
+                {
+                    "kannada": "ThoRDu",
+                    "english": "Show"
+                },
+                {
+                    "kannada": "JasTi",
+                    "english": "Too much"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Polite Bargaining",
+            "question": "Ask politely: 'Can you reduce a little?'",
+            "correctAnswer": [
+                "Swalpa koDThira",
+                "swalpa kodthira",
+                "Swalpa koDThira?"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Conversation",
+            "question": "Ask price, then say it's expensive",
+            "options": [
+                "EshTu?",
+                "JasTi",
+                "aagide",
+                "KoDi"
+            ],
+            "correctOrder": [
+                "EshTu?",
+                "JasTi",
+                "aagide"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Market Phrases",
+            "question": "Shopping Essentials",
+            "feedback": "• EshTu? = How much?\n• Idu koDi = Give me this\n• ThoRDu = Show (me)\n• JasTi aagide = It's too expensive\n• Swalpa koDThira? = Can you reduce a little?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Shopping Dialogue",
+            "word": {
+                "kannada": "EshTu? JasTi aagide. Swalpa koDThira?",
+                "english": "How much? Too expensive. Can you reduce?",
+                "pronunciation": "EshTu? JasTi aagide. Swalpa koDThira?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Ask prices: EshTu?",
+                "Request items: Idu koDi",
+                "Bargain: JasTi! Swalpa koDThira?",
+                "Shop in local markets!"
+            ]
+        }
+    ]
+}

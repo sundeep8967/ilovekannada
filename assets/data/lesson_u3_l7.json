@@ -1,0 +1,151 @@
+{
+    "lesson_id": "u3_l7",
+    "title": "Metro Basics",
+    "objective": "Essential phrases for Namma Metro travel",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Metro",
+            "word": {
+                "kannada": "Metro",
+                "english": "Metro",
+                "pronunciation": "Metro"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Token",
+            "word": {
+                "kannada": "Token",
+                "english": "Token / Ticket",
+                "pronunciation": "Token"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Platform",
+            "word": {
+                "kannada": "Platform",
+                "english": "Platform",
+                "pronunciation": "Platform"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Line",
+            "word": {
+                "kannada": "Line",
+                "english": "Line (Purple/Green)",
+                "pronunciation": "Line"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "At Metro Counter",
+            "question": "How do you ask 'Token to MG Road?'",
+            "options": [
+                "MG Road ge token eshTu?",
+                "MG Road ge bus?",
+                "MG Road ticket?",
+                "MG Road line?"
+            ],
+            "correctAnswer": "MG Road ge token eshTu?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Which Line",
+            "question": "Ask which metro line to take",
+            "correctAnswer": [
+                "Yav line",
+                "yav line",
+                "Yav line?"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Platform Number",
+            "question": "How do you ask for platform number?",
+            "options": [
+                "Platform number enu?",
+                "Platform elli?",
+                "Platform hogu?",
+                "Platform line?"
+            ],
+            "correctAnswer": "Platform number enu?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Metro Words",
+            "matchPairs": [
+                {
+                    "kannada": "Metro",
+                    "english": "Metro"
+                },
+                {
+                    "kannada": "Token",
+                    "english": "Ticket"
+                },
+                {
+                    "kannada": "Platform",
+                    "english": "Platform"
+                },
+                {
+                    "kannada": "Line",
+                    "english": "Line"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Confirm Train",
+            "question": "Ask: 'Does this go to Baiyappanahalli?'",
+            "correctAnswer": [
+                "Idu Baiyappanahalli ge hogutheya",
+                "idu baiyappanahalli ge hogutheya"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Question",
+            "question": "Ask: 'Token to MG Road how much?'",
+            "options": [
+                "MG Road",
+                "ge",
+                "token",
+                "eshTu?"
+            ],
+            "correctOrder": [
+                "MG Road",
+                "ge",
+                "token",
+                "eshTu?"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Metro Phrases",
+            "question": "Namma Metro",
+            "feedback": "• [Station] ge token eshTu? = How much token to [Station]?\n• Yav line? = Which line?\n• Platform number enu? = What's platform number?\n• Idu hogutheya? = Does this go?\n• Next station enu? = What's next station?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Metro Journey",
+            "word": {
+                "kannada": "MG Road ge token eshTu? Platform number enu?",
+                "english": "How much token to MG Road? Platform number?",
+                "pronunciation": "MG Road ge token eshTu? Platform number enu?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Buy tokens: ge token eshTu?",
+                "Ask line: Yav line?",
+                "Find platform: Platform number enu?",
+                "Use Namma Metro!"
+            ]
+        }
+    ]
+}

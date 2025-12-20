@@ -1,0 +1,152 @@
+{
+    "lesson_id": "u3_l4",
+    "title": "During the Ride",
+    "objective": "Communicate with driver during the journey",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: LiTThu",
+            "word": {
+                "kannada": "LiTThu",
+                "english": "Turn",
+                "pronunciation": "LiTThu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Bala",
+            "word": {
+                "kannada": "Bala",
+                "english": "Right",
+                "pronunciation": "Bala"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Eda",
+            "word": {
+                "kannada": "Eda",
+                "english": "Left",
+                "pronunciation": "Eda"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: NeraDane",
+            "word": {
+                "kannada": "NeraDane",
+                "english": "Straight",
+                "pronunciation": "NeraDane"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Give Direction",
+            "question": "How do you tell driver 'Turn right'?",
+            "options": [
+                "Eda LiTThu",
+                "Bala LiTThu",
+                "NeraDane hogi",
+                "Illi nillu"
+            ],
+            "correctAnswer": "Bala LiTThu"
+        },
+        {
+            "type": "typeInput",
+            "title": "Go Straight",
+            "question": "Tell driver: 'Go straight'",
+            "correctAnswer": [
+                "NeraDane hogi",
+                "neradane hogi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Stop Here",
+            "question": "You want to get down. What do you say?",
+            "options": [
+                "Bala LiTThu",
+                "Eda LiTThu",
+                "NeraDane hogi",
+                "Illi nillu"
+            ],
+            "correctAnswer": "Illi nillu"
+        },
+        {
+            "type": "matching",
+            "title": "Match Directions",
+            "matchPairs": [
+                {
+                    "kannada": "Bala",
+                    "english": "Right"
+                },
+                {
+                    "kannada": "Eda",
+                    "english": "Left"
+                },
+                {
+                    "kannada": "NeraDane",
+                    "english": "Straight"
+                },
+                {
+                    "kannada": "LiTThu",
+                    "english": "Turn"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Turn Left",
+            "question": "Tell driver: 'Turn left'",
+            "correctAnswer": [
+                "Eda LiTThu",
+                "eda litthu"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Directions",
+            "question": "Say: 'Go straight, then turn right'",
+            "options": [
+                "NeraDane",
+                "hogi",
+                "aamele",
+                "bala",
+                "LiTThu"
+            ],
+            "correctOrder": [
+                "NeraDane",
+                "hogi",
+                "aamele",
+                "bala",
+                "LiTThu"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Direction Commands",
+            "question": "During the Ride",
+            "feedback": "• Bala LiTThu = Turn right\n• Eda LiTThu = Turn left\n• NeraDane hogi = Go straight\n• Illi nillu = Stop here\n• Aamele = Then/After that"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Navigation",
+            "word": {
+                "kannada": "NeraDane hogi, eda LiTThu, illi nillu",
+                "english": "Go straight, turn left, stop here",
+                "pronunciation": "NeraDane hogi, eda LiTThu, illi nillu"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Turn right: Bala LiTThu",
+                "Turn left: Eda LiTThu",
+                "Go straight: NeraDane hogi",
+                "Navigate any route!"
+            ]
+        }
+    ]
+}
