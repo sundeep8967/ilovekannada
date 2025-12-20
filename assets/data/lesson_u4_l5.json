@@ -1,0 +1,133 @@
+{
+    "lesson_id": "u4_l5",
+    "title": "Restaurant Mastery",
+    "objective": "Handle complete restaurant experience",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "Review: Ordering",
+            "word": {
+                "kannada": "Menu koDi. Idu koDi. Bill koDi.",
+                "english": "Give menu. Give this. Give bill.",
+                "pronunciation": "Menu koDi. Idu koDi. Bill koDi."
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Review: Dietary",
+            "word": {
+                "kannada": "Vegetarian. Egg illa. Swalpa spicy.",
+                "english": "Vegetarian. No egg. Less spicy.",
+                "pronunciation": "Vegetarian. Egg illa. Swalpa spicy."
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Enter Restaurant",
+            "question": "First thing to ask at restaurant?",
+            "options": [
+                "Menu koDi",
+                "Bill koDi",
+                "Parcel maaDi",
+                "Change maaDi"
+            ],
+            "correctAnswer": "Menu koDi"
+        },
+        {
+            "type": "typeInput",
+            "title": "Vegetarian Options",
+            "question": "Ask: 'What vegetarian options are there?'",
+            "correctAnswer": [
+                "Vegetarian enu ide",
+                "vegetarian enu ide"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Cold Food",
+            "question": "Food arrives cold. What do you say?",
+            "options": [
+                "Oota cold ide. Hot maaDi",
+                "Bill koDi",
+                "Menu koDi",
+                "Parcel maaDi"
+            ],
+            "correctAnswer": "Oota cold ide. Hot maaDi"
+        },
+        {
+            "type": "matching",
+            "title": "Match Restaurant Flow",
+            "matchPairs": [
+                {
+                    "kannada": "Menu koDi",
+                    "english": "Step 1: Get menu"
+                },
+                {
+                    "kannada": "Idu koDi",
+                    "english": "Step 2: Order"
+                },
+                {
+                    "kannada": "Neeru koDi",
+                    "english": "Step 3: Get water"
+                },
+                {
+                    "kannada": "Bill koDi",
+                    "english": "Step 4: Pay"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Today's Special",
+            "question": "Ask: 'What's today's special?'",
+            "correctAnswer": [
+                "Ivathu special enu",
+                "ivathu special enu"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Full Order",
+            "question": "Order with dietary restriction",
+            "options": [
+                "Dosa koDi",
+                "egg illa",
+                "swalpa spicy",
+                "bill koDi"
+            ],
+            "correctOrder": [
+                "Dosa koDi",
+                "egg illa",
+                "swalpa spicy",
+                "bill koDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Restaurant Summary",
+            "question": "Complete Experience",
+            "feedback": "ENTER: Menu koDi\nORDER: Idu koDi, vegetarian, egg illa\nDURING: Neeru koDi, hot maaDi\nTAKEAWAY: Parcel maaDi\nPAY: Bill koDi, receipt koDi"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Experience",
+            "word": {
+                "kannada": "Menu koDi. Dosa koDi. Egg illa. Bill koDi.",
+                "english": "Give menu. Give dosa. No egg. Give bill.",
+                "pronunciation": "Menu koDi. Dosa koDi. Egg illa. Bill koDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "🏆 Restaurant Mastery!",
+            "question": "You can now:",
+            "options": [
+                "Order any food",
+                "Express dietary needs",
+                "Handle takeaway",
+                "Complain if needed",
+                "Eat anywhere in Bangalore!"
+            ]
+        }
+    ]
+}

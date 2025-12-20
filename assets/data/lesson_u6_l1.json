@@ -1,0 +1,150 @@
+{
+    "lesson_id": "u6_l1",
+    "title": "House Help Basics",
+    "objective": "Communicate with maid, cook, watchman",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Swaccha",
+            "word": {
+                "kannada": "Swaccha",
+                "english": "Clean",
+                "pronunciation": "Swaccha"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Ready",
+            "word": {
+                "kannada": "Ready",
+                "english": "Ready",
+                "pronunciation": "Ready"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Close",
+            "word": {
+                "kannada": "Close",
+                "english": "Close",
+                "pronunciation": "Close"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Tomorrow",
+            "word": {
+                "kannada": "Tomorrow",
+                "english": "Tomorrow",
+                "pronunciation": "Tomorrow"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "To Maid",
+            "question": "How do you tell maid 'Clean here'?",
+            "options": [
+                "Illi swaccha maaDi",
+                "Illi ready maaDi",
+                "Illi close maaDi",
+                "Illi koDi"
+            ],
+            "correctAnswer": "Illi swaccha maaDi"
+        },
+        {
+            "type": "typeInput",
+            "title": "To Cook",
+            "question": "Tell cook: 'Make food ready'",
+            "correctAnswer": [
+                "Oota ready maaDi",
+                "oota ready maadi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "To Watchman",
+            "question": "How do you tell watchman 'Close gate'?",
+            "options": [
+                "Gate close maaDi",
+                "Gate ready maaDi",
+                "Gate swaccha maaDi",
+                "Gate koDi"
+            ],
+            "correctAnswer": "Gate close maaDi"
+        },
+        {
+            "type": "matching",
+            "title": "Match House Help Words",
+            "matchPairs": [
+                {
+                    "kannada": "Swaccha maaDi",
+                    "english": "Clean it"
+                },
+                {
+                    "kannada": "Ready maaDi",
+                    "english": "Make ready"
+                },
+                {
+                    "kannada": "Close maaDi",
+                    "english": "Close it"
+                },
+                {
+                    "kannada": "Tomorrow baa",
+                    "english": "Come tomorrow"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Come Tomorrow",
+            "question": "Tell helper to come tomorrow",
+            "correctAnswer": [
+                "Tomorrow baa",
+                "tomorrow baa"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Instructions",
+            "question": "Clean here, then come tomorrow",
+            "options": [
+                "Illi",
+                "swaccha maaDi",
+                "Tomorrow",
+                "baa"
+            ],
+            "correctOrder": [
+                "Illi",
+                "swaccha maaDi",
+                "Tomorrow",
+                "baa"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "House Help Phrases",
+            "question": "Instructions",
+            "feedback": "• Illi swaccha maaDi = Clean here\n• Oota ready maaDi = Make food ready\n• Gate close maaDi = Close gate\n• Tomorrow baa = Come tomorrow\n• Work aytha? = Work done?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Instructions",
+            "word": {
+                "kannada": "Swaccha maaDi. Oota ready maaDi. Gate close maaDi.",
+                "english": "Clean. Make food ready. Close gate.",
+                "pronunciation": "Swaccha maaDi. Oota ready maaDi. Gate close maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Instruct maid: Swaccha maaDi",
+                "Direct cook: Ready maaDi",
+                "Tell watchman: Close maaDi",
+                "Manage house help!"
+            ]
+        }
+    ]
+}

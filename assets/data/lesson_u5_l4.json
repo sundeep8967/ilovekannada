@@ -1,0 +1,148 @@
+{
+    "lesson_id": "u5_l4",
+    "title": "Returns & Exchanges",
+    "objective": "Handle returns and exchanges",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Return",
+            "word": {
+                "kannada": "Return",
+                "english": "Return",
+                "pronunciation": "Return"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Exchange",
+            "word": {
+                "kannada": "Exchange",
+                "english": "Exchange",
+                "pronunciation": "Exchange"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Problem",
+            "word": {
+                "kannada": "Problem",
+                "english": "Problem",
+                "pronunciation": "Problem"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Money",
+            "word": {
+                "kannada": "Money",
+                "english": "Money",
+                "pronunciation": "Money"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Return Item",
+            "question": "How do you ask 'Can I return?'",
+            "options": [
+                "Return maaDThira?",
+                "Return koDi?",
+                "Return ideya?",
+                "Return beku?"
+            ],
+            "correctAnswer": "Return maaDThira?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Exchange",
+            "question": "Ask to exchange item",
+            "correctAnswer": [
+                "Exchange maaDi",
+                "exchange maadi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Report Problem",
+            "question": "How do you explain item has problem?",
+            "options": [
+                "Idu problem",
+                "Problem koDi",
+                "Problem ideya",
+                "Problem beku"
+            ],
+            "correctAnswer": "Idu problem"
+        },
+        {
+            "type": "matching",
+            "title": "Match Return Words",
+            "matchPairs": [
+                {
+                    "kannada": "Return maaDThira?",
+                    "english": "Can I return?"
+                },
+                {
+                    "kannada": "Exchange maaDi",
+                    "english": "Exchange it"
+                },
+                {
+                    "kannada": "Idu problem",
+                    "english": "This has problem"
+                },
+                {
+                    "kannada": "Money thara",
+                    "english": "Give money back"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Refund",
+            "question": "Ask for money back",
+            "correctAnswer": [
+                "Money thara",
+                "money thara"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Return",
+            "question": "Return faulty item, ask refund",
+            "options": [
+                "Idu problem",
+                "Return maaDi",
+                "Money thara"
+            ],
+            "correctOrder": [
+                "Idu problem",
+                "Return maaDi",
+                "Money thara"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Return Phrases",
+            "question": "Returns",
+            "feedback": "• Return maaDThira? = Can I return?\n• Exchange maaDi = Exchange it\n• Idu problem = This has problem\n• Money thara = Give money back\n• Warranty ideya? = Is there warranty?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Return",
+            "word": {
+                "kannada": "Idu problem. Exchange maaDi. Money thara.",
+                "english": "This has problem. Exchange it. Give money.",
+                "pronunciation": "Idu problem. Exchange maaDi. Money thara."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Return items: Return maaDThira?",
+                "Exchange: Exchange maaDi",
+                "Get refund: Money thara",
+                "Handle any return!"
+            ]
+        }
+    ]
+}

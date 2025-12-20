@@ -1,0 +1,150 @@
+{
+    "lesson_id": "u4_l2",
+    "title": "Dietary Needs",
+    "objective": "Express food preferences and restrictions",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Vegetarian",
+            "word": {
+                "kannada": "Vegetarian",
+                "english": "Vegetarian",
+                "pronunciation": "Vegetarian"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Non-veg",
+            "word": {
+                "kannada": "Non-veg",
+                "english": "Non-vegetarian",
+                "pronunciation": "Non-veg"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Egg",
+            "word": {
+                "kannada": "Egg",
+                "english": "Egg",
+                "pronunciation": "Egg"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Spicy",
+            "word": {
+                "kannada": "Spicy / Khara",
+                "english": "Spicy",
+                "pronunciation": "Spicy / Khara"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Dietary",
+            "question": "How do you say 'I am vegetarian'?",
+            "options": [
+                "Nanage vegetarian",
+                "Vegetarian koDi",
+                "Vegetarian ideya",
+                "Vegetarian beku"
+            ],
+            "correctAnswer": "Nanage vegetarian"
+        },
+        {
+            "type": "typeInput",
+            "title": "No Egg",
+            "question": "Say: 'No egg in my food'",
+            "correctAnswer": [
+                "Egg illa",
+                "egg illa",
+                "Nanna ootakke egg illa"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Less Spicy",
+            "question": "How do you ask for less spicy food?",
+            "options": [
+                "Tumba spicy",
+                "Swalpa spicy maaDi",
+                "Spicy koDi",
+                "Spicy ideya"
+            ],
+            "correctAnswer": "Swalpa spicy maaDi"
+        },
+        {
+            "type": "matching",
+            "title": "Match Dietary Words",
+            "matchPairs": [
+                {
+                    "kannada": "Vegetarian",
+                    "english": "Vegetarian"
+                },
+                {
+                    "kannada": "Egg illa",
+                    "english": "No egg"
+                },
+                {
+                    "kannada": "Swalpa spicy",
+                    "english": "Little spicy"
+                },
+                {
+                    "kannada": "Tumba spicy illa",
+                    "english": "Not too spicy"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Confirm Veg",
+            "question": "Ask: 'Is this vegetarian?'",
+            "correctAnswer": [
+                "Idu vegetariana",
+                "idu vegetariana",
+                "Idu vegetariana?"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Order",
+            "question": "Order dosa: no egg, less spicy",
+            "options": [
+                "Dosa koDi",
+                "egg illa",
+                "swalpa spicy"
+            ],
+            "correctOrder": [
+                "Dosa koDi",
+                "egg illa",
+                "swalpa spicy"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Dietary Phrases",
+            "question": "Food Preferences",
+            "feedback": "• Nanage vegetarian = I am vegetarian\n• Egg illa = No egg\n• Swalpa spicy = Little spicy\n• Tumba spicy illa = Not too spicy\n• Idu vegetariana? = Is this vegetarian?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Restriction",
+            "word": {
+                "kannada": "Vegetarian beku. Egg illa. Tumba spicy illa.",
+                "english": "I want vegetarian. No egg. Not too spicy.",
+                "pronunciation": "Vegetarian beku. Egg illa. Tumba spicy illa."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Say vegetarian: Nanage vegetarian",
+                "Exclude items: Egg illa",
+                "Control spice: Swalpa spicy",
+                "Order with restrictions!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "lesson_id": "u3_l8",
+    "title": "Combination Travel",
+    "objective": "Combine auto, bus, metro for any journey",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Switch",
+            "word": {
+                "kannada": "Switch",
+                "english": "Change / Transfer",
+                "pronunciation": "Switch"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Connect",
+            "word": {
+                "kannada": "Connect",
+                "english": "Connect",
+                "pronunciation": "Connect"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Best",
+            "word": {
+                "kannada": "Best",
+                "english": "Best",
+                "pronunciation": "Best"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Cheap",
+            "word": {
+                "kannada": "Cheap",
+                "english": "Cheap",
+                "pronunciation": "Cheap"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Ask Combination",
+            "question": "How do you ask 'Auto then bus?'",
+            "options": [
+                "Auto then bus?",
+                "Auto bus switch?",
+                "Auto bus connect?",
+                "Auto bus best?"
+            ],
+            "correctAnswer": "Auto then bus?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Check Connection",
+            "question": "Check if there's metro connection",
+            "correctAnswer": [
+                "Metro connect ideya",
+                "metro connect ideya",
+                "Metro connect ideya?"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Best Option",
+            "question": "How do you ask 'Which is best?'",
+            "options": [
+                "Yavdu best?",
+                "Yavdu cheap?",
+                "Yavdu connect?",
+                "Yavdu switch?"
+            ],
+            "correctAnswer": "Yavdu best?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Travel Words",
+            "matchPairs": [
+                {
+                    "kannada": "Switch",
+                    "english": "Change/Transfer"
+                },
+                {
+                    "kannada": "Connect",
+                    "english": "Connect"
+                },
+                {
+                    "kannada": "Best",
+                    "english": "Best"
+                },
+                {
+                    "kannada": "Cheap",
+                    "english": "Cheap"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Cheaper Option",
+            "question": "Ask which option is cheaper",
+            "correctAnswer": [
+                "Yavdu cheap",
+                "yavdu cheap",
+                "Yavdu cheap?"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Plan Journey",
+            "question": "Ask: 'Which is best? Is there connection?'",
+            "options": [
+                "Yavdu",
+                "best?",
+                "Connect",
+                "ideya?"
+            ],
+            "correctOrder": [
+                "Yavdu",
+                "best?",
+                "Connect",
+                "ideya?"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Combination Phrases",
+            "question": "Multi-Transport",
+            "feedback": "• Auto then bus? = Auto then bus?\n• Metro connect ideya? = Is there metro connection?\n• Yavdu best? = Which is best?\n• Yavdu cheap? = Which is cheap?\n• [Transport] then [transport] = Combine modes"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Planning",
+            "word": {
+                "kannada": "Yavdu best? Connect ideya? Yavdu cheap?",
+                "english": "Which is best? Is there connection? Which is cheap?",
+                "pronunciation": "Yavdu best? Connect ideya? Yavdu cheap?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Plan combinations: then, connect",
+                "Compare options: Yavdu best/cheap?",
+                "Combine auto + bus + metro!",
+                "Smart travel planning!"
+            ]
+        }
+    ]
+}

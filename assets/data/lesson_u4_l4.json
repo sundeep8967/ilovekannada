@@ -1,0 +1,150 @@
+{
+    "lesson_id": "u4_l4",
+    "title": "Complaints & Changes",
+    "objective": "Handle food problems and request changes",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Cold",
+            "word": {
+                "kannada": "Cold",
+                "english": "Cold",
+                "pronunciation": "Cold"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Hot",
+            "word": {
+                "kannada": "Hot",
+                "english": "Hot",
+                "pronunciation": "Hot"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Uppu",
+            "word": {
+                "kannada": "Uppu",
+                "english": "Salt",
+                "pronunciation": "Uppu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Change",
+            "word": {
+                "kannada": "Change",
+                "english": "Change",
+                "pronunciation": "Change"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Cold Food",
+            "question": "How do you complain 'Food is cold'?",
+            "options": [
+                "Oota cold ide",
+                "Oota hot ide",
+                "Oota change",
+                "Oota beku"
+            ],
+            "correctAnswer": "Oota cold ide"
+        },
+        {
+            "type": "typeInput",
+            "title": "Heat It",
+            "question": "Ask to heat the food",
+            "correctAnswer": [
+                "Hot maaDi",
+                "hot maadi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Too Salty",
+            "question": "How do you complain about too much salt?",
+            "options": [
+                "Uppu jaasti",
+                "Uppu koDi",
+                "Uppu ideya",
+                "Uppu swalpa"
+            ],
+            "correctAnswer": "Uppu jaasti"
+        },
+        {
+            "type": "matching",
+            "title": "Match Complaint Words",
+            "matchPairs": [
+                {
+                    "kannada": "Oota cold ide",
+                    "english": "Food is cold"
+                },
+                {
+                    "kannada": "Hot maaDi",
+                    "english": "Make it hot"
+                },
+                {
+                    "kannada": "Uppu jaasti",
+                    "english": "Too much salt"
+                },
+                {
+                    "kannada": "Change maaDi",
+                    "english": "Change it"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Change It",
+            "question": "Ask to change the dish",
+            "correctAnswer": [
+                "Change maaDi",
+                "change maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Complaint",
+            "question": "Complain: 'Food cold, make hot'",
+            "options": [
+                "Oota",
+                "cold ide",
+                "Hot",
+                "maaDi"
+            ],
+            "correctOrder": [
+                "Oota",
+                "cold ide",
+                "Hot",
+                "maaDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Complaint Phrases",
+            "question": "Food Problems",
+            "feedback": "• Oota cold ide = Food is cold\n• Hot maaDi = Make it hot\n• Uppu jaasti = Too much salt\n• Change maaDi = Change it\n• Kshamisi = Sorry (apology)"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Complaint",
+            "word": {
+                "kannada": "Idu cold ide. Hot maaDi. Change maaDi.",
+                "english": "This is cold. Make hot. Change it.",
+                "pronunciation": "Idu cold ide. Hot maaDi. Change maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Complain cold: Cold ide",
+                "Request heat: Hot maaDi",
+                "Report salt: Uppu jaasti",
+                "Handle food problems!"
+            ]
+        }
+    ]
+}

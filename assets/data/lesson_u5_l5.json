@@ -1,0 +1,133 @@
+{
+    "lesson_id": "u5_l5",
+    "title": "Shopping Mastery",
+    "objective": "Handle any shopping situation",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "Review: Market",
+            "word": {
+                "kannada": "EshTu? Swalpa koDThira? Ondu kg koDi.",
+                "english": "Price? Reduce? Give 1 kg.",
+                "pronunciation": "EshTu? Swalpa koDThira? Ondu kg koDi."
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Review: Kirana",
+            "word": {
+                "kannada": "Ideya? Yelli ide? Bill maaDi.",
+                "english": "Have it? Where? Make bill.",
+                "pronunciation": "Ideya? Yelli ide? Bill maaDi."
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Veggie Market",
+            "question": "At vegetable market, first you ask?",
+            "options": [
+                "Tomato eshTu?",
+                "Bill maaDi",
+                "Return maaDi",
+                "Try maaDThira"
+            ],
+            "correctAnswer": "Tomato eshTu?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Kirana Trip",
+            "question": "Ask if shop has rice and where it is",
+            "correctAnswer": [
+                "Rice ideya? Yelli ide?",
+                "rice ideya yelli ide"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Clothes Shop",
+            "question": "Shirt is too big. What do you say?",
+            "options": [
+                "Shirt tumba doDDadu",
+                "Shirt koDi",
+                "Shirt eshTu",
+                "Shirt ideya"
+            ],
+            "correctAnswer": "Shirt tumba doDDadu"
+        },
+        {
+            "type": "matching",
+            "title": "Match All Shopping",
+            "matchPairs": [
+                {
+                    "kannada": "EshTu?",
+                    "english": "How much?"
+                },
+                {
+                    "kannada": "Ideya?",
+                    "english": "Do you have?"
+                },
+                {
+                    "kannada": "Size enu?",
+                    "english": "What size?"
+                },
+                {
+                    "kannada": "Return maaDi",
+                    "english": "Return it"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Return Faulty",
+            "question": "Return faulty item with bill",
+            "correctAnswer": [
+                "Idu problem. Bill ide. Return maaDi",
+                "idu problem bill ide return maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Full Shopping",
+            "question": "Check price, bargain, buy, get bill",
+            "options": [
+                "EshTu?",
+                "Swalpa koDThira?",
+                "KoDi",
+                "Bill maaDi"
+            ],
+            "correctOrder": [
+                "EshTu?",
+                "Swalpa koDThira?",
+                "KoDi",
+                "Bill maaDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Shopping Summary",
+            "question": "All Shopping",
+            "feedback": "VEGETABLES: EshTu? Swalpa koDThira? Kg koDi\nKIRANA: Ideya? Yelli? Brand? Bill maaDi\nCLOTHES: Size? Try? DoDDadu/Chikka\nRETURNS: Problem, Exchange, Return, Money thara"
+        },
+        {
+            "type": "speaking",
+            "title": "Complete Shopping",
+            "word": {
+                "kannada": "Tomato eshTu? Swalpa koDThira? Ondu kg koDi. Bill maaDi.",
+                "english": "Tomato price? Reduce? 1 kg. Make bill.",
+                "pronunciation": "Tomato eshTu? Swalpa koDThira? Ondu kg koDi. Bill maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "🏆 Shopping Mastery!",
+            "question": "You can now:",
+            "options": [
+                "Shop at vegetable markets",
+                "Buy from kirana stores",
+                "Purchase clothes",
+                "Handle returns",
+                "Shop anywhere in Bangalore!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "lesson_id": "u4_l1",
+    "title": "Basic Ordering",
+    "objective": "Order food at restaurants",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Menu",
+            "word": {
+                "kannada": "Menu",
+                "english": "Menu",
+                "pronunciation": "Menu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Order",
+            "word": {
+                "kannada": "Order",
+                "english": "Order",
+                "pronunciation": "Order"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Popular: Idly",
+            "word": {
+                "kannada": "Idly",
+                "english": "Idly (steamed rice cake)",
+                "pronunciation": "Idly"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Popular: Dosa",
+            "word": {
+                "kannada": "Dosa",
+                "english": "Dosa (crispy pancake)",
+                "pronunciation": "Dosa"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "At Restaurant",
+            "question": "How do you ask for menu?",
+            "options": [
+                "Menu koDi",
+                "Menu eshTu",
+                "Menu ideya",
+                "Menu beku"
+            ],
+            "correctAnswer": "Menu koDi"
+        },
+        {
+            "type": "typeInput",
+            "title": "Point & Order",
+            "question": "Point to dosa on menu and say 'Give this'",
+            "correctAnswer": [
+                "Idu koDi",
+                "idu kodi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Ask Price",
+            "question": "How do you ask price of idly?",
+            "options": [
+                "Idly eshTu?",
+                "Idly koDi?",
+                "Idly ideya?",
+                "Idly beku?"
+            ],
+            "correctAnswer": "Idly eshTu?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Restaurant Words",
+            "matchPairs": [
+                {
+                    "kannada": "Menu koDi",
+                    "english": "Give menu"
+                },
+                {
+                    "kannada": "Idu koDi",
+                    "english": "Give this"
+                },
+                {
+                    "kannada": "Bill koDi",
+                    "english": "Give bill"
+                },
+                {
+                    "kannada": "Neeru koDi",
+                    "english": "Give water"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "After Eating",
+            "question": "Ask for bill after eating",
+            "correctAnswer": [
+                "Bill koDi",
+                "bill kodi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Order",
+            "question": "Order: 'Dosa give, water give'",
+            "options": [
+                "Dosa",
+                "koDi",
+                "neeru",
+                "koDi"
+            ],
+            "correctOrder": [
+                "Dosa",
+                "koDi",
+                "neeru",
+                "koDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Ordering Phrases",
+            "question": "Restaurant Basics",
+            "feedback": "• Menu koDi = Give menu\n• Idu koDi = Give this\n• [Item] eshTu? = How much is [item]?\n• Bill koDi = Give bill\n• Neeru koDi = Give water"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Order",
+            "word": {
+                "kannada": "Menu koDi. Dosa koDi. Bill koDi.",
+                "english": "Give menu. Give dosa. Give bill.",
+                "pronunciation": "Menu koDi. Dosa koDi. Bill koDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Ask for menu: Menu koDi",
+                "Order food: Idu koDi",
+                "Ask price: EshTu?",
+                "Ask for bill: Bill koDi"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "lesson_id": "u4_l3",
+    "title": "Takeaway & Delivery",
+    "objective": "Handle takeaway and food delivery",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Parcel",
+            "word": {
+                "kannada": "Parcel",
+                "english": "Takeaway",
+                "pronunciation": "Parcel"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Pack",
+            "word": {
+                "kannada": "Pack",
+                "english": "Pack",
+                "pronunciation": "Pack"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Home",
+            "word": {
+                "kannada": "Home",
+                "english": "Home",
+                "pronunciation": "Home"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Time/Gante",
+            "word": {
+                "kannada": "Gante",
+                "english": "Hour / Time",
+                "pronunciation": "Gante"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Takeaway",
+            "question": "How do you order takeaway?",
+            "options": [
+                "Parcel maaDi",
+                "Parcel koDi",
+                "Parcel ideya",
+                "Parcel beku"
+            ],
+            "correctAnswer": "Parcel maaDi"
+        },
+        {
+            "type": "typeInput",
+            "title": "Pack It",
+            "question": "Ask them to pack the food",
+            "correctAnswer": [
+                "Pack koDi",
+                "pack kodi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Delivery",
+            "question": "How do you ask for home delivery?",
+            "options": [
+                "Home ge thara",
+                "Home koDi",
+                "Home beku",
+                "Home ideya"
+            ],
+            "correctAnswer": "Home ge thara"
+        },
+        {
+            "type": "matching",
+            "title": "Match Takeaway Words",
+            "matchPairs": [
+                {
+                    "kannada": "Parcel maaDi",
+                    "english": "Make takeaway"
+                },
+                {
+                    "kannada": "Pack koDi",
+                    "english": "Pack it"
+                },
+                {
+                    "kannada": "Home ge thara",
+                    "english": "Deliver home"
+                },
+                {
+                    "kannada": "EshTu gante?",
+                    "english": "How long?"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Delivery Time",
+            "question": "Ask delivery time",
+            "correctAnswer": [
+                "EshTu gante",
+                "eshtu gante",
+                "EshTu gante?"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Ask: 'Parcel and pack it'",
+            "options": [
+                "Parcel",
+                "maaDi",
+                "Pack",
+                "koDi"
+            ],
+            "correctOrder": [
+                "Parcel",
+                "maaDi",
+                "Pack",
+                "koDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Takeaway Phrases",
+            "question": "Delivery",
+            "feedback": "• Parcel maaDi = Make it takeaway\n• Pack koDi = Pack it\n• Home ge thara = Deliver to home\n• EshTu gante? = How long?\n• TharaThira? = Can you deliver?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Takeaway",
+            "word": {
+                "kannada": "Parcel maaDi. Pack koDi. EshTu gante?",
+                "english": "Make takeaway. Pack it. How long?",
+                "pronunciation": "Parcel maaDi. Pack koDi. EshTu gante?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Order takeaway: Parcel maaDi",
+                "Ask packing: Pack koDi",
+                "Request delivery: Home ge thara",
+                "Handle any takeaway!"
+            ]
+        }
+    ]
+}

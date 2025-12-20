@@ -1,0 +1,149 @@
+{
+    "lesson_id": "u5_l3",
+    "title": "Clothing & Sizing",
+    "objective": "Shop for clothes and check sizes",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Shirt",
+            "word": {
+                "kannada": "Shirt",
+                "english": "Shirt",
+                "pronunciation": "Shirt"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Size",
+            "word": {
+                "kannada": "Size",
+                "english": "Size",
+                "pronunciation": "Size"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: DoDDadu",
+            "word": {
+                "kannada": "DoDDadu",
+                "english": "Too big",
+                "pronunciation": "DoDDadu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Chikka",
+            "word": {
+                "kannada": "Chikka",
+                "english": "Small",
+                "pronunciation": "Chikka"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Ask Size",
+            "question": "How do you ask 'What sizes are available?'",
+            "options": [
+                "Size enu ide?",
+                "Size koDi?",
+                "Size doDDadu?",
+                "Size beku?"
+            ],
+            "correctAnswer": "Size enu ide?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Too Big",
+            "question": "Complain: 'Shirt is too big'",
+            "correctAnswer": [
+                "Shirt tumba doDDadu",
+                "shirt tumba doddadu"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Try Clothes",
+            "question": "How do you ask to try clothes?",
+            "options": [
+                "Try maaDThira?",
+                "Try koDi?",
+                "Try ideya?",
+                "Try beku?"
+            ],
+            "correctAnswer": "Try maaDThira?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Clothing Words",
+            "matchPairs": [
+                {
+                    "kannada": "Size enu ide?",
+                    "english": "What size?"
+                },
+                {
+                    "kannada": "DoDDadu",
+                    "english": "Too big"
+                },
+                {
+                    "kannada": "Try maaDThira?",
+                    "english": "Can I try?"
+                },
+                {
+                    "kannada": "Chikka size",
+                    "english": "Small size"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Smaller Size",
+            "question": "Ask for smaller size",
+            "correctAnswer": [
+                "Chikka size ideya",
+                "chikka size ideya",
+                "Chikka size koDi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Try, complain size, ask smaller",
+            "options": [
+                "Try maaDThira?",
+                "Idu doDDadu",
+                "Chikka size koDi"
+            ],
+            "correctOrder": [
+                "Try maaDThira?",
+                "Idu doDDadu",
+                "Chikka size koDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Clothing Phrases",
+            "question": "Clothes Shopping",
+            "feedback": "• Size enu ide? = What sizes?\n• Try maaDThira? = Can I try?\n• Idu doDDadu = This is too big\n• Chikka size ideya? = Smaller size?\n• Bere color ideya? = Different color?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Clothes Shop",
+            "word": {
+                "kannada": "Size enu ide? Try maaDThira? Bere color ideya?",
+                "english": "What size? Can I try? Different color?",
+                "pronunciation": "Size enu ide? Try maaDThira? Bere color ideya?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Check sizes: Size enu?",
+                "Try clothes: Try maaDThira?",
+                "Complain fit: DoDDadu/Chikka",
+                "Shop for clothes!"
+            ]
+        }
+    ]
+}

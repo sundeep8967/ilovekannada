@@ -1,0 +1,150 @@
+{
+    "lesson_id": "u5_l1",
+    "title": "Vegetable Market",
+    "objective": "Buy vegetables and bargain",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Tomato",
+            "word": {
+                "kannada": "Tomato",
+                "english": "Tomato",
+                "pronunciation": "Tomato"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Onion",
+            "word": {
+                "kannada": "Onion",
+                "english": "Onion",
+                "pronunciation": "Onion"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Potato",
+            "word": {
+                "kannada": "Potato",
+                "english": "Potato",
+                "pronunciation": "Potato"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Kg",
+            "word": {
+                "kannada": "Kg",
+                "english": "Kilogram",
+                "pronunciation": "Kg"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Ask Price",
+            "question": "How do you ask 'Tomato price?'",
+            "options": [
+                "Tomato eshTu?",
+                "Tomato koDi?",
+                "Tomato ideya?",
+                "Tomato beku?"
+            ],
+            "correctAnswer": "Tomato eshTu?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Buy Quantity",
+            "question": "Ask for 1 kg onions",
+            "correctAnswer": [
+                "Onion ondu kg koDi",
+                "onion ondu kg kodi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Fresh Check",
+            "question": "How do you ask if vegetables are fresh?",
+            "options": [
+                "Fresha?",
+                "Fresh koDi",
+                "Fresh ideya",
+                "Fresh beku"
+            ],
+            "correctAnswer": "Fresha?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Market Words",
+            "matchPairs": [
+                {
+                    "kannada": "Tomato eshTu?",
+                    "english": "Tomato price?"
+                },
+                {
+                    "kannada": "Ondu kg koDi",
+                    "english": "Give 1 kg"
+                },
+                {
+                    "kannada": "Swalpa koDThira?",
+                    "english": "Reduce a little?"
+                },
+                {
+                    "kannada": "Fresha?",
+                    "english": "Fresh?"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Bargain",
+            "question": "Ask: 'Can you reduce a little?'",
+            "correctAnswer": [
+                "Swalpa koDThira",
+                "swalpa kodthira"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Purchase",
+            "question": "Buy 1 kg potatoes, bargain",
+            "options": [
+                "Potato",
+                "ondu kg",
+                "koDi",
+                "Swalpa koDThira?"
+            ],
+            "correctOrder": [
+                "Potato",
+                "ondu kg",
+                "koDi",
+                "Swalpa koDThira?"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Market Phrases",
+            "question": "Vegetable Shopping",
+            "feedback": "• [Item] eshTu? = Price of [item]?\n• Ondu kg koDi = Give 1 kg\n• Half kg koDi = Give half kg\n• Swalpa koDThira? = Can you reduce?\n• Fresha? = Is it fresh?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Shopping",
+            "word": {
+                "kannada": "Tomato eshTu? Swalpa koDThira? Ondu kg koDi.",
+                "english": "Tomato price? Reduce a little? Give 1 kg.",
+                "pronunciation": "Tomato eshTu? Swalpa koDThira? Ondu kg koDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Ask prices: EshTu?",
+                "Buy quantity: Kg koDi",
+                "Bargain: Swalpa koDThira?",
+                "Shop at veggie market!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "lesson_id": "u5_l2",
+    "title": "Kirana Shop",
+    "objective": "Shop at local grocery stores",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Rice",
+            "word": {
+                "kannada": "Rice",
+                "english": "Rice",
+                "pronunciation": "Rice"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Dal",
+            "word": {
+                "kannada": "Dal",
+                "english": "Lentils",
+                "pronunciation": "Dal"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Oil",
+            "word": {
+                "kannada": "Oil",
+                "english": "Oil",
+                "pronunciation": "Oil"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Brand",
+            "word": {
+                "kannada": "Brand",
+                "english": "Brand",
+                "pronunciation": "Brand"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Check Stock",
+            "question": "How do you ask 'Do you have rice?'",
+            "options": [
+                "Rice ideya?",
+                "Rice eshTu?",
+                "Rice koDi?",
+                "Rice beku?"
+            ],
+            "correctAnswer": "Rice ideya?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Find Location",
+            "question": "Ask where something is kept",
+            "correctAnswer": [
+                "Yelli ide",
+                "yelli ide",
+                "Yelli ide?"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Brand Check",
+            "question": "How do you ask which brands are available?",
+            "options": [
+                "Brand enu ide?",
+                "Brand koDi?",
+                "Brand eshTu?",
+                "Brand beku?"
+            ],
+            "correctAnswer": "Brand enu ide?"
+        },
+        {
+            "type": "matching",
+            "title": "Match Kirana Words",
+            "matchPairs": [
+                {
+                    "kannada": "Ideya?",
+                    "english": "Do you have?"
+                },
+                {
+                    "kannada": "Yelli ide?",
+                    "english": "Where is it?"
+                },
+                {
+                    "kannada": "Brand enu?",
+                    "english": "Which brand?"
+                },
+                {
+                    "kannada": "Bill maaDi",
+                    "english": "Make bill"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Get Bill",
+            "question": "Ask for bill",
+            "correctAnswer": [
+                "Bill maaDi",
+                "bill maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Shopping",
+            "question": "Ask for rice, check brand, ask bill",
+            "options": [
+                "Rice koDi",
+                "Brand enu?",
+                "Bill maaDi"
+            ],
+            "correctOrder": [
+                "Rice koDi",
+                "Brand enu?",
+                "Bill maaDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Kirana Phrases",
+            "question": "Grocery Shopping",
+            "feedback": "• [Item] ideya? = Do you have [item]?\n• Yelli ide? = Where is it?\n• Brand enu? = Which brand?\n• Chikka pack ideya? = Smaller pack?\n• Bill maaDi = Make bill"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Kirana Trip",
+            "word": {
+                "kannada": "Dal ideya? Yelli ide? Bill maaDi.",
+                "english": "Do you have dal? Where is it? Make bill.",
+                "pronunciation": "Dal ideya? Yelli ide? Bill maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Check stock: Ideya?",
+                "Find items: Yelli ide?",
+                "Ask brand: Brand enu?",
+                "Shop at kirana stores!"
+            ]
+        }
+    ]
+}
