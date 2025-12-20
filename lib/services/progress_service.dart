@@ -8,6 +8,7 @@ class ProgressService {
   static const _keyCompletedLessons = 'completed_lessons';
   static const _keyCurrentUnit = 'current_unit';
   static const _keyCurrentLesson = 'current_lesson';
+  static const _keyUserName = 'user_name';
 
   static SharedPreferences? _prefs;
 
@@ -15,6 +16,15 @@ class ProgressService {
     _prefs = await SharedPreferences.getInstance();
     await _checkStreak();
   }
+
+  // ==================== USER NAME ====================
+  static String get userName => _prefs?.getString(_keyUserName) ?? '';
+  
+  static Future<void> setUserName(String name) async {
+    await _prefs?.setString(_keyUserName, name);
+  }
+
+  static bool get hasUserName => userName.isNotEmpty;
 
   // ==================== STREAK ====================
   static int get streak => _prefs?.getInt(_keyStreak) ?? 0;

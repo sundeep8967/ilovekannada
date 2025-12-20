@@ -6,6 +6,7 @@ import 'screens/progress_screen.dart';
 import 'screens/courses_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/welcome_screen.dart';
+import 'screens/name_input_screen.dart';
 import 'services/progress_service.dart';
 
 void main() async {
@@ -36,20 +37,29 @@ class AppRoot extends StatefulWidget {
 }
 
 class _AppRootState extends State<AppRoot> {
-  bool _isSignedIn = false;
+  int _step = 0; // 0=welcome, 1=name input, 2=main
 
-  void _handleSignIn() {
-    setState(() {
-      _isSignedIn = true;
-    });
+  @override
+  void initState() {
+    super.initState();
+    if (ProgressService.hasUserName) {
+      _step = 2;
+    }
   }
+
+  void _handleLetsGo() => setState(() => _step = 1);
+  void _handleNameComplete() => setState(() => _step = 2);
 
   @override
   Widget build(BuildContext context) {
-    if (!_isSignedIn) {
-      return WelcomeScreen(onSignIn: _handleSignIn);
+    switch (_step) {
+      case 0:
+        return WelcomeScreen(onSignIn: _handleLetsGo);
+      case 1:
+        return NameInputScreen(onComplete: _handleNameComplete);
+      default:
+        return const MainScreen();
     }
-    return const MainScreen();
   }
 }
 

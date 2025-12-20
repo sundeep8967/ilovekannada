@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
+import '../services/progress_service.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -87,19 +88,11 @@ class ProfileScreen extends StatelessWidget {
                 height: 96,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  border: Border.all(color: AppTheme.backgroundLight, width: 4),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(0.1),
-                      blurRadius: 12,
-                    ),
-                  ],
-                  image: const DecorationImage(
-                    image: NetworkImage(
-                      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop',
-                    ),
-                    fit: BoxFit.cover,
-                  ),
+                  color: AppTheme.primary.withOpacity(0.1),
+                  border: Border.all(color: AppTheme.primary, width: 3),
+                ),
+                child: const Center(
+                  child: Text('🦉', style: TextStyle(fontSize: 48)),
                 ),
               ),
               Positioned(
@@ -121,7 +114,7 @@ class ProfileScreen extends StatelessWidget {
           const SizedBox(height: 16),
           // User name
           Text(
-            'Elena Rodriguez',
+            'Kannada Learner',
             style: TextStyle(
               fontSize: 22,
               fontWeight: FontWeight.w700,
@@ -130,7 +123,7 @@ class ProfileScreen extends StatelessWidget {
           ),
           const SizedBox(height: 4),
           Text(
-            'elena.rodz@example.com',
+            '${ProgressService.completedCount} lessons completed',
             style: TextStyle(
               fontSize: 14,
               color: AppTheme.textSub,
@@ -180,11 +173,11 @@ class ProfileScreen extends StatelessWidget {
           // Stats row
           Row(
             children: [
-              _buildStatItem('12', 'STREAK'),
+              _buildStatItem('${ProgressService.streak}', 'STREAK'),
               _buildDivider(),
-              _buildStatItem('450', 'XP'),
+              _buildStatItem('${ProgressService.totalXP}', 'XP'),
               _buildDivider(),
-              _buildStatItem('Top 5%', 'RANK'),
+              _buildStatItem('${ProgressService.completedCount}', 'DONE'),
             ],
           ),
         ],

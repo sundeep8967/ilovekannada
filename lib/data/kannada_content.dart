@@ -307,9 +307,567 @@ class KannadaCurriculum {
     ),
   ];
 
-  // ============ MONTH 2: Placeholder ============
-  static final month2Units = <LessonUnit>[];
+  // ============ MONTH 2: DAILY LIFE (Units 13-24) ============
+  static final month2Units = [
+    // Unit 13: Rice & Staples
+    LessonUnit(
+      id: 'unit_13', title: 'Rice & Staples', subtitle: 'Main foods', emoji: '🍚', order: 13,
+      lessons: [
+        Lesson(id: 'l13_1', title: 'Rice Dishes', description: 'Rice foods', xpReward: 10, words: [
+          Word(kannada: 'Anna', english: 'Rice', pronunciation: 'UN-nuh'),
+          Word(kannada: 'Chitranna', english: 'Lemon rice', pronunciation: 'chit-RUN-nuh'),
+          Word(kannada: 'Bisibelebath', english: 'Spicy dal rice', pronunciation: 'bee-see-BAY-lay-baath'),
+          Word(kannada: 'Puliyogare', english: 'Tamarind rice', pronunciation: 'poo-lee-YOH-guh-ray'),
+        ]),
+        Lesson(id: 'l13_2', title: 'Bread', description: 'Bread types', xpReward: 10, words: [
+          Word(kannada: 'Rotti', english: 'Roti/Flatbread', pronunciation: 'ROT-tee'),
+          Word(kannada: 'Chapati', english: 'Chapati', pronunciation: 'chuh-PAH-tee'),
+          Word(kannada: 'Dosa', english: 'Dosa', pronunciation: 'DOH-suh'),
+          Word(kannada: 'Idli', english: 'Idli', pronunciation: 'ID-lee'),
+        ]),
+        Lesson(id: 'l13_3', title: 'Dal & Curry', description: 'Curries', xpReward: 10, words: [
+          Word(kannada: 'Saaru', english: 'Rasam/Dal soup', pronunciation: 'SAA-roo'),
+          Word(kannada: 'Sambar', english: 'Sambar', pronunciation: 'SAAM-bar'),
+          Word(kannada: 'Palya', english: 'Vegetable curry', pronunciation: 'PUL-yuh'),
+        ]),
+      ],
+    ),
+
+    // Unit 14: Vegetables
+    LessonUnit(
+      id: 'unit_14', title: 'Vegetables', subtitle: 'Common veggies', emoji: '🥬', order: 14,
+      lessons: [
+        Lesson(id: 'l14_1', title: 'Common Veggies', description: 'Everyday vegetables', xpReward: 10, words: [
+          Word(kannada: 'Aalugadde', english: 'Potato', pronunciation: 'AA-loo-gud-day'),
+          Word(kannada: 'Eerulli', english: 'Onion', pronunciation: 'EE-roo-lee'),
+          Word(kannada: 'Tomato', english: 'Tomato', pronunciation: 'toh-MAH-toh'),
+          Word(kannada: 'Bende kayi', english: 'Okra', pronunciation: 'BEN-day KYE'),
+        ]),
+        Lesson(id: 'l14_2', title: 'Green Veggies', description: 'Leafy greens', xpReward: 10, words: [
+          Word(kannada: 'Soppu', english: 'Greens/Leaves', pronunciation: 'SOP-poo'),
+          Word(kannada: 'Soutekayi', english: 'Cucumber', pronunciation: 'SOW-tay-kye'),
+          Word(kannada: 'Badne kayi', english: 'Brinjal', pronunciation: 'BAAD-nay KYE'),
+          Word(kannada: 'Kosu', english: 'Cabbage', pronunciation: 'KOH-soo'),
+        ]),
+        Lesson(id: 'l14_3', title: 'More Veggies', description: 'Other vegetables', xpReward: 10, words: [
+          Word(kannada: 'Carrot', english: 'Carrot', pronunciation: 'CARE-rot'),
+          Word(kannada: 'Beans', english: 'Beans', pronunciation: 'beans'),
+          Word(kannada: 'Hesaru kaalu', english: 'Green gram', pronunciation: 'HAY-suh-roo KAA-loo'),
+        ]),
+      ],
+    ),
+
+    // Unit 15: Fruits
+    LessonUnit(
+      id: 'unit_15', title: 'Fruits', subtitle: 'Common fruits', emoji: '🍎', order: 15,
+      lessons: [
+        Lesson(id: 'l15_1', title: 'Sweet Fruits', description: 'Popular fruits', xpReward: 10, words: [
+          Word(kannada: 'Maavinhannu', english: 'Mango', pronunciation: 'MAA-vin-HUN-noo'),
+          Word(kannada: 'Baalehannu', english: 'Banana', pronunciation: 'BAA-lay-HUN-noo'),
+          Word(kannada: 'Sebe hannu', english: 'Apple', pronunciation: 'SAY-bay HUN-noo'),
+          Word(kannada: 'Drakshi', english: 'Grapes', pronunciation: 'DRUK-shee'),
+        ]),
+        Lesson(id: 'l15_2', title: 'Citrus', description: 'Sour fruits', xpReward: 10, words: [
+          Word(kannada: 'Kittale hannu', english: 'Orange', pronunciation: 'KIT-tuh-lay HUN-noo'),
+          Word(kannada: 'Nimbe hannu', english: 'Lemon', pronunciation: 'NIM-bay HUN-noo'),
+          Word(kannada: 'Mousambi', english: 'Sweet lime', pronunciation: 'mow-SUM-bee'),
+        ]),
+        Lesson(id: 'l15_3', title: 'More Fruits', description: 'Other fruits', xpReward: 10, words: [
+          Word(kannada: 'Pappayi', english: 'Papaya', pronunciation: 'puh-PIE'),
+          Word(kannada: 'Sapota', english: 'Sapota', pronunciation: 'suh-POH-tuh'),
+          Word(kannada: 'Daanimbe', english: 'Pomegranate', pronunciation: 'DAA-nim-bay'),
+        ]),
+      ],
+    ),
+
+    // Unit 16: Drinks
+    LessonUnit(
+      id: 'unit_16', title: 'Drinks', subtitle: 'Beverages', emoji: '☕', order: 16,
+      lessons: [
+        Lesson(id: 'l16_1', title: 'Hot Drinks', description: 'Tea and coffee', xpReward: 10, words: [
+          Word(kannada: 'Chaaha', english: 'Tea', pronunciation: 'CHAA-huh'),
+          Word(kannada: 'Kaapi', english: 'Coffee', pronunciation: 'KAA-pee'),
+          Word(kannada: 'Haalu', english: 'Milk', pronunciation: 'HAA-loo'),
+          Word(kannada: 'Bisi neeru', english: 'Hot water', pronunciation: 'BEE-see NEE-roo'),
+        ]),
+        Lesson(id: 'l16_2', title: 'Cold Drinks', description: 'Cool beverages', xpReward: 10, words: [
+          Word(kannada: 'Neeru', english: 'Water', pronunciation: 'NEE-roo'),
+          Word(kannada: 'Thanda neeru', english: 'Cold water', pronunciation: 'THUN-duh NEE-roo'),
+          Word(kannada: 'Juice', english: 'Juice', pronunciation: 'joose'),
+          Word(kannada: 'Elaneer', english: 'Coconut water', pronunciation: 'AY-luh-neer'),
+        ]),
+        Lesson(id: 'l16_3', title: 'More Drinks', description: 'Other beverages', xpReward: 10, words: [
+          Word(kannada: 'Majjige', english: 'Buttermilk', pronunciation: 'MUJ-jee-gay'),
+          Word(kannada: 'Lassi', english: 'Lassi', pronunciation: 'LUS-see'),
+          Word(kannada: 'Sherbet', english: 'Sherbet', pronunciation: 'SHER-bet'),
+        ]),
+      ],
+    ),
+
+    // Unit 17: Tastes
+    LessonUnit(
+      id: 'unit_17', title: 'Tastes', subtitle: 'Food flavors', emoji: '😋', order: 17,
+      lessons: [
+        Lesson(id: 'l17_1', title: 'Basic Tastes', description: 'Main flavors', xpReward: 10, words: [
+          Word(kannada: 'Sihi', english: 'Sweet', pronunciation: 'SEE-hee'),
+          Word(kannada: 'Khara', english: 'Spicy', pronunciation: 'KUH-ruh'),
+          Word(kannada: 'Huli', english: 'Sour', pronunciation: 'HOO-lee'),
+          Word(kannada: 'Uppu', english: 'Salty', pronunciation: 'OOP-poo'),
+        ]),
+        Lesson(id: 'l17_2', title: 'More Tastes', description: 'Other flavors', xpReward: 10, words: [
+          Word(kannada: 'Kaidu', english: 'Bitter', pronunciation: 'KYE-doo'),
+          Word(kannada: 'Ruchi', english: 'Tasty', pronunciation: 'ROO-chee'),
+          Word(kannada: 'Thumba ruchi', english: 'Very tasty', pronunciation: 'THOOM-buh ROO-chee'),
+        ]),
+        Lesson(id: 'l17_3', title: 'Food Quality', description: 'Food descriptions', xpReward: 10, words: [
+          Word(kannada: 'Bisi', english: 'Hot', pronunciation: 'BEE-see'),
+          Word(kannada: 'Thanda', english: 'Cold', pronunciation: 'THUN-duh'),
+          Word(kannada: 'Fresh', english: 'Fresh', pronunciation: 'fresh'),
+        ]),
+      ],
+    ),
+
+    // Unit 18: Restaurant
+    LessonUnit(
+      id: 'unit_18', title: 'Restaurant', subtitle: 'Ordering food', emoji: '🍽️', order: 18,
+      lessons: [
+        Lesson(id: 'l18_1', title: 'Order Words', description: 'Ordering food', xpReward: 10, words: [
+          Word(kannada: 'Menu', english: 'Menu', pronunciation: 'MEN-oo'),
+          Word(kannada: 'Order', english: 'Order', pronunciation: 'OR-der'),
+          Word(kannada: 'Bill', english: 'Bill', pronunciation: 'bill'),
+          Word(kannada: 'Oota', english: 'Meal/Food', pronunciation: 'OO-tuh'),
+        ]),
+        Lesson(id: 'l18_2', title: 'Meal Times', description: 'Meal words', xpReward: 10, words: [
+          Word(kannada: 'Tindi', english: 'Snack/Breakfast', pronunciation: 'TIN-dee'),
+          Word(kannada: 'Madhyahna oota', english: 'Lunch', pronunciation: 'mud-YAH-nuh OO-tuh'),
+          Word(kannada: 'Raatri oota', english: 'Dinner', pronunciation: 'RAA-tree OO-tuh'),
+        ]),
+        Lesson(id: 'l18_3', title: 'Restaurant Phrases', description: 'Useful phrases', xpReward: 10, words: [
+          Word(kannada: 'Enu beku', english: 'What do you want', pronunciation: 'AY-noo BAY-koo'),
+          Word(kannada: 'Idu kodi', english: 'Give this', pronunciation: 'EE-doo KOH-dee'),
+          Word(kannada: 'Bill kodi', english: 'Give bill', pronunciation: 'bill KOH-dee'),
+        ]),
+      ],
+    ),
+
+    // Unit 19: Directions Basic
+    LessonUnit(
+      id: 'unit_19', title: 'Directions', subtitle: 'Left and right', emoji: '🧭', order: 19,
+      lessons: [
+        Lesson(id: 'l19_1', title: 'Left & Right', description: 'Basic directions', xpReward: 10, words: [
+          Word(kannada: 'Edakke', english: 'To the left', pronunciation: 'AY-duk-kay'),
+          Word(kannada: 'Balakke', english: 'To the right', pronunciation: 'BUH-luk-kay'),
+          Word(kannada: 'Nera', english: 'Straight', pronunciation: 'NAY-ruh'),
+          Word(kannada: 'Tirugi', english: 'Turn', pronunciation: 'tee-ROO-gee'),
+        ]),
+        Lesson(id: 'l19_2', title: 'Front & Back', description: 'Position words', xpReward: 10, words: [
+          Word(kannada: 'Munde', english: 'In front', pronunciation: 'MOON-day'),
+          Word(kannada: 'Hinde', english: 'Behind', pronunciation: 'HIN-day'),
+          Word(kannada: 'Mele', english: 'Above', pronunciation: 'MAY-lay'),
+          Word(kannada: 'Kelage', english: 'Below', pronunciation: 'KAY-luh-gay'),
+        ]),
+        Lesson(id: 'l19_3', title: 'Near & Far', description: 'Distance', xpReward: 10, words: [
+          Word(kannada: 'Hattira', english: 'Near', pronunciation: 'HUT-tee-ruh'),
+          Word(kannada: 'Doora', english: 'Far', pronunciation: 'DOO-ruh'),
+          Word(kannada: 'Eshtu doora', english: 'How far', pronunciation: 'ESH-too DOO-ruh'),
+        ]),
+      ],
+    ),
+
+    // Unit 20: Places
+    LessonUnit(
+      id: 'unit_20', title: 'Places', subtitle: 'Common locations', emoji: '🏪', order: 20,
+      lessons: [
+        Lesson(id: 'l20_1', title: 'Shops', description: 'Shopping places', xpReward: 10, words: [
+          Word(kannada: 'Angadi', english: 'Shop', pronunciation: 'UN-guh-dee'),
+          Word(kannada: 'Market', english: 'Market', pronunciation: 'MAR-ket'),
+          Word(kannada: 'Mall', english: 'Mall', pronunciation: 'mall'),
+          Word(kannada: 'Kirana angadi', english: 'Grocery shop', pronunciation: 'kee-RAA-nuh UN-guh-dee'),
+        ]),
+        Lesson(id: 'l20_2', title: 'Services', description: 'Service places', xpReward: 10, words: [
+          Word(kannada: 'Bank', english: 'Bank', pronunciation: 'bank'),
+          Word(kannada: 'Aspathre', english: 'Hospital', pronunciation: 'us-PUH-tray'),
+          Word(kannada: 'Police station', english: 'Police station', pronunciation: 'poh-LEES STAY-shun'),
+          Word(kannada: 'Post office', english: 'Post office', pronunciation: 'post OFF-iss'),
+        ]),
+        Lesson(id: 'l20_3', title: 'Public Places', description: 'Common places', xpReward: 10, words: [
+          Word(kannada: 'Bus stand', english: 'Bus stand', pronunciation: 'bus STAND'),
+          Word(kannada: 'Railway station', english: 'Railway station', pronunciation: 'RAIL-way STAY-shun'),
+          Word(kannada: 'Airport', english: 'Airport', pronunciation: 'AIR-port'),
+        ]),
+      ],
+    ),
+
+    // Unit 21: Transport
+    LessonUnit(
+      id: 'unit_21', title: 'Transport', subtitle: 'Getting around', emoji: '🚌', order: 21,
+      lessons: [
+        Lesson(id: 'l21_1', title: 'Vehicles', description: 'Transport types', xpReward: 10, words: [
+          Word(kannada: 'Bus', english: 'Bus', pronunciation: 'bus'),
+          Word(kannada: 'Auto', english: 'Auto rickshaw', pronunciation: 'AW-toh'),
+          Word(kannada: 'Taxi', english: 'Taxi', pronunciation: 'TAK-see'),
+          Word(kannada: 'Train', english: 'Train', pronunciation: 'train'),
+        ]),
+        Lesson(id: 'l21_2', title: 'Travel Words', description: 'Travel terms', xpReward: 10, words: [
+          Word(kannada: 'Ticket', english: 'Ticket', pronunciation: 'TIK-et'),
+          Word(kannada: 'Stop', english: 'Stop', pronunciation: 'stop'),
+          Word(kannada: 'Nillisi', english: 'Please stop', pronunciation: 'nil-LEE-see'),
+          Word(kannada: 'Hogi', english: 'Go', pronunciation: 'HOH-gee'),
+        ]),
+        Lesson(id: 'l21_3', title: 'Travel Phrases', description: 'Useful phrases', xpReward: 10, words: [
+          Word(kannada: '... ge hogbeku', english: 'Need to go to...', pronunciation: '... gay HOG-bay-koo'),
+          Word(kannada: 'Eshtu aagutte', english: 'How much will it cost', pronunciation: 'ESH-too AA-goo-tay'),
+          Word(kannada: 'Illi nillisi', english: 'Stop here', pronunciation: 'IL-lee nil-LEE-see'),
+        ]),
+      ],
+    ),
+
+    // Unit 22: Asking Directions
+    LessonUnit(
+      id: 'unit_22', title: 'Ask Directions', subtitle: 'Finding places', emoji: '🗺️', order: 22,
+      lessons: [
+        Lesson(id: 'l22_1', title: 'Where Is', description: 'Location questions', xpReward: 10, words: [
+          Word(kannada: '... ellide', english: 'Where is...', pronunciation: '... el-LEE-day'),
+          Word(kannada: 'Hege hogodu', english: 'How to go', pronunciation: 'HAY-gay HOH-goh-doo'),
+          Word(kannada: 'Daari', english: 'Way/Road', pronunciation: 'DAA-ree'),
+        ]),
+        Lesson(id: 'l22_2', title: 'Getting Help', description: 'Asking for help', xpReward: 10, words: [
+          Word(kannada: 'Dayavittu heliri', english: 'Please tell me', pronunciation: 'duh-yuh-VIT-too HAY-lee-ree'),
+          Word(kannada: 'Naanu hosa', english: 'I am new', pronunciation: 'NAH-noo HOH-suh'),
+          Word(kannada: 'Daari gottilla', english: 'Dont know the way', pronunciation: 'DAA-ree GOT-til-luh'),
+        ]),
+        Lesson(id: 'l22_3', title: 'Landmarks', description: 'Reference points', xpReward: 10, words: [
+          Word(kannada: 'Signal', english: 'Traffic light', pronunciation: 'SIG-nal'),
+          Word(kannada: 'Circle', english: 'Roundabout', pronunciation: 'SER-kul'),
+          Word(kannada: 'Cross', english: 'Intersection', pronunciation: 'cross'),
+        ]),
+      ],
+    ),
+
+    // Unit 23: Shopping
+    LessonUnit(
+      id: 'unit_23', title: 'Shopping', subtitle: 'Buying things', emoji: '🛒', order: 23,
+      lessons: [
+        Lesson(id: 'l23_1', title: 'Buy & Sell', description: 'Transaction words', xpReward: 10, words: [
+          Word(kannada: 'Kodee', english: 'Give', pronunciation: 'KOH-dee'),
+          Word(kannada: 'Beku', english: 'Want/Need', pronunciation: 'BAY-koo'),
+          Word(kannada: 'Thago', english: 'Take', pronunciation: 'THUH-goh'),
+          Word(kannada: 'Kharidi', english: 'Purchase', pronunciation: 'kuh-REE-dee'),
+        ]),
+        Lesson(id: 'l23_2', title: 'Price Talk', description: 'Negotiating', xpReward: 10, words: [
+          Word(kannada: 'Bele eshtu', english: 'How much is the price', pronunciation: 'BAY-lay ESH-too'),
+          Word(kannada: 'Tumba jaasti', english: 'Too expensive', pronunciation: 'THOOM-buh JAA-stee'),
+          Word(kannada: 'Kammi maadi', english: 'Reduce it', pronunciation: 'KUM-mee MAA-dee'),
+        ]),
+        Lesson(id: 'l23_3', title: 'Size & Color', description: 'Product details', xpReward: 10, words: [
+          Word(kannada: 'Dodda', english: 'Big', pronunciation: 'DOD-duh'),
+          Word(kannada: 'Chikka', english: 'Small', pronunciation: 'CHIK-kuh'),
+          Word(kannada: 'Banna', english: 'Color', pronunciation: 'BUN-nuh'),
+        ]),
+      ],
+    ),
+
+    // Unit 24: Colors
+    LessonUnit(
+      id: 'unit_24', title: 'Colors', subtitle: 'Basic colors', emoji: '🎨', order: 24,
+      lessons: [
+        Lesson(id: 'l24_1', title: 'Primary Colors', description: 'Main colors', xpReward: 10, words: [
+          Word(kannada: 'Kempu', english: 'Red', pronunciation: 'KEM-poo'),
+          Word(kannada: 'Neeli', english: 'Blue', pronunciation: 'NEE-lee'),
+          Word(kannada: 'Hasiru', english: 'Green', pronunciation: 'HUH-see-roo'),
+          Word(kannada: 'Haladi', english: 'Yellow', pronunciation: 'HUH-luh-dee'),
+        ]),
+        Lesson(id: 'l24_2', title: 'More Colors', description: 'Other colors', xpReward: 10, words: [
+          Word(kannada: 'Bili', english: 'White', pronunciation: 'BEE-lee'),
+          Word(kannada: 'Kappu', english: 'Black', pronunciation: 'KUP-poo'),
+          Word(kannada: 'Kittale', english: 'Orange', pronunciation: 'KIT-tuh-lay'),
+          Word(kannada: 'Neerali', english: 'Purple', pronunciation: 'nee-RUH-lee'),
+        ]),
+        Lesson(id: 'l24_3', title: 'Color Talk', description: 'Using colors', xpReward: 10, words: [
+          Word(kannada: 'Banna yavudu', english: 'What color', pronunciation: 'BUN-nuh YAH-voo-doo'),
+          Word(kannada: '... banna', english: '... color', pronunciation: '... BUN-nuh'),
+          Word(kannada: 'Chennaagide', english: 'Looks nice', pronunciation: 'chen-NAA-gee-day'),
+        ]),
+      ],
+    ),
+  ];
   
-  // ============ MONTH 3: Placeholder ============
-  static final month3Units = <LessonUnit>[];
+  // ============ MONTH 3: SOCIAL & PRACTICAL (Units 25-36) ============
+  static final month3Units = [
+    // Unit 25: Family Core
+    LessonUnit(
+      id: 'unit_25', title: 'Family Core', subtitle: 'Immediate family', emoji: '👨‍👩‍👧', order: 25,
+      lessons: [
+        Lesson(id: 'l25_1', title: 'Parents', description: 'Mom and Dad', xpReward: 10, words: [
+          Word(kannada: 'Appa', english: 'Father', pronunciation: 'UP-puh'),
+          Word(kannada: 'Amma', english: 'Mother', pronunciation: 'UM-muh'),
+          Word(kannada: 'Makkalu', english: 'Children', pronunciation: 'MUK-kuh-loo'),
+          Word(kannada: 'Kudumba', english: 'Family', pronunciation: 'koo-DOOM-buh'),
+        ]),
+        Lesson(id: 'l25_2', title: 'Siblings', description: 'Brothers and sisters', xpReward: 10, words: [
+          Word(kannada: 'Anna', english: 'Elder brother', pronunciation: 'UN-nuh'),
+          Word(kannada: 'Akka', english: 'Elder sister', pronunciation: 'UK-kuh'),
+          Word(kannada: 'Tamma', english: 'Younger brother', pronunciation: 'THUM-muh'),
+          Word(kannada: 'Tangi', english: 'Younger sister', pronunciation: 'THUN-gee'),
+        ]),
+        Lesson(id: 'l25_3', title: 'Spouse', description: 'Husband and wife', xpReward: 10, words: [
+          Word(kannada: 'Ganda', english: 'Husband', pronunciation: 'GUN-duh'),
+          Word(kannada: 'Hendti', english: 'Wife', pronunciation: 'HEN-d-tee'),
+          Word(kannada: 'Maduve', english: 'Marriage', pronunciation: 'MUH-doo-vay'),
+        ]),
+      ],
+    ),
+
+    // Unit 26: Family Extended
+    LessonUnit(
+      id: 'unit_26', title: 'Extended Family', subtitle: 'Relatives', emoji: '👴', order: 26,
+      lessons: [
+        Lesson(id: 'l26_1', title: 'Grandparents', description: 'Grandpa and Grandma', xpReward: 10, words: [
+          Word(kannada: 'Ajja', english: 'Grandfather', pronunciation: 'UJ-juh'),
+          Word(kannada: 'Ajji', english: 'Grandmother', pronunciation: 'UJ-jee'),
+          Word(kannada: 'Mommagalu', english: 'Grandson', pronunciation: 'MOM-muh-guh-loo'),
+          Word(kannada: 'Mommakalu', english: 'Grandchildren', pronunciation: 'MOM-muh-kuh-loo'),
+        ]),
+        Lesson(id: 'l26_2', title: 'Uncle & Aunt', description: 'Uncles and aunts', xpReward: 10, words: [
+          Word(kannada: 'Maava', english: 'Uncle (maternal)', pronunciation: 'MAA-vuh'),
+          Word(kannada: 'Atthe', english: 'Aunt (maternal)', pronunciation: 'UT-thay'),
+          Word(kannada: 'Chikkappa', english: 'Uncle (paternal younger)', pronunciation: 'CHIK-kup-puh'),
+          Word(kannada: 'Chikkamma', english: 'Aunt (paternal younger)', pronunciation: 'CHIK-kum-muh'),
+        ]),
+        Lesson(id: 'l26_3', title: 'Cousins', description: 'Cousins and relatives', xpReward: 10, words: [
+          Word(kannada: 'Banda', english: 'Relative', pronunciation: 'BUN-duh'),
+          Word(kannada: 'Shodara', english: 'Brother/Cousin', pronunciation: 'SHOH-duh-ruh'),
+          Word(kannada: 'Sodari', english: 'Sister/Cousin', pronunciation: 'SOH-duh-ree'),
+        ]),
+      ],
+    ),
+
+    // Unit 27: Time Words
+    LessonUnit(
+      id: 'unit_27', title: 'Time Words', subtitle: 'When and how long', emoji: '⏰', order: 27,
+      lessons: [
+        Lesson(id: 'l27_1', title: 'Now & Later', description: 'Time expressions', xpReward: 10, words: [
+          Word(kannada: 'Eega', english: 'Now', pronunciation: 'EE-guh'),
+          Word(kannada: 'Amele', english: 'Later', pronunciation: 'AH-may-lay'),
+          Word(kannada: 'Bega', english: 'Soon/Early', pronunciation: 'BAY-guh'),
+          Word(kannada: 'Thado', english: 'Late', pronunciation: 'THUH-doh'),
+        ]),
+        Lesson(id: 'l27_2', title: 'Day Parts', description: 'Parts of day', xpReward: 10, words: [
+          Word(kannada: 'Bellige', english: 'Morning', pronunciation: 'BEL-lee-gay'),
+          Word(kannada: 'Madhyahna', english: 'Afternoon', pronunciation: 'mud-YAH-nuh'),
+          Word(kannada: 'Sanje', english: 'Evening', pronunciation: 'SUN-jay'),
+          Word(kannada: 'Raatri', english: 'Night', pronunciation: 'RAA-tree'),
+        ]),
+        Lesson(id: 'l27_3', title: 'Duration', description: 'Time length', xpReward: 10, words: [
+          Word(kannada: 'Gante', english: 'Hour', pronunciation: 'GUN-tay'),
+          Word(kannada: 'Nimisha', english: 'Minute', pronunciation: 'nee-MEE-shuh'),
+          Word(kannada: 'Samaya', english: 'Time', pronunciation: 'suh-MY-uh'),
+        ]),
+      ],
+    ),
+
+    // Unit 28: Days of Week
+    LessonUnit(
+      id: 'unit_28', title: 'Days of Week', subtitle: 'Weekly schedule', emoji: '📅', order: 28,
+      lessons: [
+        Lesson(id: 'l28_1', title: 'Mon-Wed', description: 'First days', xpReward: 10, words: [
+          Word(kannada: 'Somavaara', english: 'Monday', pronunciation: 'SOH-muh-VAA-ruh'),
+          Word(kannada: 'Mangalavaara', english: 'Tuesday', pronunciation: 'mun-guh-luh-VAA-ruh'),
+          Word(kannada: 'Budhavaara', english: 'Wednesday', pronunciation: 'boo-dhuh-VAA-ruh'),
+        ]),
+        Lesson(id: 'l28_2', title: 'Thu-Sat', description: 'Middle days', xpReward: 10, words: [
+          Word(kannada: 'Guruvaara', english: 'Thursday', pronunciation: 'goo-roo-VAA-ruh'),
+          Word(kannada: 'Shukravaara', english: 'Friday', pronunciation: 'shook-ruh-VAA-ruh'),
+          Word(kannada: 'Shanivaara', english: 'Saturday', pronunciation: 'shuh-nee-VAA-ruh'),
+        ]),
+        Lesson(id: 'l28_3', title: 'Sunday', description: 'Weekend', xpReward: 10, words: [
+          Word(kannada: 'Bhanuvaara', english: 'Sunday', pronunciation: 'BHAA-noo-VAA-ruh'),
+          Word(kannada: 'Vaara', english: 'Week', pronunciation: 'VAA-ruh'),
+          Word(kannada: 'Dina', english: 'Day', pronunciation: 'DEE-nuh'),
+        ]),
+      ],
+    ),
+
+    // Unit 29: Time Telling
+    LessonUnit(
+      id: 'unit_29', title: 'Telling Time', subtitle: 'Clock reading', emoji: '🕐', order: 29,
+      lessons: [
+        Lesson(id: 'l29_1', title: 'Clock Words', description: 'Time telling', xpReward: 10, words: [
+          Word(kannada: 'Gante', english: 'Hour/OClock', pronunciation: 'GUN-tay'),
+          Word(kannada: 'Eshtu gante', english: 'What time', pronunciation: 'ESH-too GUN-tay'),
+          Word(kannada: 'Aarda', english: 'Half', pronunciation: 'AAR-duh'),
+        ]),
+        Lesson(id: 'l29_2', title: 'Specific Times', description: 'Time examples', xpReward: 10, words: [
+          Word(kannada: 'Ondu gante', english: 'One oclock', pronunciation: 'ON-doo GUN-tay'),
+          Word(kannada: 'Eradu gante', english: 'Two oclock', pronunciation: 'AY-ruh-doo GUN-tay'),
+          Word(kannada: 'Hattu gante', english: 'Ten oclock', pronunciation: 'HUT-too GUN-tay'),
+        ]),
+        Lesson(id: 'l29_3', title: 'Time Phrases', description: 'Common phrases', xpReward: 10, words: [
+          Word(kannada: 'Samaya aaytu', english: 'Time is up', pronunciation: 'suh-MY-uh AH-yee-too'),
+          Word(kannada: 'Thado aaytu', english: 'Its late', pronunciation: 'THUH-doh AH-yee-too'),
+        ]),
+      ],
+    ),
+
+    // Unit 30: Basic Verbs
+    LessonUnit(
+      id: 'unit_30', title: 'Basic Verbs', subtitle: 'Action words', emoji: '🏃', order: 30,
+      lessons: [
+        Lesson(id: 'l30_1', title: 'Movement', description: 'Go and come', xpReward: 10, words: [
+          Word(kannada: 'Hogu', english: 'Go', pronunciation: 'HOH-goo'),
+          Word(kannada: 'Baa', english: 'Come', pronunciation: 'BAA'),
+          Word(kannada: 'Nodu', english: 'See/Look', pronunciation: 'NOH-doo'),
+          Word(kannada: 'Nadee', english: 'Walk', pronunciation: 'nuh-DEE'),
+        ]),
+        Lesson(id: 'l30_2', title: 'Eating', description: 'Food verbs', xpReward: 10, words: [
+          Word(kannada: 'Tinnu', english: 'Eat', pronunciation: 'TIN-noo'),
+          Word(kannada: 'Kudi', english: 'Drink', pronunciation: 'KOO-dee'),
+          Word(kannada: 'Aadu', english: 'Cook', pronunciation: 'AA-doo'),
+        ]),
+        Lesson(id: 'l30_3', title: 'Actions', description: 'Common actions', xpReward: 10, words: [
+          Word(kannada: 'Maadu', english: 'Do/Make', pronunciation: 'MAA-doo'),
+          Word(kannada: 'Kodu', english: 'Give', pronunciation: 'KOH-doo'),
+          Word(kannada: 'Thago', english: 'Take', pronunciation: 'THUH-goh'),
+        ]),
+      ],
+    ),
+
+    // Unit 31: More Verbs
+    LessonUnit(
+      id: 'unit_31', title: 'More Verbs', subtitle: 'More actions', emoji: '💪', order: 31,
+      lessons: [
+        Lesson(id: 'l31_1', title: 'Speaking', description: 'Talk verbs', xpReward: 10, words: [
+          Word(kannada: 'Helu', english: 'Tell/Say', pronunciation: 'HAY-loo'),
+          Word(kannada: 'Kelu', english: 'Listen/Ask', pronunciation: 'KAY-loo'),
+          Word(kannada: 'Maathaadu', english: 'Speak/Talk', pronunciation: 'MAA-thaa-doo'),
+        ]),
+        Lesson(id: 'l31_2', title: 'Learning', description: 'Study verbs', xpReward: 10, words: [
+          Word(kannada: 'Kalituko', english: 'Learn', pronunciation: 'kuh-lee-TOO-koh'),
+          Word(kannada: 'Odi', english: 'Read', pronunciation: 'OH-dee'),
+          Word(kannada: 'Bareyiri', english: 'Write', pronunciation: 'buh-RAY-yee-ree'),
+        ]),
+        Lesson(id: 'l31_3', title: 'Living', description: 'Life verbs', xpReward: 10, words: [
+          Word(kannada: 'Irtu', english: 'Stay/Be', pronunciation: 'EER-too'),
+          Word(kannada: 'Malgu', english: 'Sleep', pronunciation: 'MUL-goo'),
+          Word(kannada: 'Yeddelu', english: 'Wake up', pronunciation: 'yed-DAY-loo'),
+        ]),
+      ],
+    ),
+
+    // Unit 32: Body Parts
+    LessonUnit(
+      id: 'unit_32', title: 'Body Parts', subtitle: 'Human body', emoji: '🦶', order: 32,
+      lessons: [
+        Lesson(id: 'l32_1', title: 'Head', description: 'Face parts', xpReward: 10, words: [
+          Word(kannada: 'Tale', english: 'Head', pronunciation: 'TUH-lay'),
+          Word(kannada: 'Kannu', english: 'Eye', pronunciation: 'KUN-noo'),
+          Word(kannada: 'Moogu', english: 'Nose', pronunciation: 'MOO-goo'),
+          Word(kannada: 'Baayi', english: 'Mouth', pronunciation: 'BAA-yee'),
+        ]),
+        Lesson(id: 'l32_2', title: 'Body', description: 'Body parts', xpReward: 10, words: [
+          Word(kannada: 'Kai', english: 'Hand', pronunciation: 'KYE'),
+          Word(kannada: 'Kaalu', english: 'Leg/Foot', pronunciation: 'KAA-loo'),
+          Word(kannada: 'Hotte', english: 'Stomach', pronunciation: 'HOT-tay'),
+          Word(kannada: 'Benna', english: 'Back', pronunciation: 'BEN-nuh'),
+        ]),
+        Lesson(id: 'l32_3', title: 'More Parts', description: 'Other parts', xpReward: 10, words: [
+          Word(kannada: 'Kivi', english: 'Ear', pronunciation: 'KEE-vee'),
+          Word(kannada: 'Hallu', english: 'Teeth', pronunciation: 'HUL-loo'),
+          Word(kannada: 'Koodalu', english: 'Hair', pronunciation: 'KOO-duh-loo'),
+        ]),
+      ],
+    ),
+
+    // Unit 33: Feelings
+    LessonUnit(
+      id: 'unit_33', title: 'Feelings', subtitle: 'Emotions', emoji: '😊', order: 33,
+      lessons: [
+        Lesson(id: 'l33_1', title: 'Happy & Sad', description: 'Basic emotions', xpReward: 10, words: [
+          Word(kannada: 'Khushi', english: 'Happy', pronunciation: 'KOO-shee'),
+          Word(kannada: 'Dukha', english: 'Sad', pronunciation: 'DOO-kuh'),
+          Word(kannada: 'Chennaagide', english: 'Im fine', pronunciation: 'chen-NAA-gee-day'),
+          Word(kannada: 'Saaku', english: 'Enough/Tired', pronunciation: 'SAA-koo'),
+        ]),
+        Lesson(id: 'l33_2', title: 'Need & Want', description: 'Physical needs', xpReward: 10, words: [
+          Word(kannada: 'Hasivu', english: 'Hungry', pronunciation: 'HUH-see-voo'),
+          Word(kannada: 'Baayarike', english: 'Thirsty', pronunciation: 'BAA-yuh-ree-kay'),
+          Word(kannada: 'Nidde', english: 'Sleepy', pronunciation: 'NID-day'),
+        ]),
+        Lesson(id: 'l33_3', title: 'Pain', description: 'Discomfort', xpReward: 10, words: [
+          Word(kannada: 'Novu', english: 'Pain', pronunciation: 'NOH-voo'),
+          Word(kannada: 'Tale novu', english: 'Headache', pronunciation: 'TUH-lay NOH-voo'),
+          Word(kannada: 'Hotte novu', english: 'Stomach ache', pronunciation: 'HOT-tay NOH-voo'),
+        ]),
+      ],
+    ),
+
+    // Unit 34: Weather
+    LessonUnit(
+      id: 'unit_34', title: 'Weather', subtitle: 'Climate words', emoji: '🌤️', order: 34,
+      lessons: [
+        Lesson(id: 'l34_1', title: 'Weather Types', description: 'Weather words', xpReward: 10, words: [
+          Word(kannada: 'Male', english: 'Rain', pronunciation: 'MUH-lay'),
+          Word(kannada: 'Bisilu', english: 'Sunlight/Hot', pronunciation: 'BEE-see-loo'),
+          Word(kannada: 'Chali', english: 'Cold', pronunciation: 'CHUH-lee'),
+          Word(kannada: 'Gaali', english: 'Wind', pronunciation: 'GAA-lee'),
+        ]),
+        Lesson(id: 'l34_2', title: 'Weather Talk', description: 'Describing weather', xpReward: 10, words: [
+          Word(kannada: 'Tumba bisilu', english: 'Very hot', pronunciation: 'THOOM-buh BEE-see-loo'),
+          Word(kannada: 'Male barthaade', english: 'Its raining', pronunciation: 'MUH-lay bar-THAA-day'),
+          Word(kannada: 'Chali aagutte', english: 'Its cold', pronunciation: 'CHUH-lee AA-goo-tay'),
+        ]),
+        Lesson(id: 'l34_3', title: 'Seasons', description: 'Season words', xpReward: 10, words: [
+          Word(kannada: 'Malegaala', english: 'Rainy season', pronunciation: 'MUH-lay-GAA-luh'),
+          Word(kannada: 'Chali gaala', english: 'Winter', pronunciation: 'CHUH-lee GAA-luh'),
+          Word(kannada: 'Bisilu gaala', english: 'Summer', pronunciation: 'BEE-see-loo GAA-luh'),
+        ]),
+      ],
+    ),
+
+    // Unit 35: Health
+    LessonUnit(
+      id: 'unit_35', title: 'Health', subtitle: 'Medical words', emoji: '🏥', order: 35,
+      lessons: [
+        Lesson(id: 'l35_1', title: 'Sick', description: 'Illness words', xpReward: 10, words: [
+          Word(kannada: 'Jaara', english: 'Fever', pronunciation: 'JAA-ruh'),
+          Word(kannada: 'Kemmu', english: 'Cough', pronunciation: 'KEM-moo'),
+          Word(kannada: 'Neli', english: 'Cold/Flu', pronunciation: 'NAY-lee'),
+          Word(kannada: 'Arogya', english: 'Health', pronunciation: 'aa-ROH-gyuh'),
+        ]),
+        Lesson(id: 'l35_2', title: 'Medical Help', description: 'Getting help', xpReward: 10, words: [
+          Word(kannada: 'Doctor', english: 'Doctor', pronunciation: 'DOK-tor'),
+          Word(kannada: 'Oushadhi', english: 'Medicine', pronunciation: 'ow-SHUH-dhee'),
+          Word(kannada: 'Aspathre', english: 'Hospital', pronunciation: 'us-PUH-tray'),
+        ]),
+        Lesson(id: 'l35_3', title: 'Recovery', description: 'Getting better', xpReward: 10, words: [
+          Word(kannada: 'Chennaagide', english: 'Im fine now', pronunciation: 'chen-NAA-gee-day'),
+          Word(kannada: 'Gunavaagithe', english: 'Getting better', pronunciation: 'goo-nuh-VAA-gee-thay'),
+          Word(kannada: 'Rest', english: 'Rest', pronunciation: 'rest'),
+        ]),
+      ],
+    ),
+
+    // Unit 36: Emergency
+    LessonUnit(
+      id: 'unit_36', title: 'Emergency', subtitle: 'Urgent help', emoji: '🚨', order: 36,
+      lessons: [
+        Lesson(id: 'l36_1', title: 'Help!', description: 'Emergency words', xpReward: 10, words: [
+          Word(kannada: 'Sahaya', english: 'Help', pronunciation: 'suh-HAA-yuh'),
+          Word(kannada: 'Sahaya beku', english: 'I need help', pronunciation: 'suh-HAA-yuh BAY-koo'),
+          Word(kannada: 'Police', english: 'Police', pronunciation: 'poh-LEES'),
+          Word(kannada: 'Ambulance', english: 'Ambulance', pronunciation: 'AM-byoo-lans'),
+        ]),
+        Lesson(id: 'l36_2', title: 'Danger', description: 'Warning words', xpReward: 10, words: [
+          Word(kannada: 'Apaya', english: 'Danger', pronunciation: 'uh-PAA-yuh'),
+          Word(kannada: 'Beega banni', english: 'Come quickly', pronunciation: 'BEE-guh BUN-nee'),
+          Word(kannada: 'Accident', english: 'Accident', pronunciation: 'AK-see-dent'),
+        ]),
+        Lesson(id: 'l36_3', title: 'Contact', description: 'Getting contact', xpReward: 10, words: [
+          Word(kannada: 'Phone number', english: 'Phone number', pronunciation: 'fone NUM-ber'),
+          Word(kannada: 'Call maadi', english: 'Please call', pronunciation: 'call MAA-dee'),
+          Word(kannada: 'Emergency', english: 'Emergency', pronunciation: 'ee-MER-jen-see'),
+        ]),
+      ],
+    ),
+  ];
 }

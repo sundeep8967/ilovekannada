@@ -107,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Namaskara, Alex! 👋',
+                  'Namaskara, ${ProgressService.userName}! 👋',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w700,
@@ -246,8 +246,8 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 ClipRRect(
                   borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
-                  child: Image.network(
-                    'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=400&fit=crop',
+                  child: Image.asset(
+                    'assets/images/lesson_card.jpg',
                     height: 150,
                     width: double.infinity,
                     fit: BoxFit.cover,
@@ -255,18 +255,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       return Container(
                         height: 150,
                         width: double.infinity,
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight,
-                            colors: [
-                              AppTheme.primary.withOpacity(0.3),
-                              AppTheme.primaryDark.withOpacity(0.5),
-                            ],
-                          ),
-                        ),
-                        child: const Center(
-                          child: Text('☕', style: TextStyle(fontSize: 60)),
+                        color: AppTheme.primary.withOpacity(0.3),
+                        child: Center(
+                          child: Text(_currentUnit.emoji, style: const TextStyle(fontSize: 60)),
                         ),
                       );
                     },
@@ -506,16 +497,24 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 const SizedBox(height: 18),
-                // Lesson nodes
+                // Lesson nodes - dynamic based on actual progress
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    _buildLessonNode(completed: true),
-                    _buildLessonNode(completed: true),
-                    _buildLessonNode(completed: true),
-                    _buildLessonNode(current: true, number: 4),
-                    _buildLessonNode(locked: true),
-                  ],
+                  children: List.generate(
+                    _currentUnit.lessons.length.clamp(1, 5),
+                    (i) {
+                      final lesson = _currentUnit.lessons[i];
+                      final isCompleted = ProgressService.isLessonCompleted(lesson.id);
+                      final prevCompleted = i == 0 || ProgressService.isLessonCompleted(_currentUnit.lessons[i - 1].id);
+                      final isCurrent = !isCompleted && prevCompleted;
+                      return _buildLessonNode(
+                        completed: isCompleted,
+                        current: isCurrent,
+                        locked: !isCompleted && !isCurrent,
+                        number: i + 1,
+                      );
+                    },
+                  ),
                 ),
               ],
             ),
