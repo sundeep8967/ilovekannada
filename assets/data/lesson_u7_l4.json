@@ -1,0 +1,146 @@
+{
+    "lesson_id": "u7_l4",
+    "title": "Receipts & Bills",
+    "objective": "Handle bills, receipts, invoices",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Receipt",
+            "word": {
+                "kannada": "Receipt",
+                "english": "Receipt",
+                "pronunciation": "Receipt"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Bill",
+            "word": {
+                "kannada": "Bill",
+                "english": "Bill",
+                "pronunciation": "Bill"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Invoice",
+            "word": {
+                "kannada": "Invoice",
+                "english": "Invoice",
+                "pronunciation": "Invoice"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Thappu",
+            "word": {
+                "kannada": "Thappu",
+                "english": "Wrong",
+                "pronunciation": "Thappu"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Get Receipt",
+            "question": "How do you ask for receipt?",
+            "options": [
+                "Receipt koDi",
+                "Receipt maaDi",
+                "Receipt beku",
+                "Receipt ideya"
+            ],
+            "correctAnswer": "Receipt koDi"
+        },
+        {
+            "type": "typeInput",
+            "title": "Check Bill",
+            "question": "Ask to check bill for errors",
+            "correctAnswer": [
+                "Bill check maaDi",
+                "bill check maadi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Bill Wrong",
+            "question": "How do you say 'Bill is wrong'?",
+            "options": [
+                "Bill thappu",
+                "Bill koDi",
+                "Bill maaDi",
+                "Bill ideya"
+            ],
+            "correctAnswer": "Bill thappu"
+        },
+        {
+            "type": "matching",
+            "title": "Match Bill Words",
+            "matchPairs": [
+                {
+                    "kannada": "Receipt koDi",
+                    "english": "Give receipt"
+                },
+                {
+                    "kannada": "Bill check maaDi",
+                    "english": "Check bill"
+                },
+                {
+                    "kannada": "Bill thappu",
+                    "english": "Bill wrong"
+                },
+                {
+                    "kannada": "Copy koDi",
+                    "english": "Give copy"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Get Copy",
+            "question": "Ask for copy of document",
+            "correctAnswer": [
+                "Copy koDi",
+                "copy kodi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Check bill, get receipt",
+            "options": [
+                "Bill check maaDi",
+                "Receipt koDi"
+            ],
+            "correctOrder": [
+                "Bill check maaDi",
+                "Receipt koDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Bill Phrases",
+            "question": "Receipts",
+            "feedback": "• Receipt koDi = Give receipt\n• Bill check maaDi = Check bill\n• Bill thappu = Bill is wrong\n• Copy koDi = Give copy\n• Invoice number enu? = Invoice number?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Billing",
+            "word": {
+                "kannada": "Bill check maaDi. Receipt koDi. Copy koDi.",
+                "english": "Check bill. Give receipt. Give copy.",
+                "pronunciation": "Bill check maaDi. Receipt koDi. Copy koDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Ask receipt",
+                "Check bills",
+                "Report errors",
+                "Handle billing!"
+            ]
+        }
+    ]
+}

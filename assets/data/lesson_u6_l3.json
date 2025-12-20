@@ -1,0 +1,148 @@
+{
+    "lesson_id": "u6_l3",
+    "title": "Repair People",
+    "objective": "Communicate with plumber, electrician",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Plumber",
+            "word": {
+                "kannada": "Plumber",
+                "english": "Plumber",
+                "pronunciation": "Plumber"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Electrician",
+            "word": {
+                "kannada": "Electrician",
+                "english": "Electrician",
+                "pronunciation": "Electrician"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Leak",
+            "word": {
+                "kannada": "Leak",
+                "english": "Leak",
+                "pronunciation": "Leak"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Fix",
+            "word": {
+                "kannada": "Fix",
+                "english": "Fix",
+                "pronunciation": "Fix"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Need Plumber",
+            "question": "How do you say 'Need plumber'?",
+            "options": [
+                "Plumber beku",
+                "Plumber koDi",
+                "Plumber baa",
+                "Plumber ideya"
+            ],
+            "correctAnswer": "Plumber beku"
+        },
+        {
+            "type": "typeInput",
+            "title": "Call Electrician",
+            "question": "Call electrician to come",
+            "correctAnswer": [
+                "Electrician baa",
+                "electrician baa"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Show Leak",
+            "question": "How do you say 'There's leak'?",
+            "options": [
+                "Leak ide",
+                "Leak beku",
+                "Leak koDi",
+                "Leak baa"
+            ],
+            "correctAnswer": "Leak ide"
+        },
+        {
+            "type": "matching",
+            "title": "Match Repair Words",
+            "matchPairs": [
+                {
+                    "kannada": "Plumber beku",
+                    "english": "Need plumber"
+                },
+                {
+                    "kannada": "Electrician baa",
+                    "english": "Electrician come"
+                },
+                {
+                    "kannada": "Leak ide",
+                    "english": "There's leak"
+                },
+                {
+                    "kannada": "Fix maaDi",
+                    "english": "Fix it"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Fix It",
+            "question": "Tell repair person to fix problem",
+            "correctAnswer": [
+                "Fix maaDi",
+                "fix maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Need plumber, there's leak, fix it",
+            "options": [
+                "Plumber beku",
+                "Leak ide",
+                "Fix maaDi"
+            ],
+            "correctOrder": [
+                "Plumber beku",
+                "Leak ide",
+                "Fix maaDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Repair Phrases",
+            "question": "Repair People",
+            "feedback": "• Plumber beku = Need plumber\n• Electrician baa = Electrician come\n• Leak ide = There's leak\n• Fix maaDi = Fix it\n• Repair ge eshTu? = How much for repair?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Repair Call",
+            "word": {
+                "kannada": "Electrician baa. Light problem. Fix maaDi.",
+                "english": "Electrician come. Light problem. Fix it.",
+                "pronunciation": "Electrician baa. Light problem. Fix maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Call plumber: Plumber beku",
+                "Call electrician: Electrician baa",
+                "Show problem: Leak ide",
+                "Handle repairs!"
+            ]
+        }
+    ]
+}

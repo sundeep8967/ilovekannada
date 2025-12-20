@@ -1,0 +1,149 @@
+{
+    "lesson_id": "u8_l2",
+    "title": "Doctor Visits",
+    "objective": "Communicate with doctor",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Doctor",
+            "word": {
+                "kannada": "Doctor",
+                "english": "Doctor",
+                "pronunciation": "Doctor"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Pain",
+            "word": {
+                "kannada": "Pain / Novu",
+                "english": "Pain",
+                "pronunciation": "Pain / Novu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Stomach",
+            "word": {
+                "kannada": "Stomach / Hotte",
+                "english": "Stomach",
+                "pronunciation": "Stomach / Hotte"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Appointment",
+            "word": {
+                "kannada": "Appointment",
+                "english": "Appointment",
+                "pronunciation": "Appointment"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Need Doctor",
+            "question": "How do you say 'Need doctor'?",
+            "options": [
+                "Doctor beku",
+                "Doctor koDi",
+                "Doctor baa",
+                "Doctor ideya"
+            ],
+            "correctAnswer": "Doctor beku"
+        },
+        {
+            "type": "typeInput",
+            "title": "Have Pain",
+            "question": "Tell doctor about pain",
+            "correctAnswer": [
+                "Pain ide",
+                "pain ide",
+                "Novu ide"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Stomach Issue",
+            "question": "How do you complain about stomach?",
+            "options": [
+                "Stomach problem",
+                "Stomach koDi",
+                "Stomach beku",
+                "Stomach baa"
+            ],
+            "correctAnswer": "Stomach problem"
+        },
+        {
+            "type": "matching",
+            "title": "Match Doctor Words",
+            "matchPairs": [
+                {
+                    "kannada": "Doctor beku",
+                    "english": "Need doctor"
+                },
+                {
+                    "kannada": "Pain ide",
+                    "english": "Have pain"
+                },
+                {
+                    "kannada": "Stomach problem",
+                    "english": "Stomach issue"
+                },
+                {
+                    "kannada": "Appointment ideya?",
+                    "english": "Have appointment?"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Check Appointment",
+            "question": "Ask about appointment",
+            "correctAnswer": [
+                "Appointment ideya",
+                "appointment ideya"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Visit",
+            "question": "Need doctor, stomach problem",
+            "options": [
+                "Doctor beku",
+                "Stomach problem",
+                "Pain ide"
+            ],
+            "correctOrder": [
+                "Doctor beku",
+                "Stomach problem",
+                "Pain ide"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Doctor Phrases",
+            "question": "Doctor Visit",
+            "feedback": "• Doctor beku = Need doctor\n• Pain ide = Have pain\n• Stomach problem = Stomach issue\n• Appointment ideya? = Have appointment?\n• Yav doctor available? = Which doctor?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Visit",
+            "word": {
+                "kannada": "Appointment ideya? Doctor beku. Stomach problem.",
+                "english": "Have appointment? Need doctor. Stomach problem.",
+                "pronunciation": "Appointment ideya? Doctor beku. Stomach problem."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Ask for doctor",
+                "Describe pain",
+                "Check appointment",
+                "Visit doctor!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "lesson_id": "u8_l4",
+    "title": "Emergency Calls",
+    "objective": "Handle emergency situations",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Emergency",
+            "word": {
+                "kannada": "Emergency",
+                "english": "Emergency",
+                "pronunciation": "Emergency"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Ambulance",
+            "word": {
+                "kannada": "Ambulance",
+                "english": "Ambulance",
+                "pronunciation": "Ambulance"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Accident",
+            "word": {
+                "kannada": "Accident",
+                "english": "Accident",
+                "pronunciation": "Accident"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Help",
+            "word": {
+                "kannada": "Help",
+                "english": "Help",
+                "pronunciation": "Help"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Emergency",
+            "question": "How do you shout for emergency?",
+            "options": [
+                "Emergency!",
+                "Help koDi",
+                "Ambulance maaDi",
+                "Accident beku"
+            ],
+            "correctAnswer": "Emergency!"
+        },
+        {
+            "type": "typeInput",
+            "title": "Need Ambulance",
+            "question": "Call for ambulance",
+            "correctAnswer": [
+                "Ambulance beku",
+                "ambulance beku"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Report Accident",
+            "question": "How do you report accident?",
+            "options": [
+                "Accident aagide",
+                "Accident koDi",
+                "Accident beku",
+                "Accident maaDi"
+            ],
+            "correctAnswer": "Accident aagide"
+        },
+        {
+            "type": "matching",
+            "title": "Match Emergency Words",
+            "matchPairs": [
+                {
+                    "kannada": "Emergency!",
+                    "english": "Emergency!"
+                },
+                {
+                    "kannada": "Ambulance beku",
+                    "english": "Need ambulance"
+                },
+                {
+                    "kannada": "Accident aagide",
+                    "english": "Accident happened"
+                },
+                {
+                    "kannada": "Help maaDi",
+                    "english": "Help me"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Ask Help",
+            "question": "Ask for immediate help",
+            "correctAnswer": [
+                "Help maaDi",
+                "help maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Emergency",
+            "question": "Accident, need ambulance, help",
+            "options": [
+                "Accident aagide",
+                "Ambulance beku",
+                "Help maaDi"
+            ],
+            "correctOrder": [
+                "Accident aagide",
+                "Ambulance beku",
+                "Help maaDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Emergency Phrases",
+            "question": "Emergencies",
+            "feedback": "• Emergency! = Emergency!\n• Ambulance beku = Need ambulance\n• Accident aagide = Accident happened\n• Help maaDi = Help me\n• Illi, hospital thaggi = Here, near hospital"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Emergency",
+            "word": {
+                "kannada": "Emergency! Accident aagide. Ambulance beku. Help maaDi.",
+                "english": "Emergency! Accident happened. Need ambulance. Help me.",
+                "pronunciation": "Emergency! Accident aagide. Ambulance beku. Help maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Call emergency",
+                "Request ambulance",
+                "Report accidents",
+                "Handle emergencies!"
+            ]
+        }
+    ]
+}

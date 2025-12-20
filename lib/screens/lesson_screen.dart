@@ -173,6 +173,44 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
          assetPath = 'assets/data/lesson_u5_l5.json';
        } else if (widget.lesson.id == 'u6_l1') {
          assetPath = 'assets/data/lesson_u6_l1.json';
+       } else if (widget.lesson.id == 'u6_l2') {
+         assetPath = 'assets/data/lesson_u6_l2.json';
+       } else if (widget.lesson.id == 'u6_l3') {
+         assetPath = 'assets/data/lesson_u6_l3.json';
+       } else if (widget.lesson.id == 'u6_l4') {
+         assetPath = 'assets/data/lesson_u6_l4.json';
+       } else if (widget.lesson.id == 'u6_l5') {
+         assetPath = 'assets/data/lesson_u6_l5.json';
+       } else if (widget.lesson.id == 'u7_l1') {
+         assetPath = 'assets/data/lesson_u7_l1.json';
+       } else if (widget.lesson.id == 'u7_l2') {
+         assetPath = 'assets/data/lesson_u7_l2.json';
+       } else if (widget.lesson.id == 'u7_l3') {
+         assetPath = 'assets/data/lesson_u7_l3.json';
+       } else if (widget.lesson.id == 'u7_l4') {
+         assetPath = 'assets/data/lesson_u7_l4.json';
+       } else if (widget.lesson.id == 'u7_l5') {
+         assetPath = 'assets/data/lesson_u7_l5.json';
+       } else if (widget.lesson.id == 'u8_l1') {
+         assetPath = 'assets/data/lesson_u8_l1.json';
+       } else if (widget.lesson.id == 'u8_l2') {
+         assetPath = 'assets/data/lesson_u8_l2.json';
+       } else if (widget.lesson.id == 'u8_l3') {
+         assetPath = 'assets/data/lesson_u8_l3.json';
+       } else if (widget.lesson.id == 'u8_l4') {
+         assetPath = 'assets/data/lesson_u8_l4.json';
+       } else if (widget.lesson.id == 'u8_l5') {
+         assetPath = 'assets/data/lesson_u8_l5.json';
+       } else if (widget.lesson.id == 'u9_l1') {
+         assetPath = 'assets/data/lesson_u9_l1.json';
+       } else if (widget.lesson.id == 'u9_l2') {
+         assetPath = 'assets/data/lesson_u9_l2.json';
+       } else if (widget.lesson.id == 'u9_l3') {
+         assetPath = 'assets/data/lesson_u9_l3.json';
+       } else if (widget.lesson.id == 'u9_l4') {
+         assetPath = 'assets/data/lesson_u9_l4.json';
+       } else if (widget.lesson.id == 'u9_l5') {
+         assetPath = 'assets/data/lesson_u9_l5.json';
        } else {
          // Fallback default
          assetPath = 'assets/data/lesson_u1_l1.json';

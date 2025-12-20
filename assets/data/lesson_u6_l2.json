@@ -1,0 +1,150 @@
+{
+    "lesson_id": "u6_l2",
+    "title": "Utility Problems",
+    "objective": "Handle electricity, water, gas issues",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Light",
+            "word": {
+                "kannada": "Light",
+                "english": "Electricity / Light",
+                "pronunciation": "Light"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Water",
+            "word": {
+                "kannada": "Water",
+                "english": "Water",
+                "pronunciation": "Water"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Gas",
+            "word": {
+                "kannada": "Gas",
+                "english": "Gas",
+                "pronunciation": "Gas"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Repair",
+            "word": {
+                "kannada": "Repair",
+                "english": "Repair",
+                "pronunciation": "Repair"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Power Cut",
+            "question": "How do you report 'No electricity'?",
+            "options": [
+                "Light illa",
+                "Light koDi",
+                "Light beku",
+                "Light ideya"
+            ],
+            "correctAnswer": "Light illa"
+        },
+        {
+            "type": "typeInput",
+            "title": "Water Issue",
+            "question": "Complain about water issue",
+            "correctAnswer": [
+                "Water problem",
+                "water problem"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Gas Empty",
+            "question": "How do you say gas cylinder is empty?",
+            "options": [
+                "Gas illa",
+                "Gas koDi",
+                "Gas beku",
+                "Gas problem"
+            ],
+            "correctAnswer": "Gas illa"
+        },
+        {
+            "type": "matching",
+            "title": "Match Utility Words",
+            "matchPairs": [
+                {
+                    "kannada": "Light illa",
+                    "english": "No electricity"
+                },
+                {
+                    "kannada": "Water problem",
+                    "english": "Water problem"
+                },
+                {
+                    "kannada": "Gas illa",
+                    "english": "No gas"
+                },
+                {
+                    "kannada": "Repair maaDi",
+                    "english": "Repair it"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Ask Repair",
+            "question": "Ask to repair something",
+            "correctAnswer": [
+                "Repair maaDi",
+                "repair maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Complaint",
+            "question": "Report: 'No light, water problem'",
+            "options": [
+                "Light",
+                "illa",
+                "Water",
+                "problem"
+            ],
+            "correctOrder": [
+                "Light",
+                "illa",
+                "Water",
+                "problem"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Utility Phrases",
+            "question": "Problems",
+            "feedback": "• Light illa = No electricity\n• Water problem = Water issue\n• Gas illa = No gas\n• Repair maaDi = Repair it\n• EshTu gante barthhe? = When will it come?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Report",
+            "word": {
+                "kannada": "Light illa. Water problem. Gas illa. Repair maaDi.",
+                "english": "No electricity. Water problem. No gas. Repair it.",
+                "pronunciation": "Light illa. Water problem. Gas illa. Repair maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Report power cut: Light illa",
+                "Water issues: Water problem",
+                "Gas empty: Gas illa",
+                "Handle utility problems!"
+            ]
+        }
+    ]
+}

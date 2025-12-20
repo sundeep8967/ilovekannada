@@ -1,0 +1,146 @@
+{
+    "lesson_id": "u7_l3",
+    "title": "Digital Payments",
+    "objective": "Handle UPI, PhonePe, GPay issues",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: UPI",
+            "word": {
+                "kannada": "UPI",
+                "english": "UPI",
+                "pronunciation": "UPI"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Scan",
+            "word": {
+                "kannada": "Scan",
+                "english": "Scan",
+                "pronunciation": "Scan"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Payment",
+            "word": {
+                "kannada": "Payment",
+                "english": "Payment",
+                "pronunciation": "Payment"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Failed",
+            "word": {
+                "kannada": "Failed",
+                "english": "Failed",
+                "pronunciation": "Failed"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Pay UPI",
+            "question": "How do you ask to pay by UPI?",
+            "options": [
+                "UPI maaDi",
+                "UPI koDi",
+                "UPI beku",
+                "UPI ideya"
+            ],
+            "correctAnswer": "UPI maaDi"
+        },
+        {
+            "type": "typeInput",
+            "title": "Scan QR",
+            "question": "Ask shopkeeper for QR code to scan",
+            "correctAnswer": [
+                "QR scan maaDi",
+                "qr scan maadi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Payment Failed",
+            "question": "How do you say payment failed?",
+            "options": [
+                "Payment failed",
+                "Payment maaDi",
+                "Payment koDi",
+                "Payment ideya"
+            ],
+            "correctAnswer": "Payment failed"
+        },
+        {
+            "type": "matching",
+            "title": "Match Payment Words",
+            "matchPairs": [
+                {
+                    "kannada": "UPI maaDi",
+                    "english": "Do UPI payment"
+                },
+                {
+                    "kannada": "QR scan maaDi",
+                    "english": "Scan QR code"
+                },
+                {
+                    "kannada": "Payment failed",
+                    "english": "Payment failed"
+                },
+                {
+                    "kannada": "Again try maaDi",
+                    "english": "Try again"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Try Again",
+            "question": "Ask to try payment again",
+            "correctAnswer": [
+                "Again try maaDi",
+                "again try maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Payment",
+            "question": "Payment failed, try again",
+            "options": [
+                "Payment failed",
+                "Again try maaDi"
+            ],
+            "correctOrder": [
+                "Payment failed",
+                "Again try maaDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Payment Phrases",
+            "question": "Digital Payments",
+            "feedback": "• UPI maaDi = Do UPI payment\n• QR scan maaDi = Scan QR code\n• Payment failed = Payment failed\n• Again try maaDi = Try again\n• Card payment maaDThira? = Can I pay by card?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Payment",
+            "word": {
+                "kannada": "UPI maaDi. QR scan maaDi. Payment failed. Again try.",
+                "english": "Do UPI. Scan QR. Payment failed. Try again.",
+                "pronunciation": "UPI maaDi. QR scan maaDi. Payment failed. Again try."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Pay by UPI",
+                "Scan QR codes",
+                "Handle failed payments",
+                "Master digital payments!"
+            ]
+        }
+    ]
+}

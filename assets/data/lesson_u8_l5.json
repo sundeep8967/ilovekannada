@@ -1,0 +1,133 @@
+{
+    "lesson_id": "u8_l5",
+    "title": "Health Mastery",
+    "objective": "Handle all health situations",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "Review: Pharmacy",
+            "word": {
+                "kannada": "Medicine koDi. Prescription ide.",
+                "english": "Give medicine. Have prescription.",
+                "pronunciation": "Medicine koDi. Prescription ide."
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Review: Emergency",
+            "word": {
+                "kannada": "Emergency! Ambulance beku.",
+                "english": "Emergency! Need ambulance.",
+                "pronunciation": "Emergency! Ambulance beku."
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Pharmacy Visit",
+            "question": "Visit pharmacy with prescription. Best phrase?",
+            "options": [
+                "Medicine koDi. Prescription ide",
+                "Emergency!",
+                "Doctor beku",
+                "Fever ide"
+            ],
+            "correctAnswer": "Medicine koDi. Prescription ide"
+        },
+        {
+            "type": "typeInput",
+            "title": "Doctor Without Appointment",
+            "question": "Doctor visit without appointment",
+            "correctAnswer": [
+                "Appointment illa. Doctor beku",
+                "appointment illa doctor beku"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Describe Symptoms",
+            "question": "Fever, cold, headache symptoms?",
+            "options": [
+                "Fever ide. Cold ide. Headache ide",
+                "Medicine koDi",
+                "Emergency!",
+                "Ambulance beku"
+            ],
+            "correctAnswer": "Fever ide. Cold ide. Headache ide"
+        },
+        {
+            "type": "matching",
+            "title": "Match Health Scenarios",
+            "matchPairs": [
+                {
+                    "kannada": "Medicine koDi",
+                    "english": "At pharmacy"
+                },
+                {
+                    "kannada": "Doctor beku",
+                    "english": "At clinic"
+                },
+                {
+                    "kannada": "Fever ide",
+                    "english": "Describing symptom"
+                },
+                {
+                    "kannada": "Emergency!",
+                    "english": "Crisis situation"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Emergency Call",
+            "question": "Accident, call ambulance",
+            "correctAnswer": [
+                "Emergency! Accident aagide. Ambulance beku",
+                "emergency accident aagide ambulance beku"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Full Health Day",
+            "question": "Describe pain location",
+            "options": [
+                "Illi",
+                "pain ide",
+                "Tumba",
+                "novu"
+            ],
+            "correctOrder": [
+                "Illi",
+                "pain ide",
+                "Tumba",
+                "novu"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Health Summary",
+            "question": "All Health",
+            "feedback": "PHARMACY: Medicine koDi, Prescription ide\nDOCTOR: Doctor beku, Appointment ideya?\nSYMPTOMS: Fever/Cold/Cough ide\nEMERGENCY: Emergency! Ambulance beku"
+        },
+        {
+            "type": "speaking",
+            "title": "Complete Health",
+            "word": {
+                "kannada": "Doctor beku. Fever ide. Medicine koDi. Emergency!",
+                "english": "Need doctor. Have fever. Give medicine. Emergency!",
+                "pronunciation": "Doctor beku. Fever ide. Medicine koDi. Emergency!"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "🏆 Health Mastery!",
+            "question": "You can now:",
+            "options": [
+                "Navigate pharmacy",
+                "Visit doctors",
+                "Describe symptoms",
+                "Handle emergencies",
+                "Manage all health situations!"
+            ]
+        }
+    ]
+}

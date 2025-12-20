@@ -1,0 +1,148 @@
+{
+    "lesson_id": "u7_l2",
+    "title": "ATM Problems",
+    "objective": "Handle ATM issues and transactions",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: ATM",
+            "word": {
+                "kannada": "ATM",
+                "english": "ATM",
+                "pronunciation": "ATM"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Card",
+            "word": {
+                "kannada": "Card",
+                "english": "Card",
+                "pronunciation": "Card"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Pin",
+            "word": {
+                "kannada": "Pin",
+                "english": "PIN",
+                "pronunciation": "Pin"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Cash",
+            "word": {
+                "kannada": "Cash",
+                "english": "Cash",
+                "pronunciation": "Cash"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "ATM Issue",
+            "question": "How do you report ATM not working?",
+            "options": [
+                "ATM problem",
+                "ATM koDi",
+                "ATM beku",
+                "ATM elli"
+            ],
+            "correctAnswer": "ATM problem"
+        },
+        {
+            "type": "typeInput",
+            "title": "Card Stuck",
+            "question": "Say card is stuck in machine",
+            "correctAnswer": [
+                "Card stuck",
+                "card stuck"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "No Cash",
+            "question": "How do you say ATM has no cash?",
+            "options": [
+                "Cash illa",
+                "Cash koDi",
+                "Cash beku",
+                "Cash ideya"
+            ],
+            "correctAnswer": "Cash illa"
+        },
+        {
+            "type": "matching",
+            "title": "Match ATM Words",
+            "matchPairs": [
+                {
+                    "kannada": "ATM problem",
+                    "english": "ATM problem"
+                },
+                {
+                    "kannada": "Card stuck",
+                    "english": "Card stuck"
+                },
+                {
+                    "kannada": "Pin change maaDi",
+                    "english": "Change PIN"
+                },
+                {
+                    "kannada": "Cash illa",
+                    "english": "No cash"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Other ATM",
+            "question": "Ask if there's another ATM",
+            "correctAnswer": [
+                "Bere ATM ideya",
+                "bere atm ideya"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Complaint",
+            "question": "ATM problem, card stuck, no cash",
+            "options": [
+                "ATM problem",
+                "Card stuck",
+                "Cash illa"
+            ],
+            "correctOrder": [
+                "ATM problem",
+                "Card stuck",
+                "Cash illa"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "ATM Phrases",
+            "question": "ATM Issues",
+            "feedback": "• ATM problem = ATM issue\n• Card stuck = Card stuck\n• Pin change maaDi = Change PIN\n• Cash illa = No cash\n• Bere ATM ideya? = Another ATM?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full ATM Issue",
+            "word": {
+                "kannada": "ATM problem. Card stuck. Bere ATM elli?",
+                "english": "ATM problem. Card stuck. Where is another ATM?",
+                "pronunciation": "ATM problem. Card stuck. Bere ATM elli?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Report ATM issues",
+                "Handle card problems",
+                "Find alternate ATM",
+                "Navigate ATM situations!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "lesson_id": "u8_l3",
+    "title": "Describing Symptoms",
+    "objective": "Describe medical symptoms clearly",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Fever",
+            "word": {
+                "kannada": "Fever / Jvara",
+                "english": "Fever",
+                "pronunciation": "Fever / Jvara"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Cold",
+            "word": {
+                "kannada": "Cold",
+                "english": "Cold",
+                "pronunciation": "Cold"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Cough",
+            "word": {
+                "kannada": "Cough",
+                "english": "Cough",
+                "pronunciation": "Cough"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Vomit",
+            "word": {
+                "kannada": "Vomit",
+                "english": "Vomit",
+                "pronunciation": "Vomit"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Have Fever",
+            "question": "How do you say 'Have fever'?",
+            "options": [
+                "Fever ide",
+                "Fever koDi",
+                "Fever beku",
+                "Fever maaDi"
+            ],
+            "correctAnswer": "Fever ide"
+        },
+        {
+            "type": "typeInput",
+            "title": "Have Cold",
+            "question": "Say you have cold",
+            "correctAnswer": [
+                "Cold ide",
+                "cold ide"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Cough Problem",
+            "question": "How do you complain about cough?",
+            "options": [
+                "Cough problem",
+                "Cough koDi",
+                "Cough beku",
+                "Cough ideya"
+            ],
+            "correctAnswer": "Cough problem"
+        },
+        {
+            "type": "matching",
+            "title": "Match Symptoms",
+            "matchPairs": [
+                {
+                    "kannada": "Fever ide",
+                    "english": "Have fever"
+                },
+                {
+                    "kannada": "Cold ide",
+                    "english": "Have cold"
+                },
+                {
+                    "kannada": "Cough problem",
+                    "english": "Cough issue"
+                },
+                {
+                    "kannada": "Vomit aaguthe",
+                    "english": "Vomiting"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Vomiting",
+            "question": "Say you are vomiting",
+            "correctAnswer": [
+                "Vomit aaguthe",
+                "vomit aaguthe"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Symptoms",
+            "question": "Fever, cold, cough",
+            "options": [
+                "Fever ide",
+                "Cold ide",
+                "Cough problem"
+            ],
+            "correctOrder": [
+                "Fever ide",
+                "Cold ide",
+                "Cough problem"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Symptom Phrases",
+            "question": "Symptoms",
+            "feedback": "• Fever ide = Have fever\n• Cold ide = Have cold\n• Cough problem = Cough issue\n• Vomit aaguthe = Vomiting\n• Ninne inda = Since yesterday"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Symptoms",
+            "word": {
+                "kannada": "Fever ide. Cold ide. Cough problem. Vomit aaguthe.",
+                "english": "Have fever. Have cold. Cough problem. Vomiting.",
+                "pronunciation": "Fever ide. Cold ide. Cough problem. Vomit aaguthe."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Describe fever",
+                "Report cold/cough",
+                "Explain vomiting",
+                "Communicate symptoms!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "lesson_id": "u9_l1",
+    "title": "Phone & Internet",
+    "objective": "Handle phone and internet issues",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Phone",
+            "word": {
+                "kannada": "Phone",
+                "english": "Phone",
+                "pronunciation": "Phone"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Internet",
+            "word": {
+                "kannada": "Internet",
+                "english": "Internet",
+                "pronunciation": "Internet"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Network",
+            "word": {
+                "kannada": "Network",
+                "english": "Network",
+                "pronunciation": "Network"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Sim",
+            "word": {
+                "kannada": "Sim",
+                "english": "SIM card",
+                "pronunciation": "Sim"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Phone Issue",
+            "question": "How do you complain about phone issue?",
+            "options": [
+                "Phone problem",
+                "Phone koDi",
+                "Phone beku",
+                "Phone ideya"
+            ],
+            "correctAnswer": "Phone problem"
+        },
+        {
+            "type": "typeInput",
+            "title": "No Internet",
+            "question": "Say no internet connection",
+            "correctAnswer": [
+                "Internet illa",
+                "internet illa"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "No Network",
+            "question": "How do you say no network?",
+            "options": [
+                "Network illa",
+                "Network koDi",
+                "Network beku",
+                "Network maaDi"
+            ],
+            "correctAnswer": "Network illa"
+        },
+        {
+            "type": "matching",
+            "title": "Match Tech Words",
+            "matchPairs": [
+                {
+                    "kannada": "Phone problem",
+                    "english": "Phone issue"
+                },
+                {
+                    "kannada": "Internet illa",
+                    "english": "No internet"
+                },
+                {
+                    "kannada": "Network illa",
+                    "english": "No network"
+                },
+                {
+                    "kannada": "Sim change maaDi",
+                    "english": "Change SIM"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Change SIM",
+            "question": "Ask to change SIM card",
+            "correctAnswer": [
+                "Sim change maaDi",
+                "sim change maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Complaint",
+            "question": "No network, no internet",
+            "options": [
+                "Network illa",
+                "Internet illa"
+            ],
+            "correctOrder": [
+                "Network illa",
+                "Internet illa"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Tech Phrases",
+            "question": "Phone/Internet",
+            "feedback": "• Phone problem = Phone issue\n• Internet illa = No internet\n• Network illa = No network\n• Sim change maaDi = Change SIM\n• Wi-Fi password enu? = Wi-Fi password?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Tech Issue",
+            "word": {
+                "kannada": "Phone problem. Network illa. Internet illa.",
+                "english": "Phone problem. No network. No internet.",
+                "pronunciation": "Phone problem. Network illa. Internet illa."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Report phone issues",
+                "Complain no internet",
+                "Handle network problems",
+                "Navigate tech issues!"
+            ]
+        }
+    ]
+}

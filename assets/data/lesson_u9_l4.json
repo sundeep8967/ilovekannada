@@ -1,0 +1,146 @@
+{
+    "lesson_id": "u9_l4",
+    "title": "Service Centers",
+    "objective": "Handle electronic repairs and services",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Service",
+            "word": {
+                "kannada": "Service",
+                "english": "Service",
+                "pronunciation": "Service"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Repair",
+            "word": {
+                "kannada": "Repair",
+                "english": "Repair",
+                "pronunciation": "Repair"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Warranty",
+            "word": {
+                "kannada": "Warranty",
+                "english": "Warranty",
+                "pronunciation": "Warranty"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Estimate",
+            "word": {
+                "kannada": "Estimate",
+                "english": "Estimate",
+                "pronunciation": "Estimate"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Find Service",
+            "question": "How do you ask 'Where is service center?'",
+            "options": [
+                "Service center elli?",
+                "Service center koDi",
+                "Service center beku",
+                "Service center maaDi"
+            ],
+            "correctAnswer": "Service center elli?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Repair Device",
+            "question": "Ask to repair device",
+            "correctAnswer": [
+                "Repair maaDi",
+                "repair maadi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Have Warranty",
+            "question": "How do you say product has warranty?",
+            "options": [
+                "Warranty ide",
+                "Warranty koDi",
+                "Warranty beku",
+                "Warranty maaDi"
+            ],
+            "correctAnswer": "Warranty ide"
+        },
+        {
+            "type": "matching",
+            "title": "Match Service Words",
+            "matchPairs": [
+                {
+                    "kannada": "Service center elli?",
+                    "english": "Service center where?"
+                },
+                {
+                    "kannada": "Repair maaDi",
+                    "english": "Repair it"
+                },
+                {
+                    "kannada": "Warranty ide",
+                    "english": "Have warranty"
+                },
+                {
+                    "kannada": "Estimate eshTu?",
+                    "english": "Estimate how much?"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Get Estimate",
+            "question": "Ask for repair estimate",
+            "correctAnswer": [
+                "Estimate eshTu",
+                "estimate eshtu"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Repair under warranty",
+            "options": [
+                "Repair maaDi",
+                "Warranty ide"
+            ],
+            "correctOrder": [
+                "Repair maaDi",
+                "Warranty ide"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Service Phrases",
+            "question": "Service Centers",
+            "feedback": "• Service center elli? = Where is service center?\n• Repair maaDi = Repair it\n• Warranty ide = Have warranty\n• Estimate eshTu? = How much estimate?\n• EshTu dinagalu? = How many days?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Service",
+            "word": {
+                "kannada": "Service center elli? Repair maaDi. Warranty ide. Estimate eshTu?",
+                "english": "Service center where? Repair it. Have warranty. Estimate?",
+                "pronunciation": "Service center elli? Repair maaDi. Warranty ide. Estimate eshTu?"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Find service centers",
+                "Request repairs",
+                "Claim warranty",
+                "Handle electronics!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "lesson_id": "u8_l1",
+    "title": "Pharmacy Basics",
+    "objective": "Buy medicines at pharmacy",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Medicine",
+            "word": {
+                "kannada": "Medicine",
+                "english": "Medicine",
+                "pronunciation": "Medicine"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Fever",
+            "word": {
+                "kannada": "Fever",
+                "english": "Fever",
+                "pronunciation": "Fever"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Headache",
+            "word": {
+                "kannada": "Headache",
+                "english": "Headache",
+                "pronunciation": "Headache"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Prescription",
+            "word": {
+                "kannada": "Prescription",
+                "english": "Prescription",
+                "pronunciation": "Prescription"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Get Medicine",
+            "question": "How do you ask for medicine?",
+            "options": [
+                "Medicine koDi",
+                "Medicine maaDi",
+                "Medicine beku",
+                "Medicine ideya"
+            ],
+            "correctAnswer": "Medicine koDi"
+        },
+        {
+            "type": "typeInput",
+            "title": "Fever Medicine",
+            "question": "Ask for fever medicine",
+            "correctAnswer": [
+                "Fever medicine koDi",
+                "fever medicine kodi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Headache",
+            "question": "How do you ask for headache tablet?",
+            "options": [
+                "Headache tablet koDi",
+                "Headache maaDi",
+                "Headache beku",
+                "Headache ideya"
+            ],
+            "correctAnswer": "Headache tablet koDi"
+        },
+        {
+            "type": "matching",
+            "title": "Match Pharmacy Words",
+            "matchPairs": [
+                {
+                    "kannada": "Medicine koDi",
+                    "english": "Give medicine"
+                },
+                {
+                    "kannada": "Fever medicine",
+                    "english": "Fever medicine"
+                },
+                {
+                    "kannada": "Headache tablet",
+                    "english": "Headache tablet"
+                },
+                {
+                    "kannada": "Prescription ide",
+                    "english": "Have prescription"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Have Prescription",
+            "question": "Say you have doctor's prescription",
+            "correctAnswer": [
+                "Prescription ide",
+                "prescription ide"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Fever and headache medicine",
+            "options": [
+                "Fever medicine koDi",
+                "Headache tablet koDi"
+            ],
+            "correctOrder": [
+                "Fever medicine koDi",
+                "Headache tablet koDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Pharmacy Phrases",
+            "question": "Pharmacy",
+            "feedback": "• Medicine koDi = Give medicine\n• Fever medicine = Fever medicine\n• Headache tablet = Headache tablet\n• Prescription ide = Have prescription\n• Generic medicine ideya? = Generic available?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Pharmacy",
+            "word": {
+                "kannada": "Fever medicine koDi. Headache tablet koDi. Prescription ide.",
+                "english": "Give fever medicine. Give headache tablet. Have prescription.",
+                "pronunciation": "Fever medicine koDi. Headache tablet koDi. Prescription ide."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Buy medicine",
+                "Ask for specific tablets",
+                "Show prescription",
+                "Navigate pharmacy!"
+            ]
+        }
+    ]
+}

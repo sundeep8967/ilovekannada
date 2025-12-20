@@ -1,0 +1,131 @@
+{
+    "lesson_id": "u7_l5",
+    "title": "Money Mastery",
+    "objective": "Handle all money situations",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "Review: Banking",
+            "word": {
+                "kannada": "Bank elli? Money deposit maaDi.",
+                "english": "Where is bank? Deposit money.",
+                "pronunciation": "Bank elli? Money deposit maaDi."
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Review: Payments",
+            "word": {
+                "kannada": "UPI maaDi. Receipt koDi.",
+                "english": "Do UPI. Give receipt.",
+                "pronunciation": "UPI maaDi. Receipt koDi."
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Bank Trip",
+            "question": "Find bank, deposit cash, get receipt. Best order?",
+            "options": [
+                "Bank elli? Money deposit maaDi. Receipt koDi",
+                "Receipt koDi. Bank elli?",
+                "UPI maaDi",
+                "ATM problem"
+            ],
+            "correctAnswer": "Bank elli? Money deposit maaDi. Receipt koDi"
+        },
+        {
+            "type": "typeInput",
+            "title": "ATM Card Stuck",
+            "question": "Report card stuck to guard",
+            "correctAnswer": [
+                "ATM problem. Card stuck",
+                "atm problem card stuck"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "UPI Failed",
+            "question": "Payment fails, what do you say?",
+            "options": [
+                "Payment failed. Again try maaDi",
+                "Bank elli?",
+                "Card stuck",
+                "Form koDi"
+            ],
+            "correctAnswer": "Payment failed. Again try maaDi"
+        },
+        {
+            "type": "matching",
+            "title": "Match All Money",
+            "matchPairs": [
+                {
+                    "kannada": "Bank elli?",
+                    "english": "Where is bank?"
+                },
+                {
+                    "kannada": "ATM problem",
+                    "english": "ATM issue"
+                },
+                {
+                    "kannada": "UPI maaDi",
+                    "english": "Do UPI"
+                },
+                {
+                    "kannada": "Receipt koDi",
+                    "english": "Give receipt"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Bill Error",
+            "question": "Find error in bill, ask correction",
+            "correctAnswer": [
+                "Bill thappu. Change maaDi",
+                "bill thappu change maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Full Transaction",
+            "question": "UPI payment flow",
+            "options": [
+                "UPI maaDi",
+                "QR scan maaDi",
+                "Receipt koDi"
+            ],
+            "correctOrder": [
+                "UPI maaDi",
+                "QR scan maaDi",
+                "Receipt koDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Money Summary",
+            "question": "All Money",
+            "feedback": "BANK: Bank elli? Deposit/Withdraw maaDi\nATM: ATM problem, Card stuck, Cash illa\nDIGITAL: UPI maaDi, QR scan, Failed\nBILLS: Receipt koDi, Bill thappu"
+        },
+        {
+            "type": "speaking",
+            "title": "Complete Money Day",
+            "word": {
+                "kannada": "Bank elli? Money deposit. UPI maaDi. Receipt koDi.",
+                "english": "Where is bank? Deposit money. Do UPI. Give receipt.",
+                "pronunciation": "Bank elli? Money deposit. UPI maaDi. Receipt koDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "🏆 Money Mastery!",
+            "question": "You can now:",
+            "options": [
+                "Handle banking",
+                "Navigate ATMs",
+                "Use digital payments",
+                "Manage bills",
+                "Handle all money situations!"
+            ]
+        }
+    ]
+}

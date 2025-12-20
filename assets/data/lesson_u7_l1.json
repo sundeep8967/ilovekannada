@@ -1,0 +1,146 @@
+{
+    "lesson_id": "u7_l1",
+    "title": "Bank Basics",
+    "objective": "Basic banking conversations",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Bank",
+            "word": {
+                "kannada": "Bank",
+                "english": "Bank",
+                "pronunciation": "Bank"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Money",
+            "word": {
+                "kannada": "Money",
+                "english": "Money",
+                "pronunciation": "Money"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Account",
+            "word": {
+                "kannada": "Account",
+                "english": "Account",
+                "pronunciation": "Account"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Form",
+            "word": {
+                "kannada": "Form",
+                "english": "Form",
+                "pronunciation": "Form"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Find Bank",
+            "question": "How do you ask 'Where is bank?'",
+            "options": [
+                "Bank elli?",
+                "Bank koDi?",
+                "Bank beku?",
+                "Bank ideya?"
+            ],
+            "correctAnswer": "Bank elli?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Deposit",
+            "question": "Ask to deposit money",
+            "correctAnswer": [
+                "Money deposit maaDi",
+                "money deposit maadi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Open Account",
+            "question": "How do you ask to open account?",
+            "options": [
+                "Account open maaDi",
+                "Account koDi",
+                "Account elli",
+                "Account beku"
+            ],
+            "correctAnswer": "Account open maaDi"
+        },
+        {
+            "type": "matching",
+            "title": "Match Bank Words",
+            "matchPairs": [
+                {
+                    "kannada": "Bank elli?",
+                    "english": "Where is bank?"
+                },
+                {
+                    "kannada": "Money deposit maaDi",
+                    "english": "Deposit money"
+                },
+                {
+                    "kannada": "Account open maaDi",
+                    "english": "Open account"
+                },
+                {
+                    "kannada": "Form koDi",
+                    "english": "Give form"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Get Form",
+            "question": "Ask for bank form",
+            "correctAnswer": [
+                "Form koDi",
+                "form kodi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Ask for form, deposit money",
+            "options": [
+                "Form koDi",
+                "Money deposit maaDi"
+            ],
+            "correctOrder": [
+                "Form koDi",
+                "Money deposit maaDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Bank Phrases",
+            "question": "Banking",
+            "feedback": "• Bank elli? = Where is bank?\n• Money deposit maaDi = Deposit money\n• Account open maaDi = Open account\n• Form koDi = Give form\n• Yav counter? = Which counter?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Banking",
+            "word": {
+                "kannada": "Bank elli? Form koDi. Money deposit maaDi.",
+                "english": "Where is bank? Give form. Deposit money.",
+                "pronunciation": "Bank elli? Form koDi. Money deposit maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Find bank: Bank elli?",
+                "Deposit: Money deposit maaDi",
+                "Open account",
+                "Handle banking!"
+            ]
+        }
+    ]
+}

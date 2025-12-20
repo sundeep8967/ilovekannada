@@ -1,0 +1,146 @@
+{
+    "lesson_id": "u9_l2",
+    "title": "Delivery Apps",
+    "objective": "Handle Swiggy, Zomato, Amazon deliveries",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Delivery",
+            "word": {
+                "kannada": "Delivery",
+                "english": "Delivery",
+                "pronunciation": "Delivery"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Order",
+            "word": {
+                "kannada": "Order",
+                "english": "Order",
+                "pronunciation": "Order"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Late",
+            "word": {
+                "kannada": "Late",
+                "english": "Late",
+                "pronunciation": "Late"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Wrong",
+            "word": {
+                "kannada": "Wrong",
+                "english": "Wrong",
+                "pronunciation": "Wrong"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Find Delivery",
+            "question": "How do you ask 'Where is delivery?'",
+            "options": [
+                "Delivery elli?",
+                "Delivery koDi",
+                "Delivery beku",
+                "Delivery maaDi"
+            ],
+            "correctAnswer": "Delivery elli?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Order Late",
+            "question": "Complain about late delivery",
+            "correctAnswer": [
+                "Order late",
+                "order late"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Wrong Item",
+            "question": "How do you say wrong item delivered?",
+            "options": [
+                "Wrong item",
+                "Wrong koDi",
+                "Wrong beku",
+                "Wrong maaDi"
+            ],
+            "correctAnswer": "Wrong item"
+        },
+        {
+            "type": "matching",
+            "title": "Match Delivery Words",
+            "matchPairs": [
+                {
+                    "kannada": "Delivery elli?",
+                    "english": "Where is delivery?"
+                },
+                {
+                    "kannada": "Order late",
+                    "english": "Order is late"
+                },
+                {
+                    "kannada": "Wrong item",
+                    "english": "Wrong item"
+                },
+                {
+                    "kannada": "Cancel maaDi",
+                    "english": "Cancel it"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Cancel Order",
+            "question": "Ask to cancel order",
+            "correctAnswer": [
+                "Cancel maaDi",
+                "cancel maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Complaint",
+            "question": "Late, wrong item",
+            "options": [
+                "Order late",
+                "Wrong item"
+            ],
+            "correctOrder": [
+                "Order late",
+                "Wrong item"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Delivery Phrases",
+            "question": "Deliveries",
+            "feedback": "• Delivery elli? = Where is delivery?\n• Order late = Order is late\n• Wrong item = Wrong item\n• Cancel maaDi = Cancel it\n• Mele barthira? = Can you come up?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Delivery",
+            "word": {
+                "kannada": "Delivery elli? Order late. Wrong item. Cancel maaDi.",
+                "english": "Where is delivery? Order late. Wrong item. Cancel.",
+                "pronunciation": "Delivery elli? Order late. Wrong item. Cancel maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Track delivery",
+                "Complain late orders",
+                "Report wrong items",
+                "Handle delivery apps!"
+            ]
+        }
+    ]
+}

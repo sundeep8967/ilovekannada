@@ -1,0 +1,131 @@
+{
+    "lesson_id": "u9_l5",
+    "title": "Tech Mastery",
+    "objective": "Handle all tech and service situations",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "Review: Phone/Internet",
+            "word": {
+                "kannada": "Phone problem. Internet illa.",
+                "english": "Phone problem. No internet.",
+                "pronunciation": "Phone problem. Internet illa."
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Review: Delivery/Cab",
+            "word": {
+                "kannada": "Delivery elli? Cab elli?",
+                "english": "Where delivery? Where cab?",
+                "pronunciation": "Delivery elli? Cab elli?"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Phone Issues",
+            "question": "Handle phone: No network, need service. Best phrase?",
+            "options": [
+                "Phone problem. Network illa. Service center elli?",
+                "Delivery elli?",
+                "Cab elli?",
+                "Order late"
+            ],
+            "correctAnswer": "Phone problem. Network illa. Service center elli?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Delivery Problem",
+            "question": "Food delivery: Late, wrong item, ask cancel",
+            "correctAnswer": [
+                "Order late. Wrong item. Cancel maaDi",
+                "order late wrong item cancel maadi"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Cab Issue",
+            "question": "Cab app shows wrong location, what do you say?",
+            "options": [
+                "Location thappu. Wait maaDi",
+                "Delivery elli?",
+                "Phone problem",
+                "Network illa"
+            ],
+            "correctAnswer": "Location thappu. Wait maaDi"
+        },
+        {
+            "type": "matching",
+            "title": "Match All Tech",
+            "matchPairs": [
+                {
+                    "kannada": "Phone problem",
+                    "english": "Phone issue"
+                },
+                {
+                    "kannada": "Delivery elli?",
+                    "english": "Where delivery?"
+                },
+                {
+                    "kannada": "Cab elli?",
+                    "english": "Where cab?"
+                },
+                {
+                    "kannada": "Repair maaDi",
+                    "english": "Repair it"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Laptop Repair",
+            "question": "Laptop repair under warranty",
+            "correctAnswer": [
+                "Laptop problem. Repair maaDi. Warranty ide",
+                "laptop problem repair maadi warranty ide"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Full Tech Day",
+            "question": "Phone issue, service center",
+            "options": [
+                "Phone problem",
+                "Network illa",
+                "Service center elli?"
+            ],
+            "correctOrder": [
+                "Phone problem",
+                "Network illa",
+                "Service center elli?"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Tech Summary",
+            "question": "All Tech",
+            "feedback": "PHONE: Phone problem, Network illa\nDELIVERY: Delivery elli? Order late, Wrong item\nCAB: Cab elli? Location thappu\nSERVICE: Repair maaDi, Warranty ide"
+        },
+        {
+            "type": "speaking",
+            "title": "Complete Tech",
+            "word": {
+                "kannada": "Phone problem. Delivery elli? Cab elli? Repair maaDi.",
+                "english": "Phone problem. Where delivery? Where cab? Repair it.",
+                "pronunciation": "Phone problem. Delivery elli? Cab elli? Repair maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "🏆 CONGRATULATIONS!",
+            "question": "You've completed 45 lessons! You can now:",
+            "options": [
+                "Handle phone/internet issues",
+                "Navigate delivery apps",
+                "Use cab services",
+                "Visit service centers",
+                "🎉 LIVE COMFORTABLY IN BANGALORE!"
+            ]
+        }
+    ]
+}

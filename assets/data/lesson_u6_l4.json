@@ -1,0 +1,148 @@
+{
+    "lesson_id": "u6_l4",
+    "title": "Neighbor Interactions",
+    "objective": "Basic conversations with neighbors",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Neighbor",
+            "word": {
+                "kannada": "Neighbor",
+                "english": "Neighbor",
+                "pronunciation": "Neighbor"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Noise",
+            "word": {
+                "kannada": "Noise",
+                "english": "Noise",
+                "pronunciation": "Noise"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Parking",
+            "word": {
+                "kannada": "Parking",
+                "english": "Parking",
+                "pronunciation": "Parking"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Help",
+            "word": {
+                "kannada": "Help",
+                "english": "Help",
+                "pronunciation": "Help"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Greet Neighbor",
+            "question": "How do you greet neighbor politely?",
+            "options": [
+                "Namaskara",
+                "Noise jaasti",
+                "Help maaDi",
+                "Parking"
+            ],
+            "correctAnswer": "Namaskara"
+        },
+        {
+            "type": "typeInput",
+            "title": "Noise Complaint",
+            "question": "Complain about noise politely",
+            "correctAnswer": [
+                "Noise jaasti",
+                "noise jaasti"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Parking Issue",
+            "question": "How do you discuss parking issue?",
+            "options": [
+                "Parking problem",
+                "Parking koDi",
+                "Parking baa",
+                "Parking ideya"
+            ],
+            "correctAnswer": "Parking problem"
+        },
+        {
+            "type": "matching",
+            "title": "Match Neighbor Words",
+            "matchPairs": [
+                {
+                    "kannada": "Namaskara",
+                    "english": "Hello"
+                },
+                {
+                    "kannada": "Noise jaasti",
+                    "english": "Too much noise"
+                },
+                {
+                    "kannada": "Parking problem",
+                    "english": "Parking problem"
+                },
+                {
+                    "kannada": "Help maaDi",
+                    "english": "Help me"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Ask Help",
+            "question": "Ask neighbor for help",
+            "correctAnswer": [
+                "Help maaDi",
+                "help maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Conversation",
+            "question": "Greet, then discuss noise",
+            "options": [
+                "Namaskara",
+                "Noise",
+                "jaasti"
+            ],
+            "correctOrder": [
+                "Namaskara",
+                "Noise",
+                "jaasti"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Neighbor Phrases",
+            "question": "Neighbors",
+            "feedback": "• Namaskara = Hello/Greetings\n• Noise jaasti = Too much noise\n• Parking problem = Parking issue\n• Help maaDi = Help me\n• Yav flat? = Which flat?"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Interaction",
+            "word": {
+                "kannada": "Namaskara. Parking problem. Help maaDi.",
+                "english": "Hello. Parking problem. Help me.",
+                "pronunciation": "Namaskara. Parking problem. Help maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Greet: Namaskara",
+                "Complain: Noise jaasti",
+                "Discuss: Parking problem",
+                "Interact with neighbors!"
+            ]
+        }
+    ]
+}

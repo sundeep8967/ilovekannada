@@ -1,0 +1,146 @@
+{
+    "lesson_id": "u9_l3",
+    "title": "Cab Services",
+    "objective": "Handle Ola, Uber with drivers",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Cab",
+            "word": {
+                "kannada": "Cab",
+                "english": "Cab",
+                "pronunciation": "Cab"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Location",
+            "word": {
+                "kannada": "Location",
+                "english": "Location",
+                "pronunciation": "Location"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Wait",
+            "word": {
+                "kannada": "Wait",
+                "english": "Wait",
+                "pronunciation": "Wait"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Cancel",
+            "word": {
+                "kannada": "Cancel",
+                "english": "Cancel",
+                "pronunciation": "Cancel"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Find Cab",
+            "question": "How do you ask 'Where is cab?'",
+            "options": [
+                "Cab elli?",
+                "Cab koDi",
+                "Cab beku",
+                "Cab maaDi"
+            ],
+            "correctAnswer": "Cab elli?"
+        },
+        {
+            "type": "typeInput",
+            "title": "Wrong Location",
+            "question": "Tell driver location is wrong on app",
+            "correctAnswer": [
+                "Location thappu",
+                "location thappu"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Ask Wait",
+            "question": "How do you ask driver to wait?",
+            "options": [
+                "Wait maaDi",
+                "Wait koDi",
+                "Wait beku",
+                "Wait ideya"
+            ],
+            "correctAnswer": "Wait maaDi"
+        },
+        {
+            "type": "matching",
+            "title": "Match Cab Words",
+            "matchPairs": [
+                {
+                    "kannada": "Cab elli?",
+                    "english": "Where is cab?"
+                },
+                {
+                    "kannada": "Location thappu",
+                    "english": "Wrong location"
+                },
+                {
+                    "kannada": "Wait maaDi",
+                    "english": "Wait"
+                },
+                {
+                    "kannada": "Cancel maaDi",
+                    "english": "Cancel"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Cancel Ride",
+            "question": "Ask to cancel ride",
+            "correctAnswer": [
+                "Cancel maaDi",
+                "cancel maadi"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Build Request",
+            "question": "Wrong location, wait",
+            "options": [
+                "Location thappu",
+                "Wait maaDi"
+            ],
+            "correctOrder": [
+                "Location thappu",
+                "Wait maaDi"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Cab Phrases",
+            "question": "Cab Services",
+            "feedback": "• Cab elli? = Where is cab?\n• Location thappu = Wrong location\n• Wait maaDi = Wait\n• Cancel maaDi = Cancel\n• Traffic jaasti = Too much traffic"
+        },
+        {
+            "type": "speaking",
+            "title": "Full Cab Ride",
+            "word": {
+                "kannada": "Cab elli? Location thappu. Wait maaDi.",
+                "english": "Where is cab? Wrong location. Wait.",
+                "pronunciation": "Cab elli? Location thappu. Wait maaDi."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You can now:",
+            "options": [
+                "Find cab",
+                "Report location issues",
+                "Ask driver to wait",
+                "Navigate cab services!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "lesson_id": "u6_l5",
+    "title": "Home Management",
+    "objective": "Handle all home-related situations",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "Review: House Help",
+            "word": {
+                "kannada": "Swaccha maaDi. Oota ready maaDi.",
+                "english": "Clean. Make food ready.",
+                "pronunciation": "Swaccha maaDi. Oota ready maaDi."
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Review: Utilities",
+            "word": {
+                "kannada": "Light illa. Water problem.",
+                "english": "No electricity. Water problem.",
+                "pronunciation": "Light illa. Water problem."
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Manage Maid",
+            "question": "Give maid instructions and schedule. Best phrase?",
+            "options": [
+                "Illi swaccha maaDi. Tomorrow baa",
+                "Light illa",
+                "Plumber beku",
+                "Namaskara"
+            ],
+            "correctAnswer": "Illi swaccha maaDi. Tomorrow baa"
+        },
+        {
+            "type": "typeInput",
+            "title": "Report Utilities",
+            "question": "Report utility problems to watchman",
+            "correctAnswer": [
+                "Light illa. Water problem",
+                "light illa water problem"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Call Plumber",
+            "question": "How to call plumber for bathroom leak?",
+            "options": [
+                "Plumber beku. Leak ide",
+                "Namaskara",
+                "Tomorrow baa",
+                "Help maaDi"
+            ],
+            "correctAnswer": "Plumber beku. Leak ide"
+        },
+        {
+            "type": "matching",
+            "title": "Match Home Scenarios",
+            "matchPairs": [
+                {
+                    "kannada": "Swaccha maaDi",
+                    "english": "To maid"
+                },
+                {
+                    "kannada": "Light illa",
+                    "english": "To watchman"
+                },
+                {
+                    "kannada": "Plumber beku",
+                    "english": "For repairs"
+                },
+                {
+                    "kannada": "Noise jaasti",
+                    "english": "To neighbor"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Noise Complaint",
+            "question": "Complain to neighbor about noise politely",
+            "correctAnswer": [
+                "Namaskara. Noise jaasti",
+                "namaskara noise jaasti"
+            ]
+        },
+        {
+            "type": "assemble",
+            "title": "Full Instructions",
+            "question": "Maid instructions: Clean, make food, come tomorrow",
+            "options": [
+                "Swaccha maaDi",
+                "Oota ready maaDi",
+                "Tomorrow baa"
+            ],
+            "correctOrder": [
+                "Swaccha maaDi",
+                "Oota ready maaDi",
+                "Tomorrow baa"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Home Summary",
+            "question": "All Home",
+            "feedback": "HOUSE HELP: Swaccha/Ready/Close maaDi\nUTILITIES: Light/Water/Gas illa\nREPAIRS: Plumber/Electrician beku\nNEIGHBORS: Namaskara, problem discuss"
+        },
+        {
+            "type": "speaking",
+            "title": "Complete Home Day",
+            "word": {
+                "kannada": "Swaccha maaDi. Light illa. Plumber beku. Namaskara neighbor.",
+                "english": "Clean. No electricity. Need plumber. Hello neighbor.",
+                "pronunciation": "Swaccha maaDi. Light illa. Plumber beku. Namaskara neighbor."
+            }
+        },
+        {
+            "type": "summary",
+            "title": "🏆 Home Management Mastery!",
+            "question": "You can now:",
+            "options": [
+                "Manage house help",
+                "Handle utility problems",
+                "Call repair people",
+                "Interact with neighbors",
+                "Run your Bangalore home!"
+            ]
+        }
+    ]
+}
