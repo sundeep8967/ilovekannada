@@ -1,0 +1,154 @@
+{
+    "lesson_id": "u1_l5",
+    "title": "Unit 1 Review",
+    "objective": "Review all words and phrases from Unit 1",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "Review: Greetings",
+            "word": {
+                "kannada": "Namaskara",
+                "english": "Hello",
+                "pronunciation": "Namaskara"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "Review: Responses",
+            "word": {
+                "kannada": "Howdu / Illa",
+                "english": "Yes / No",
+                "pronunciation": "Howdu / Illa"
+            }
+        },
+        {
+            "type": "matching",
+            "title": "Match All Greetings",
+            "matchPairs": [
+                {
+                    "kannada": "Namaskara",
+                    "english": "Hello"
+                },
+                {
+                    "kannada": "Dhanyavadagalu",
+                    "english": "Thank you"
+                },
+                {
+                    "kannada": "Howdu",
+                    "english": "Yes"
+                },
+                {
+                    "kannada": "Illa",
+                    "english": "No"
+                }
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Review Quiz",
+            "question": "What does 'Nanna hesaru' mean?",
+            "options": [
+                "My name",
+                "Your name",
+                "Who are you?",
+                "Thank you"
+            ],
+            "correctAnswer": "My name"
+        },
+        {
+            "type": "quiz",
+            "title": "True or False",
+            "question": "'Dhanyavadagalu, nimage?' means 'Thank you, and you?'",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "matching",
+            "title": "Match Phrases",
+            "matchPairs": [
+                {
+                    "kannada": "Idu enu?",
+                    "english": "What is this?"
+                },
+                {
+                    "kannada": "Neevu ellige?",
+                    "english": "Where are you?"
+                },
+                {
+                    "kannada": "Hege hogutteera?",
+                    "english": "How are you going?"
+                },
+                {
+                    "kannada": "Chennagiddini",
+                    "english": "I am fine"
+                }
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Translate",
+            "question": "Translate to Kannada: 'Hello, I am Rohan. How are you?'",
+            "correctAnswer": [
+                "Namaskara naanu Rohan hegiddira",
+                "namaskara naanu rohan hegiddira",
+                "Namaskara, naanu Rohan. Hegiddira?"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Conversation Check",
+            "question": "Which is NOT a correct response to 'Hegiddira?'",
+            "options": [
+                "Chennagiddini.",
+                "Howdu.",
+                "Chennagiddini. Nimage?"
+            ],
+            "correctAnswer": "Howdu."
+        },
+        {
+            "type": "assemble",
+            "title": "Build Introduction",
+            "question": "Arrange: Greet and introduce yourself",
+            "options": [
+                "Naanu",
+                "Namaskara",
+                "Vikram"
+            ],
+            "correctOrder": [
+                "Namaskara",
+                "Naanu",
+                "Vikram"
+            ]
+        },
+        {
+            "type": "speaking",
+            "title": "Full Conversation",
+            "word": {
+                "kannada": "Namaskara Hegiddira Chennagiddini Dhanyavadagalu",
+                "english": "Hello, How are you?, I am fine, Thank you",
+                "pronunciation": "Namaskara Hegiddira Chennagiddini Dhanyavadagalu"
+            }
+        },
+        {
+            "type": "grammar",
+            "title": "Unit 1 Summary",
+            "question": "What You Learned",
+            "feedback": "Unit 1 covered:\n• Greetings: Namaskara, Dhanyavadagalu\n• Responses: Howdu, Illa\n• Introductions: Naanu, Nanna hesaru\n• Asking about well-being: Hegiddira?\n• Question words: Yaaru, Enu, Ellige, Hege"
+        },
+        {
+            "type": "summary",
+            "title": "🏆 Unit 1 Complete!",
+            "question": "You've mastered:",
+            "options": [
+                "Basic greetings & responses",
+                "Introducing yourself",
+                "Asking 'How are you?'",
+                "Question words (Who, What, Where, How)",
+                "Ready for Unit 2: Numbers!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "lesson_id": "u1_l4",
+    "title": "Basic Questions",
+    "objective": "Learn common question words and simple questions",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Yaaru",
+            "word": {
+                "kannada": "Yaaru",
+                "english": "Who",
+                "pronunciation": "Yaaru"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Enu",
+            "word": {
+                "kannada": "Enu",
+                "english": "What",
+                "pronunciation": "Enu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Ellige",
+            "word": {
+                "kannada": "Ellige",
+                "english": "Where",
+                "pronunciation": "Ellige"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Hege",
+            "word": {
+                "kannada": "Hege",
+                "english": "How",
+                "pronunciation": "Hege"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Multiple Choice",
+            "question": "Which word means 'Where'?",
+            "options": [
+                "Enu",
+                "Yaaru",
+                "Ellige",
+                "Hege"
+            ],
+            "correctAnswer": "Ellige"
+        },
+        {
+            "type": "matching",
+            "title": "Match Pairs",
+            "matchPairs": [
+                {
+                    "kannada": "Yaaru",
+                    "english": "Who"
+                },
+                {
+                    "kannada": "Enu",
+                    "english": "What"
+                },
+                {
+                    "kannada": "Hege",
+                    "english": "How"
+                }
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Fill in the Blank",
+            "question": "Complete: Idu ______? (What is this?)",
+            "options": [
+                "yaaru",
+                "ellige",
+                "hege",
+                "enu"
+            ],
+            "correctAnswer": "enu"
+        },
+        {
+            "type": "typeInput",
+            "title": "Translate",
+            "question": "Type in English letters: 'Who are you?'",
+            "correctAnswer": [
+                "Neevu yaaru",
+                "neevu yaaru"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Conversation",
+            "question": "You want to ask 'Where are you going?' politely.",
+            "options": [
+                "Neevu ellige?",
+                "Neevu ellige hogutteera?",
+                "Enu madtiddira?"
+            ],
+            "correctAnswer": "Neevu ellige hogutteera?"
+        },
+        {
+            "type": "assemble",
+            "title": "Arrange Phrase",
+            "question": "Arrange: 'How are you going?'",
+            "options": [
+                "Hege",
+                "hogutteera",
+                "ellige",
+                "yaaru"
+            ],
+            "correctOrder": [
+                "Hege",
+                "hogutteera"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Grammar Tip",
+            "question": "Question Words",
+            "feedback": "Kannada question words:\n• Yaaru = Who\n• Enu = What\n• Ellige = Where\n• Hege = How\n\nThey usually come at the END of sentences, unlike English!"
+        },
+        {
+            "type": "quiz",
+            "title": "Application",
+            "question": "Which question asks 'What are you doing?'",
+            "options": [
+                "Neevu ellige?",
+                "Neevu enu madtiddira?",
+                "Idu yaaru?"
+            ],
+            "correctAnswer": "Neevu enu madtiddira?"
+        },
+        {
+            "type": "speaking",
+            "title": "Speak",
+            "word": {
+                "kannada": "Idu enu",
+                "english": "What is this?",
+                "pronunciation": "Idu enu"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You learned:",
+            "options": [
+                "Yaaru = Who",
+                "Enu = What",
+                "Ellige = Where",
+                "Hege = How"
+            ]
+        }
+    ]
+}

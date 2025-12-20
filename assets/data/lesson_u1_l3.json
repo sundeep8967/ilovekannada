@@ -1,0 +1,158 @@
+{
+    "lesson_id": "u1_l3",
+    "title": "How Are You?",
+    "objective": "Ask and answer 'How are you?' in Kannada",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Hegiddira",
+            "word": {
+                "kannada": "Hegiddira",
+                "english": "How are you? (respectful)",
+                "pronunciation": "Hegiddira"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Chennagiddini",
+            "word": {
+                "kannada": "Chennagiddini",
+                "english": "I am fine",
+                "pronunciation": "Chennagiddini"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Chennagide",
+            "word": {
+                "kannada": "Chennagide",
+                "english": "(It) is good/fine",
+                "pronunciation": "Chennagide"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Nimage",
+            "word": {
+                "kannada": "Nimage",
+                "english": "To you",
+                "pronunciation": "Nimage"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Multiple Choice",
+            "question": "How do you politely ask 'How are you?' in Kannada?",
+            "options": [
+                "Hegiddira",
+                "Chennagiddini",
+                "Naanu",
+                "Hesaru"
+            ],
+            "correctAnswer": "Hegiddira"
+        },
+        {
+            "type": "matching",
+            "title": "Match Pairs",
+            "matchPairs": [
+                {
+                    "kannada": "Chennagiddini",
+                    "english": "I am fine"
+                },
+                {
+                    "kannada": "Nimage",
+                    "english": "To you"
+                },
+                {
+                    "kannada": "Chennagide",
+                    "english": "It is good"
+                }
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Fill in the Blank",
+            "question": "Complete: Naanu ______. (I am fine.)",
+            "options": [
+                "hegiddira",
+                "chennagiddini",
+                "nimage",
+                "hesaru"
+            ],
+            "correctAnswer": "chennagiddini"
+        },
+        {
+            "type": "typeInput",
+            "title": "Translate",
+            "question": "Type in English letters: 'How are you?'",
+            "correctAnswer": [
+                "Neevu hegiddira",
+                "neevu hegiddira",
+                "Hegiddira"
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Conversation",
+            "question": "Person A: Namaskara. Hegiddira?\nPerson B responds:",
+            "options": [
+                "Naanu Rohan.",
+                "Chennagiddini.",
+                "Nanna hesaru Priya."
+            ],
+            "correctAnswer": "Chennagiddini."
+        },
+        {
+            "type": "assemble",
+            "title": "Arrange Phrase",
+            "question": "Arrange this response: 'Thank you, and you?'",
+            "options": [
+                "Dhanyavadagalu",
+                "nimage",
+                "chennagiddini",
+                "howdu"
+            ],
+            "correctOrder": [
+                "Dhanyavadagalu",
+                "nimage"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Grammar Tip",
+            "question": "Polite vs Casual",
+            "feedback": "'Hegiddira' is the POLITE way to ask 'How are you?' in Kannada. It's used with elders and strangers to show respect."
+        },
+        {
+            "type": "quiz",
+            "title": "Complete Response",
+            "question": "What's a complete response to 'Hegiddira?'",
+            "options": [
+                "Howdu.",
+                "Chennagiddini. Nimage?",
+                "Naanu hege?"
+            ],
+            "correctAnswer": "Chennagiddini. Nimage?"
+        },
+        {
+            "type": "speaking",
+            "title": "Speak",
+            "word": {
+                "kannada": "Namaskara Hegiddira",
+                "english": "Hello, how are you?",
+                "pronunciation": "Namaskara Hegiddira"
+            }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You learned:",
+            "options": [
+                "Hegiddira = How are you? (polite)",
+                "Chennagiddini = I am fine",
+                "Nimage = And you?",
+                "Full greeting conversations"
+            ]
+        }
+    ]
+}

@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void _startLesson() {
     Navigator.push(
       context,
-      CupertinoPageRoute(builder: (_) => LessonScreen(unitId: _currentUnit.id, lessonId: _currentLesson.id)),
+      CupertinoPageRoute(builder: (_) => LessonScreen(lesson: _currentLesson)),
     );
   }
 
@@ -425,169 +425,162 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                'Your Journey',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w700,
-                  color: AppTheme.textMain,
-                  letterSpacing: -0.3,
-                ),
+          // Unit header card
+          Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [AppTheme.primary, AppTheme.primaryDark],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
               ),
-              Text(
-                'Unit ${_currentUnit.order}',
-                style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w500,
-                  color: AppTheme.textSub,
+              borderRadius: BorderRadius.circular(16),
+            ),
+            child: Row(
+              children: [
+                Text(_currentUnit.emoji, style: const TextStyle(fontSize: 36)),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'UNIT ${_currentUnit.order}',
+                        style: TextStyle(
+                          fontSize: 11,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white.withOpacity(0.8),
+                          letterSpacing: 1,
+                        ),
+                      ),
+                      Text(
+                        _currentUnit.title,
+                        style: const TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w700,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-            ],
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                  decoration: BoxDecoration(
+                    color: Colors.white.withOpacity(0.2),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Text(
+                    '${_getUnitCompletedCount()}/${_currentUnit.lessons.length}',
+                    style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: Colors.white),
+                  ),
+                ),
+              ],
+            ),
           ),
           const SizedBox(height: 12),
-          Container(
-            padding: const EdgeInsets.all(18),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(20),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withOpacity(0.04),
-                  blurRadius: 12,
-                  offset: const Offset(0, 2),
-                ),
-              ],
-            ),
-            child: Column(
-              children: [
-                // Progress label
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      'Level Completion',
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w600,
-                        color: AppTheme.textMain,
-                      ),
-                    ),
-                    Text(
-                      '${ProgressService.completedCount}/${_currentUnit.lessons.length}',
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w700,
-                        color: AppTheme.primary,
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 10),
-                // Progress bar - iOS style
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(4),
-                  child: LinearProgressIndicator(
-                    value: _currentUnit.lessons.isNotEmpty ? ProgressService.completedCount / _currentUnit.lessons.length : 0.0,
-                    minHeight: 8,
-                    backgroundColor: CupertinoColors.systemGrey5,
-                    valueColor: const AlwaysStoppedAnimation(AppTheme.primary),
-                  ),
-                ),
-                const SizedBox(height: 18),
-                // Lesson nodes - dynamic based on actual progress
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: List.generate(
-                    _currentUnit.lessons.length.clamp(1, 5),
-                    (i) {
-                      final lesson = _currentUnit.lessons[i];
-                      final isCompleted = ProgressService.isLessonCompleted(lesson.id);
-                      final prevCompleted = i == 0 || ProgressService.isLessonCompleted(_currentUnit.lessons[i - 1].id);
-                      final isCurrent = !isCompleted && prevCompleted;
-                      return _buildLessonNode(
-                        completed: isCompleted,
-                        current: isCurrent,
-                        locked: !isCompleted && !isCurrent,
-                        number: i + 1,
-                      );
-                    },
-                  ),
-                ),
-              ],
-            ),
-          ),
+          // Lessons list
+          ...List.generate(_currentUnit.lessons.length, (i) {
+            final lesson = _currentUnit.lessons[i];
+            final isCompleted = ProgressService.isLessonCompleted(lesson.id);
+            final prevCompleted = i == 0 || ProgressService.isLessonCompleted(_currentUnit.lessons[i - 1].id);
+            final isUnlocked = isCompleted || prevCompleted;
+            
+            return _buildLessonRow(
+              lessonNumber: i + 1,
+              title: lesson.title,
+              wordCount: lesson.words.length,
+              xp: lesson.xpReward,
+              isCompleted: isCompleted,
+              isUnlocked: isUnlocked,
+              onTap: isUnlocked ? () => _startSpecificLesson(lesson.id) : null,
+            );
+          }),
         ],
       ),
     );
   }
 
-  Widget _buildLessonNode({
-    bool completed = false,
-    bool current = false,
-    bool locked = false,
-    int? number,
+  int _getUnitCompletedCount() {
+    return _currentUnit.lessons.where((l) => ProgressService.isLessonCompleted(l.id)).length;
+  }
+
+  void _startSpecificLesson(String lessonId) {
+    final lesson = _currentUnit.lessons.firstWhere((l) => l.id == lessonId);
+    Navigator.push(
+      context,
+      CupertinoPageRoute(builder: (_) => LessonScreen(lesson: lesson)),
+    );
+  }
+
+  Widget _buildLessonRow({
+    required int lessonNumber,
+    required String title,
+    required int wordCount,
+    required int xp,
+    required bool isCompleted,
+    required bool isUnlocked,
+    VoidCallback? onTap,
   }) {
-    if (completed) {
-      return Container(
-        width: 36,
-        height: 36,
-        decoration: const BoxDecoration(
-          color: AppTheme.primary,
-          shape: BoxShape.circle,
-        ),
-        child: const Icon(CupertinoIcons.checkmark_alt, color: Colors.white, size: 18),
-      );
-    } else if (current) {
-      return Stack(
-        clipBehavior: Clip.none,
-        children: [
-          Container(
-            width: 36,
-            height: 36,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              shape: BoxShape.circle,
-              border: Border.all(color: AppTheme.primary, width: 2.5),
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 10),
+      child: CupertinoButton(
+        padding: EdgeInsets.zero,
+        onPressed: onTap,
+        child: Container(
+          padding: const EdgeInsets.all(14),
+          decoration: BoxDecoration(
+            color: isCompleted ? AppTheme.greenAccent.withOpacity(0.1) : (isUnlocked ? Colors.white : Colors.grey.shade100),
+            borderRadius: BorderRadius.circular(14),
+            border: Border.all(
+              color: isCompleted ? AppTheme.greenAccent : (isUnlocked ? AppTheme.primary.withOpacity(0.3) : Colors.grey.shade200),
+              width: isCompleted || isUnlocked ? 2 : 1,
             ),
-            child: Center(
-              child: Text(
-                '$number',
-                style: const TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w700,
-                  color: AppTheme.primary,
+          ),
+          child: Row(
+            children: [
+              // Status circle
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: isCompleted ? AppTheme.greenAccent : (isUnlocked ? AppTheme.primary : Colors.grey.shade300),
+                ),
+                child: Center(
+                  child: isCompleted
+                      ? const Icon(CupertinoIcons.checkmark_alt, color: Colors.white, size: 20)
+                      : Text('$lessonNumber', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: isUnlocked ? Colors.white : Colors.grey.shade500)),
                 ),
               ),
-            ),
-          ),
-          Positioned(
-            top: -2,
-            right: -2,
-            child: Container(
-              width: 12,
-              height: 12,
-              decoration: const BoxDecoration(
-                color: AppTheme.primary,
-                shape: BoxShape.circle,
+              const SizedBox(width: 12),
+              // Info
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Lesson $lessonNumber: $title',
+                      style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: isUnlocked ? AppTheme.textMain : Colors.grey),
+                    ),
+                    Text(
+                      '$wordCount words • $xp XP',
+                      style: TextStyle(fontSize: 11, color: isUnlocked ? AppTheme.textSub : Colors.grey.shade400),
+                    ),
+                  ],
+                ),
               ),
-            ),
+              // Arrow/lock
+              Icon(
+                isUnlocked ? CupertinoIcons.chevron_right : CupertinoIcons.lock_fill,
+                color: isCompleted ? AppTheme.greenAccent : (isUnlocked ? AppTheme.primary : Colors.grey.shade400),
+                size: 18,
+              ),
+            ],
           ),
-        ],
-      );
-    } else {
-      return Container(
-        width: 36,
-        height: 36,
-        decoration: BoxDecoration(
-          color: CupertinoColors.systemGrey5,
-          shape: BoxShape.circle,
         ),
-        child: Icon(CupertinoIcons.lock_fill, color: CupertinoColors.systemGrey, size: 16),
-      );
-    }
+      ),
+    );
   }
 
   Widget _buildPracticeGrid() {

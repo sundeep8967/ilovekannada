@@ -1,0 +1,145 @@
+{
+    "lesson_id": "u1_l2",
+    "title": "Introducing Yourself",
+    "objective": "Learn to say who you are and ask someone's name",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Naanu",
+            "word": {
+                "kannada": "Naanu",
+                "english": "I / I am",
+                "pronunciation": "Naanu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Neevu",
+            "word": {
+                "kannada": "Neevu",
+                "english": "You (respectful)",
+                "pronunciation": "Neevu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Hesaru",
+            "word": {
+                "kannada": "Hesaru",
+                "english": "Name",
+                "pronunciation": "Hesaru"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Nanna",
+            "word": {
+                "kannada": "Nanna",
+                "english": "My",
+                "pronunciation": "Nanna"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Multiple Choice",
+            "question": "How do you say 'I am' in Kannada?",
+            "options": [
+                "Neevu",
+                "Hesaru",
+                "Naanu"
+            ],
+            "correctAnswer": "Naanu"
+        },
+        {
+            "type": "matching",
+            "title": "Match Pairs",
+            "matchPairs": [
+                {
+                    "kannada": "Neevu",
+                    "english": "You (polite)"
+                },
+                {
+                    "kannada": "Hesaru",
+                    "english": "Name"
+                },
+                {
+                    "kannada": "Nanna",
+                    "english": "My"
+                }
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Fill in the Blank",
+            "question": "Complete: ______ Rohan. (I am Rohan.)",
+            "options": [
+                "Neevu",
+                "Hesaru",
+                "Naanu",
+                "Nanna"
+            ],
+            "correctAnswer": "Naanu"
+        },
+        {
+            "type": "typeInput",
+            "title": "Translate",
+            "question": "Type in English letters: 'My name'",
+            "correctAnswer": "Nanna hesaru"
+        },
+        {
+            "type": "quiz",
+            "title": "Conversation",
+            "question": "Person A: Namaskara. Naanu Priya.\nPerson B responds:",
+            "options": [
+                "Naanu illa.",
+                "Namaskara. Naanu Arjun.",
+                "Dhanyavadagalu."
+            ],
+            "correctAnswer": "Namaskara. Naanu Arjun."
+        },
+        {
+            "type": "assemble",
+            "title": "Arrange Phrase",
+            "question": "Arrange to ask 'What is your name?' (polite)",
+            "options": [
+                "hesaru",
+                "Neevu",
+                "illa",
+                "enu"
+            ],
+            "correctOrder": [
+                "Neevu",
+                "hesaru",
+                "enu"
+            ]
+        },
+        {
+            "type": "grammar",
+            "title": "Grammar Tip",
+            "question": "No word for 'am'",
+            "feedback": "In Kannada, when saying 'I am [Name]', you often just say 'Naanu [Name]'. You don't always need a separate verb for 'am'."
+        },
+        {
+            "type": "quiz",
+            "title": "Concept Check",
+            "question": "If someone asks 'Neevu yaaru?' and your name is Alex, you can say:",
+            "options": [
+                "Naanu Alex.",
+                "Nanna hesaru Alex.",
+                "Both are correct"
+            ],
+            "correctAnswer": "Both are correct"
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You learned:",
+            "options": [
+                "Naanu = I am",
+                "Nanna hesaru = My name is",
+                "Neevu = You (polite)",
+                "Conversation basics"
+            ]
+        }
+    ]
+}

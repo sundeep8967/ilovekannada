@@ -1,0 +1,147 @@
+{
+    "lesson_id": "u1_l1",
+    "title": "Greetings",
+    "objective": "Learn 4 essential words to start a conversation",
+    "steps": [
+        {
+            "type": "intro",
+            "title": "New Word: Namaskara",
+            "word": {
+                "kannada": "Namaskara",
+                "english": "Hello",
+                "pronunciation": "Namaskara"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Dhanyavadagalu",
+            "word": {
+                "kannada": "Dhanyavadagalu",
+                "english": "Thank you",
+                "pronunciation": "Dhanyavadagalu"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Listen & Select",
+            "question": "Select 'Hello'",
+            "options": [
+                "Hello",
+                "Thank you",
+                "Yes"
+            ],
+            "correctAnswer": "Hello",
+            "word": {
+                "kannada": "Namaskara",
+                "english": "Hello",
+                "pronunciation": "Namaskara"
+            }
+        },
+        {
+            "type": "matching",
+            "title": "Match Pairs",
+            "matchPairs": [
+                {
+                    "kannada": "Dhanyavadagalu",
+                    "english": "Thank you"
+                },
+                {
+                    "kannada": "Howdu",
+                    "english": "Yes"
+                },
+                {
+                    "kannada": "Illa",
+                    "english": "No"
+                }
+            ]
+        },
+        {
+            "type": "quiz",
+            "title": "Multiple Choice",
+            "question": "Select 'Thank you' in Kannada",
+            "options": [
+                "Namaskara",
+                "Howdu",
+                "Dhanyavadagalu"
+            ],
+            "correctAnswer": "Dhanyavadagalu"
+        },
+        {
+            "type": "quiz",
+            "title": "Fill in the blank",
+            "question": "Person A: Namaskara!\nPerson B: ______!",
+            "options": [
+                "Illa",
+                "Namaskara",
+                "Dhanyavadagalu"
+            ],
+            "correctAnswer": "Namaskara"
+        },
+        {
+            "type": "quiz",
+            "title": "True or False",
+            "question": "'Howdu' means 'No'",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "assemble",
+            "title": "Translate",
+            "question": "Yes, thank you",
+            "options": [
+                "Dhanyavadagalu",
+                "Illa",
+                "Howdu"
+            ],
+            "correctOrder": [
+                "Howdu",
+                "Dhanyavadagalu"
+            ]
+        },
+        {
+            "type": "typeInput",
+            "title": "Type Answer",
+            "question": "Type the opposite of 'Howdu' (Yes)",
+            "correctAnswer": "Illa"
+        },
+        {
+            "type": "listening",
+            "title": "Listen and Select",
+            "question": "What did you hear?",
+            "options": [
+                "Hello",
+                "Thank you",
+                "Yes"
+            ],
+            "correctAnswer": "Thank you",
+            "word": {
+                "kannada": "Dhanyavadagalu",
+                "english": "Thank you",
+                "pronunciation": "Dhanyavadagalu"
+            }
+        },
+        {
+            "type": "quiz",
+            "title": "Conversation",
+            "question": "Person A: Coffee? (Kāphi?)\nPerson B: Howdu. ______. (Yes. Thank you.)",
+            "options": [
+                "Namaskara",
+                "Illa",
+                "Dhanyavadagalu"
+            ],
+            "correctAnswer": "Dhanyavadagalu"
+        },
+        {
+            "type": "speaking",
+            "title": "Speak",
+            "word": {
+                "kannada": "Namaskara",
+                "english": "Hello",
+                "pronunciation": "Namaskara"
+            }
+        }
+    ]
+}
