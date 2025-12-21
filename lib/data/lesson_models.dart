@@ -30,8 +30,12 @@ class Lesson {
     required this.title,
     required this.description,
     required this.xpReward,
+
     required this.words,
+    this.tips,
   });
+
+  final List<String>? tips;
 }
 
 /// Word with English transliteration

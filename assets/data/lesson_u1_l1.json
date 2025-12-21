@@ -2,6 +2,11 @@
     "lesson_id": "u1_l1",
     "title": "Greetings",
     "objective": "Learn 4 essential words to start a conversation",
+    "tips": [
+        "👋 'Namaskara' is the most common formal greeting.",
+        "💡 Use it with elders, strangers, or in professional settings.",
+        "🗣️ It literally means 'I bow to you'."
+    ],
     "steps": [
         {
             "type": "intro",

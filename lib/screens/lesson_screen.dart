@@ -9,6 +9,9 @@ import '../services/progress_service.dart';
 import '../services/audio_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/animations.dart';
+import 'package:speech_to_text/speech_to_text.dart';
+import 'package:speech_to_text/speech_recognition_result.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 enum LessonStepType { intro, matching, quiz, speaking, listening, assemble, typeInput, grammar, summary }
 
@@ -78,14 +81,22 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
   List<LessonStep> _steps = [];
   int _currentStepIndex = 0;
   bool _isLoading = true;
+
   String? _error;
+  List<String> _tips = [];
 
   // State for specific steps
   int? _selectedAnswer;
   int? _listeningAnswer;
   bool _showFeedback = false;
   bool _isAnswerCorrect = false;
-  bool _hasRecorded = false;
+  bool _hasRecorded = false; // Used as "correctly spoken" flag now
+  
+  // Speech Logic
+  final SpeechToText _speechToText = SpeechToText();
+  bool _speechEnabled = false;
+  String _lastWords = '';
+  bool _isListening = false;
   
   // Matching state
   List<String> _matchKannada = [];
@@ -105,6 +116,83 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
   void initState() {
     super.initState();
     _loadLessonData();
+    _initSpeech();
+  }
+
+  void _initSpeech() async {
+    try {
+      var status = await Permission.microphone.request();
+      if (status.isGranted) {
+        _speechEnabled = await _speechToText.initialize(
+          onStatus: (status) {
+             if (status == 'notListening') setState(() => _isListening = false);
+             if (kDebugMode) print('Speech status: $status');
+          },
+          onError: (error) { 
+             setState(() => _isListening = false);
+             if (kDebugMode) print('Speech error: $error'); 
+          },
+        );
+      }
+      setState(() {});
+    } catch (e) {
+      if (kDebugMode) print("Speech init error: $e");
+    }
+  }
+
+  void _startListening(String targetWord) async {
+    if (!_speechEnabled) {
+      _initSpeech(); // Retry init
+      return;
+    }
+    
+    await _speechToText.listen(
+      onResult: (result) => _onSpeechResult(result, targetWord),
+      localeId: 'en_IN', // Try Indo-English for translliteration
+      listenFor: const Duration(seconds: 5),
+      pauseFor: const Duration(seconds: 2),
+      cancelOnError: true,
+      partialResults: true,
+    );
+    setState(() {
+      _isListening = true;
+      _lastWords = ''; 
+    });
+  }
+
+  void _stopListening() async {
+    await _speechToText.stop();
+    setState(() => _isListening = false);
+  }
+
+  void _onSpeechResult(SpeechRecognitionResult result, String targetWord) {
+    setState(() {
+      _lastWords = result.recognizedWords;
+    });
+    
+    // Fuzzy matching logic
+    String spoken = result.recognizedWords.toLowerCase().replaceAll(RegExp(r'[^a-zA-Z]'), '');
+    String target = targetWord.toLowerCase().replaceAll(RegExp(r'[^a-zA-Z]'), '');
+    
+    // Simple contains check or length similarity
+    bool isMatch = spoken.contains(target) || target.contains(spoken);
+    if (!isMatch && spoken.length > 2 && target.length > 2) {
+       // Allow for small typos/misinterpretations
+       int common = 0;
+       for(int i=0; i<spoken.length; i++) {
+         if (target.contains(spoken[i])) common++;
+       }
+       if (common / target.length > 0.6) isMatch = true;
+    }
+
+    if (isMatch && !_hasRecorded) {
+       setState(() {
+         _hasRecorded = true;
+         _isListening = false;
+       });
+       AudioService.playCorrect();
+       _speechToText.stop();
+    }
   }
 
   Future<void> _loadLessonData() async {
@@ -222,9 +310,11 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
       
       final List<dynamic> stepsJson = data['steps'] ?? [];
       final List<LessonStep> loadedSteps = stepsJson.map((s) => LessonStep.fromJson(s)).toList();
+      final List<String> loadedTips = (data['tips'] as List?)?.map((e) => e.toString()).toList() ?? [];
 
       setState(() {
         _steps = loadedSteps;
+        _tips = loadedTips;
         _isLoading = false;
       });
       
@@ -269,7 +359,10 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
     _listeningAnswer = null;
     _showFeedback = false;
     _isAnswerCorrect = false;
+    _isAnswerCorrect = false;
     _hasRecorded = false;
+    _lastWords = '';
+    _isListening = false;
     _matchedKannada = {};
     _matchedEnglish = {};
     _selectedKannadaIndex = null;
@@ -351,6 +444,18 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
             ),
           ),
           const SizedBox(width: 12),
+          if (_tips.isNotEmpty) ...[
+            CupertinoButton(
+              padding: EdgeInsets.zero,
+              onPressed: _showTips,
+              child: Container(
+                width: 40, height: 40,
+                decoration: BoxDecoration(color: Colors.amber.shade100, shape: BoxShape.circle),
+                child: Icon(CupertinoIcons.lightbulb_fill, color: Colors.amber.shade700, size: 22),
+              ),
+            ),
+            const SizedBox(width: 8),
+          ],
           Row(
             children: [
               Icon(CupertinoIcons.heart_fill, color: Colors.red.shade400, size: 22),
@@ -359,6 +464,55 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
             ],
           ),
         ],
+      ),
+    );
+  }
+
+  void _showTips() {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      builder: (context) => Container(
+        decoration: const BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+        ),
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Icon(CupertinoIcons.lightbulb_fill, color: Colors.amber.shade700, size: 28),
+                const SizedBox(width: 12),
+                Text("Grammar Tips", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: AppTheme.textMain)),
+                const Spacer(),
+                GestureDetector(
+                  onTap: () => Navigator.pop(context),
+                  child: Container(
+                    padding: const EdgeInsets.all(8),
+                    decoration: BoxDecoration(color: Colors.grey.shade100, shape: BoxShape.circle),
+                    child: const Icon(CupertinoIcons.xmark, size: 20),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 24),
+            ..._tips.map((tip) => Padding(
+              padding: const EdgeInsets.only(bottom: 16),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text("•", style: TextStyle(fontSize: 20, color: AppTheme.primary, fontWeight: FontWeight.bold)),
+                  const SizedBox(width: 12),
+                  Expanded(child: Text(tip, style: TextStyle(fontSize: 16, color: AppTheme.textMain, height: 1.5))),
+                ],
+              ),
+            )),
+            const SizedBox(height: 24),
+          ],
+        ),
       ),
     );
   }
@@ -422,7 +576,7 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 decoration: BoxDecoration(color: Colors.grey.shade100, borderRadius: BorderRadius.circular(20)),
-                child: Text('🎤 ${word.pronunciation}', style: TextStyle(fontSize: 14, color: AppTheme.textSub)),
+                child: Text(word.pronunciation, style: TextStyle(fontSize: 14, color: AppTheme.textSub)),
               ),
             ],
           ),
@@ -570,7 +724,8 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
         const SizedBox(height: 32),
         ...List.generate(options.length, (i) {
           final isSelected = _selectedAnswer == i;
-          final isCorrect = i == step.correctIndex;
+          final isCorrect = (step.correctIndex != null && i == step.correctIndex) ||
+                            (step.correctAnswer != null && options[i] == step.correctAnswer);
           final showResult = _showFeedback;
           
           Color bgColor = Colors.white;
@@ -637,7 +792,8 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
         const SizedBox(height: 32),
          ...List.generate(options.length, (i) {
            final isSelected = _listeningAnswer == i;
-           final isCorrect = i == step.correctIndex;
+            final isCorrect = (step.correctIndex != null && i == step.correctIndex) ||
+                              (step.correctAnswer != null && options[i] == step.correctAnswer);
            final showResult = _showFeedback;
            
            return Padding(
@@ -688,21 +844,53 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
            child: const Icon(CupertinoIcons.mic_fill, size: 60, color: AppTheme.primary),
          ),
          const SizedBox(height: 30),
-         Text('Say "${step.word!.kannada}"', style: TextStyle(fontSize: 20, color: AppTheme.textSub), textAlign: TextAlign.center),
-         const SizedBox(height: 40),
-         CupertinoButton(
-           child: Container(
-             padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
-             decoration: BoxDecoration(color: _hasRecorded ? AppTheme.greenAccent : AppTheme.primary, borderRadius: BorderRadius.circular(30)),
-             child: Text(_hasRecorded ? 'Recorded!' : 'Tap to Record', style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600)),
-           ),
-           onPressed: () {
-             setState(() => _hasRecorded = true);
-           },
-         ),
-      ],
-    );
-  }
+          Text('Say "${step.word!.kannada}"', style: TextStyle(fontSize: 20, color: AppTheme.textSub), textAlign: TextAlign.center),
+          const SizedBox(height: 10),
+          if (_lastWords.isNotEmpty)
+             Text('heard: "$_lastWords"', style: TextStyle(fontSize: 16, color: Colors.grey.shade600, fontStyle: FontStyle.italic)),
+          const SizedBox(height: 30),
+          
+          CupertinoButton(
+            padding: EdgeInsets.zero,
+            onPressed: () {
+               if (_hasRecorded) return; // Already done
+               if (_isListening) {
+                 _stopListening();
+               } else {
+                 _startListening(step.word!.pronunciation); // Match against pronunciation (English chars)
+               }
+            },
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+              decoration: BoxDecoration(
+                color: _hasRecorded 
+                    ? AppTheme.greenAccent 
+                    : (_isListening ? Colors.redAccent : AppTheme.primary), 
+                borderRadius: BorderRadius.circular(30)
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(_hasRecorded ? CupertinoIcons.checkmark_alt : (_isListening ? CupertinoIcons.stop_fill : CupertinoIcons.mic), color: Colors.white),
+                  const SizedBox(width: 8),
+                  Text(
+                    _hasRecorded 
+                        ? 'Correct!' 
+                        : (_isListening ? 'Listening...' : 'Tap to Speak'), 
+                    style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600)
+                  ),
+                ],
+              ),
+            ),
+          ),
+          if (_speechEnabled == false && !_isListening && !_hasRecorded)
+             Padding(
+               padding: const EdgeInsets.only(top: 16),
+               child: Text("Microphone permission required", style: TextStyle(color: Colors.red.shade300, fontSize: 12)),
+             ),
+       ],
+     );
+   }
 
   // ==================== ASSEMBLE ====================
   Widget _buildAssemble(LessonStep step) {
