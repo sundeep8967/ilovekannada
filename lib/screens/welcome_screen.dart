@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
+import '../widgets/animations.dart';
 
 class WelcomeScreen extends StatelessWidget {
   final VoidCallback onSignIn;
@@ -17,14 +18,29 @@ class WelcomeScreen extends StatelessWidget {
           child: Column(
             children: [
               const Spacer(flex: 2),
-              // Mascot image
-              _buildMascot(),
+              // Animated mascot
+              FadeSlideIn(
+                delay: 0,
+                child: FloatingAnimation(
+                  amplitude: 10,
+                  child: _buildMascot(),
+                ),
+              ),
               const SizedBox(height: 48),
-              // Welcome text
-              _buildWelcomeText(),
+              // Animated welcome text
+              FadeSlideIn(
+                delay: 200,
+                child: _buildWelcomeText(),
+              ),
               const Spacer(flex: 2),
-              // Let's go button
-              _buildSignInButton(),
+              // Animated button
+              FadeSlideIn(
+                delay: 400,
+                child: ScaleOnTap(
+                  onTap: onSignIn,
+                  child: _buildSignInButton(),
+                ),
+              ),
               const Spacer(flex: 1),
             ],
           ),
@@ -37,13 +53,27 @@ class WelcomeScreen extends StatelessWidget {
     return Stack(
       clipBehavior: Clip.none,
       children: [
-        // Background glow
+        // Background glow with pulse
+        PulseAnimation(
+          minScale: 1.0,
+          maxScale: 1.08,
+          duration: const Duration(milliseconds: 2000),
+          child: Container(
+            width: 180,
+            height: 180,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: AppTheme.primary.withAlpha(25),
+            ),
+          ),
+        ),
+        // Main mascot circle
         Container(
           width: 180,
           height: 180,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            color: AppTheme.primary.withOpacity(0.1),
+            color: AppTheme.primary.withAlpha(25),
           ),
           child: Padding(
             padding: const EdgeInsets.all(16),
@@ -53,7 +83,7 @@ class WelcomeScreen extends StatelessWidget {
                 border: Border.all(color: Colors.white, width: 4),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.1),
+                    color: Colors.black.withAlpha(25),
                     blurRadius: 20,
                     offset: const Offset(0, 8),
                   ),
@@ -61,41 +91,37 @@ class WelcomeScreen extends StatelessWidget {
               ),
               child: ClipOval(
                 child: Container(
-                  color: AppTheme.primary.withOpacity(0.2),
+                  color: AppTheme.primary.withAlpha(50),
                   child: const Center(
-                    child: Text(
-                      '🦉',
-                      style: TextStyle(fontSize: 80),
-                    ),
+                    child: Text('🦉', style: TextStyle(fontSize: 80)),
                   ),
                 ),
               ),
             ),
           ),
         ),
-        // School badge
+        // Animated school badge
         Positioned(
           bottom: 0,
           right: 8,
-          child: Container(
-            width: 52,
-            height: 52,
-            decoration: BoxDecoration(
-              color: AppTheme.primary,
-              shape: BoxShape.circle,
-              border: Border.all(color: AppTheme.backgroundLight, width: 4),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withOpacity(0.15),
-                  blurRadius: 8,
-                  offset: const Offset(0, 4),
-                ),
-              ],
-            ),
-            child: const Icon(
-              CupertinoIcons.book_fill,
-              color: Colors.white,
-              size: 24,
+          child: ScaleBounceIn(
+            delay: 400,
+            child: Container(
+              width: 52,
+              height: 52,
+              decoration: BoxDecoration(
+                color: AppTheme.primary,
+                shape: BoxShape.circle,
+                border: Border.all(color: AppTheme.backgroundLight, width: 4),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withAlpha(38),
+                    blurRadius: 8,
+                    offset: const Offset(0, 4),
+                  ),
+                ],
+              ),
+              child: const Icon(CupertinoIcons.book_fill, color: Colors.white, size: 24),
             ),
           ),
         ),
@@ -131,65 +157,30 @@ class WelcomeScreen extends StatelessWidget {
   }
 
   Widget _buildSignInButton() {
-    return CupertinoButton(
-      padding: EdgeInsets.zero,
-      onPressed: onSignIn,
-      child: Container(
-        width: double.infinity,
-        height: 56,
-        decoration: BoxDecoration(
-          color: AppTheme.primary,
-          borderRadius: BorderRadius.circular(16),
-          boxShadow: [
-            BoxShadow(
-              color: AppTheme.primary.withOpacity(0.3),
-              blurRadius: 12,
-              offset: const Offset(0, 4),
-            ),
-          ],
-        ),
-        child: Center(
-          child: Text(
-            "LET'S GO",
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.w700,
-              color: Colors.white,
-              letterSpacing: 1,
-            ),
+    return Container(
+      width: double.infinity,
+      height: 56,
+      decoration: BoxDecoration(
+        color: AppTheme.primary,
+        borderRadius: BorderRadius.circular(16),
+        boxShadow: [
+          BoxShadow(
+            color: AppTheme.primary.withAlpha(75),
+            blurRadius: 12,
+            offset: const Offset(0, 4),
           ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildTermsText() {
-    return RichText(
-      textAlign: TextAlign.center,
-      text: TextSpan(
-        style: TextStyle(
-          fontSize: 13,
-          color: AppTheme.textSub,
-        ),
-        children: [
-          const TextSpan(text: 'By signing in, you agree to our '),
-          TextSpan(
-            text: 'Terms',
-            style: TextStyle(
-              decoration: TextDecoration.underline,
-              color: AppTheme.textSub,
-            ),
-          ),
-          const TextSpan(text: ' and '),
-          TextSpan(
-            text: 'Privacy Policy',
-            style: TextStyle(
-              decoration: TextDecoration.underline,
-              color: AppTheme.textSub,
-            ),
-          ),
-          const TextSpan(text: '.'),
         ],
+      ),
+      child: const Center(
+        child: Text(
+          "LET'S GO",
+          style: TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.w700,
+            color: Colors.white,
+            letterSpacing: 1,
+          ),
+        ),
       ),
     );
   }

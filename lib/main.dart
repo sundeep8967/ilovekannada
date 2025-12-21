@@ -52,13 +52,32 @@ class _AppRootState extends State<AppRoot> {
 
   @override
   Widget build(BuildContext context) {
+    return AnimatedSwitcher(
+      duration: const Duration(milliseconds: 400),
+      transitionBuilder: (child, animation) {
+        return FadeTransition(
+          opacity: animation,
+          child: SlideTransition(
+            position: Tween<Offset>(
+              begin: const Offset(0.1, 0),
+              end: Offset.zero,
+            ).animate(CurvedAnimation(parent: animation, curve: Curves.easeOut)),
+            child: child,
+          ),
+        );
+      },
+      child: _buildCurrentScreen(),
+    );
+  }
+
+  Widget _buildCurrentScreen() {
     switch (_step) {
       case 0:
-        return WelcomeScreen(onSignIn: _handleLetsGo);
+        return WelcomeScreen(key: const ValueKey(0), onSignIn: _handleLetsGo);
       case 1:
-        return NameInputScreen(onComplete: _handleNameComplete);
+        return NameInputScreen(key: const ValueKey(1), onComplete: _handleNameComplete);
       default:
-        return const MainScreen();
+        return const MainScreen(key: ValueKey(2));
     }
   }
 }
@@ -83,9 +102,14 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: IndexedStack(
-        index: _currentIndex,
-        children: _screens,
+      body: AnimatedSwitcher(
+        duration: const Duration(milliseconds: 300),
+        transitionBuilder: (child, animation) => FadeTransition(opacity: animation, child: child),
+        child: IndexedStack(
+          key: ValueKey(_currentIndex),
+          index: _currentIndex,
+          children: _screens,
+        ),
       ),
       bottomNavigationBar: Container(
         margin: const EdgeInsets.fromLTRB(20, 0, 20, 24),
@@ -98,7 +122,7 @@ class _MainScreenState extends State<MainScreen> {
               borderRadius: BorderRadius.circular(30),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.1),
+                  color: Colors.black.withAlpha(25),
                   blurRadius: 24,
                   offset: const Offset(0, 4),
                 ),
@@ -123,25 +147,38 @@ class _MainScreenState extends State<MainScreen> {
     final isActive = _currentIndex == index;
     return GestureDetector(
       onTap: () => setState(() => _currentIndex = index),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(
-            icon,
-            color: isActive ? AppTheme.primary : CupertinoColors.systemGrey,
-            size: 24,
-          ),
-          if (isActive)
-            Container(
-              margin: const EdgeInsets.only(top: 4),
-              width: 5,
-              height: 5,
-              decoration: BoxDecoration(
-                color: AppTheme.primary,
-                shape: BoxShape.circle,
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 200),
+        curve: Curves.easeOut,
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            AnimatedScale(
+              scale: isActive ? 1.1 : 1.0,
+              duration: const Duration(milliseconds: 200),
+              child: Icon(
+                icon,
+                color: isActive ? AppTheme.primary : CupertinoColors.systemGrey,
+                size: 24,
               ),
             ),
-        ],
+            AnimatedOpacity(
+              opacity: isActive ? 1.0 : 0.0,
+              duration: const Duration(milliseconds: 200),
+              child: AnimatedContainer(
+                duration: const Duration(milliseconds: 200),
+                margin: const EdgeInsets.only(top: 4),
+                width: isActive ? 5 : 0,
+                height: 5,
+                decoration: BoxDecoration(
+                  color: AppTheme.primary,
+                  shape: BoxShape.circle,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

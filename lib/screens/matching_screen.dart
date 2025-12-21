@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
 import '../data/lesson_models.dart';
+import '../widgets/animations.dart';
 
 class MatchingScreen extends StatefulWidget {
   final List<Word>? words;
@@ -91,9 +92,12 @@ class _MatchingScreenState extends State<MatchingScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Tap the matching pairs', style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: AppTheme.textMain)),
+                    FadeSlideIn(
+                      delay: 0,
+                      child: Text('Tap the matching pairs', style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: AppTheme.textMain)),
+                    ),
                     const SizedBox(height: 24),
-                    Expanded(child: _buildGrid()),
+                    Expanded(child: FadeSlideIn(delay: 100, child: _buildGrid())),
                   ],
                 ),
               ),

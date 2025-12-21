@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
+import '../widgets/animations.dart';
 
 class ListeningScreen extends StatefulWidget {
   const ListeningScreen({super.key});
@@ -67,11 +68,11 @@ class _ListeningScreenState extends State<ListeningScreen> {
                 padding: const EdgeInsets.all(24),
                 child: Column(
                   children: [
-                    _buildQuestionSection(),
+                    FadeSlideIn(delay: 0, child: _buildQuestionSection()),
                     const SizedBox(height: 24),
-                    _buildAudioPlayer(),
+                    FadeSlideIn(delay: 100, child: ScaleOnTap(child: _buildAudioPlayer())),
                     const SizedBox(height: 32),
-                    _buildAnswerOptions(),
+                    FadeSlideIn(delay: 200, child: _buildAnswerOptions()),
                   ],
                 ),
               ),

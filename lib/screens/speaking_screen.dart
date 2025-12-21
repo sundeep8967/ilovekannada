@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
+import '../widgets/animations.dart';
 
 class SpeakingScreen extends StatefulWidget {
   const SpeakingScreen({super.key});
@@ -69,13 +70,13 @@ class _SpeakingScreenState extends State<SpeakingScreen> with SingleTickerProvid
                 padding: const EdgeInsets.all(24),
                 child: Column(
                   children: [
-                    _buildQuestionSection(),
+                    FadeSlideIn(delay: 0, child: _buildQuestionSection()),
                     const SizedBox(height: 32),
-                    _buildWordCard(),
+                    FadeSlideIn(delay: 100, child: ScaleOnTap(child: _buildWordCard())),
                     const SizedBox(height: 40),
-                    _buildWaveform(),
+                    FadeSlideIn(delay: 200, child: _buildWaveform()),
                     const SizedBox(height: 32),
-                    _buildMicrophoneSection(),
+                    FadeSlideIn(delay: 300, child: _buildMicrophoneSection()),
                   ],
                 ),
               ),

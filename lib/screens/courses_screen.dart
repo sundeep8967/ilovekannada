@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
+import '../widgets/animations.dart';
 
 class CoursesScreen extends StatelessWidget {
   const CoursesScreen({super.key});
@@ -16,13 +17,13 @@ class CoursesScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _buildHeader(),
+              FadeSlideIn(delay: 0, child: _buildHeader()),
               const SizedBox(height: 24),
-              _buildCurrentFocus(),
+              FadeSlideIn(delay: 100, child: ScaleOnTap(child: _buildCurrentFocus())),
               const SizedBox(height: 24),
-              _buildFilterChips(),
+              FadeSlideIn(delay: 200, child: _buildFilterChips()),
               const SizedBox(height: 16),
-              _buildCoursesList(),
+              FadeSlideIn(delay: 300, child: _buildCoursesList()),
             ],
           ),
         ),

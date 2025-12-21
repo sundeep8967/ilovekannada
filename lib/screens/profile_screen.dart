@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
 import '../services/progress_service.dart';
+import '../widgets/animations.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -15,17 +16,17 @@ class ProfileScreen extends StatelessWidget {
         padding: const EdgeInsets.only(bottom: 100),
         child: Column(
           children: [
-            _buildProfileHeader(),
+            FadeSlideIn(delay: 0, child: _buildProfileHeader()),
             const SizedBox(height: 24),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 children: [
-                  _buildUpgradeCard(),
+                  FadeSlideIn(delay: 150, child: ScaleOnTap(child: _buildUpgradeCard())),
                   const SizedBox(height: 24),
-                  _buildAccountSection(),
+                  FadeSlideIn(delay: 300, child: _buildAccountSection()),
                   const SizedBox(height: 20),
-                  _buildSupportSection(),
+                  FadeSlideIn(delay: 450, child: _buildSupportSection()),
                 ],
               ),
             ),

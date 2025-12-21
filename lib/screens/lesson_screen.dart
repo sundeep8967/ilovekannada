@@ -8,6 +8,7 @@ import '../data/lesson_models.dart';
 import '../services/progress_service.dart';
 import '../services/audio_service.dart';
 import '../theme/app_theme.dart';
+import '../widgets/animations.dart';
 
 enum LessonStepType { intro, matching, quiz, speaking, listening, assemble, typeInput, grammar, summary }
 
@@ -366,18 +367,24 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
     if (_steps.isEmpty) return const SizedBox();
     final step = _steps[_currentStepIndex];
     
+    // Wrap each step content in fade-slide animation for smooth transitions
+    Widget content;
     switch (step.type) {
-      case LessonStepType.intro: return _buildVocabCard(step);
-      case LessonStepType.matching: return _buildMatching(step);
-      case LessonStepType.quiz: return _buildQuiz(step);
-      case LessonStepType.speaking: return _buildSpeaking(step);
-      case LessonStepType.listening: return _buildListening(step);
-      case LessonStepType.assemble: return _buildAssemble(step);
-
-      case LessonStepType.typeInput: return _buildTypeInput(step);
-      case LessonStepType.grammar: return _buildGrammar(step);
-      case LessonStepType.summary: return _buildSummary(step);
+      case LessonStepType.intro: content = _buildVocabCard(step); break;
+      case LessonStepType.matching: content = _buildMatching(step); break;
+      case LessonStepType.quiz: content = _buildQuiz(step); break;
+      case LessonStepType.speaking: content = _buildSpeaking(step); break;
+      case LessonStepType.listening: content = _buildListening(step); break;
+      case LessonStepType.assemble: content = _buildAssemble(step); break;
+      case LessonStepType.typeInput: content = _buildTypeInput(step); break;
+      case LessonStepType.grammar: content = _buildGrammar(step); break;
+      case LessonStepType.summary: content = _buildSummary(step); break;
     }
+    
+    return FadeSlideIn(
+      key: ValueKey(_currentStepIndex),
+      child: content,
+    );
   }
 
   // ==================== INTRO ====================

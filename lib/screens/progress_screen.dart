@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../theme/app_theme.dart';
+import '../widgets/animations.dart';
 
 class ProgressScreen extends StatelessWidget {
   const ProgressScreen({super.key});
@@ -16,13 +17,13 @@ class ProgressScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _buildHeader(),
+              FadeSlideIn(delay: 0, child: _buildHeader()),
               const SizedBox(height: 24),
-              _buildXpCard(),
+              FadeSlideIn(delay: 100, child: _buildXpCard()),
               const SizedBox(height: 24),
-              _buildStatsGrid(),
+              FadeSlideIn(delay: 200, child: _buildStatsGrid()),
               const SizedBox(height: 24),
-              _buildAchievementsSection(),
+              FadeSlideIn(delay: 300, child: _buildAchievementsSection()),
             ],
           ),
         ),
