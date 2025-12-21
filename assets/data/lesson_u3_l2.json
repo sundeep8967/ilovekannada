@@ -5,20 +5,20 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Meku",
+            "title": "New Word: Munde",
             "word": {
-                "kannada": "Meku",
-                "english": "To / At (place marker)",
-                "pronunciation": "Meku"
+                "kannada": "Munde",
+                "english": "Front / Straight",
+                "pronunciation": "Munde"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Thaggi",
+            "title": "New Word: Hattira",
             "word": {
-                "kannada": "Thaggi",
+                "kannada": "Hattira",
                 "english": "Near / Nearby",
-                "pronunciation": "Thaggi"
+                "pronunciation": "Hattira"
             }
         },
         {
@@ -45,8 +45,8 @@
             "question": "How do you tell driver 'Go to MG Road'?",
             "options": [
                 "MG Road ge hogi",
-                "MG Road meku",
-                "MG Road thaggi",
+                "MG Road munde",
+                "MG Road hattira",
                 "MG Road pakka"
             ],
             "correctAnswer": "MG Road ge hogi"
@@ -63,21 +63,21 @@
         {
             "type": "quiz",
             "title": "At Location",
-            "question": "How do you say 'At Koramangala'?",
+            "question": "How do you say 'Stop nearby'?",
             "options": [
-                "Koramangala ge hogi",
-                "Koramangala meku",
-                "Koramangala doora",
-                "Koramangala thaggi"
+                "Doora hogi",
+                "Munde hogi",
+                "Hattira nillisi",
+                "Pakka nillisi"
             ],
-            "correctAnswer": "Koramangala meku"
+            "correctAnswer": "Hattira nillisi"
         },
         {
             "type": "matching",
             "title": "Match Direction Words",
             "matchPairs": [
                 {
-                    "kannada": "Thaggi",
+                    "kannada": "Hattira",
                     "english": "Near"
                 },
                 {
@@ -89,8 +89,8 @@
                     "english": "Next to"
                 },
                 {
-                    "kannada": "Meku",
-                    "english": "At"
+                    "kannada": "Munde",
+                    "english": "Straight/Front"
                 }
             ]
         },
@@ -102,14 +102,14 @@
                 "Majestic",
                 "ge",
                 "hogi",
-                "thaggi",
+                "hattira",
                 "ide"
             ],
             "correctOrder": [
                 "Majestic",
                 "ge",
                 "hogi",
-                "thaggi",
+                "hattira",
                 "ide"
             ]
         },
@@ -118,23 +118,23 @@
             "title": "Near Landmark",
             "question": "Your destination is near Silk Board. Tell driver.",
             "correctAnswer": [
-                "Silk Board thaggi",
-                "silk board thaggi"
+                "Silk Board hattira",
+                "silk board hattira"
             ]
         },
         {
             "type": "grammar",
             "title": "Direction Patterns",
             "question": "Giving Directions",
-            "feedback": "• [Place] ge hogi = Go to [Place]\n• [Place] meku = At [Place]\n• [Landmark] thaggi = Near [Landmark]\n• [Landmark] pakka = Next to [Landmark]\n• Doora ide = It's far"
+            "feedback": "• [Place] ge hogi = Go to [Place]\n• Munde hogi = Go straight\n• [Landmark] hattira = Near [Landmark]\n• [Landmark] pakka = Next to [Landmark]\n• Doora ide = It's far"
         },
         {
             "type": "speaking",
             "title": "Full Direction",
             "word": {
-                "kannada": "Airport ge hogi, thaggi ide",
+                "kannada": "Airport ge hogi, hattira ide",
                 "english": "Go to Airport, it's nearby",
-                "pronunciation": "Airport ge hogi, thaggi ide"
+                "pronunciation": "Airport ge hogi, hattira ide"
             }
         },
         {
@@ -143,7 +143,7 @@
             "question": "You can now:",
             "options": [
                 "Give destination: [Place] ge hogi",
-                "Say 'near': Thaggi",
+                "Say 'near': Hattira",
                 "Say 'next to': Pakka",
                 "Navigate like a local!"
             ]

@@ -17,17 +17,17 @@
             "title": "New Word: KoDi",
             "word": {
                 "kannada": "KoDi",
-                "english": "Give",
+                "english": "Give (polite)",
                 "pronunciation": "KoDi"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: ThoRDu",
+            "title": "New Word: ThorDisi",
             "word": {
-                "kannada": "ThoRDu",
-                "english": "Show",
-                "pronunciation": "ThoRDu"
+                "kannada": "ThorDisi",
+                "english": "Show (polite)",
+                "pronunciation": "ThorDisi"
             }
         },
         {
@@ -46,7 +46,7 @@
             "options": [
                 "KoDi?",
                 "EshTu?",
-                "ThoRDu?",
+                "ThorDisi?",
                 "JasTi?"
             ],
             "correctAnswer": "EshTu?"
@@ -67,11 +67,11 @@
             "question": "Price is ₹100, but you think it's too much. What do you say?",
             "options": [
                 "EshTu!",
-                "ThoRDu!",
-                "JasTi!",
+                "ThorDisi!",
+                "JasTi aaytu!",
                 "KoDi!"
             ],
-            "correctAnswer": "JasTi!"
+            "correctAnswer": "JasTi aaytu!"
         },
         {
             "type": "matching",
@@ -86,7 +86,7 @@
                     "english": "Give"
                 },
                 {
-                    "kannada": "ThoRDu",
+                    "kannada": "ThorDisi",
                     "english": "Show"
                 },
                 {
@@ -100,9 +100,9 @@
             "title": "Polite Bargaining",
             "question": "Ask politely: 'Can you reduce a little?'",
             "correctAnswer": [
-                "Swalpa koDThira",
-                "swalpa kodthira",
-                "Swalpa koDThira?"
+                "Swalpa kammi maaDi",
+                "swalpa kammi maadi",
+                "Swalpa kammi maaDi?"
             ]
         },
         {
@@ -112,28 +112,28 @@
             "options": [
                 "EshTu?",
                 "JasTi",
-                "aagide",
+                "aaytu",
                 "KoDi"
             ],
             "correctOrder": [
                 "EshTu?",
                 "JasTi",
-                "aagide"
+                "aaytu"
             ]
         },
         {
             "type": "grammar",
             "title": "Market Phrases",
             "question": "Shopping Essentials",
-            "feedback": "• EshTu? = How much?\n• Idu koDi = Give me this\n• ThoRDu = Show (me)\n• JasTi aagide = It's too expensive\n• Swalpa koDThira? = Can you reduce a little?"
+            "feedback": "• EshTu? = How much?\n• Idu koDi = Give me this\n• ThorDisi = Show (me)\n• JasTi aaytu = It's too expensive\n• Swalpa kammi maaDi = Please reduce a bit"
         },
         {
             "type": "speaking",
             "title": "Full Shopping Dialogue",
             "word": {
-                "kannada": "EshTu? JasTi aagide. Swalpa koDThira?",
-                "english": "How much? Too expensive. Can you reduce?",
-                "pronunciation": "EshTu? JasTi aagide. Swalpa koDThira?"
+                "kannada": "EshTu? JasTi aaytu. Swalpa kammi maaDi",
+                "english": "How much? Too expensive. Please reduce a bit",
+                "pronunciation": "EshTu? JasTi aaytu. Swalpa kammi maaDi"
             }
         },
         {
@@ -143,7 +143,7 @@
             "options": [
                 "Ask prices: EshTu?",
                 "Request items: Idu koDi",
-                "Bargain: JasTi! Swalpa koDThira?",
+                "Bargain: JasTi! Swalpa kammi maaDi",
                 "Shop in local markets!"
             ]
         }

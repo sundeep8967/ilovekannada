@@ -5,29 +5,29 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Medicine",
+            "title": "New Word: Oushadhi",
             "word": {
-                "kannada": "Medicine",
+                "kannada": "Oushadhi",
                 "english": "Medicine",
-                "pronunciation": "Medicine"
+                "pronunciation": "Oushadhi"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Fever",
+            "title": "New Word: Jvara",
             "word": {
-                "kannada": "Fever",
+                "kannada": "Jvara",
                 "english": "Fever",
-                "pronunciation": "Fever"
+                "pronunciation": "Jvara"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Headache",
+            "title": "New Word: Thale novu",
             "word": {
-                "kannada": "Headache",
+                "kannada": "Thale novu",
                 "english": "Headache",
-                "pronunciation": "Headache"
+                "pronunciation": "Thale novu"
             }
         },
         {
@@ -44,20 +44,21 @@
             "title": "Get Medicine",
             "question": "How do you ask for medicine?",
             "options": [
-                "Medicine koDi",
-                "Medicine maaDi",
-                "Medicine beku",
-                "Medicine ideya"
+                "Oushadhi koDi",
+                "Oushadhi maaDi",
+                "Oushadhi beku",
+                "Oushadhi ideya"
             ],
-            "correctAnswer": "Medicine koDi"
+            "correctAnswer": "Oushadhi koDi"
         },
         {
             "type": "typeInput",
             "title": "Fever Medicine",
             "question": "Ask for fever medicine",
             "correctAnswer": [
-                "Fever medicine koDi",
-                "fever medicine kodi"
+                "Jvara oushadhi koDi",
+                "jvara oushadhi kodi",
+                "Jvara medicine koDi"
             ]
         },
         {
@@ -65,27 +66,27 @@
             "title": "Headache",
             "question": "How do you ask for headache tablet?",
             "options": [
-                "Headache tablet koDi",
-                "Headache maaDi",
-                "Headache beku",
-                "Headache ideya"
+                "Thale novu tablet koDi",
+                "Thale novu maaDi",
+                "Thale novu beku",
+                "Thale novu ideya"
             ],
-            "correctAnswer": "Headache tablet koDi"
+            "correctAnswer": "Thale novu tablet koDi"
         },
         {
             "type": "matching",
             "title": "Match Pharmacy Words",
             "matchPairs": [
                 {
-                    "kannada": "Medicine koDi",
+                    "kannada": "Oushadhi koDi",
                     "english": "Give medicine"
                 },
                 {
-                    "kannada": "Fever medicine",
+                    "kannada": "Jvara oushadhi",
                     "english": "Fever medicine"
                 },
                 {
-                    "kannada": "Headache tablet",
+                    "kannada": "Thale novu tablet",
                     "english": "Headache tablet"
                 },
                 {
@@ -108,27 +109,27 @@
             "title": "Build Request",
             "question": "Fever and headache medicine",
             "options": [
-                "Fever medicine koDi",
-                "Headache tablet koDi"
+                "Jvara oushadhi koDi",
+                "Thale novu tablet koDi"
             ],
             "correctOrder": [
-                "Fever medicine koDi",
-                "Headache tablet koDi"
+                "Jvara oushadhi koDi",
+                "Thale novu tablet koDi"
             ]
         },
         {
             "type": "grammar",
             "title": "Pharmacy Phrases",
             "question": "Pharmacy",
-            "feedback": "• Medicine koDi = Give medicine\n• Fever medicine = Fever medicine\n• Headache tablet = Headache tablet\n• Prescription ide = Have prescription\n• Generic medicine ideya? = Generic available?"
+            "feedback": "• Oushadhi koDi = Give medicine\n• Jvara oushadhi = Fever medicine\n• Thale novu tablet = Headache tablet\n• Prescription ide = Have prescription\n• Generic medicine ideya? = Generic available?"
         },
         {
             "type": "speaking",
             "title": "Full Pharmacy",
             "word": {
-                "kannada": "Fever medicine koDi. Headache tablet koDi. Prescription ide.",
+                "kannada": "Jvara oushadhi koDi. Thale novu tablet koDi. Prescription ide.",
                 "english": "Give fever medicine. Give headache tablet. Have prescription.",
-                "pronunciation": "Fever medicine koDi. Headache tablet koDi. Prescription ide."
+                "pronunciation": "Jvara oushadhi koDi. Thale novu tablet koDi. Prescription ide."
             }
         },
         {

@@ -5,38 +5,38 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Fever",
+            "title": "New Word: Jvara",
             "word": {
-                "kannada": "Fever / Jvara",
+                "kannada": "Jvara",
                 "english": "Fever",
-                "pronunciation": "Fever / Jvara"
+                "pronunciation": "Jvara"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Cold",
+            "title": "New Word: Sheetha",
             "word": {
-                "kannada": "Cold",
+                "kannada": "Sheetha",
                 "english": "Cold",
-                "pronunciation": "Cold"
+                "pronunciation": "Sheetha"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Cough",
+            "title": "New Word: Kemmu",
             "word": {
-                "kannada": "Cough",
+                "kannada": "Kemmu",
                 "english": "Cough",
-                "pronunciation": "Cough"
+                "pronunciation": "Kemmu"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Vomit",
+            "title": "New Word: Vanthi",
             "word": {
-                "kannada": "Vomit",
+                "kannada": "Vanthi",
                 "english": "Vomit",
-                "pronunciation": "Vomit"
+                "pronunciation": "Vanthi"
             }
         },
         {
@@ -44,20 +44,20 @@
             "title": "Have Fever",
             "question": "How do you say 'Have fever'?",
             "options": [
-                "Fever ide",
-                "Fever koDi",
-                "Fever beku",
-                "Fever maaDi"
+                "Jvara ide",
+                "Jvara koDi",
+                "Jvara beku",
+                "Jvara maaDi"
             ],
-            "correctAnswer": "Fever ide"
+            "correctAnswer": "Jvara ide"
         },
         {
             "type": "typeInput",
             "title": "Have Cold",
             "question": "Say you have cold",
             "correctAnswer": [
-                "Cold ide",
-                "cold ide"
+                "Sheetha ide",
+                "sheetha ide"
             ]
         },
         {
@@ -65,31 +65,31 @@
             "title": "Cough Problem",
             "question": "How do you complain about cough?",
             "options": [
-                "Cough problem",
-                "Cough koDi",
-                "Cough beku",
-                "Cough ideya"
+                "Kemmu problem",
+                "Kemmu koDi",
+                "Kemmu beku",
+                "Kemmu ideya"
             ],
-            "correctAnswer": "Cough problem"
+            "correctAnswer": "Kemmu problem"
         },
         {
             "type": "matching",
             "title": "Match Symptoms",
             "matchPairs": [
                 {
-                    "kannada": "Fever ide",
+                    "kannada": "Jvara ide",
                     "english": "Have fever"
                 },
                 {
-                    "kannada": "Cold ide",
+                    "kannada": "Sheetha ide",
                     "english": "Have cold"
                 },
                 {
-                    "kannada": "Cough problem",
+                    "kannada": "Kemmu problem",
                     "english": "Cough issue"
                 },
                 {
-                    "kannada": "Vomit aaguthe",
+                    "kannada": "Vanthi aaguthe",
                     "english": "Vomiting"
                 }
             ]
@@ -99,8 +99,8 @@
             "title": "Vomiting",
             "question": "Say you are vomiting",
             "correctAnswer": [
-                "Vomit aaguthe",
-                "vomit aaguthe"
+                "Vanthi aaguthe",
+                "vanthi aaguthe"
             ]
         },
         {
@@ -108,29 +108,29 @@
             "title": "Build Symptoms",
             "question": "Fever, cold, cough",
             "options": [
-                "Fever ide",
-                "Cold ide",
-                "Cough problem"
+                "Jvara ide",
+                "Sheetha ide",
+                "Kemmu problem"
             ],
             "correctOrder": [
-                "Fever ide",
-                "Cold ide",
-                "Cough problem"
+                "Jvara ide",
+                "Sheetha ide",
+                "Kemmu problem"
             ]
         },
         {
             "type": "grammar",
             "title": "Symptom Phrases",
             "question": "Symptoms",
-            "feedback": "• Fever ide = Have fever\n• Cold ide = Have cold\n• Cough problem = Cough issue\n• Vomit aaguthe = Vomiting\n• Ninne inda = Since yesterday"
+            "feedback": "• Jvara ide = Have fever\n• Sheetha ide = Have cold\n• Kemmu problem = Cough issue\n• Vanthi aaguthe = Vomiting\n• Ninne inda = Since yesterday"
         },
         {
             "type": "speaking",
             "title": "Full Symptoms",
             "word": {
-                "kannada": "Fever ide. Cold ide. Cough problem. Vomit aaguthe.",
+                "kannada": "Jvara ide. Sheetha ide. Kemmu problem. Vanthi aaguthe.",
                 "english": "Have fever. Have cold. Cough problem. Vomiting.",
-                "pronunciation": "Fever ide. Cold ide. Cough problem. Vomit aaguthe."
+                "pronunciation": "Jvara ide. Sheetha ide. Kemmu problem. Vanthi aaguthe."
             }
         },
         {

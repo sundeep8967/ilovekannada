@@ -35,7 +35,7 @@
             "title": "New Word: Nimage",
             "word": {
                 "kannada": "Nimage",
-                "english": "To you",
+                "english": "And you? / To you",
                 "pronunciation": "Nimage"
             }
         },
@@ -61,7 +61,7 @@
                 },
                 {
                     "kannada": "Nimage",
-                    "english": "To you"
+                    "english": "And you?"
                 },
                 {
                     "kannada": "Chennagide",
@@ -86,9 +86,9 @@
             "title": "Translate",
             "question": "Type in English letters: 'How are you?'",
             "correctAnswer": [
-                "Neevu hegiddira",
-                "neevu hegiddira",
-                "Hegiddira"
+                "Hegiddira",
+                "hegiddira",
+                "Neevu hegiddira"
             ]
         },
         {
@@ -98,22 +98,21 @@
             "options": [
                 "Naanu Rohan.",
                 "Chennagiddini.",
-                "Nanna hesaru Priya."
+                "Nimma hesaru enu?"
             ],
             "correctAnswer": "Chennagiddini."
         },
         {
             "type": "assemble",
             "title": "Arrange Phrase",
-            "question": "Arrange this response: 'Thank you, and you?'",
+            "question": "Arrange this response: 'I am fine, and you?'",
             "options": [
-                "Dhanyavadagalu",
+                "Chennagiddini",
                 "nimage",
-                "chennagiddini",
                 "howdu"
             ],
             "correctOrder": [
-                "Dhanyavadagalu",
+                "Chennagiddini",
                 "nimage"
             ]
         },
@@ -121,7 +120,7 @@
             "type": "grammar",
             "title": "Grammar Tip",
             "question": "Polite vs Casual",
-            "feedback": "'Hegiddira' is the POLITE way to ask 'How are you?' in Kannada. It's used with elders and strangers to show respect."
+            "feedback": "'Hegiddira' is the POLITE way to ask 'How are you?' in Kannada. It's used with elders and strangers to show respect.\n\n• Hegiddiya = How are you? (casual, for friends)\n• Hegiddira = How are you? (polite)\n• Nimage = And you? (asking back)"
         },
         {
             "type": "quiz",
@@ -138,9 +137,9 @@
             "type": "speaking",
             "title": "Speak",
             "word": {
-                "kannada": "Namaskara Hegiddira",
+                "kannada": "Namaskara, Hegiddira?",
                 "english": "Hello, how are you?",
-                "pronunciation": "Namaskara Hegiddira"
+                "pronunciation": "Namaskara, Hegiddira"
             }
         },
         {

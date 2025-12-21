@@ -32,11 +32,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Olage",
+            "title": "New Word: Banni",
             "word": {
-                "kannada": "Olage",
-                "english": "Inside",
-                "pronunciation": "Olage"
+                "kannada": "Banni",
+                "english": "Come (polite)",
+                "pronunciation": "Banni"
             }
         },
         {
@@ -47,7 +47,7 @@
                 "Neeru saaku",
                 "Neeru beku",
                 "Neeru tumba",
-                "Neeru olage"
+                "Neeru banni"
             ],
             "correctAnswer": "Neeru beku"
         },
@@ -69,7 +69,7 @@
                 "Beku!",
                 "Tumba!",
                 "Saaku!",
-                "Olage!"
+                "Banni!"
             ],
             "correctAnswer": "Saaku!"
         },
@@ -90,18 +90,18 @@
                     "english": "Enough/Stop"
                 },
                 {
-                    "kannada": "Olage",
-                    "english": "Inside"
+                    "kannada": "Banni",
+                    "english": "Come"
                 }
             ]
         },
         {
             "type": "typeInput",
-            "title": "Direction",
-            "question": "Tell someone to go inside",
+            "title": "Asking for Help",
+            "question": "Ask someone to come here politely",
             "correctAnswer": [
-                "Olage hogi",
-                "olage hogi"
+                "Illi banni",
+                "illi banni"
             ]
         },
         {
@@ -110,42 +110,42 @@
             "question": "How do you say 'No problem!' / 'It's okay!'?",
             "options": [
                 "Tumba illa",
-                "Dokka illa",
+                "Parvagilla",
                 "Beku illa",
                 "Saaku illa"
             ],
-            "correctAnswer": "Dokka illa"
+            "correctAnswer": "Parvagilla"
         },
         {
             "type": "assemble",
             "title": "Build Phrase",
-            "question": "Say: 'Water needed, come here'",
+            "question": "Say: 'Come here, I need water'",
             "options": [
                 "beku",
                 "Neeru",
-                "bandu",
-                "illi"
+                "banni",
+                "Illi"
             ],
             "correctOrder": [
+                "Illi",
+                "banni",
                 "Neeru",
-                "beku",
-                "illi",
-                "bandu"
+                "beku"
             ]
         },
         {
             "type": "grammar",
             "title": "Usage Patterns",
             "question": "Emergency Phrases",
-            "feedback": "• [Item] + beku = I need [item]\n  Neeru beku = Need water\n\n• Tumba + [adjective] = Very [adjective]\n  Tumba khara = Very spicy\n\n• Saaku! = Enough!/Stop!\n\n• Olage hogi = Go inside\n  Illi bandu = Come here"
+            "feedback": "• [Item] + beku = I need [item]\n  Neeru beku = Need water\n\n• Tumba + [adjective] = Very [adjective]\n  Tumba khara = Very spicy\n\n• Saaku! = Enough!/Stop!\n\n• Illi banni = Come here (polite)\n\n• Parvagilla = No problem/It's okay"
         },
         {
             "type": "speaking",
             "title": "Emergency Practice",
             "word": {
-                "kannada": "Illi bandu neeru beku",
+                "kannada": "Illi banni, neeru beku",
                 "english": "Come here, I need water",
-                "pronunciation": "Illi bandu neeru beku"
+                "pronunciation": "Illi banni, neeru beku"
             }
         },
         {
@@ -156,7 +156,7 @@
                 "Express needs: Beku",
                 "Say 'enough': Saaku",
                 "Intensify: Tumba",
-                "Give directions: Olage/Illi",
+                "Call someone: Illi banni",
                 "Handle basic emergencies!"
             ]
         }

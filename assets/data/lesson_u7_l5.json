@@ -7,9 +7,9 @@
             "type": "intro",
             "title": "Review: Banking",
             "word": {
-                "kannada": "Bank elli? Money deposit maaDi.",
+                "kannada": "Bank elli? Duddu deposit maaDi.",
                 "english": "Where is bank? Deposit money.",
-                "pronunciation": "Bank elli? Money deposit maaDi."
+                "pronunciation": "Bank elli? Duddu deposit maaDi."
             }
         },
         {
@@ -26,12 +26,12 @@
             "title": "Bank Trip",
             "question": "Find bank, deposit cash, get receipt. Best order?",
             "options": [
-                "Bank elli? Money deposit maaDi. Receipt koDi",
+                "Bank elli? Duddu deposit maaDi. Receipt koDi",
                 "Receipt koDi. Bank elli?",
                 "UPI maaDi",
                 "ATM problem"
             ],
-            "correctAnswer": "Bank elli? Money deposit maaDi. Receipt koDi"
+            "correctAnswer": "Bank elli? Duddu deposit maaDi. Receipt koDi"
         },
         {
             "type": "typeInput",
@@ -47,12 +47,12 @@
             "title": "UPI Failed",
             "question": "Payment fails, what do you say?",
             "options": [
-                "Payment failed. Again try maaDi",
+                "Payment failed. Innomme try maaDi",
                 "Bank elli?",
                 "Card stuck",
                 "Form koDi"
             ],
-            "correctAnswer": "Payment failed. Again try maaDi"
+            "correctAnswer": "Payment failed. Innomme try maaDi"
         },
         {
             "type": "matching",
@@ -81,8 +81,8 @@
             "title": "Bill Error",
             "question": "Find error in bill, ask correction",
             "correctAnswer": [
-                "Bill thappu. Change maaDi",
-                "bill thappu change maadi"
+                "Bill thappu ide. Change maaDi",
+                "bill thappu ide change maadi"
             ]
         },
         {
@@ -104,15 +104,15 @@
             "type": "grammar",
             "title": "Money Summary",
             "question": "All Money",
-            "feedback": "BANK: Bank elli? Deposit/Withdraw maaDi\nATM: ATM problem, Card stuck, Cash illa\nDIGITAL: UPI maaDi, QR scan, Failed\nBILLS: Receipt koDi, Bill thappu"
+            "feedback": "BANK: Bank elli? Duddu deposit maaDi\nATM: ATM problem, Card stuck, Duddu illa\nDIGITAL: UPI maaDi, QR scan, Innomme try\nBILLS: Receipt koDi, Bill thappu ide"
         },
         {
             "type": "speaking",
             "title": "Complete Money Day",
             "word": {
-                "kannada": "Bank elli? Money deposit. UPI maaDi. Receipt koDi.",
+                "kannada": "Bank elli? Duddu deposit. UPI maaDi. Receipt koDi.",
                 "english": "Where is bank? Deposit money. Do UPI. Give receipt.",
-                "pronunciation": "Bank elli? Money deposit. UPI maaDi. Receipt koDi."
+                "pronunciation": "Bank elli? Duddu deposit. UPI maaDi. Receipt koDi."
             }
         },
         {

@@ -65,12 +65,12 @@
             "title": "Try Clothes",
             "question": "How do you ask to try clothes?",
             "options": [
-                "Try maaDThira?",
+                "Try maadabahuda?",
                 "Try koDi?",
                 "Try ideya?",
                 "Try beku?"
             ],
-            "correctAnswer": "Try maaDThira?"
+            "correctAnswer": "Try maadabahuda?"
         },
         {
             "type": "matching",
@@ -85,7 +85,7 @@
                     "english": "Too big"
                 },
                 {
-                    "kannada": "Try maaDThira?",
+                    "kannada": "Try maadabahuda?",
                     "english": "Can I try?"
                 },
                 {
@@ -109,12 +109,12 @@
             "title": "Build Request",
             "question": "Try, complain size, ask smaller",
             "options": [
-                "Try maaDThira?",
+                "Try maadabahuda?",
                 "Idu doDDadu",
                 "Chikka size koDi"
             ],
             "correctOrder": [
-                "Try maaDThira?",
+                "Try maadabahuda?",
                 "Idu doDDadu",
                 "Chikka size koDi"
             ]
@@ -123,15 +123,15 @@
             "type": "grammar",
             "title": "Clothing Phrases",
             "question": "Clothes Shopping",
-            "feedback": "• Size enu ide? = What sizes?\n• Try maaDThira? = Can I try?\n• Idu doDDadu = This is too big\n• Chikka size ideya? = Smaller size?\n• Bere color ideya? = Different color?"
+            "feedback": "• Size enu ide? = What sizes?\n• Try maadabahuda? = Can I try?\n• Idu doDDadu = This is too big\n• Chikka size ideya? = Smaller size?\n• Bere color ideya? = Different color?"
         },
         {
             "type": "speaking",
             "title": "Full Clothes Shop",
             "word": {
-                "kannada": "Size enu ide? Try maaDThira? Bere color ideya?",
+                "kannada": "Size enu ide? Try maadabahuda? Bere color ideya?",
                 "english": "What size? Can I try? Different color?",
-                "pronunciation": "Size enu ide? Try maaDThira? Bere color ideya?"
+                "pronunciation": "Size enu ide? Try maadabahuda? Bere color ideya?"
             }
         },
         {
@@ -140,7 +140,7 @@
             "question": "You can now:",
             "options": [
                 "Check sizes: Size enu?",
-                "Try clothes: Try maaDThira?",
+                "Try clothes: Try maadabahuda?",
                 "Complain fit: DoDDadu/Chikka",
                 "Shop for clothes!"
             ]

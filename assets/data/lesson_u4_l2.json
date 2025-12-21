@@ -5,38 +5,38 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Vegetarian",
+            "title": "New Word: Sasyahari",
             "word": {
-                "kannada": "Vegetarian",
+                "kannada": "Sasyahari",
                 "english": "Vegetarian",
-                "pronunciation": "Vegetarian"
+                "pronunciation": "Sasyahari"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Non-veg",
+            "title": "New Word: Mimsahari",
             "word": {
-                "kannada": "Non-veg",
+                "kannada": "Mimsahari",
                 "english": "Non-vegetarian",
-                "pronunciation": "Non-veg"
+                "pronunciation": "Mimsahari"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Egg",
+            "title": "New Word: Motte",
             "word": {
-                "kannada": "Egg",
+                "kannada": "Motte",
                 "english": "Egg",
-                "pronunciation": "Egg"
+                "pronunciation": "Motte"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Spicy",
+            "title": "New Word: Khara",
             "word": {
-                "kannada": "Spicy / Khara",
+                "kannada": "Khara",
                 "english": "Spicy",
-                "pronunciation": "Spicy / Khara"
+                "pronunciation": "Khara"
             }
         },
         {
@@ -44,21 +44,21 @@
             "title": "Dietary",
             "question": "How do you say 'I am vegetarian'?",
             "options": [
-                "Nanage vegetarian",
-                "Vegetarian koDi",
-                "Vegetarian ideya",
-                "Vegetarian beku"
+                "Naanu sasyahari",
+                "Sasyahari koDi",
+                "Sasyahari ideya",
+                "Sasyahari beku"
             ],
-            "correctAnswer": "Nanage vegetarian"
+            "correctAnswer": "Naanu sasyahari"
         },
         {
             "type": "typeInput",
             "title": "No Egg",
-            "question": "Say: 'No egg in my food'",
+            "question": "Say: 'I don't want egg' / 'No egg'",
             "correctAnswer": [
-                "Egg illa",
-                "egg illa",
-                "Nanna ootakke egg illa"
+                "Motte beda",
+                "motte beda",
+                "Motte illa"
             ]
         },
         {
@@ -66,32 +66,32 @@
             "title": "Less Spicy",
             "question": "How do you ask for less spicy food?",
             "options": [
-                "Tumba spicy",
-                "Swalpa spicy maaDi",
-                "Spicy koDi",
-                "Spicy ideya"
+                "Tumba khara",
+                "Swalpa khara maaDi",
+                "Khara koDi",
+                "Khara ideya"
             ],
-            "correctAnswer": "Swalpa spicy maaDi"
+            "correctAnswer": "Swalpa khara maaDi"
         },
         {
             "type": "matching",
             "title": "Match Dietary Words",
             "matchPairs": [
                 {
-                    "kannada": "Vegetarian",
+                    "kannada": "Sasyahari",
                     "english": "Vegetarian"
                 },
                 {
-                    "kannada": "Egg illa",
-                    "english": "No egg"
+                    "kannada": "Motte beda",
+                    "english": "No egg wanted"
                 },
                 {
-                    "kannada": "Swalpa spicy",
+                    "kannada": "Swalpa khara",
                     "english": "Little spicy"
                 },
                 {
-                    "kannada": "Tumba spicy illa",
-                    "english": "Not too spicy"
+                    "kannada": "Tumba khara beda",
+                    "english": "Don't want too spicy"
                 }
             ]
         },
@@ -111,28 +111,28 @@
             "question": "Order dosa: no egg, less spicy",
             "options": [
                 "Dosa koDi",
-                "egg illa",
-                "swalpa spicy"
+                "motte beda",
+                "swalpa khara"
             ],
             "correctOrder": [
                 "Dosa koDi",
-                "egg illa",
-                "swalpa spicy"
+                "motte beda",
+                "swalpa khara"
             ]
         },
         {
             "type": "grammar",
             "title": "Dietary Phrases",
             "question": "Food Preferences",
-            "feedback": "• Nanage vegetarian = I am vegetarian\n• Egg illa = No egg\n• Swalpa spicy = Little spicy\n• Tumba spicy illa = Not too spicy\n• Idu vegetariana? = Is this vegetarian?"
+            "feedback": "• Naanu sasyahari/veg = I am vegetarian\n• Motte beda = I don't want egg\n• Swalpa khara = Little spicy\n• Tumba khara beda = Don't want too spicy\n• Idu vegetariana? = Is this vegetarian?"
         },
         {
             "type": "speaking",
             "title": "Full Restriction",
             "word": {
-                "kannada": "Vegetarian beku. Egg illa. Tumba spicy illa.",
+                "kannada": "Sasyahari beku. Motte beda. Tumba khara beda.",
                 "english": "I want vegetarian. No egg. Not too spicy.",
-                "pronunciation": "Vegetarian beku. Egg illa. Tumba spicy illa."
+                "pronunciation": "Sasyahari beku. Motte beda. Tumba khara beda."
             }
         },
         {
@@ -140,9 +140,9 @@
             "title": "Lesson Complete!",
             "question": "You can now:",
             "options": [
-                "Say vegetarian: Nanage vegetarian",
-                "Exclude items: Egg illa",
-                "Control spice: Swalpa spicy",
+                "Say vegetarian: Naanu sasyahari",
+                "Exclude items: Motte beda",
+                "Control spice: Swalpa khara",
                 "Order with restrictions!"
             ]
         }

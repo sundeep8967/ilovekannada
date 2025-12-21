@@ -14,20 +14,20 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Onion",
+            "title": "New Word: Eerulli",
             "word": {
-                "kannada": "Onion",
+                "kannada": "Eerulli",
                 "english": "Onion",
-                "pronunciation": "Onion"
+                "pronunciation": "Eerulli"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Potato",
+            "title": "New Word: Aloogadde",
             "word": {
-                "kannada": "Potato",
+                "kannada": "Aloogadde",
                 "english": "Potato",
-                "pronunciation": "Potato"
+                "pronunciation": "Aloogadde"
             }
         },
         {
@@ -56,8 +56,8 @@
             "title": "Buy Quantity",
             "question": "Ask for 1 kg onions",
             "correctAnswer": [
-                "Onion ondu kg koDi",
-                "onion ondu kg kodi"
+                "Eerulli ondu kg koDi",
+                "eerulli ondu kg kodi"
             ]
         },
         {
@@ -65,12 +65,12 @@
             "title": "Fresh Check",
             "question": "How do you ask if vegetables are fresh?",
             "options": [
-                "Fresha?",
+                "Fresh ideya?",
                 "Fresh koDi",
-                "Fresh ideya",
+                "Fresha?",
                 "Fresh beku"
             ],
-            "correctAnswer": "Fresha?"
+            "correctAnswer": "Fresh ideya?"
         },
         {
             "type": "matching",
@@ -85,11 +85,11 @@
                     "english": "Give 1 kg"
                 },
                 {
-                    "kannada": "Swalpa koDThira?",
+                    "kannada": "Swalpa kammi maaDi?",
                     "english": "Reduce a little?"
                 },
                 {
-                    "kannada": "Fresha?",
+                    "kannada": "Fresh ideya?",
                     "english": "Fresh?"
                 }
             ]
@@ -99,8 +99,8 @@
             "title": "Bargain",
             "question": "Ask: 'Can you reduce a little?'",
             "correctAnswer": [
-                "Swalpa koDThira",
-                "swalpa kodthira"
+                "Swalpa kammi maaDi",
+                "swalpa kammi maadi"
             ]
         },
         {
@@ -108,31 +108,31 @@
             "title": "Build Purchase",
             "question": "Buy 1 kg potatoes, bargain",
             "options": [
-                "Potato",
+                "Aloogadde",
                 "ondu kg",
                 "koDi",
-                "Swalpa koDThira?"
+                "Swalpa kammi maaDi?"
             ],
             "correctOrder": [
-                "Potato",
+                "Aloogadde",
                 "ondu kg",
                 "koDi",
-                "Swalpa koDThira?"
+                "Swalpa kammi maaDi?"
             ]
         },
         {
             "type": "grammar",
             "title": "Market Phrases",
             "question": "Vegetable Shopping",
-            "feedback": "• [Item] eshTu? = Price of [item]?\n• Ondu kg koDi = Give 1 kg\n• Half kg koDi = Give half kg\n• Swalpa koDThira? = Can you reduce?\n• Fresha? = Is it fresh?"
+            "feedback": "• [Item] eshTu? = Price of [item]?\n• Ondu kg koDi = Give 1 kg\n• ArDha kg koDi = Give half kg\n• Swalpa kammi maaDi? = Please reduce/bargain\n• Fresh ideya? = Is it fresh?"
         },
         {
             "type": "speaking",
             "title": "Full Shopping",
             "word": {
-                "kannada": "Tomato eshTu? Swalpa koDThira? Ondu kg koDi.",
+                "kannada": "Tomato eshTu? Swalpa kammi maaDi? Ondu kg koDi.",
                 "english": "Tomato price? Reduce a little? Give 1 kg.",
-                "pronunciation": "Tomato eshTu? Swalpa koDThira? Ondu kg koDi."
+                "pronunciation": "Tomato eshTu? Swalpa kammi maaDi? Ondu kg koDi."
             }
         },
         {
@@ -142,7 +142,7 @@
             "options": [
                 "Ask prices: EshTu?",
                 "Buy quantity: Kg koDi",
-                "Bargain: Swalpa koDThira?",
+                "Bargain: Kammi maaDi?",
                 "Shop at veggie market!"
             ]
         }

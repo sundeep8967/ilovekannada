@@ -23,20 +23,20 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Home",
+            "title": "New Word: Delivery",
             "word": {
-                "kannada": "Home",
-                "english": "Home",
-                "pronunciation": "Home"
+                "kannada": "Delivery",
+                "english": "Delivery",
+                "pronunciation": "Delivery"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Time/Gante",
+            "title": "New Word: Hothu",
             "word": {
-                "kannada": "Gante",
-                "english": "Hour / Time",
-                "pronunciation": "Gante"
+                "kannada": "Hothu",
+                "english": "Time (Duration)",
+                "pronunciation": "Hothu"
             }
         },
         {
@@ -56,8 +56,8 @@
             "title": "Pack It",
             "question": "Ask them to pack the food",
             "correctAnswer": [
-                "Pack koDi",
-                "pack kodi"
+                "Pack maaDi",
+                "pack maadi"
             ]
         },
         {
@@ -65,12 +65,12 @@
             "title": "Delivery",
             "question": "How do you ask for home delivery?",
             "options": [
-                "Home ge thara",
+                "Home delivery ideya?",
+                "Home delivery beku",
                 "Home koDi",
-                "Home beku",
-                "Home ideya"
+                "Home thara"
             ],
-            "correctAnswer": "Home ge thara"
+            "correctAnswer": "Home delivery ideya?"
         },
         {
             "type": "matching",
@@ -81,15 +81,15 @@
                     "english": "Make takeaway"
                 },
                 {
-                    "kannada": "Pack koDi",
+                    "kannada": "Pack maaDi",
                     "english": "Pack it"
                 },
                 {
-                    "kannada": "Home ge thara",
-                    "english": "Deliver home"
+                    "kannada": "Home delivery ideya?",
+                    "english": "Is there home delivery?"
                 },
                 {
-                    "kannada": "EshTu gante?",
+                    "kannada": "EshTu hothu?",
                     "english": "How long?"
                 }
             ]
@@ -97,11 +97,11 @@
         {
             "type": "typeInput",
             "title": "Delivery Time",
-            "question": "Ask delivery time",
+            "question": "Ask delivery time / how long?",
             "correctAnswer": [
-                "EshTu gante",
-                "eshtu gante",
-                "EshTu gante?"
+                "EshTu hothu",
+                "eshtu hothu",
+                "EshTu hothu?"
             ]
         },
         {
@@ -112,28 +112,28 @@
                 "Parcel",
                 "maaDi",
                 "Pack",
-                "koDi"
+                "maaDi"
             ],
             "correctOrder": [
                 "Parcel",
                 "maaDi",
                 "Pack",
-                "koDi"
+                "maaDi"
             ]
         },
         {
             "type": "grammar",
             "title": "Takeaway Phrases",
             "question": "Delivery",
-            "feedback": "• Parcel maaDi = Make it takeaway\n• Pack koDi = Pack it\n• Home ge thara = Deliver to home\n• EshTu gante? = How long?\n• TharaThira? = Can you deliver?"
+            "feedback": "• Parcel maaDi = Make it takeaway\n• Pack maaDi = Pack it\n• Home delivery ideya? = Is there home delivery?\n• EshTu hothu? = How long?\n• TharaThira? = Can you bring/deliver?"
         },
         {
             "type": "speaking",
             "title": "Full Takeaway",
             "word": {
-                "kannada": "Parcel maaDi. Pack koDi. EshTu gante?",
+                "kannada": "Parcel maaDi. Pack maaDi. EshTu hothu?",
                 "english": "Make takeaway. Pack it. How long?",
-                "pronunciation": "Parcel maaDi. Pack koDi. EshTu gante?"
+                "pronunciation": "Parcel maaDi. Pack maaDi. EshTu hothu?"
             }
         },
         {
@@ -142,8 +142,8 @@
             "question": "You can now:",
             "options": [
                 "Order takeaway: Parcel maaDi",
-                "Ask packing: Pack koDi",
-                "Request delivery: Home ge thara",
+                "Ask packing: Pack maaDi",
+                "Request delivery: Home delivery ideya?",
                 "Handle any takeaway!"
             ]
         }

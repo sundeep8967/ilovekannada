@@ -32,11 +32,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Fix",
+            "title": "New Word: Sari",
             "word": {
-                "kannada": "Fix",
-                "english": "Fix",
-                "pronunciation": "Fix"
+                "kannada": "Sari",
+                "english": "Fix / Correct",
+                "pronunciation": "Sari"
             }
         },
         {
@@ -46,7 +46,7 @@
             "options": [
                 "Plumber beku",
                 "Plumber koDi",
-                "Plumber baa",
+                "Plumber banni",
                 "Plumber ideya"
             ],
             "correctAnswer": "Plumber beku"
@@ -54,23 +54,24 @@
         {
             "type": "typeInput",
             "title": "Call Electrician",
-            "question": "Call electrician to come",
+            "question": "Ask electrician to come (polite)",
             "correctAnswer": [
-                "Electrician baa",
-                "electrician baa"
+                "Electrician banni",
+                "electrician banni",
+                "Electrician kalsi"
             ]
         },
         {
             "type": "quiz",
             "title": "Show Leak",
-            "question": "How do you say 'There's leak'?",
+            "question": "How do you say 'It is leaking'?",
             "options": [
-                "Leak ide",
+                "Leak aaguthide",
                 "Leak beku",
                 "Leak koDi",
-                "Leak baa"
+                "Leak banni"
             ],
-            "correctAnswer": "Leak ide"
+            "correctAnswer": "Leak aaguthide"
         },
         {
             "type": "matching",
@@ -81,15 +82,15 @@
                     "english": "Need plumber"
                 },
                 {
-                    "kannada": "Electrician baa",
+                    "kannada": "Electrician banni",
                     "english": "Electrician come"
                 },
                 {
-                    "kannada": "Leak ide",
-                    "english": "There's leak"
+                    "kannada": "Leak aaguthide",
+                    "english": "It is leaking"
                 },
                 {
-                    "kannada": "Fix maaDi",
+                    "kannada": "Sari maaDi",
                     "english": "Fix it"
                 }
             ]
@@ -99,8 +100,9 @@
             "title": "Fix It",
             "question": "Tell repair person to fix problem",
             "correctAnswer": [
-                "Fix maaDi",
-                "fix maadi"
+                "Sari maaDi",
+                "sari maadi",
+                "Repair maaDi"
             ]
         },
         {
@@ -109,28 +111,28 @@
             "question": "Need plumber, there's leak, fix it",
             "options": [
                 "Plumber beku",
-                "Leak ide",
-                "Fix maaDi"
+                "Leak aaguthide",
+                "Sari maaDi"
             ],
             "correctOrder": [
                 "Plumber beku",
-                "Leak ide",
-                "Fix maaDi"
+                "Leak aaguthide",
+                "Sari maaDi"
             ]
         },
         {
             "type": "grammar",
             "title": "Repair Phrases",
             "question": "Repair People",
-            "feedback": "• Plumber beku = Need plumber\n• Electrician baa = Electrician come\n• Leak ide = There's leak\n• Fix maaDi = Fix it\n• Repair ge eshTu? = How much for repair?"
+            "feedback": "• Plumber beku = Need plumber\n• Electrician banni = Electrician come (polite)\n• Leak aaguthide = It is leaking\n• Sari maaDi = Fix it\n• Repair ge eshTu? = How much for repair?"
         },
         {
             "type": "speaking",
             "title": "Full Repair Call",
             "word": {
-                "kannada": "Electrician baa. Light problem. Fix maaDi.",
+                "kannada": "Electrician banni. Light problem. Sari maaDi.",
                 "english": "Electrician come. Light problem. Fix it.",
-                "pronunciation": "Electrician baa. Light problem. Fix maaDi."
+                "pronunciation": "Electrician banni. Light problem. Sari maaDi."
             }
         },
         {
@@ -139,8 +141,8 @@
             "question": "You can now:",
             "options": [
                 "Call plumber: Plumber beku",
-                "Call electrician: Electrician baa",
-                "Show problem: Leak ide",
+                "Call electrician: Electrician banni",
+                "Show problem: Leak aaguthide",
                 "Handle repairs!"
             ]
         }

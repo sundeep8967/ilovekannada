@@ -16,9 +16,9 @@
             "type": "intro",
             "title": "Review: Utilities",
             "word": {
-                "kannada": "Light illa. Water problem.",
+                "kannada": "Current illa. Neeru problem.",
                 "english": "No electricity. Water problem.",
-                "pronunciation": "Light illa. Water problem."
+                "pronunciation": "Current illa. Neeru problem."
             }
         },
         {
@@ -26,20 +26,20 @@
             "title": "Manage Maid",
             "question": "Give maid instructions and schedule. Best phrase?",
             "options": [
-                "Illi swaccha maaDi. Tomorrow baa",
-                "Light illa",
+                "Illi swaccha maaDi. Naale banni",
+                "Current illa",
                 "Plumber beku",
                 "Namaskara"
             ],
-            "correctAnswer": "Illi swaccha maaDi. Tomorrow baa"
+            "correctAnswer": "Illi swaccha maaDi. Naale banni"
         },
         {
             "type": "typeInput",
             "title": "Report Utilities",
             "question": "Report utility problems to watchman",
             "correctAnswer": [
-                "Light illa. Water problem",
-                "light illa water problem"
+                "Current illa. Neeru problem",
+                "current illa neeru problem"
             ]
         },
         {
@@ -47,12 +47,12 @@
             "title": "Call Plumber",
             "question": "How to call plumber for bathroom leak?",
             "options": [
-                "Plumber beku. Leak ide",
+                "Plumber beku. Leak aaguthide",
                 "Namaskara",
-                "Tomorrow baa",
+                "Naale banni",
                 "Help maaDi"
             ],
-            "correctAnswer": "Plumber beku. Leak ide"
+            "correctAnswer": "Plumber beku. Leak aaguthide"
         },
         {
             "type": "matching",
@@ -63,7 +63,7 @@
                     "english": "To maid"
                 },
                 {
-                    "kannada": "Light illa",
+                    "kannada": "Current illa",
                     "english": "To watchman"
                 },
                 {
@@ -71,7 +71,7 @@
                     "english": "For repairs"
                 },
                 {
-                    "kannada": "Noise jaasti",
+                    "kannada": "Galaate jaasti",
                     "english": "To neighbor"
                 }
             ]
@@ -81,8 +81,8 @@
             "title": "Noise Complaint",
             "question": "Complain to neighbor about noise politely",
             "correctAnswer": [
-                "Namaskara. Noise jaasti",
-                "namaskara noise jaasti"
+                "Namaskara. Galaate jaasti",
+                "namaskara galaate jaasti"
             ]
         },
         {
@@ -92,27 +92,27 @@
             "options": [
                 "Swaccha maaDi",
                 "Oota ready maaDi",
-                "Tomorrow baa"
+                "Naale banni"
             ],
             "correctOrder": [
                 "Swaccha maaDi",
                 "Oota ready maaDi",
-                "Tomorrow baa"
+                "Naale banni"
             ]
         },
         {
             "type": "grammar",
             "title": "Home Summary",
             "question": "All Home",
-            "feedback": "HOUSE HELP: Swaccha/Ready/Close maaDi\nUTILITIES: Light/Water/Gas illa\nREPAIRS: Plumber/Electrician beku\nNEIGHBORS: Namaskara, problem discuss"
+            "feedback": "HOUSE HELP: Swaccha/Ready/Gate muchhi\nUTILITIES: Current/Neeru/Gas illa\nREPAIRS: Plumber/Electrician beku, Sari maaDi\nNEIGHBORS: Namaskara, galaate jaasti"
         },
         {
             "type": "speaking",
             "title": "Complete Home Day",
             "word": {
-                "kannada": "Swaccha maaDi. Light illa. Plumber beku. Namaskara neighbor.",
+                "kannada": "Swaccha maaDi. Current illa. Plumber beku. Namaskara pakkadamane.",
                 "english": "Clean. No electricity. Need plumber. Hello neighbor.",
-                "pronunciation": "Swaccha maaDi. Light illa. Plumber beku. Namaskara neighbor."
+                "pronunciation": "Swaccha maaDi. Current illa. Plumber beku. Namaskara pakkadamane."
             }
         },
         {

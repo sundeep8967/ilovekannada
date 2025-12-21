@@ -32,17 +32,17 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Cash",
+            "title": "New Word: Duddu",
             "word": {
-                "kannada": "Cash",
-                "english": "Cash",
-                "pronunciation": "Cash"
+                "kannada": "Duddu",
+                "english": "Cash / Money",
+                "pronunciation": "Duddu"
             }
         },
         {
             "type": "quiz",
             "title": "ATM Issue",
-            "question": "How do you report ATM not working?",
+            "question": "How do you report 'ATM not working'?",
             "options": [
                 "ATM problem",
                 "ATM koDi",
@@ -65,12 +65,12 @@
             "title": "No Cash",
             "question": "How do you say ATM has no cash?",
             "options": [
-                "Cash illa",
+                "Duddu illa",
                 "Cash koDi",
-                "Cash beku",
+                "Duddu beku",
                 "Cash ideya"
             ],
-            "correctAnswer": "Cash illa"
+            "correctAnswer": "Duddu illa"
         },
         {
             "type": "matching",
@@ -89,7 +89,7 @@
                     "english": "Change PIN"
                 },
                 {
-                    "kannada": "Cash illa",
+                    "kannada": "Duddu illa",
                     "english": "No cash"
                 }
             ]
@@ -110,19 +110,19 @@
             "options": [
                 "ATM problem",
                 "Card stuck",
-                "Cash illa"
+                "Duddu illa"
             ],
             "correctOrder": [
                 "ATM problem",
                 "Card stuck",
-                "Cash illa"
+                "Duddu illa"
             ]
         },
         {
             "type": "grammar",
             "title": "ATM Phrases",
             "question": "ATM Issues",
-            "feedback": "• ATM problem = ATM issue\n• Card stuck = Card stuck\n• Pin change maaDi = Change PIN\n• Cash illa = No cash\n• Bere ATM ideya? = Another ATM?"
+            "feedback": "• ATM problem = ATM issue\n• Card stuck = Card stuck\n• Pin change maaDi = Change PIN\n• Duddu illa = No cash\n• Bere ATM ideya? = Another ATM?"
         },
         {
             "type": "speaking",

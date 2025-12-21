@@ -7,9 +7,9 @@
             "type": "intro",
             "title": "Review: Auto Phrases",
             "word": {
-                "kannada": "Auto! HogThira? EshTu?",
+                "kannada": "Auto! Hogthira? EshTu?",
                 "english": "Auto! Will you go? How much?",
-                "pronunciation": "Auto! HogThira? EshTu?"
+                "pronunciation": "Auto! Hogthira? EshTu?"
             }
         },
         {
@@ -26,32 +26,32 @@
             "title": "Auto to Airport",
             "question": "Hail auto to airport. Best phrase?",
             "options": [
-                "Auto! Airport ge hogThira?",
+                "Auto! Airport ge hogthira?",
                 "Airport bus?",
                 "Airport token?",
                 "Airport elli?"
             ],
-            "correctAnswer": "Auto! Airport ge hogThira?"
+            "correctAnswer": "Auto! Airport ge hogthira?"
         },
         {
             "type": "quiz",
             "title": "Bus Journey",
             "question": "Check bus to Majestic. Best phrase?",
             "options": [
-                "Idu Majestic ge hogutheya?",
+                "Idu Majestic ge hoguttha?",
                 "Majestic token?",
                 "Majestic auto?",
                 "Majestic eshTu?"
             ],
-            "correctAnswer": "Idu Majestic ge hogutheya?"
+            "correctAnswer": "Idu Majestic ge hoguttha?"
         },
         {
             "type": "typeInput",
             "title": "Wrong Route",
             "question": "Driver took wrong route. Complain and redirect.",
             "correctAnswer": [
-                "Thappu marga. NeraDane hogi",
-                "thappu marga neradane hogi"
+                "Thappu marga. Nera hogi",
+                "thappu marga nera hogi"
             ]
         },
         {
@@ -59,7 +59,7 @@
             "title": "Match All Transport",
             "matchPairs": [
                 {
-                    "kannada": "Auto! HogThira?",
+                    "kannada": "Auto! Hogthira?",
                     "english": "Auto! Will you go?"
                 },
                 {
@@ -81,8 +81,8 @@
             "title": "Payment Issue",
             "question": "No change available. Ask for it.",
             "correctAnswer": [
-                "Change koDi. Bill illa",
-                "change kodi bill illa"
+                "Change koDi. Chillare illa",
+                "change kodi chillare illa"
             ]
         },
         {
@@ -106,15 +106,15 @@
             "type": "grammar",
             "title": "Travel Summary",
             "question": "All Transport",
-            "feedback": "AUTO:\n• Auto! HogThira? EshTu? Meter haaki\n\nBUS:\n• Bus ideya? Ticket eshTu? Next stop nillu\n\nMETRO:\n• Token eshTu? Yav line? Platform enu?\n\nPROBLEMS:\n• Thappu marga. Change koDi. Bill illa"
+            "feedback": "AUTO:\n• Auto! Hogthira? EshTu? Meter haaki\n\nBUS:\n• Bus ideya? Ticket eshTu? Mundina stop nillisi\n\nMETRO:\n• Token eshTu? Yav line? Platform enu?\n\nPROBLEMS:\n• Thappu marga. Change koDi. Chillare illa"
         },
         {
             "type": "speaking",
             "title": "Complete Journey",
             "word": {
-                "kannada": "Auto! MG Road ge eshTu? Meter haaki. Bala LiTThu. Illi nillu. Change koDi.",
+                "kannada": "Auto! MG Road ge eshTu? Meter haaki. Balakke thirugi. Illi nillisi. Change koDi.",
                 "english": "Auto! MG Road price? Use meter. Turn right. Stop here. Give change.",
-                "pronunciation": "Auto! MG Road ge eshTu? Meter haaki. Bala LiTThu. Illi nillu. Change koDi."
+                "pronunciation": "Auto! MG Road ge eshTu? Meter haaki. Balakke thirugi. Illi nillisi. Change koDi."
             }
         },
         {

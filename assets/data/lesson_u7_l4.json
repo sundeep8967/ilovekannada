@@ -65,12 +65,12 @@
             "title": "Bill Wrong",
             "question": "How do you say 'Bill is wrong'?",
             "options": [
-                "Bill thappu",
+                "Bill thappu ide",
                 "Bill koDi",
                 "Bill maaDi",
                 "Bill ideya"
             ],
-            "correctAnswer": "Bill thappu"
+            "correctAnswer": "Bill thappu ide"
         },
         {
             "type": "matching",
@@ -85,8 +85,8 @@
                     "english": "Check bill"
                 },
                 {
-                    "kannada": "Bill thappu",
-                    "english": "Bill wrong"
+                    "kannada": "Bill thappu ide",
+                    "english": "Bill is wrong"
                 },
                 {
                     "kannada": "Copy koDi",
@@ -120,7 +120,7 @@
             "type": "grammar",
             "title": "Bill Phrases",
             "question": "Receipts",
-            "feedback": "• Receipt koDi = Give receipt\n• Bill check maaDi = Check bill\n• Bill thappu = Bill is wrong\n• Copy koDi = Give copy\n• Invoice number enu? = Invoice number?"
+            "feedback": "• Receipt koDi = Give receipt\n• Bill check maaDi = Check bill\n• Bill thappu ide = Bill is wrong\n• Copy koDi = Give copy\n• Invoice number enu? = Invoice number?"
         },
         {
             "type": "speaking",

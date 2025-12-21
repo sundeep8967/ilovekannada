@@ -252,7 +252,7 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
     
     // Auto-audio for intro/words
     if (step.word != null && (step.type == LessonStepType.intro || step.type == LessonStepType.speaking)) {
-      AudioService.speak(step.word!.kannada);
+      AudioService.speakWord(step.word!.kannada, step.word!.pronunciation);
     }
   }
 
@@ -407,7 +407,7 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
             children: [
               CupertinoButton(
                 padding: EdgeInsets.zero,
-                onPressed: () => AudioService.speak(word.kannada),
+                onPressed: () => AudioService.speakWord(word.kannada, word.pronunciation),
                 child: Container(
                   width: 60, height: 60,
                   decoration: BoxDecoration(color: AppTheme.primary.withValues(alpha: 0.1), shape: BoxShape.circle),
@@ -625,7 +625,7 @@ class _LessonScreenState extends State<LessonScreen> with TickerProviderStateMix
         CupertinoButton(
           padding: EdgeInsets.zero,
           onPressed: () {
-             if (step.word != null) AudioService.speak(step.word!.kannada);
+             if (step.word != null) AudioService.speakWord(step.word!.kannada, step.word!.pronunciation);
              else AudioService.speak(step.question ?? "Listen");
           },
           child: Container(

@@ -122,7 +122,7 @@
             "type": "grammar",
             "title": "Emergency Phrases",
             "question": "Emergencies",
-            "feedback": "• Emergency! = Emergency!\n• Ambulance beku = Need ambulance\n• Accident aagide = Accident happened\n• Help maaDi = Help me\n• Illi, hospital thaggi = Here, near hospital"
+            "feedback": "• Emergency! = Emergency!\n• Ambulance beku = Need ambulance\n• Accident aagide = Accident happened\n• Help maaDi = Help me\n• Illi, hospital hattira = Here, near hospital"
         },
         {
             "type": "speaking",

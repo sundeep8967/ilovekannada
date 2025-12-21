@@ -38,8 +38,8 @@
             "title": "Delivery Problem",
             "question": "Food delivery: Late, wrong item, ask cancel",
             "correctAnswer": [
-                "Order late. Wrong item. Cancel maaDi",
-                "order late wrong item cancel maadi"
+                "Order late. Item thappu. Cancel maaDi",
+                "order late item thappu cancel maadi"
             ]
         },
         {
@@ -104,7 +104,7 @@
             "type": "grammar",
             "title": "Tech Summary",
             "question": "All Tech",
-            "feedback": "PHONE: Phone problem, Network illa\nDELIVERY: Delivery elli? Order late, Wrong item\nCAB: Cab elli? Location thappu\nSERVICE: Repair maaDi, Warranty ide"
+            "feedback": "PHONE: Phone problem, Network illa\nDELIVERY: Delivery elli? Order late, Item thappu\nCAB: Cab elli? Location thappu\nSERVICE: Repair maaDi, Warranty ide"
         },
         {
             "type": "speaking",

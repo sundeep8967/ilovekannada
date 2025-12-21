@@ -5,7 +5,7 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Swaccha",
+            "title": "New Word: Clean",
             "word": {
                 "kannada": "Swaccha",
                 "english": "Clean",
@@ -23,20 +23,20 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Close",
+            "title": "New Word: Muchhi",
             "word": {
-                "kannada": "Close",
+                "kannada": "Muchhi",
                 "english": "Close",
-                "pronunciation": "Close"
+                "pronunciation": "Muchhi"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Tomorrow",
+            "title": "New Word: Naale",
             "word": {
-                "kannada": "Tomorrow",
+                "kannada": "Naale",
                 "english": "Tomorrow",
-                "pronunciation": "Tomorrow"
+                "pronunciation": "Naale"
             }
         },
         {
@@ -46,7 +46,7 @@
             "options": [
                 "Illi swaccha maaDi",
                 "Illi ready maaDi",
-                "Illi close maaDi",
+                "Illi muchhi",
                 "Illi koDi"
             ],
             "correctAnswer": "Illi swaccha maaDi"
@@ -65,12 +65,12 @@
             "title": "To Watchman",
             "question": "How do you tell watchman 'Close gate'?",
             "options": [
-                "Gate close maaDi",
+                "Gate muchhi",
                 "Gate ready maaDi",
                 "Gate swaccha maaDi",
                 "Gate koDi"
             ],
-            "correctAnswer": "Gate close maaDi"
+            "correctAnswer": "Gate muchhi"
         },
         {
             "type": "matching",
@@ -85,11 +85,11 @@
                     "english": "Make ready"
                 },
                 {
-                    "kannada": "Close maaDi",
+                    "kannada": "Muchhi",
                     "english": "Close it"
                 },
                 {
-                    "kannada": "Tomorrow baa",
+                    "kannada": "Naale banni",
                     "english": "Come tomorrow"
                 }
             ]
@@ -99,8 +99,9 @@
             "title": "Come Tomorrow",
             "question": "Tell helper to come tomorrow",
             "correctAnswer": [
-                "Tomorrow baa",
-                "tomorrow baa"
+                "Naale banni",
+                "naale banni",
+                "Naale baa"
             ]
         },
         {
@@ -110,29 +111,29 @@
             "options": [
                 "Illi",
                 "swaccha maaDi",
-                "Tomorrow",
-                "baa"
+                "Naale",
+                "banni"
             ],
             "correctOrder": [
                 "Illi",
                 "swaccha maaDi",
-                "Tomorrow",
-                "baa"
+                "Naale",
+                "banni"
             ]
         },
         {
             "type": "grammar",
             "title": "House Help Phrases",
             "question": "Instructions",
-            "feedback": "• Illi swaccha maaDi = Clean here\n• Oota ready maaDi = Make food ready\n• Gate close maaDi = Close gate\n• Tomorrow baa = Come tomorrow\n• Work aytha? = Work done?"
+            "feedback": "• Illi swaccha maaDi = Clean here\n• Oota ready maaDi = Make food ready\n• Gate muchhi = Close gate\n• Naale banni = Come tomorrow\n• Kelasa aaytha? = Work done?"
         },
         {
             "type": "speaking",
             "title": "Full Instructions",
             "word": {
-                "kannada": "Swaccha maaDi. Oota ready maaDi. Gate close maaDi.",
+                "kannada": "Swaccha maaDi. Oota ready maaDi. Gate muchhi.",
                 "english": "Clean. Make food ready. Close gate.",
-                "pronunciation": "Swaccha maaDi. Oota ready maaDi. Gate close maaDi."
+                "pronunciation": "Swaccha maaDi. Oota ready maaDi. Gate muchhi."
             }
         },
         {
@@ -142,7 +143,7 @@
             "options": [
                 "Instruct maid: Swaccha maaDi",
                 "Direct cook: Ready maaDi",
-                "Tell watchman: Close maaDi",
+                "Tell watchman: Gate muchhi",
                 "Manage house help!"
             ]
         }

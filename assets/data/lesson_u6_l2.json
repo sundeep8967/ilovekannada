@@ -5,20 +5,20 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Light",
+            "title": "New Word: Current",
             "word": {
-                "kannada": "Light",
-                "english": "Electricity / Light",
-                "pronunciation": "Light"
+                "kannada": "Current",
+                "english": "Electricity / Power",
+                "pronunciation": "Current"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Water",
+            "title": "New Word: Neeru",
             "word": {
-                "kannada": "Water",
+                "kannada": "Neeru",
                 "english": "Water",
-                "pronunciation": "Water"
+                "pronunciation": "Neeru"
             }
         },
         {
@@ -32,11 +32,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Repair",
+            "title": "New Word: Sari",
             "word": {
-                "kannada": "Repair",
-                "english": "Repair",
-                "pronunciation": "Repair"
+                "kannada": "Sari",
+                "english": "Correct / Fix",
+                "pronunciation": "Sari"
             }
         },
         {
@@ -44,20 +44,21 @@
             "title": "Power Cut",
             "question": "How do you report 'No electricity'?",
             "options": [
-                "Light illa",
-                "Light koDi",
-                "Light beku",
-                "Light ideya"
+                "Current illa",
+                "Current koDi",
+                "Current beku",
+                "Current ideya"
             ],
-            "correctAnswer": "Light illa"
+            "correctAnswer": "Current illa"
         },
         {
             "type": "typeInput",
             "title": "Water Issue",
-            "question": "Complain about water issue",
+            "question": "Complain about water issue: 'Water problem'",
             "correctAnswer": [
-                "Water problem",
-                "water problem"
+                "Neeru problem",
+                "neeru problem",
+                "Neeru samasye"
             ]
         },
         {
@@ -77,11 +78,11 @@
             "title": "Match Utility Words",
             "matchPairs": [
                 {
-                    "kannada": "Light illa",
+                    "kannada": "Current illa",
                     "english": "No electricity"
                 },
                 {
-                    "kannada": "Water problem",
+                    "kannada": "Neeru problem",
                     "english": "Water problem"
                 },
                 {
@@ -89,34 +90,35 @@
                     "english": "No gas"
                 },
                 {
-                    "kannada": "Repair maaDi",
-                    "english": "Repair it"
+                    "kannada": "Sari maaDi",
+                    "english": "Fix it"
                 }
             ]
         },
         {
             "type": "typeInput",
             "title": "Ask Repair",
-            "question": "Ask to repair something",
+            "question": "Ask to repair/fix something",
             "correctAnswer": [
-                "Repair maaDi",
-                "repair maadi"
+                "Sari maaDi",
+                "sari maadi",
+                "Repair maaDi"
             ]
         },
         {
             "type": "assemble",
             "title": "Build Complaint",
-            "question": "Report: 'No light, water problem'",
+            "question": "Report: 'No power, water problem'",
             "options": [
-                "Light",
+                "Current",
                 "illa",
-                "Water",
+                "Neeru",
                 "problem"
             ],
             "correctOrder": [
-                "Light",
+                "Current",
                 "illa",
-                "Water",
+                "Neeru",
                 "problem"
             ]
         },
@@ -124,15 +126,15 @@
             "type": "grammar",
             "title": "Utility Phrases",
             "question": "Problems",
-            "feedback": "• Light illa = No electricity\n• Water problem = Water issue\n• Gas illa = No gas\n• Repair maaDi = Repair it\n• EshTu gante barthhe? = When will it come?"
+            "feedback": "• Current illa = No electricity\n• Neeru problem = Water issue\n• Gas illa = No gas\n• Sari maaDi = Fix it\n• EshTu gante barutthe? = When will it come?"
         },
         {
             "type": "speaking",
             "title": "Full Report",
             "word": {
-                "kannada": "Light illa. Water problem. Gas illa. Repair maaDi.",
-                "english": "No electricity. Water problem. No gas. Repair it.",
-                "pronunciation": "Light illa. Water problem. Gas illa. Repair maaDi."
+                "kannada": "Current illa. Neeru problem. Gas illa. Sari maaDi.",
+                "english": "No power. Water problem. No gas. Fix it.",
+                "pronunciation": "Current illa. Neeru problem. Gas illa. Sari maaDi."
             }
         },
         {
@@ -140,8 +142,8 @@
             "title": "Lesson Complete!",
             "question": "You can now:",
             "options": [
-                "Report power cut: Light illa",
-                "Water issues: Water problem",
+                "Report power cut: Current illa",
+                "Water issues: Neeru problem",
                 "Gas empty: Gas illa",
                 "Handle utility problems!"
             ]

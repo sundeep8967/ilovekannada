@@ -16,9 +16,9 @@
             "type": "intro",
             "title": "Review: Dietary",
             "word": {
-                "kannada": "Vegetarian. Egg illa. Swalpa spicy.",
+                "kannada": "Sasyahari. Motte beda. Swalpa khara.",
                 "english": "Vegetarian. No egg. Less spicy.",
-                "pronunciation": "Vegetarian. Egg illa. Swalpa spicy."
+                "pronunciation": "Sasyahari. Motte beda. Swalpa khara."
             }
         },
         {
@@ -38,8 +38,9 @@
             "title": "Vegetarian Options",
             "question": "Ask: 'What vegetarian options are there?'",
             "correctAnswer": [
-                "Vegetarian enu ide",
-                "vegetarian enu ide"
+                "Veg enu ide",
+                "veg enu ide",
+                "Vegetarian enu ide"
             ]
         },
         {
@@ -91,14 +92,14 @@
             "question": "Order with dietary restriction",
             "options": [
                 "Dosa koDi",
-                "egg illa",
-                "swalpa spicy",
+                "motte beda",
+                "swalpa khara",
                 "bill koDi"
             ],
             "correctOrder": [
                 "Dosa koDi",
-                "egg illa",
-                "swalpa spicy",
+                "motte beda",
+                "swalpa khara",
                 "bill koDi"
             ]
         },
@@ -106,15 +107,15 @@
             "type": "grammar",
             "title": "Restaurant Summary",
             "question": "Complete Experience",
-            "feedback": "ENTER: Menu koDi\nORDER: Idu koDi, vegetarian, egg illa\nDURING: Neeru koDi, hot maaDi\nTAKEAWAY: Parcel maaDi\nPAY: Bill koDi, receipt koDi"
+            "feedback": "ENTER: Menu koDi\nORDER: Idu koDi, sasyahari, motte beda\nDURING: Neeru koDi, hot maaDi\nTAKEAWAY: Parcel maaDi\nPAY: Bill koDi"
         },
         {
             "type": "speaking",
             "title": "Full Experience",
             "word": {
-                "kannada": "Menu koDi. Dosa koDi. Egg illa. Bill koDi.",
+                "kannada": "Menu koDi. Dosa koDi. Motte beda. Bill koDi.",
                 "english": "Give menu. Give dosa. No egg. Give bill.",
-                "pronunciation": "Menu koDi. Dosa koDi. Egg illa. Bill koDi."
+                "pronunciation": "Menu koDi. Dosa koDi. Motte beda. Bill koDi."
             }
         },
         {

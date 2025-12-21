@@ -5,59 +5,60 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Return",
+            "title": "New Word: Wapas",
             "word": {
-                "kannada": "Return",
-                "english": "Return",
-                "pronunciation": "Return"
+                "kannada": "Wapas",
+                "english": "Back / Return",
+                "pronunciation": "Wapas"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Exchange",
+            "title": "New Word: Bere",
             "word": {
-                "kannada": "Exchange",
-                "english": "Exchange",
-                "pronunciation": "Exchange"
+                "kannada": "Bere",
+                "english": "Another / Different",
+                "pronunciation": "Bere"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Problem",
+            "title": "New Word: Sari illa",
             "word": {
-                "kannada": "Problem",
-                "english": "Problem",
-                "pronunciation": "Problem"
+                "kannada": "Sari illa",
+                "english": "Not good / Faulty",
+                "pronunciation": "Sari illa"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Money",
+            "title": "New Word: Duddu",
             "word": {
-                "kannada": "Money",
+                "kannada": "Duddu",
                 "english": "Money",
-                "pronunciation": "Money"
+                "pronunciation": "Duddu"
             }
         },
         {
             "type": "quiz",
             "title": "Return Item",
-            "question": "How do you ask 'Can I return?'",
+            "question": "How do you ask 'Will you take this back?'",
             "options": [
-                "Return maaDThira?",
-                "Return koDi?",
-                "Return ideya?",
-                "Return beku?"
+                "Wapas thagolthira?",
+                "Wapas koDi?",
+                "Wapas ideya?",
+                "Wapas beku?"
             ],
-            "correctAnswer": "Return maaDThira?"
+            "correctAnswer": "Wapas thagolthira?"
         },
         {
             "type": "typeInput",
             "title": "Exchange",
-            "question": "Ask to exchange item",
+            "question": "Ask for another one (Exchange)",
             "correctAnswer": [
-                "Exchange maaDi",
-                "exchange maadi"
+                "Bere koDi",
+                "bere kodi",
+                "Exchange maaDi"
             ]
         },
         {
@@ -65,31 +66,31 @@
             "title": "Report Problem",
             "question": "How do you explain item has problem?",
             "options": [
+                "Idu sari illa",
                 "Idu problem",
                 "Problem koDi",
-                "Problem ideya",
-                "Problem beku"
+                "Problem ideya"
             ],
-            "correctAnswer": "Idu problem"
+            "correctAnswer": "Idu sari illa"
         },
         {
             "type": "matching",
             "title": "Match Return Words",
             "matchPairs": [
                 {
-                    "kannada": "Return maaDThira?",
-                    "english": "Can I return?"
+                    "kannada": "Wapas thagolthira?",
+                    "english": "Will you take back?"
                 },
                 {
-                    "kannada": "Exchange maaDi",
-                    "english": "Exchange it"
+                    "kannada": "Bere koDi",
+                    "english": "Give another"
                 },
                 {
-                    "kannada": "Idu problem",
-                    "english": "This has problem"
+                    "kannada": "Idu sari illa",
+                    "english": "This is faulty"
                 },
                 {
-                    "kannada": "Money thara",
+                    "kannada": "Duddu wapas koDi",
                     "english": "Give money back"
                 }
             ]
@@ -99,8 +100,8 @@
             "title": "Refund",
             "question": "Ask for money back",
             "correctAnswer": [
-                "Money thara",
-                "money thara"
+                "Duddu wapas koDi",
+                "duddu wapas kodi"
             ]
         },
         {
@@ -108,29 +109,29 @@
             "title": "Build Return",
             "question": "Return faulty item, ask refund",
             "options": [
-                "Idu problem",
-                "Return maaDi",
-                "Money thara"
+                "Idu sari illa",
+                "Wapas thagoli",
+                "Duddu wapas koDi"
             ],
             "correctOrder": [
-                "Idu problem",
-                "Return maaDi",
-                "Money thara"
+                "Idu sari illa",
+                "Wapas thagoli",
+                "Duddu wapas koDi"
             ]
         },
         {
             "type": "grammar",
             "title": "Return Phrases",
             "question": "Returns",
-            "feedback": "• Return maaDThira? = Can I return?\n• Exchange maaDi = Exchange it\n• Idu problem = This has problem\n• Money thara = Give money back\n• Warranty ideya? = Is there warranty?"
+            "feedback": "• Wapas thagolthira? = Will you take back?\n• Bere koDi = Give another (Exchange)\n• Idu sari illa = This is not good/faulty\n• Duddu wapas koDi = Give money back\n• Warranty ideya? = Is there warranty?"
         },
         {
             "type": "speaking",
             "title": "Full Return",
             "word": {
-                "kannada": "Idu problem. Exchange maaDi. Money thara.",
-                "english": "This has problem. Exchange it. Give money.",
-                "pronunciation": "Idu problem. Exchange maaDi. Money thara."
+                "kannada": "Idu sari illa. Bere koDi. Duddu wapas koDi.",
+                "english": "This is faulty. Give another. Give money back.",
+                "pronunciation": "Idu sari illa. Bere koDi. Duddu wapas koDi."
             }
         },
         {
@@ -138,9 +139,9 @@
             "title": "Lesson Complete!",
             "question": "You can now:",
             "options": [
-                "Return items: Return maaDThira?",
-                "Exchange: Exchange maaDi",
-                "Get refund: Money thara",
+                "Return items: Wapas thagoli",
+                "Exchange: Bere koDi",
+                "Get refund: Duddu wapas koDi",
                 "Handle any return!"
             ]
         }

@@ -32,11 +32,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Wrong",
+            "title": "New Word: Thappu",
             "word": {
-                "kannada": "Wrong",
+                "kannada": "Thappu",
                 "english": "Wrong",
-                "pronunciation": "Wrong"
+                "pronunciation": "Thappu"
             }
         },
         {
@@ -65,12 +65,12 @@
             "title": "Wrong Item",
             "question": "How do you say wrong item delivered?",
             "options": [
-                "Wrong item",
+                "Item thappu",
                 "Wrong koDi",
                 "Wrong beku",
                 "Wrong maaDi"
             ],
-            "correctAnswer": "Wrong item"
+            "correctAnswer": "Item thappu"
         },
         {
             "type": "matching",
@@ -85,7 +85,7 @@
                     "english": "Order is late"
                 },
                 {
-                    "kannada": "Wrong item",
+                    "kannada": "Item thappu",
                     "english": "Wrong item"
                 },
                 {
@@ -109,26 +109,26 @@
             "question": "Late, wrong item",
             "options": [
                 "Order late",
-                "Wrong item"
+                "Item thappu"
             ],
             "correctOrder": [
                 "Order late",
-                "Wrong item"
+                "Item thappu"
             ]
         },
         {
             "type": "grammar",
             "title": "Delivery Phrases",
             "question": "Deliveries",
-            "feedback": "• Delivery elli? = Where is delivery?\n• Order late = Order is late\n• Wrong item = Wrong item\n• Cancel maaDi = Cancel it\n• Mele barthira? = Can you come up?"
+            "feedback": "• Delivery elli? = Where is delivery?\n• Order late = Order is late\n• Item thappu = Wrong item\n• Cancel maaDi = Cancel it\n• Mele banni = Come up"
         },
         {
             "type": "speaking",
             "title": "Full Delivery",
             "word": {
-                "kannada": "Delivery elli? Order late. Wrong item. Cancel maaDi.",
+                "kannada": "Delivery elli? Order late. Item thappu. Cancel maaDi.",
                 "english": "Where is delivery? Order late. Wrong item. Cancel.",
-                "pronunciation": "Delivery elli? Order late. Wrong item. Cancel maaDi."
+                "pronunciation": "Delivery elli? Order late. Item thappu. Cancel maaDi."
             }
         },
         {

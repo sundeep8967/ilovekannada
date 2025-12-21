@@ -17,7 +17,7 @@
             "title": "New Word: Tindi",
             "word": {
                 "kannada": "Tindi",
-                "english": "Snack / Food",
+                "english": "Snack / Breakfast",
                 "pronunciation": "Tindi"
             }
         },
@@ -45,11 +45,11 @@
             "question": "At a restaurant. How do you ask 'Is food ready?'",
             "options": [
                 "Oota beku?",
-                "Oota aytha?",
+                "Oota aaytha?",
                 "Oota khara?",
                 "Oota sihi?"
             ],
-            "correctAnswer": "Oota aytha?"
+            "correctAnswer": "Oota aaytha?"
         },
         {
             "type": "typeInput",
@@ -78,11 +78,11 @@
             "matchPairs": [
                 {
                     "kannada": "Oota",
-                    "english": "Meal/Food"
+                    "english": "Meal/Lunch"
                 },
                 {
                     "kannada": "Tindi",
-                    "english": "Snack"
+                    "english": "Snack/Breakfast"
                 },
                 {
                     "kannada": "Khara",
@@ -107,35 +107,32 @@
         {
             "type": "assemble",
             "title": "Build Complaint",
-            "question": "Say: 'Food very spicy, need water'",
+            "question": "Say: 'This is very spicy'",
             "options": [
-                "Oota",
+                "Idu",
                 "tumba",
                 "khara",
-                "neeru",
-                "beku"
+                "aagide"
             ],
             "correctOrder": [
-                "Oota",
+                "Idu",
                 "tumba",
-                "khara",
-                "neeru",
-                "beku"
+                "khara"
             ]
         },
         {
             "type": "grammar",
             "title": "Restaurant Phrases",
             "question": "Food & Dining",
-            "feedback": "• Oota aytha? = Is food ready?\n• Tumba khara = Very spicy\n• Swalpa sihi = A little sweet\n• Idu koDi = Give me this\n• Bill koDi = Give bill"
+            "feedback": "• Oota aaytha? = Is food ready?\n• Tumba khara = Very spicy\n• Swalpa sihi = A little sweet\n• Idu koDi = Give me this\n• Bill koDi = Give bill\n• Neeru beku = Need water"
         },
         {
             "type": "speaking",
             "title": "Full Order",
             "word": {
-                "kannada": "Idu koDi. Tumba khara. Neeru beku. Bill koDi.",
-                "english": "Give this. Very spicy. Need water. Give bill.",
-                "pronunciation": "Idu koDi. Tumba khara. Neeru beku. Bill koDi."
+                "kannada": "Idu koDi. Tumba khara aagide. Neeru beku",
+                "english": "Give this. It's very spicy. Need water",
+                "pronunciation": "Idu koDi. Tumba khara aagide. Neeru beku"
             }
         },
         {

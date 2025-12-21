@@ -32,11 +32,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Nanna",
+            "title": "New Word: Nimma",
             "word": {
-                "kannada": "Nanna",
-                "english": "My",
-                "pronunciation": "Nanna"
+                "kannada": "Nimma",
+                "english": "Your (respectful)",
+                "pronunciation": "Nimma"
             }
         },
         {
@@ -63,8 +63,8 @@
                     "english": "Name"
                 },
                 {
-                    "kannada": "Nanna",
-                    "english": "My"
+                    "kannada": "Nimma",
+                    "english": "Your"
                 }
             ]
         },
@@ -76,7 +76,7 @@
                 "Neevu",
                 "Hesaru",
                 "Naanu",
-                "Nanna"
+                "Nimma"
             ],
             "correctAnswer": "Naanu"
         },
@@ -84,7 +84,10 @@
             "type": "typeInput",
             "title": "Translate",
             "question": "Type in English letters: 'My name'",
-            "correctAnswer": "Nanna hesaru"
+            "correctAnswer": [
+                "Nanna hesaru",
+                "nanna hesaru"
+            ]
         },
         {
             "type": "quiz",
@@ -103,12 +106,11 @@
             "question": "Arrange to ask 'What is your name?' (polite)",
             "options": [
                 "hesaru",
-                "Neevu",
-                "illa",
+                "Nimma",
                 "enu"
             ],
             "correctOrder": [
-                "Neevu",
+                "Nimma",
                 "hesaru",
                 "enu"
             ]
@@ -117,12 +119,12 @@
             "type": "grammar",
             "title": "Grammar Tip",
             "question": "No word for 'am'",
-            "feedback": "In Kannada, when saying 'I am [Name]', you often just say 'Naanu [Name]'. You don't always need a separate verb for 'am'."
+            "feedback": "In Kannada, when saying 'I am [Name]', you often just say 'Naanu [Name]'. You don't always need a separate verb for 'am'.\n\n• Nimma hesaru enu? = What is your name? (polite)\n• Nanna hesaru [Name] = My name is [Name]"
         },
         {
             "type": "quiz",
             "title": "Concept Check",
-            "question": "If someone asks 'Neevu yaaru?' and your name is Alex, you can say:",
+            "question": "If someone asks 'Nimma hesaru enu?' and your name is Alex, you can say:",
             "options": [
                 "Naanu Alex.",
                 "Nanna hesaru Alex.",
@@ -131,14 +133,23 @@
             "correctAnswer": "Both are correct"
         },
         {
+            "type": "speaking",
+            "title": "Speak",
+            "word": {
+                "kannada": "Nimma hesaru enu",
+                "english": "What is your name?",
+                "pronunciation": "Nimma hesaru enu"
+            }
+        },
+        {
             "type": "summary",
             "title": "Lesson Complete!",
             "question": "You learned:",
             "options": [
                 "Naanu = I am",
                 "Nanna hesaru = My name is",
-                "Neevu = You (polite)",
-                "Conversation basics"
+                "Nimma hesaru enu? = What is your name?",
+                "Neevu = You (polite)"
             ]
         }
     ]

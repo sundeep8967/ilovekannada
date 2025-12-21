@@ -5,11 +5,11 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: LiTThu",
+            "title": "New Word: Thirugi",
             "word": {
-                "kannada": "LiTThu",
+                "kannada": "Thirugi",
                 "english": "Turn",
-                "pronunciation": "LiTThu"
+                "pronunciation": "Thirugi"
             }
         },
         {
@@ -32,11 +32,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: NeraDane",
+            "title": "New Word: Nera",
             "word": {
-                "kannada": "NeraDane",
+                "kannada": "Nera",
                 "english": "Straight",
-                "pronunciation": "NeraDane"
+                "pronunciation": "Nera"
             }
         },
         {
@@ -44,20 +44,20 @@
             "title": "Give Direction",
             "question": "How do you tell driver 'Turn right'?",
             "options": [
-                "Eda LiTThu",
-                "Bala LiTThu",
-                "NeraDane hogi",
-                "Illi nillu"
+                "Edakke thirugi",
+                "Balakke thirugi",
+                "Nera hogi",
+                "Illi nillisi"
             ],
-            "correctAnswer": "Bala LiTThu"
+            "correctAnswer": "Balakke thirugi"
         },
         {
             "type": "typeInput",
             "title": "Go Straight",
             "question": "Tell driver: 'Go straight'",
             "correctAnswer": [
-                "NeraDane hogi",
-                "neradane hogi"
+                "Nera hogi",
+                "nera hogi"
             ]
         },
         {
@@ -65,31 +65,31 @@
             "title": "Stop Here",
             "question": "You want to get down. What do you say?",
             "options": [
-                "Bala LiTThu",
-                "Eda LiTThu",
-                "NeraDane hogi",
-                "Illi nillu"
+                "Balakke thirugi",
+                "Edakke thirugi",
+                "Nera hogi",
+                "Illi nillisi"
             ],
-            "correctAnswer": "Illi nillu"
+            "correctAnswer": "Illi nillisi"
         },
         {
             "type": "matching",
             "title": "Match Directions",
             "matchPairs": [
                 {
-                    "kannada": "Bala",
-                    "english": "Right"
+                    "kannada": "Balakke",
+                    "english": "To Right"
                 },
                 {
-                    "kannada": "Eda",
-                    "english": "Left"
+                    "kannada": "Edakke",
+                    "english": "To Left"
                 },
                 {
-                    "kannada": "NeraDane",
+                    "kannada": "Nera",
                     "english": "Straight"
                 },
                 {
-                    "kannada": "LiTThu",
+                    "kannada": "Thirugi",
                     "english": "Turn"
                 }
             ]
@@ -99,8 +99,8 @@
             "title": "Turn Left",
             "question": "Tell driver: 'Turn left'",
             "correctAnswer": [
-                "Eda LiTThu",
-                "eda litthu"
+                "Edakke thirugi",
+                "edakke thirugi"
             ]
         },
         {
@@ -108,33 +108,33 @@
             "title": "Build Directions",
             "question": "Say: 'Go straight, then turn right'",
             "options": [
-                "NeraDane",
+                "Nera",
                 "hogi",
                 "aamele",
-                "bala",
-                "LiTThu"
+                "balakke",
+                "thirugi"
             ],
             "correctOrder": [
-                "NeraDane",
+                "Nera",
                 "hogi",
                 "aamele",
-                "bala",
-                "LiTThu"
+                "balakke",
+                "thirugi"
             ]
         },
         {
             "type": "grammar",
             "title": "Direction Commands",
             "question": "During the Ride",
-            "feedback": "• Bala LiTThu = Turn right\n• Eda LiTThu = Turn left\n• NeraDane hogi = Go straight\n• Illi nillu = Stop here\n• Aamele = Then/After that"
+            "feedback": "• Balakke thirugi = Turn right\n• Edakke thirugi = Turn left\n• Nera/Munde hogi = Go straight\n• Illi nillisi = Stop here (polite)\n• Aamele = Then/After that"
         },
         {
             "type": "speaking",
             "title": "Full Navigation",
             "word": {
-                "kannada": "NeraDane hogi, eda LiTThu, illi nillu",
+                "kannada": "Nera hogi, edakke thirugi, illi nillisi",
                 "english": "Go straight, turn left, stop here",
-                "pronunciation": "NeraDane hogi, eda LiTThu, illi nillu"
+                "pronunciation": "Nera hogi, edakke thirugi, illi nillisi"
             }
         },
         {
@@ -142,9 +142,9 @@
             "title": "Lesson Complete!",
             "question": "You can now:",
             "options": [
-                "Turn right: Bala LiTThu",
-                "Turn left: Eda LiTThu",
-                "Go straight: NeraDane hogi",
+                "Turn right: Balakke thirugi",
+                "Turn left: Edakke thirugi",
+                "Go straight: Nera hogi",
                 "Navigate any route!"
             ]
         }

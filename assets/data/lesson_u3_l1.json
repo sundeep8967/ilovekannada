@@ -14,29 +14,29 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Hogu",
+            "title": "New Word: Hogi",
             "word": {
-                "kannada": "Hogu",
-                "english": "Go",
-                "pronunciation": "Hogu"
+                "kannada": "Hogi",
+                "english": "Go (polite)",
+                "pronunciation": "Hogi"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Nillu",
+            "title": "New Word: Nillisi",
             "word": {
-                "kannada": "Nillu",
-                "english": "Stop",
-                "pronunciation": "Nillu"
+                "kannada": "Nillisi",
+                "english": "Stop (polite)",
+                "pronunciation": "Nillisi"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Baa",
+            "title": "New Word: Banni",
             "word": {
-                "kannada": "Baa",
-                "english": "Come (casual)",
-                "pronunciation": "Baa"
+                "kannada": "Banni",
+                "english": "Come (polite)",
+                "pronunciation": "Banni"
             }
         },
         {
@@ -44,10 +44,10 @@
             "title": "Street Scenario",
             "question": "You see an auto. How do you get the driver's attention?",
             "options": [
-                "Nillu!",
+                "Nillisi!",
                 "Auto!",
-                "Hogu!",
-                "Baa!"
+                "Hogi!",
+                "Banni!"
             ],
             "correctAnswer": "Auto!"
         },
@@ -56,8 +56,8 @@
             "title": "Call Over",
             "question": "Auto is near but not stopping. Say 'Come here!'",
             "correctAnswer": [
-                "Illi baa",
-                "illi baa"
+                "Illi banni",
+                "illi banni"
             ]
         },
         {
@@ -65,12 +65,12 @@
             "title": "Ask Driver",
             "question": "How do you ask driver: 'Will you go (to my location)?'",
             "options": [
-                "HogThira?",
+                "Hogthira?",
                 "Yellige?",
-                "Illi baa?",
-                "Nillu?"
+                "Illi banni?",
+                "Nillisi?"
             ],
-            "correctAnswer": "HogThira?"
+            "correctAnswer": "Hogthira?"
         },
         {
             "type": "matching",
@@ -81,15 +81,15 @@
                     "english": "Hail auto"
                 },
                 {
-                    "kannada": "Illi baa",
+                    "kannada": "Illi banni",
                     "english": "Come here"
                 },
                 {
-                    "kannada": "HogThira?",
+                    "kannada": "Hogthira?",
                     "english": "Will you go?"
                 },
                 {
-                    "kannada": "Nillu",
+                    "kannada": "Nillisi",
                     "english": "Stop"
                 }
             ]
@@ -110,28 +110,28 @@
             "question": "Hail auto and ask if they'll go",
             "options": [
                 "Auto!",
-                "HogThira?",
-                "Nillu",
-                "Baa"
+                "Hogthira?",
+                "Nillisi",
+                "Banni"
             ],
             "correctOrder": [
                 "Auto!",
-                "HogThira?"
+                "Hogthira?"
             ]
         },
         {
             "type": "grammar",
             "title": "Auto Phrases",
             "question": "Hailing an Auto",
-            "feedback": "• Auto! = Get attention\n• Illi baa = Come here\n• HogThira? = Will you go?\n• Yellige hoguthe? = Where are you going?\n• Nillu = Stop"
+            "feedback": "• Auto! = Get attention\n• Illi banni = Come here\n• Hogthira? = Will you go?\n• Ellige hogthira? = Where are you going?\n• Nillisi = Stop (polite)"
         },
         {
             "type": "speaking",
             "title": "Full Hailing",
             "word": {
-                "kannada": "Auto! Illi baa. HogThira?",
+                "kannada": "Auto! Illi banni. Hogthira?",
                 "english": "Auto! Come here. Will you go?",
-                "pronunciation": "Auto! Illi baa. HogThira?"
+                "pronunciation": "Auto! Illi banni. Hogthira?"
             }
         },
         {
@@ -140,8 +140,8 @@
             "question": "You can now:",
             "options": [
                 "Hail an auto: Auto!",
-                "Ask driver to come: Illi baa",
-                "Ask if they'll go: HogThira?",
+                "Ask driver to come: Illi banni",
+                "Ask if they'll go: Hogthira?",
                 "Get around Bangalore!"
             ]
         }

@@ -7,9 +7,9 @@
             "type": "intro",
             "title": "Review: Pharmacy",
             "word": {
-                "kannada": "Medicine koDi. Prescription ide.",
+                "kannada": "Oushadhi koDi. Prescription ide.",
                 "english": "Give medicine. Have prescription.",
-                "pronunciation": "Medicine koDi. Prescription ide."
+                "pronunciation": "Oushadhi koDi. Prescription ide."
             }
         },
         {
@@ -26,12 +26,12 @@
             "title": "Pharmacy Visit",
             "question": "Visit pharmacy with prescription. Best phrase?",
             "options": [
-                "Medicine koDi. Prescription ide",
+                "Oushadhi koDi. Prescription ide",
                 "Emergency!",
                 "Doctor beku",
-                "Fever ide"
+                "Jvara ide"
             ],
-            "correctAnswer": "Medicine koDi. Prescription ide"
+            "correctAnswer": "Oushadhi koDi. Prescription ide"
         },
         {
             "type": "typeInput",
@@ -47,19 +47,19 @@
             "title": "Describe Symptoms",
             "question": "Fever, cold, headache symptoms?",
             "options": [
-                "Fever ide. Cold ide. Headache ide",
-                "Medicine koDi",
+                "Jvara ide. Sheetha ide. Thale novu",
+                "Oushadhi koDi",
                 "Emergency!",
                 "Ambulance beku"
             ],
-            "correctAnswer": "Fever ide. Cold ide. Headache ide"
+            "correctAnswer": "Jvara ide. Sheetha ide. Thale novu"
         },
         {
             "type": "matching",
             "title": "Match Health Scenarios",
             "matchPairs": [
                 {
-                    "kannada": "Medicine koDi",
+                    "kannada": "Oushadhi koDi",
                     "english": "At pharmacy"
                 },
                 {
@@ -67,7 +67,7 @@
                     "english": "At clinic"
                 },
                 {
-                    "kannada": "Fever ide",
+                    "kannada": "Jvara ide",
                     "english": "Describing symptom"
                 },
                 {
@@ -91,13 +91,13 @@
             "question": "Describe pain location",
             "options": [
                 "Illi",
-                "pain ide",
+                "novu ide",
                 "Tumba",
                 "novu"
             ],
             "correctOrder": [
                 "Illi",
-                "pain ide",
+                "novu ide",
                 "Tumba",
                 "novu"
             ]
@@ -106,15 +106,15 @@
             "type": "grammar",
             "title": "Health Summary",
             "question": "All Health",
-            "feedback": "PHARMACY: Medicine koDi, Prescription ide\nDOCTOR: Doctor beku, Appointment ideya?\nSYMPTOMS: Fever/Cold/Cough ide\nEMERGENCY: Emergency! Ambulance beku"
+            "feedback": "PHARMACY: Oushadhi koDi, Prescription ide\nDOCTOR: Doctor beku, Appointment ideya?\nSYMPTOMS: Jvara/Sheetha/Kemmu ide\nEMERGENCY: Emergency! Ambulance beku"
         },
         {
             "type": "speaking",
             "title": "Complete Health",
             "word": {
-                "kannada": "Doctor beku. Fever ide. Medicine koDi. Emergency!",
+                "kannada": "Doctor beku. Jvara ide. Oushadhi koDi. Emergency!",
                 "english": "Need doctor. Have fever. Give medicine. Emergency!",
-                "pronunciation": "Doctor beku. Fever ide. Medicine koDi. Emergency!"
+                "pronunciation": "Doctor beku. Jvara ide. Oushadhi koDi. Emergency!"
             }
         },
         {

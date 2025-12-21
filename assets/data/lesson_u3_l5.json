@@ -5,20 +5,20 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Change",
+            "title": "New Word: Chillare",
             "word": {
-                "kannada": "Change",
-                "english": "Change (money)",
-                "pronunciation": "Change"
+                "kannada": "Chillare",
+                "english": "Change (Small money)",
+                "pronunciation": "Chillare"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Bill",
+            "title": "New Word: Note",
             "word": {
-                "kannada": "Bill",
-                "english": "Note / Currency",
-                "pronunciation": "Bill"
+                "kannada": "Note",
+                "english": "Currency Note",
+                "pronunciation": "Note"
             }
         },
         {
@@ -32,32 +32,32 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Marga",
+            "title": "New Word: Suthu",
             "word": {
-                "kannada": "Marga",
-                "english": "Route",
-                "pronunciation": "Marga"
+                "kannada": "Suthu",
+                "english": "Round / Circuitous",
+                "pronunciation": "Suthu"
             }
         },
         {
             "type": "quiz",
             "title": "Payment",
-            "question": "You have ₹500 note. How do you say 'No small note'?",
+            "question": "You have ₹500 note. How do you say 'No change'?",
             "options": [
-                "Change koDi",
-                "Bill illa",
+                "Chillare beku",
+                "Chillare illa",
                 "Thappu marga",
-                "Bill beku"
+                "Note beku"
             ],
-            "correctAnswer": "Bill illa"
+            "correctAnswer": "Chillare illa"
         },
         {
             "type": "typeInput",
             "title": "Ask Change",
             "question": "Ask the driver for change",
             "correctAnswer": [
-                "Change koDi",
-                "change kodi"
+                "Chillare koDi",
+                "chillare kodi"
             ]
         },
         {
@@ -66,8 +66,8 @@
             "question": "Driver took wrong route. What do you say?",
             "options": [
                 "Thappu marga",
-                "Horage marga",
-                "Bill marga",
+                "Suthu marga",
+                "Chillare marga",
                 "Change marga"
             ],
             "correctAnswer": "Thappu marga"
@@ -77,20 +77,20 @@
             "title": "Match Problem Words",
             "matchPairs": [
                 {
-                    "kannada": "Change koDi",
-                    "english": "Give change"
+                    "kannada": "Chillare",
+                    "english": "Change"
                 },
                 {
-                    "kannada": "Bill illa",
-                    "english": "No small note"
+                    "kannada": "Chillare illa",
+                    "english": "No change"
                 },
                 {
                     "kannada": "Thappu marga",
                     "english": "Wrong route"
                 },
                 {
-                    "kannada": "Horage",
-                    "english": "Going round"
+                    "kannada": "Suthu",
+                    "english": "Round route"
                 }
             ]
         },
@@ -99,8 +99,9 @@
             "title": "Going Round",
             "question": "Driver is going unnecessarily round. Complain!",
             "correctAnswer": [
-                "Horage maaDthiddira",
-                "horage maadthiddira"
+                "Suthu hogo beda",
+                "suthu hogo beda",
+                "Suthu beda"
             ]
         },
         {
@@ -110,13 +111,13 @@
             "options": [
                 "Thappu",
                 "marga",
-                "NeraDane",
+                "Nera",
                 "hogi"
             ],
             "correctOrder": [
                 "Thappu",
                 "marga",
-                "NeraDane",
+                "Nera",
                 "hogi"
             ]
         },
@@ -124,15 +125,15 @@
             "type": "grammar",
             "title": "Problem Phrases",
             "question": "Handling Issues",
-            "feedback": "• Change koDi = Give change\n• Bill illa = No small note\n• Thappu marga = Wrong route\n• Horage maaDthiddira = You're going round\n• Traffic jaasti = Too much traffic"
+            "feedback": "• Chillare koDi = Give change\n• Chillare illa = I don't have change\n• Thappu marga = Wrong route\n• Suthu hogo beda = Don't go round\n• Traffic jaasti = Too much traffic"
         },
         {
             "type": "speaking",
             "title": "End of Ride",
             "word": {
-                "kannada": "Bill illa. Change koDi. Dhanyavadagalu!",
-                "english": "No small note. Give change. Thank you!",
-                "pronunciation": "Bill illa. Change koDi. Dhanyavadagalu!"
+                "kannada": "Chillare illa. Change koDi. Dhanyavadagalu!",
+                "english": "No change. Give change. Thank you!",
+                "pronunciation": "Chillare illa. Change koDi. Dhanyavadagalu!"
             }
         },
         {
@@ -140,8 +141,8 @@
             "title": "🏆 Unit 3 Complete!",
             "question": "You can now:",
             "options": [
-                "Hail an auto: Auto! HogThira?",
-                "Give directions: ge hogi, LiTThu",
+                "Hail an auto: Auto! Hogthira?",
+                "Give directions: Ge hogi, Balakke",
                 "Negotiate fare: EshTu? JasTi!",
                 "Handle problems: Thappu marga",
                 "Complete auto rides like a local!"

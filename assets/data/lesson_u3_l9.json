@@ -5,11 +5,11 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Road",
+            "title": "New Word: Raste",
             "word": {
-                "kannada": "Road",
+                "kannada": "Raste",
                 "english": "Road",
-                "pronunciation": "Road"
+                "pronunciation": "Raste"
             }
         },
         {
@@ -32,11 +32,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Walk",
+            "title": "New Word: Nadiyuva",
             "word": {
-                "kannada": "Walk",
-                "english": "Walk",
-                "pronunciation": "Walk"
+                "kannada": "Nadiyuva",
+                "english": "Walking",
+                "pronunciation": "Nadiyuva"
             }
         },
         {
@@ -46,7 +46,7 @@
             "options": [
                 "Bus stand elli?",
                 "Bus stand eshTu?",
-                "Bus stand hogu?",
+                "Bus stand hogi?",
                 "Bus stand beku?"
             ],
             "correctAnswer": "Bus stand elli?"
@@ -64,14 +64,14 @@
         {
             "type": "quiz",
             "title": "Walking Distance",
-            "question": "How do you ask if something is walkable?",
+            "question": "How do you ask if something is nearby/walkable?",
             "options": [
-                "Walk distance?",
-                "Walk hogu?",
+                "Nadiyuva doora?",
+                "Walk hogi?",
                 "Walk elli?",
                 "Walk beku?"
             ],
-            "correctAnswer": "Walk distance?"
+            "correctAnswer": "Nadiyuva doora?"
         },
         {
             "type": "matching",
@@ -86,11 +86,11 @@
                     "english": "Where is metro?"
                 },
                 {
-                    "kannada": "Auto stand elli?",
-                    "english": "Where is auto stand?"
+                    "kannada": "Raste",
+                    "english": "Road"
                 },
                 {
-                    "kannada": "Walk distance?",
+                    "kannada": "Nadiyuva doora?",
                     "english": "Walking distance?"
                 }
             ]
@@ -112,29 +112,29 @@
             "options": [
                 "Metro station",
                 "elli?",
-                "Walk",
-                "distance?"
+                "Nadiyuva",
+                "doora?"
             ],
             "correctOrder": [
                 "Metro station",
                 "elli?",
-                "Walk",
-                "distance?"
+                "Nadiyuva",
+                "doora?"
             ]
         },
         {
             "type": "grammar",
             "title": "Finding Transport",
             "question": "Direction Phrases",
-            "feedback": "• Bus stand elli? = Where is bus stand?\n• Metro station elli? = Where is metro?\n• Auto stand elli? = Where is auto stand?\n• Walk distance? = Walking distance?\n• Signal cross maaDi = Cross the signal"
+            "feedback": "• Bus stand elli? = Where is bus stand?\n• Raste = Road\n• Nadiyuva doora? = Is it walking distance?\n• Signal cross maaDi = Cross the signal"
         },
         {
             "type": "speaking",
             "title": "Find Transport",
             "word": {
-                "kannada": "Metro station elli? Walk distance?",
+                "kannada": "Metro station elli? Nadiyuva doora?",
                 "english": "Where is metro station? Walking distance?",
-                "pronunciation": "Metro station elli? Walk distance?"
+                "pronunciation": "Metro station elli? Nadiyuva doora?"
             }
         },
         {
@@ -144,7 +144,7 @@
             "options": [
                 "Find bus: Bus stand elli?",
                 "Find metro: Metro station elli?",
-                "Find auto: Auto stand elli?",
+                "Ask distance: Nadiyuva doora?",
                 "Navigate anywhere!"
             ]
         }

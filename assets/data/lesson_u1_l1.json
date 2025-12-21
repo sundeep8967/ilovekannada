@@ -22,20 +22,33 @@
             }
         },
         {
+            "type": "intro",
+            "title": "New Word: Howdu",
+            "word": {
+                "kannada": "Howdu",
+                "english": "Yes",
+                "pronunciation": "Howdu"
+            }
+        },
+        {
+            "type": "intro",
+            "title": "New Word: Illa",
+            "word": {
+                "kannada": "Illa",
+                "english": "No",
+                "pronunciation": "Illa"
+            }
+        },
+        {
             "type": "quiz",
             "title": "Listen & Select",
-            "question": "Select 'Hello'",
+            "question": "Which word means 'Hello'?",
             "options": [
-                "Hello",
-                "Thank you",
-                "Yes"
+                "Namaskara",
+                "Dhanyavadagalu",
+                "Howdu"
             ],
-            "correctAnswer": "Hello",
-            "word": {
-                "kannada": "Namaskara",
-                "english": "Hello",
-                "pronunciation": "Namaskara"
-            }
+            "correctAnswer": "Namaskara"
         },
         {
             "type": "matching",
@@ -80,12 +93,12 @@
         {
             "type": "quiz",
             "title": "True or False",
-            "question": "'Howdu' means 'No'",
+            "question": "'Howdu' means 'Yes'",
             "options": [
                 "True",
                 "False"
             ],
-            "correctAnswer": "False"
+            "correctAnswer": "True"
         },
         {
             "type": "assemble",
@@ -105,18 +118,21 @@
             "type": "typeInput",
             "title": "Type Answer",
             "question": "Type the opposite of 'Howdu' (Yes)",
-            "correctAnswer": "Illa"
+            "correctAnswer": [
+                "Illa",
+                "illa"
+            ]
         },
         {
             "type": "listening",
             "title": "Listen and Select",
-            "question": "What did you hear?",
+            "question": "What word means 'Thank you'?",
             "options": [
-                "Hello",
-                "Thank you",
-                "Yes"
+                "Namaskara",
+                "Dhanyavadagalu",
+                "Howdu"
             ],
-            "correctAnswer": "Thank you",
+            "correctAnswer": "Dhanyavadagalu",
             "word": {
                 "kannada": "Dhanyavadagalu",
                 "english": "Thank you",
@@ -126,7 +142,7 @@
         {
             "type": "quiz",
             "title": "Conversation",
-            "question": "Person A: Coffee? (Kāphi?)\nPerson B: Howdu. ______. (Yes. Thank you.)",
+            "question": "Person A: Coffee beka? (Want coffee?)\nPerson B: Howdu. ______.",
             "options": [
                 "Namaskara",
                 "Illa",
@@ -142,6 +158,17 @@
                 "english": "Hello",
                 "pronunciation": "Namaskara"
             }
+        },
+        {
+            "type": "summary",
+            "title": "Lesson Complete!",
+            "question": "You learned:",
+            "options": [
+                "Namaskara = Hello",
+                "Dhanyavadagalu = Thank you",
+                "Howdu = Yes",
+                "Illa = No"
+            ]
         }
     ]
 }

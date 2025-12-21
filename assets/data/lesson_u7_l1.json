@@ -14,11 +14,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Money",
+            "title": "New Word: Duddu",
             "word": {
-                "kannada": "Money",
+                "kannada": "Duddu",
                 "english": "Money",
-                "pronunciation": "Money"
+                "pronunciation": "Duddu"
             }
         },
         {
@@ -56,8 +56,8 @@
             "title": "Deposit",
             "question": "Ask to deposit money",
             "correctAnswer": [
-                "Money deposit maaDi",
-                "money deposit maadi"
+                "Duddu deposit maaDi",
+                "duddu deposit maadi"
             ]
         },
         {
@@ -81,7 +81,7 @@
                     "english": "Where is bank?"
                 },
                 {
-                    "kannada": "Money deposit maaDi",
+                    "kannada": "Duddu deposit maaDi",
                     "english": "Deposit money"
                 },
                 {
@@ -109,26 +109,26 @@
             "question": "Ask for form, deposit money",
             "options": [
                 "Form koDi",
-                "Money deposit maaDi"
+                "Duddu deposit maaDi"
             ],
             "correctOrder": [
                 "Form koDi",
-                "Money deposit maaDi"
+                "Duddu deposit maaDi"
             ]
         },
         {
             "type": "grammar",
             "title": "Bank Phrases",
             "question": "Banking",
-            "feedback": "• Bank elli? = Where is bank?\n• Money deposit maaDi = Deposit money\n• Account open maaDi = Open account\n• Form koDi = Give form\n• Yav counter? = Which counter?"
+            "feedback": "• Bank elli? = Where is bank?\n• Duddu deposit maaDi = Deposit money\n• Account open maaDi = Open account\n• Form koDi = Give form\n• Yav counter? = Which counter?"
         },
         {
             "type": "speaking",
             "title": "Full Banking",
             "word": {
-                "kannada": "Bank elli? Form koDi. Money deposit maaDi.",
+                "kannada": "Bank elli? Form koDi. Duddu deposit maaDi.",
                 "english": "Where is bank? Give form. Deposit money.",
-                "pronunciation": "Bank elli? Form koDi. Money deposit maaDi."
+                "pronunciation": "Bank elli? Form koDi. Duddu deposit maaDi."
             }
         },
         {
@@ -137,7 +137,7 @@
             "question": "You can now:",
             "options": [
                 "Find bank: Bank elli?",
-                "Deposit: Money deposit maaDi",
+                "Deposit: Duddu deposit maaDi",
                 "Open account",
                 "Handle banking!"
             ]

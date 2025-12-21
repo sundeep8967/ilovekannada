@@ -5,20 +5,20 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Neighbor",
+            "title": "New Word: Pakkadamane",
             "word": {
-                "kannada": "Neighbor",
-                "english": "Neighbor",
-                "pronunciation": "Neighbor"
+                "kannada": "Pakkadamane",
+                "english": "Neighbor / Next house",
+                "pronunciation": "Pakkadamane"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Noise",
+            "title": "New Word: Galaate",
             "word": {
-                "kannada": "Noise",
-                "english": "Noise",
-                "pronunciation": "Noise"
+                "kannada": "Galaate",
+                "english": "Noise / Commotion",
+                "pronunciation": "Galaate"
             }
         },
         {
@@ -45,7 +45,7 @@
             "question": "How do you greet neighbor politely?",
             "options": [
                 "Namaskara",
-                "Noise jaasti",
+                "Galaate jaasti",
                 "Help maaDi",
                 "Parking"
             ],
@@ -54,10 +54,10 @@
         {
             "type": "typeInput",
             "title": "Noise Complaint",
-            "question": "Complain about noise politely",
+            "question": "Complain about noise politely: 'Too much noise'",
             "correctAnswer": [
-                "Noise jaasti",
-                "noise jaasti"
+                "Galaate jaasti",
+                "galaate jaasti"
             ]
         },
         {
@@ -81,7 +81,7 @@
                     "english": "Hello"
                 },
                 {
-                    "kannada": "Noise jaasti",
+                    "kannada": "Galaate jaasti",
                     "english": "Too much noise"
                 },
                 {
@@ -109,12 +109,12 @@
             "question": "Greet, then discuss noise",
             "options": [
                 "Namaskara",
-                "Noise",
+                "Galaate",
                 "jaasti"
             ],
             "correctOrder": [
                 "Namaskara",
-                "Noise",
+                "Galaate",
                 "jaasti"
             ]
         },
@@ -122,7 +122,7 @@
             "type": "grammar",
             "title": "Neighbor Phrases",
             "question": "Neighbors",
-            "feedback": "• Namaskara = Hello/Greetings\n• Noise jaasti = Too much noise\n• Parking problem = Parking issue\n• Help maaDi = Help me\n• Yav flat? = Which flat?"
+            "feedback": "• Namaskara = Hello/Greetings\n• Galaate jaasti = Too much noise\n• Parking problem = Parking issue\n• Help maaDi = Help me\n• Yav flat? = Which flat?"
         },
         {
             "type": "speaking",
@@ -139,7 +139,7 @@
             "question": "You can now:",
             "options": [
                 "Greet: Namaskara",
-                "Complain: Noise jaasti",
+                "Complain: Galaate jaasti",
                 "Discuss: Parking problem",
                 "Interact with neighbors!"
             ]

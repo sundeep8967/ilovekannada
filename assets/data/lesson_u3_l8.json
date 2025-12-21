@@ -5,60 +5,60 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Switch",
+            "title": "New Word: Badalaisi",
             "word": {
-                "kannada": "Switch",
-                "english": "Change / Transfer",
-                "pronunciation": "Switch"
+                "kannada": "Badalaisi",
+                "english": "Change / Switch",
+                "pronunciation": "Badalaisi"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Connect",
+            "title": "New Word: SampaRka",
             "word": {
-                "kannada": "Connect",
-                "english": "Connect",
-                "pronunciation": "Connect"
+                "kannada": "SampaRka",
+                "english": "Connection",
+                "pronunciation": "SampaRka"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Best",
+            "title": "New Word: Olle",
             "word": {
-                "kannada": "Best",
-                "english": "Best",
-                "pronunciation": "Best"
+                "kannada": "Olle",
+                "english": "Good / Best",
+                "pronunciation": "Olle"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Cheap",
+            "title": "New Word: Kammi",
             "word": {
-                "kannada": "Cheap",
-                "english": "Cheap",
-                "pronunciation": "Cheap"
+                "kannada": "Kammi",
+                "english": "Less / Cheap",
+                "pronunciation": "Kammi"
             }
         },
         {
             "type": "quiz",
             "title": "Ask Combination",
-            "question": "How do you ask 'Auto then bus?'",
+            "question": "How do you ask 'Auto after bus?'",
             "options": [
-                "Auto then bus?",
+                "Auto aamele bus?",
                 "Auto bus switch?",
                 "Auto bus connect?",
                 "Auto bus best?"
             ],
-            "correctAnswer": "Auto then bus?"
+            "correctAnswer": "Auto aamele bus?"
         },
         {
             "type": "typeInput",
             "title": "Check Connection",
-            "question": "Check if there's metro connection",
+            "question": "Check if there's metro ?",
             "correctAnswer": [
-                "Metro connect ideya",
-                "metro connect ideya",
-                "Metro connect ideya?"
+                "Metro ideya",
+                "metro ideya",
+                "Metro ideya?"
             ]
         },
         {
@@ -66,31 +66,31 @@
             "title": "Best Option",
             "question": "How do you ask 'Which is best?'",
             "options": [
-                "Yavdu best?",
-                "Yavdu cheap?",
+                "Yavdu olledu?",
+                "Yavdu kammi?",
                 "Yavdu connect?",
                 "Yavdu switch?"
             ],
-            "correctAnswer": "Yavdu best?"
+            "correctAnswer": "Yavdu olledu?"
         },
         {
             "type": "matching",
             "title": "Match Travel Words",
             "matchPairs": [
                 {
-                    "kannada": "Switch",
-                    "english": "Change/Transfer"
+                    "kannada": "Badalaisi",
+                    "english": "Change"
                 },
                 {
-                    "kannada": "Connect",
-                    "english": "Connect"
+                    "kannada": "SampaRka",
+                    "english": "Connection"
                 },
                 {
-                    "kannada": "Best",
-                    "english": "Best"
+                    "kannada": "Olledu",
+                    "english": "Best/Good"
                 },
                 {
-                    "kannada": "Cheap",
+                    "kannada": "Kammi",
                     "english": "Cheap"
                 }
             ]
@@ -100,25 +100,25 @@
             "title": "Cheaper Option",
             "question": "Ask which option is cheaper",
             "correctAnswer": [
-                "Yavdu cheap",
-                "yavdu cheap",
-                "Yavdu cheap?"
+                "Yavdu kammi",
+                "yavdu kammi",
+                "Yavdu kammi?"
             ]
         },
         {
             "type": "assemble",
             "title": "Plan Journey",
-            "question": "Ask: 'Which is best? Is there connection?'",
+            "question": "Ask: 'Which is best? Is there bus?'",
             "options": [
                 "Yavdu",
-                "best?",
-                "Connect",
+                "olledu?",
+                "Bus",
                 "ideya?"
             ],
             "correctOrder": [
                 "Yavdu",
-                "best?",
-                "Connect",
+                "olledu?",
+                "Bus",
                 "ideya?"
             ]
         },
@@ -126,15 +126,15 @@
             "type": "grammar",
             "title": "Combination Phrases",
             "question": "Multi-Transport",
-            "feedback": "• Auto then bus? = Auto then bus?\n• Metro connect ideya? = Is there metro connection?\n• Yavdu best? = Which is best?\n• Yavdu cheap? = Which is cheap?\n• [Transport] then [transport] = Combine modes"
+            "feedback": "• Auto aamele bus = Auto then bus\n• Metro ideya? = Is there metro?\n• Yavdu olledu? = Which is good/best?\n• Yavdu kammi? = Which is cheap?\n• Badalaisi = Change/Switch"
         },
         {
             "type": "speaking",
             "title": "Full Planning",
             "word": {
-                "kannada": "Yavdu best? Connect ideya? Yavdu cheap?",
-                "english": "Which is best? Is there connection? Which is cheap?",
-                "pronunciation": "Yavdu best? Connect ideya? Yavdu cheap?"
+                "kannada": "Yavdu olledu? Metro ideya? Yavdu kammi?",
+                "english": "Which is best? Is there metro? Which is cheap?",
+                "pronunciation": "Yavdu olledu? Metro ideya? Yavdu kammi?"
             }
         },
         {
@@ -142,8 +142,8 @@
             "title": "Lesson Complete!",
             "question": "You can now:",
             "options": [
-                "Plan combinations: then, connect",
-                "Compare options: Yavdu best/cheap?",
+                "Plan combinations: aamele",
+                "Compare options: Yavdu olledu/kammi?",
                 "Combine auto + bus + metro!",
                 "Smart travel planning!"
             ]

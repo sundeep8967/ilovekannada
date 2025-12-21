@@ -14,20 +14,20 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Hogide",
+            "title": "New Word: Aaytu",
             "word": {
-                "kannada": "Hogide",
-                "english": "Gone / Happened",
-                "pronunciation": "Hogide"
+                "kannada": "Aaytu",
+                "english": "Happened / Done",
+                "pronunciation": "Aaytu"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Shrama",
+            "title": "New Word: Saakaaythu",
             "word": {
-                "kannada": "Shrama",
-                "english": "Tired",
-                "pronunciation": "Shrama"
+                "kannada": "Saakaaythu",
+                "english": "I'm tired",
+                "pronunciation": "Saakaaythu"
             }
         },
         {
@@ -36,7 +36,7 @@
             "word": {
                 "kannada": "Aushadi",
                 "english": "Medicine",
-                "pronunciation": "Aushadi"
+                "pronunciation": "Owshadi"
             }
         },
         {
@@ -44,12 +44,12 @@
             "title": "Medical Emergency",
             "question": "You're hurt. How do you say 'I have pain'?",
             "options": [
-                "Novu beku",
-                "Novu ide",
+                "Nanage novu beku",
+                "Nanage novu aagide",
                 "Novu hogu",
-                "Novu baa"
+                "Novu banni"
             ],
-            "correctAnswer": "Novu ide"
+            "correctAnswer": "Nanage novu aagide"
         },
         {
             "type": "typeInput",
@@ -67,8 +67,8 @@
             "options": [
                 "Hospital beku?",
                 "Hospital elli?",
-                "Hospital hogu?",
-                "Hospital thaggi?"
+                "Hospital hogi?",
+                "Hospital hattira?"
             ],
             "correctAnswer": "Hospital elli?"
         },
@@ -81,16 +81,16 @@
                     "english": "Pain"
                 },
                 {
-                    "kannada": "Shrama",
-                    "english": "Tired"
+                    "kannada": "Saakaaythu",
+                    "english": "I'm tired"
                 },
                 {
                     "kannada": "Aushadi",
                     "english": "Medicine"
                 },
                 {
-                    "kannada": "Doctor",
-                    "english": "Doctor"
+                    "kannada": "Hospital",
+                    "english": "Hospital"
                 }
             ]
         },
@@ -106,16 +106,16 @@
         {
             "type": "assemble",
             "title": "Build Emergency",
-            "question": "Say: 'Something happened, need doctor'",
+            "question": "Say: 'Need help, doctor needed'",
             "options": [
-                "Enadru",
-                "hogide",
+                "Sahaya",
+                "beku",
                 "doctor",
                 "beku"
             ],
             "correctOrder": [
-                "Enadru",
-                "hogide",
+                "Sahaya",
+                "beku",
                 "doctor",
                 "beku"
             ]
@@ -124,15 +124,15 @@
             "type": "grammar",
             "title": "Medical Phrases",
             "question": "Health Essentials",
-            "feedback": "• Novu ide = I have pain\n• Illi novu = Pain here\n• Doctor beku = Need doctor\n• Hospital elli? = Where is hospital?\n• Aushadi koDi = Give medicine\n• Tumba shrama = Very tired"
+            "feedback": "• Nanage novu aagide = I have pain\n• Illi novu = Pain here (pointing)\n• Doctor beku = Need doctor\n• Hospital elli? = Where is hospital?\n• Aushadi koDi = Give medicine\n• Sahaya beku = Need help"
         },
         {
             "type": "speaking",
             "title": "Emergency Dialogue",
             "word": {
-                "kannada": "Novu ide, doctor beku, hospital elli?",
-                "english": "I have pain, need doctor, where is hospital?",
-                "pronunciation": "Novu ide, doctor beku, hospital elli?"
+                "kannada": "Nanage novu aagide, doctor beku",
+                "english": "I have pain, need doctor",
+                "pronunciation": "Nanage novu aagide, doctor beku"
             }
         },
         {
@@ -140,10 +140,10 @@
             "title": "🏆 Unit 2 Complete!",
             "question": "You can now handle:",
             "options": [
-                "Emergencies: Beku, Saaku",
+                "Emergencies: Beku, Saaku, Sahaya",
                 "Shopping: EshTu, KoDi, JasTi",
                 "Food: Oota, Khara, Sihi",
-                "Transport: Hogu, Nillu, Thaggi",
+                "Transport: Hogi, Nillisi, Hattira",
                 "Medical: Novu, Doctor, Hospital"
             ]
         }

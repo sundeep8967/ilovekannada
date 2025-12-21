@@ -42,7 +42,17 @@ class AudioService {
   /// Check if Kannada voice is available
   static bool get hasKannada => _hasKannada;
 
-  /// Speak a word/phrase
+  /// Speak a word/phrase - uses Kannada text if Kannada voice available,
+  /// otherwise uses pronunciation (romanized) for English/Hindi voice
+  static Future<void> speakWord(String kannadaText, String? pronunciation) async {
+    await init();
+    // If we have Kannada TTS, speak the Kannada text directly
+    // Otherwise use the pronunciation (romanized text) for English voice
+    final textToSpeak = _hasKannada ? kannadaText : (pronunciation ?? kannadaText);
+    await _tts.speak(textToSpeak);
+  }
+
+  /// Speak a word/phrase (legacy - always speaks given text)
   static Future<void> speak(String text) async {
     await init();
     await _tts.speak(text);

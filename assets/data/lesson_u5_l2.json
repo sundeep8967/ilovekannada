@@ -5,29 +5,29 @@
     "steps": [
         {
             "type": "intro",
-            "title": "New Word: Rice",
+            "title": "New Word: Akki",
             "word": {
-                "kannada": "Rice",
+                "kannada": "Akki",
                 "english": "Rice",
-                "pronunciation": "Rice"
+                "pronunciation": "Akki"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Dal",
+            "title": "New Word: Bele",
             "word": {
-                "kannada": "Dal",
-                "english": "Lentils",
-                "pronunciation": "Dal"
+                "kannada": "Bele",
+                "english": "Dal / Lentils",
+                "pronunciation": "Bele"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Oil",
+            "title": "New Word: Enne",
             "word": {
-                "kannada": "Oil",
+                "kannada": "Enne",
                 "english": "Oil",
-                "pronunciation": "Oil"
+                "pronunciation": "Enne"
             }
         },
         {
@@ -44,12 +44,12 @@
             "title": "Check Stock",
             "question": "How do you ask 'Do you have rice?'",
             "options": [
-                "Rice ideya?",
-                "Rice eshTu?",
-                "Rice koDi?",
-                "Rice beku?"
+                "Akki ideya?",
+                "Akki eshTu?",
+                "Akki koDi?",
+                "Akki beku?"
             ],
-            "correctAnswer": "Rice ideya?"
+            "correctAnswer": "Akki ideya?"
         },
         {
             "type": "typeInput",
@@ -86,8 +86,8 @@
                     "english": "Where is it?"
                 },
                 {
-                    "kannada": "Brand enu?",
-                    "english": "Which brand?"
+                    "kannada": "Akki",
+                    "english": "Rice"
                 },
                 {
                     "kannada": "Bill maaDi",
@@ -109,12 +109,12 @@
             "title": "Build Shopping",
             "question": "Ask for rice, check brand, ask bill",
             "options": [
-                "Rice koDi",
+                "Akki koDi",
                 "Brand enu?",
                 "Bill maaDi"
             ],
             "correctOrder": [
-                "Rice koDi",
+                "Akki koDi",
                 "Brand enu?",
                 "Bill maaDi"
             ]
@@ -129,9 +129,9 @@
             "type": "speaking",
             "title": "Full Kirana Trip",
             "word": {
-                "kannada": "Dal ideya? Yelli ide? Bill maaDi.",
+                "kannada": "Bele ideya? Yelli ide? Bill maaDi.",
                 "english": "Do you have dal? Where is it? Make bill.",
-                "pronunciation": "Dal ideya? Yelli ide? Bill maaDi."
+                "pronunciation": "Bele ideya? Yelli ide? Bill maaDi."
             }
         },
         {

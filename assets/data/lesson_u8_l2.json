@@ -14,20 +14,20 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Pain",
+            "title": "New Word: Novu",
             "word": {
-                "kannada": "Pain / Novu",
+                "kannada": "Novu",
                 "english": "Pain",
-                "pronunciation": "Pain / Novu"
+                "pronunciation": "Novu"
             }
         },
         {
             "type": "intro",
-            "title": "New Word: Stomach",
+            "title": "New Word: Hotte",
             "word": {
-                "kannada": "Stomach / Hotte",
+                "kannada": "Hotte",
                 "english": "Stomach",
-                "pronunciation": "Stomach / Hotte"
+                "pronunciation": "Hotte"
             }
         },
         {
@@ -56,22 +56,22 @@
             "title": "Have Pain",
             "question": "Tell doctor about pain",
             "correctAnswer": [
-                "Pain ide",
-                "pain ide",
-                "Novu ide"
+                "Novu ide",
+                "novu ide",
+                "Pain ide"
             ]
         },
         {
             "type": "quiz",
             "title": "Stomach Issue",
-            "question": "How do you complain about stomach?",
+            "question": "How do you complain about stomach pain?",
             "options": [
-                "Stomach problem",
-                "Stomach koDi",
-                "Stomach beku",
-                "Stomach baa"
+                "Hotte novu",
+                "Hotte koDi",
+                "Hotte beku",
+                "Hotte baa"
             ],
-            "correctAnswer": "Stomach problem"
+            "correctAnswer": "Hotte novu"
         },
         {
             "type": "matching",
@@ -82,12 +82,12 @@
                     "english": "Need doctor"
                 },
                 {
-                    "kannada": "Pain ide",
+                    "kannada": "Novu ide",
                     "english": "Have pain"
                 },
                 {
-                    "kannada": "Stomach problem",
-                    "english": "Stomach issue"
+                    "kannada": "Hotte novu",
+                    "english": "Stomach pain"
                 },
                 {
                     "kannada": "Appointment ideya?",
@@ -107,31 +107,31 @@
         {
             "type": "assemble",
             "title": "Build Visit",
-            "question": "Need doctor, stomach problem",
+            "question": "Need doctor, stomach pain",
             "options": [
                 "Doctor beku",
-                "Stomach problem",
-                "Pain ide"
+                "Hotte novu",
+                "Novu ide"
             ],
             "correctOrder": [
                 "Doctor beku",
-                "Stomach problem",
-                "Pain ide"
+                "Hotte novu",
+                "Novu ide"
             ]
         },
         {
             "type": "grammar",
             "title": "Doctor Phrases",
             "question": "Doctor Visit",
-            "feedback": "• Doctor beku = Need doctor\n• Pain ide = Have pain\n• Stomach problem = Stomach issue\n• Appointment ideya? = Have appointment?\n• Yav doctor available? = Which doctor?"
+            "feedback": "• Doctor beku = Need doctor\n• Novu ide = Have pain\n• Hotte novu = Stomach pain\n• Appointment ideya? = Have appointment?\n• Yav doctor available? = Which doctor?"
         },
         {
             "type": "speaking",
             "title": "Full Visit",
             "word": {
-                "kannada": "Appointment ideya? Doctor beku. Stomach problem.",
-                "english": "Have appointment? Need doctor. Stomach problem.",
-                "pronunciation": "Appointment ideya? Doctor beku. Stomach problem."
+                "kannada": "Appointment ideya? Doctor beku. Hotte novu.",
+                "english": "Have appointment? Need doctor. Stomach pain.",
+                "pronunciation": "Appointment ideya? Doctor beku. Hotte novu."
             }
         },
         {

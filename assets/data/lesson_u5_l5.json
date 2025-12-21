@@ -7,9 +7,9 @@
             "type": "intro",
             "title": "Review: Market",
             "word": {
-                "kannada": "EshTu? Swalpa koDThira? Ondu kg koDi.",
+                "kannada": "EshTu? Swalpa kammi maaDi? Ondu kg koDi.",
                 "english": "Price? Reduce? Give 1 kg.",
-                "pronunciation": "EshTu? Swalpa koDThira? Ondu kg koDi."
+                "pronunciation": "EshTu? Swalpa kammi maaDi? Ondu kg koDi."
             }
         },
         {
@@ -28,8 +28,8 @@
             "options": [
                 "Tomato eshTu?",
                 "Bill maaDi",
-                "Return maaDi",
-                "Try maaDThira"
+                "Wapas thagoli",
+                "Try maadabahuda"
             ],
             "correctAnswer": "Tomato eshTu?"
         },
@@ -38,8 +38,8 @@
             "title": "Kirana Trip",
             "question": "Ask if shop has rice and where it is",
             "correctAnswer": [
-                "Rice ideya? Yelli ide?",
-                "rice ideya yelli ide"
+                "Akki ideya? Yelli ide?",
+                "akki ideya yelli ide"
             ]
         },
         {
@@ -71,8 +71,8 @@
                     "english": "What size?"
                 },
                 {
-                    "kannada": "Return maaDi",
-                    "english": "Return it"
+                    "kannada": "Wapas thagoli",
+                    "english": "Take it back"
                 }
             ]
         },
@@ -81,8 +81,8 @@
             "title": "Return Faulty",
             "question": "Return faulty item with bill",
             "correctAnswer": [
-                "Idu problem. Bill ide. Return maaDi",
-                "idu problem bill ide return maadi"
+                "Idu sari illa. Bill ide. Wapas thagoli",
+                "idu sari illa bill ide wapas thagoli"
             ]
         },
         {
@@ -91,13 +91,13 @@
             "question": "Check price, bargain, buy, get bill",
             "options": [
                 "EshTu?",
-                "Swalpa koDThira?",
+                "Swalpa kammi maaDi?",
                 "KoDi",
                 "Bill maaDi"
             ],
             "correctOrder": [
                 "EshTu?",
-                "Swalpa koDThira?",
+                "Swalpa kammi maaDi?",
                 "KoDi",
                 "Bill maaDi"
             ]
@@ -106,15 +106,15 @@
             "type": "grammar",
             "title": "Shopping Summary",
             "question": "All Shopping",
-            "feedback": "VEGETABLES: EshTu? Swalpa koDThira? Kg koDi\nKIRANA: Ideya? Yelli? Brand? Bill maaDi\nCLOTHES: Size? Try? DoDDadu/Chikka\nRETURNS: Problem, Exchange, Return, Money thara"
+            "feedback": "VEGETABLES: EshTu? Kammi maaDi? Kg koDi\nKIRANA: Ideya? Yelli? Brand? Bill maaDi\nCLOTHES: Size? Try? DoDDadu/Chikka\nRETURNS: Sari illa, Bere koDi, Wapas thagoli"
         },
         {
             "type": "speaking",
             "title": "Complete Shopping",
             "word": {
-                "kannada": "Tomato eshTu? Swalpa koDThira? Ondu kg koDi. Bill maaDi.",
+                "kannada": "Tomato eshTu? Swalpa kammi maaDi? Ondu kg koDi. Bill maaDi.",
                 "english": "Tomato price? Reduce? 1 kg. Make bill.",
-                "pronunciation": "Tomato eshTu? Swalpa koDThira? Ondu kg koDi. Bill maaDi."
+                "pronunciation": "Tomato eshTu? Swalpa kammi maaDi? Ondu kg koDi. Bill maaDi."
             }
         },
         {

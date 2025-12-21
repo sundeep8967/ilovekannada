@@ -17,7 +17,7 @@
             "title": "New Word: JasTi",
             "word": {
                 "kannada": "JasTi",
-                "english": "Too much",
+                "english": "Too much / More",
                 "pronunciation": "JasTi"
             }
         },
@@ -44,21 +44,21 @@
             "title": "Ask Fare",
             "question": "How do you ask 'How much to MG Road?'",
             "options": [
-                "MG Road ge eshTu aaguthe?",
-                "MG Road jasti?",
+                "MG Road ge eshTu?",
+                "MG Road jasTi?",
                 "MG Road meter?",
                 "MG Road koDi?"
             ],
-            "correctAnswer": "MG Road ge eshTu aaguthe?"
+            "correctAnswer": "MG Road ge eshTu?"
         },
         {
             "type": "typeInput",
             "title": "Complain Price",
             "question": "Driver quotes high price. Say 'Too much!'",
             "correctAnswer": [
-                "JasTi",
-                "jasti",
-                "JasTi!"
+                "Tumba jasTi",
+                "tumba jasti",
+                "jasTi aagide"
             ]
         },
         {
@@ -90,8 +90,8 @@
                     "english": "Use meter"
                 },
                 {
-                    "kannada": "Swalpa koDThira",
-                    "english": "Reduce a little?"
+                    "kannada": "Kammi maaDi",
+                    "english": "Reduce a bit"
                 }
             ]
         },
@@ -100,40 +100,41 @@
             "title": "Ask Reduction",
             "question": "Politely ask: 'Can you reduce a little?'",
             "correctAnswer": [
-                "Swalpa koDThira",
-                "swalpa kodthira",
-                "Swalpa koDThira?"
+                "Swalpa kammi maaDi",
+                "swalpa kammi maadi",
+                "Swalpa kammi maaDi?"
             ]
         },
         {
             "type": "assemble",
             "title": "Build Negotiation",
-            "question": "Say: 'Too much! 150 give'",
+            "question": "Say: 'Price is too much! Reduce price'",
             "options": [
-                "JasTi!",
-                "150",
-                "koDi",
-                "eshTu"
+                "aagide",
+                "JasTi",
+                "kammi",
+                "maaDi"
             ],
             "correctOrder": [
-                "JasTi!",
-                "150",
-                "koDi"
+                "JasTi",
+                "aagide",
+                "kammi",
+                "maaDi"
             ]
         },
         {
             "type": "grammar",
             "title": "Bargaining Phrases",
             "question": "Fare Negotiation",
-            "feedback": "• EshTu aaguthe? = How much will it be?\n• JasTi! = Too much!\n• Meter haaki = Put the meter\n• Swalpa koDThira? = Can you reduce?\n• [Number] koDi = Give [amount]"
+            "feedback": "• [Place] ge eshTu? = How much to [Place]?\n• Tumba jasTi aagide = It's too expensive\n• Meter haaki = Use meter please\n• Swalpa kammi maaDi = Please reduce a little"
         },
         {
             "type": "speaking",
             "title": "Full Negotiation",
             "word": {
-                "kannada": "EshTu aaguthe? JasTi! Meter haaki",
-                "english": "How much? Too much! Use meter",
-                "pronunciation": "EshTu aaguthe? JasTi! Meter haaki"
+                "kannada": "EshTu? Tumba jasTi. Meter haaki",
+                "english": "How much? Too expensive. Use meter",
+                "pronunciation": "EshTu? Tumba jasTi. Meter haaki"
             }
         },
         {
@@ -141,8 +142,8 @@
             "title": "Lesson Complete!",
             "question": "You can now:",
             "options": [
-                "Ask fare: EshTu aaguthe?",
-                "Complain: JasTi!",
+                "Ask fare: EshTu?",
+                "Complain: Tumba jasTi!",
                 "Request meter: Meter haaki",
                 "Bargain like a local!"
             ]

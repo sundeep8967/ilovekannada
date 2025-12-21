@@ -23,11 +23,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Ellige",
+            "title": "New Word: Elli",
             "word": {
-                "kannada": "Ellige",
+                "kannada": "Elli",
                 "english": "Where",
-                "pronunciation": "Ellige"
+                "pronunciation": "Elli"
             }
         },
         {
@@ -46,10 +46,10 @@
             "options": [
                 "Enu",
                 "Yaaru",
-                "Ellige",
+                "Elli",
                 "Hege"
             ],
-            "correctAnswer": "Ellige"
+            "correctAnswer": "Elli"
         },
         {
             "type": "matching",
@@ -75,7 +75,7 @@
             "question": "Complete: Idu ______? (What is this?)",
             "options": [
                 "yaaru",
-                "ellige",
+                "elli",
                 "hege",
                 "enu"
             ],
@@ -96,10 +96,10 @@
             "question": "You want to ask 'Where are you going?' politely.",
             "options": [
                 "Neevu ellige?",
-                "Neevu ellige hogutteera?",
+                "Ellige hogthira?",
                 "Enu madtiddira?"
             ],
-            "correctAnswer": "Neevu ellige hogutteera?"
+            "correctAnswer": "Ellige hogthira?"
         },
         {
             "type": "assemble",
@@ -107,31 +107,31 @@
             "question": "Arrange: 'How are you going?'",
             "options": [
                 "Hege",
-                "hogutteera",
+                "hogthira",
                 "ellige",
                 "yaaru"
             ],
             "correctOrder": [
                 "Hege",
-                "hogutteera"
+                "hogthira"
             ]
         },
         {
             "type": "grammar",
             "title": "Grammar Tip",
             "question": "Question Words",
-            "feedback": "Kannada question words:\n• Yaaru = Who\n• Enu = What\n• Ellige = Where\n• Hege = How\n\nThey usually come at the END of sentences, unlike English!"
+            "feedback": "Kannada question words:\n• Yaaru = Who\n• Enu = What\n• Elli / Ellige = Where / To where\n• Hege = How\n\nThey usually come at the END of sentences!"
         },
         {
             "type": "quiz",
             "title": "Application",
             "question": "Which question asks 'What are you doing?'",
             "options": [
-                "Neevu ellige?",
-                "Neevu enu madtiddira?",
+                "Ellige hogthira?",
+                "Enu maaDthiddira?",
                 "Idu yaaru?"
             ],
-            "correctAnswer": "Neevu enu madtiddira?"
+            "correctAnswer": "Enu maaDthiddira?"
         },
         {
             "type": "speaking",
@@ -149,7 +149,7 @@
             "options": [
                 "Yaaru = Who",
                 "Enu = What",
-                "Ellige = Where",
+                "Elli = Where",
                 "Hege = How"
             ]
         }

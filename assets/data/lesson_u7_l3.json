@@ -32,11 +32,11 @@
         },
         {
             "type": "intro",
-            "title": "New Word: Failed",
+            "title": "New Word: Innomme",
             "word": {
-                "kannada": "Failed",
-                "english": "Failed",
-                "pronunciation": "Failed"
+                "kannada": "Innomme",
+                "english": "Again / Once more",
+                "pronunciation": "Innomme"
             }
         },
         {
@@ -89,7 +89,7 @@
                     "english": "Payment failed"
                 },
                 {
-                    "kannada": "Again try maaDi",
+                    "kannada": "Innomme try maaDi",
                     "english": "Try again"
                 }
             ]
@@ -99,8 +99,8 @@
             "title": "Try Again",
             "question": "Ask to try payment again",
             "correctAnswer": [
-                "Again try maaDi",
-                "again try maadi"
+                "Innomme try maaDi",
+                "innomme try maadi"
             ]
         },
         {
@@ -109,26 +109,28 @@
             "question": "Payment failed, try again",
             "options": [
                 "Payment failed",
-                "Again try maaDi"
+                "Innomme",
+                "try maaDi"
             ],
             "correctOrder": [
                 "Payment failed",
-                "Again try maaDi"
+                "Innomme",
+                "try maaDi"
             ]
         },
         {
             "type": "grammar",
             "title": "Payment Phrases",
             "question": "Digital Payments",
-            "feedback": "• UPI maaDi = Do UPI payment\n• QR scan maaDi = Scan QR code\n• Payment failed = Payment failed\n• Again try maaDi = Try again\n• Card payment maaDThira? = Can I pay by card?"
+            "feedback": "• UPI maaDi = Do UPI payment\n• QR scan maaDi = Scan QR code\n• Payment failed = Payment failed\n• Innomme try maaDi = Try again\n• Card payment maaDThira? = Can I pay by card?"
         },
         {
             "type": "speaking",
             "title": "Full Payment",
             "word": {
-                "kannada": "UPI maaDi. QR scan maaDi. Payment failed. Again try.",
+                "kannada": "UPI maaDi. QR scan maaDi. Payment failed. Innomme try maaDi.",
                 "english": "Do UPI. Scan QR. Payment failed. Try again.",
-                "pronunciation": "UPI maaDi. QR scan maaDi. Payment failed. Again try."
+                "pronunciation": "UPI maaDi. QR scan maaDi. Payment failed. Innomme try maaDi."
             }
         },
         {
