@@ -9,12 +9,16 @@ class ProgressService {
   static const _keyCurrentUnit = 'current_unit';
   static const _keyCurrentLesson = 'current_lesson';
   static const _keyUserName = 'user_name';
+  static const _keyDailyGoal = 'daily_goal';
+  static const _keyLessonsToday = 'lessons_today';
+  static const _keyLastLessonDate = 'last_lesson_date';
 
   static SharedPreferences? _prefs;
 
   static Future<void> init() async {
     _prefs = await SharedPreferences.getInstance();
     await _checkStreak();
+    await _resetDailyGoalIfNewDay();
   }
 
   // ==================== USER NAME ====================
@@ -62,6 +66,36 @@ class ProgressService {
     await _prefs?.setInt(_keyTotalXP, current + amount);
   }
 
+  // ==================== DAILY GOAL ====================
+  static int get dailyGoal => _prefs?.getInt(_keyDailyGoal) ?? 5;
+  static int get lessonsToday => _prefs?.getInt(_keyLessonsToday) ?? 0;
+  
+  static double get dailyProgress {
+    if (dailyGoal == 0) return 0;
+    return (lessonsToday / dailyGoal).clamp(0.0, 1.0);
+  }
+
+  static bool get dailyGoalMet => lessonsToday >= dailyGoal;
+
+  static Future<void> setDailyGoal(int goal) async {
+    await _prefs?.setInt(_keyDailyGoal, goal);
+  }
+
+  static Future<void> _incrementLessonsToday() async {
+    final current = lessonsToday;
+    await _prefs?.setInt(_keyLessonsToday, current + 1);
+  }
+
+  static Future<void> _resetDailyGoalIfNewDay() async {
+    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final lastLessonDate = _prefs?.getString(_keyLastLessonDate);
+    
+    if (lastLessonDate != null && lastLessonDate != today) {
+      // New day - reset daily lessons count
+      await _prefs?.setInt(_keyLessonsToday, 0);
+    }
+  }
+
   // ==================== COMPLETED LESSONS ====================
   static List<String> get completedLessons {
     return _prefs?.getStringList(_keyCompletedLessons) ?? [];
@@ -77,6 +111,11 @@ class ProgressService {
       lessons.add(lessonId);
       await _prefs?.setStringList(_keyCompletedLessons, lessons);
       await addXP(xpReward);
+      await _incrementLessonsToday();
+      
+      // Update last lesson date
+      final today = DateTime.now().toIso8601String().substring(0, 10);
+      await _prefs?.setString(_keyLastLessonDate, today);
     }
   }
 
@@ -91,4 +130,13 @@ class ProgressService {
 
   // ==================== STATS ====================
   static int get completedCount => completedLessons.length;
+  
+  // ==================== LEVEL ====================
+  static int get level => (totalXP / 500).floor() + 1;
+  static String get levelTitle {
+    if (level <= 5) return 'Rookie';
+    if (level <= 15) return 'Local';
+    if (level <= 30) return 'Expert';
+    return 'Master';
+  }
 }
